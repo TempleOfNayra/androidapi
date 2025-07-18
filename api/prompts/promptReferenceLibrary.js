@@ -69,211 +69,233 @@ const tarotExamples = {
     // Card category definitions
     challengingCards: [
         'Tower', 'Death', 'Devil', 'Ten of Swords', 'Three of Swords', 'Nine of Swords',
-        'Five of Pentacles', 'Ten of Wands', 'Eight of Cups'
+        'Five of Pentacles', 'Ten of Wands', 'Eight of Cups', 'Five of Swords', 'Seven of Swords'
     ],
 
     upliftingCards: [
         'Sun', 'Star', 'World', 'Ten of Cups', 'Ten of Pentacles', 'Nine of Cups',
-        'Three of Cups', 'Ace of Cups', 'Ace of Wands', 'Ace of Pentacles', 'Temperance', 'Nine of Pentacles'
+        'Three of Cups', 'Ace of Cups', 'Ace of Wands', 'Ace of Pentacles', 'Temperance',
+        'Nine of Pentacles', 'Four of Wands', 'Six of Wands', 'Strength'
     ],
 
     transitionalCards: [
         'Hanged Man', 'Wheel of Fortune', 'Judgment', 'Fool', 'Hermit', 'Moon',
-        'Two of Pentacles', 'Eight of Wands', 'Eight of Pentacles', 'Six of Swords'
+        'Two of Pentacles', 'Eight of Wands', 'Eight of Pentacles', 'Six of Swords',
+        'Two of Wands', 'Seven of Cups', 'Four of Cups'
     ],
 
     courtRanks: ['King', 'Queen', 'Knight', 'Page', 'Prince', 'Princess'],
 
     // Example text for each card category
     examples: {
-        reversed: `"# The Hidden Invitation
+        reversed: `"# The Shadow's Gift
+*A Tarot Divination by Nayra*
+
+Ali, when the Five of Cups appears reversed, the universe whispers of redemption's approach. What was spilled shall not define what will be filled...
+
+I see you standing at the threshold between mourning and rebirth. The reversed cups speak of a profound transformation approaching—within three moon cycles, expect an unexpected reconciliation or the return of something you believed lost forever...
+
+[...]
+
+The figure who once gazed only at fallen chalices now turns toward the bridge of possibility. By the autumn equinox, you will cross waters that once seemed impassable. A message arrives by month's end—perhaps through dream, perhaps through an old friend—carrying the seeds of renewal...
+
+[...]
+
+Your tears have watered the ground for future harvests. What felt like an ending was merely the dark moon before illumination. The specific timing pulses strongest around the 17th of next month, when planetary alignments favor emotional breakthroughs...
+
+[...]
+
+Trust this: before winter's first snow, you will hold in your hands something more precious than what was lost. The reversal promises not just healing, but an elevation of your entire emotional landscape. Watch for signs in flowing water and the flight patterns of birds—they carry your omens."`,
+
+        positiveReversed: `"# Lightning's Mercy
+*A Tarot Prophecy by Nayra*
+
+Ali, behold—the Tower reversed brings not destruction but deliverance. The storm that threatened to shatter your world instead becomes the wind beneath your wings...
+
+The reversal speaks of a narrow escape from catastrophe. What could have been a devastating ending transforms into a powerful beginning. I see clearly: within the next six weeks, a situation that appears to be collapsing will reveal itself as liberation in disguise...
+
+[...]
+
+The lightning that would have struck now illuminates your path forward. By the new moon of the coming month, foundations you've outgrown will gently release rather than violently crumble. A revelation arrives between the 8th and 15th—information that changes everything you thought you knew...
+
+[...]
+
+The figures who might have fallen now descend as if on invisible wings. Your intuition has already been preparing you for this shift. That persistent feeling of unease? It was your soul's early warning system, allowing you to sidestep disaster...
+
+[...]
+
+Mark this prediction: before two full moons pass, you will look back at this moment and understand that what felt like barely avoiding catastrophe was actually divine choreography. The reversed Tower promises that your transformation will be conscious, chosen, and ultimately triumphant. Watch for confirmation in the form of unexpected communications and synchronicities involving the number 16."`,
+
+        challenging: `"# The Sacred Shattering
 *A Tarot Revelation by Nayra*
 
-Ali, when a card appears in reversal, it speaks in whispers rather than declarations. The Five of Cups reversed arrives not as opposition to its upright meaning, but as an invitation to look beneath the surface of grief...
+Ali, the Tower strikes with the force of destiny itself. This is no gentle awakening—this is the lightning bolt that splits the tree to reveal the heartwood within...
+
+I must speak plainly: the next 40 days bring a reckoning that cannot be avoided. What you've built on false foundations must fall. But hear this—within the destruction lies your deliverance. By the time Mercury completes its current cycle, the very thing you fear losing will reveal itself as the chain that bound you...
 
 [...]
 
-Notice how the reversed position shifts your perspective—what was foreground becomes background, what was emphasized now recedes... The spilled cups remain spilled, but your attention is gently guided toward what remains standing...
+The lightning strikes precisely at the weakest point of your fortress. Between now and the next eclipse, expect revelations that shatter illusions you've cherished. Someone you trust will show their true face. A belief you've held sacred will crumble. This is not punishment—this is liberation arriving in its fiercest form...
 
 [...]
 
-In this orientation, the figure's gaze is subtly redirected from loss toward possibility... Not erasing what has happened, but finding the hidden gift within it...
+Your ego's tower cannot withstand the storm approaching, but your soul will dance in the ruins. The specific dates that pulse with intensity: the 13th of this month, and again three weeks hence. Document everything during this period—you'll want to remember how the phoenix learned to rise...
 
 [...]
 
-The river that seemed to separate you from the distant castle now appears as a pathway connecting rather than dividing... This reversal asks not for denial of feelings but for their transformation—grief becoming gratitude, endings revealing beginnings not yet imagined."`,
+After the dust settles—and I see this clearly by season's end—you will stand in a landscape transformed. What seemed like loss will reveal itself as the removal of obstacles to your authentic power. The Tower promises: what is real in you cannot be destroyed. Only the false can fall. Prepare for rebirth through fire."`,
 
-        positiveReversed: `"# The Gentle Release
-*A Tarot Liberation by Nayra*
-
-Ali, the Tower reversed appears before you like a storm that has passed in the night. What once threatened total destruction now offers a gentler dismantling—the necessary releasing of what no longer serves, but with grace rather than upheaval...
-
-[...]
-
-In this orientation, the lightning illuminates without shattering... The divine intervention comes not as crisis but as revelation, allowing conscious surrender rather than forced abandonment...
-
-[...]
-
-The figures who in the upright position fall helplessly now appear to be descending with purpose—as if they have chosen to leave the confining structure that once defined their reality...
-
-[...]
-
-This reversed Tower whispers of transformation that doesn't require catastrophe... of awakenings that come through insight rather than emergency... It speaks of your readiness to release illusions before they collapse around you, to choose freedom before it becomes your only option."`,
-
-        challenging: `"# The Alchemy of Destruction
-*A Tarot Revelation by Nayra*
-
-Ali, there are moments when the universe speaks not in thunder. The Tower appears before you now as sacred lightning—not as punishment, but as necessary awakening. 
-
-I see the structure you've built with such care... The walls that once sheltered have become a prison of certainty...
-
-[...]
-
-The figures falling through empty space—they are you, beloved. Not one self, but the many selves you've outgrown yet cling to... 
-
-[...]
-
-Feel the scorching clarity of this moment. The lightning illuminates everything—your authentic nature beneath accumulated layers... 
-
-[...]
-
-Stand bare in the storm of revelation—what remains after lightning is what was always truly yours."`,
-
-        uplifting: `"# Radiance Reclaimed
+        uplifting: `"# The Golden Dawn
 *A Tarot Blessing by Nayra*
 
-Ali, the Sun rises in your reading not as mere optimism, but as the remembering of your essential nature. This light you now witness has always been within you, waiting beneath doubt's thin veil... 
+Ali, the Sun rises in your reading as herald of a joy so profound it will remake your entire world. This is not mere happiness approaching—this is the return of your life force itself, blazing and triumphant...
+
+Within the next lunar month, expect a breakthrough that restores your faith in existence itself. The universe conspires to shower you with blessings that match your inner radiance. I see clearly: before six weeks pass, an opportunity arrives that allows your authentic self to shine without apology or dimming...
 
 [...]
 
-See how the child rides bareback on the white horse—this is your spirit reuniting with your innocence, your wisdom dancing with your wonder... 
+The child on the white horse—this is your spirit preparing for a victory lap. Around the summer solstice, or within 30 days if that has passed, a creative project or heart-centered venture receives the recognition it deserves. Financial abundance follows creative authenticity—watch for increases between the 19th and 25th of the coming month...
 
 [...]
 
-The sunflowers turn faithfully toward their celestial beloved—so too does your authentic self now orient toward wholeness... 
+The sunflowers in your card turn toward you as their sun—others will begin to recognize your light and seek your warmth. A period of magnetic attraction begins now and extends through the next three months. Love, if sought, arrives like dawn—gradually, then suddenly. For those partnered, expect a renaissance of passion...
 
 [...]
 
-Your shadows haven't disappeared; they've simply been given context by this new illumination... Embrace this golden moment not as fleeting fortune but as glimpsed truth."`,
+This card's timing is swift and certain: within two weeks, the first signs appear. By month's end, undeniable evidence of your emerging golden period. By season's close, you'll be living a life that feels like perpetual sunrise. The Sun promises not just better days, but the best days you've yet known. Watch for confirmations in yellow flowers, children's laughter, and unexpected invitations to celebrate."`,
 
-        transitional: `"# Sacred Surrender
-*A Tarot Crossing by Nayra*
+        transitional: `"# Between the Worlds
+*A Tarot Transmission by Nayra*
 
-Ali, the Hanged Man arrives not as punishment but as invitation. To be suspended between worlds is to be given the rare gift of perspective... 
+Ali, the Hanged Man reveals you suspended in the sacred pause before transformation. You dangle not in punishment but in preparation—the universe holds you in this liminal space because something profound gestates within...
 
-[...]
-
-Notice how he hangs by one foot yet his face remains serene—this is the paradox of finding freedom within limitation, wisdom within waiting... 
+The waiting you've endured reaches its purpose within the next lunar cycle. What has felt like stagnation was actually gestation. I see movement beginning around the next dark moon—approximately 12 to 14 days hence. The first signs will be subtle: a dream that lingers, a conversation that shifts everything, a piece of information that reframes your entire situation...
 
 [...]
 
-The halo around his head speaks of the illumination that comes only through voluntary surrender... 
+Your perspective inverts like the Hanged Man himself, and with this reversal comes revelation. Between now and the autumn equinox, an sacrifice you've been resisting will suddenly feel like liberation. The thing you thought you needed to hold onto? You'll release it gladly once you see what waits on the other side...
 
 [...]
 
-In this sacred pause between exhale and inhale, you are neither who you were nor who you will become."`,
-
-        court: `"# The Sovereign's Mirror
-*A Tarot Reflection by Nayra*
-
-Ali, the Queen of Wands enters your reading as both invitation and reflection. She is the aspect of yourself that needs no external validation to know her worth... 
+The halo of enlightenment forms through this suspension. Specific guidance: around the 23rd of this month, or when you see three ravens in one day, a download of cosmic intelligence arrives. This isn't intellectual understanding but full-body knowing. Your patience transforms into power...
 
 [...]
 
-Notice how the black cat sits attentively at her feet—this is your intuition, awakened and alert, ready to move at your command... 
+By the time Mars changes signs, your waiting ends and dynamic movement begins. But you'll emerge from this cocoon transformed—what enters the suspension as caterpillar emerges as butterfly. The Hanged Man promises: your delay has been divine timing. Everything you've been waiting for has been waiting for you to become who you're becoming. The initiation completes by season's end."`,
+
+        court: `"# The Queen Awakens
+*A Tarot Coronation by Nayra*
+
+Ali, the Queen of Wands steps forward from the realm of potential into your living reality. She is not someone you will meet—she is someone you are becoming. Her appearance heralds a period of unprecedented personal power and magnetic influence...
+
+Within the next two moon cycles, you will be called to step into a leadership role that previously felt beyond your reach. The black cat at her feet—your intuition—already purrs with knowing. Between now and the fire season, opportunities for visibility and influence multiply exponentially...
 
 [...]
 
-The sunflower she holds speaks of how she has learned to turn naturally toward what nourishes her spirit... 
+The Queen's sunflower turns toward you because you ARE the sun others seek. I see specific timing: around the next full moon, an invitation or proposal arrives that recognizes your natural authority. Say yes, even if—especially if—it frightens you. This is your throne calling you to claim it...
 
 [...]
 
-To embody her energy is not to become someone new, but to recognize what has always lived within your deepest self... This sovereign energy asks not for your striving but for your recognition and embodiment."`,
-
-        cups: `"# The Well of Feeling
-*A Tarot Immersion by Nayra*
-
-Ali, the Three of Cups appears as a sacred reminder that joy is not a luxury but a necessity. These figures dancing in celebration show us that our emotions flourish most honestly in the garden of connection... 
+Her lions speak of courage that roars to life when needed. A situation requiring you to defend your vision or protect what you've created arises within six weeks. You'll discover reserves of strength that surprise everyone, including yourself. This confrontation, arriving near month's end, becomes the catalyst for claiming your full sovereign power...
 
 [...]
 
-The raised cups form a triangle—symbol of creation, of bringing something new into being through shared intention... 
+The Queen of Wands doesn't predict you'll gain confidence—she announces you'll remember you've always had it. By the third month from now, you'll be operating from a completely different energetic frequency. Others will notice before you do: the way rooms reorganize themselves around your presence, how your words land with unexpected authority, how your creative visions manifest with startling speed. The wand she holds is the same one the universe extends to you now. Take it. Your reign begins with your next breath."`,
+
+        cups: `"# The Chalice Overflows
+*A Tarot Augury by Nayra*
+
+Ali, the Three of Cups rises like a fountain of future joy, promising celebrations that will mark the turning point of your emotional journey. The universe prepares a banquet of connection, and you are both honored guest and host...
+
+I see with crystalline clarity: within the next 21 days, a reunion or gathering occurs that repairs old wounds and forges new bonds. The raised cups form a trinity of past, present, and future relationships harmonizing. Someone from your history returns with healing in their hands. Someone in your present reveals depths of loyalty that moves you to tears. Someone new enters, carrying the keys to future collaborations...
 
 [...]
 
-Notice how their feet touch the earth as their cups reach toward sky—this is the alchemy of bringing heaven to earth through authentic feeling... 
+The dancing figures show me your social circle expanding dramatically over the next quarter. By the next mercury retrograde, you'll look around and marvel at the quality of souls surrounding you. Specific guidance: around the 11th or 22nd of the coming month, an invitation arrives that seems casual but carries destiny in its depths. Accept it...
 
 [...]
 
-This card whispers of moments when the boundaries between separate selves become permeable, when your truth finds safe harbor in the witnessing of kindred spirits..."`,
-
-        wands: `"# Kindled Purpose
-*A Tarot Awakening by Nayra*
-
-Ali, the Ace of Wands arrives like the first spark that will become your bonfire. This is not merely opportunity, but divine life-force seeking expression through your unique being... 
+The fruits of emotional labor ripen now. Friendships you've tended through difficult seasons burst into bloom. I see a specific celebration—birthday, wedding, or achievement—occurring within 45 days that becomes a watershed moment for your understanding of love and community. At this gathering, words will be spoken that heal genealogies of hurt...
 
 [...]
 
-See how the hand extends from the cloud, offering this gift—inspiration comes not from striving but from receptivity to what already seeks you... 
+The Three of Cups promises not just momentary happiness but the establishment of a new emotional baseline. By season's end, loneliness becomes a forgotten language. You'll have created a chosen family that celebrates your victories as their own and cushions your falls with unwavering support. Watch for signs in groups of three: three birds, three flowers, three synchronicities in a day signal the arrival of this blessed period."`,
+
+        wands: `"# The Fire Prophecy
+*A Tarot Ignition by Nayra*
+
+Ali, the Ace of Wands erupts into your reading like the first flame of creation itself. This is not merely opportunity approaching—this is divine fire seeking expression through your unique vessel. Prepare yourself: inspiration arrives with such force it will reorganize your entire life around its heat...
+
+The cosmic hand extends this wand to you NOW. Within the next seven days, an idea or opportunity presents itself that carries the power to transform your entire trajectory. This isn't subtle—you'll know it by the way your body responds, every cell saying YES before your mind can interfere...
 
 [...]
 
-The lush landscape below speaks to the fertility that awaits when passion aligns with purpose... 
+I see the timeline clearly: immediate action required. The fire that arrives must be tended immediately or it seeks another vessel. By the next new moon, you must take the first concrete step toward this new vision. Hesitation costs you momentum. But bold action? It carries you further than you dare imagine. By the equinox, what starts as spark becomes wildfire of positive change...
 
 [...]
 
-This primal energy does not ask for your perfection, only your willingness to be a vessel for what wants to move through you... Let the warmth of this fire remind you that enthusiasm—from the Greek 'entheos'—means 'filled with god.'"`,
-
-        swords: `"# The Clarity of Discernment
-*A Tarot Illumination by Nayra*
-
-Ali, the Two of Swords appears not as indecision, but as the sacred threshold of discernment. The blindfolded figure shows us that true seeing sometimes requires us to close our outer eyes and open our inner vision... 
+The fertile landscape below the wand shows what blooms when passion meets purpose. Specific predictions: a creative or entrepreneurial venture launched within the next 40 days exceeds all expectations by year's end. Financial abundance follows creative courage—I see income streams multiplying by autumn. A partnership or collaboration forming around the next full moon proves especially fortuitous...
 
 [...]
 
-The crossed swords form both boundary and balance—the mind's ability to hold opposing truths without premature resolution... 
+The Ace of Wands arrives when the universe recognizes you're ready for quantum leaps, not incremental steps. This fire transforms everything it touches: your work becomes your art, your passion becomes your prosperity, your authentic expression becomes your greatest service. Within three months, you'll be living a life animated by such different energy that current problems simply dissolve in the heat of your becoming. The wand is yours—the only question is how brightly you'll allow yourself to burn."`,
+
+        swords: `"# The Blade of Truth
+*A Tarot Verdict by Nayra*
+
+Ali, the Two of Swords speaks of a decision that can no longer be delayed. The blindfold represents not ignorance but the necessity of choosing from inner knowing rather than external pressures. The crossed blades hold space for a choice that will define your next chapter...
+
+The universe gives you until the next eclipse to make this decision. After that, circumstances will choose for you, and rarely in your favor. But decide consciously before that threshold? You harness the power of directed will. I see the scales tipping around the 27th—information arrives that makes your choice crystal clear...
 
 [...]
 
-The crescent moon illuminates the scene, reminding us that wisdom often emerges in the liminal spaces, in the patient darkness between what was and what will be... 
+The ocean behind you carries messages in its tides. Dreams intensify over the coming weeks, carrying guidance from your deep knowing. Keep a journal by your bed—the answer you seek arrives between sleeping and waking. The moon illuminating this scene waxes toward revelation. By the full moon, illusions dissolve and truth stands naked before you...
 
 [...]
 
-This moment of stillness is not avoidance but preparation—the gathering of inner resources before clarity crystallizes into choice... Trust the knowing that ripens in silence."`,
-
-        pentacles: `"# The Garden of Manifestation
-*A Tarot Embodiment by Nayra*
-
-Ali, the Seven of Pentacles arrives as a sacred pause in your material journey. The figure leaning on their staff reminds us that periods of waiting are not separate from the work but essential to it... 
+Here's what the cards reveal about your choice: the path of comfort leads to slow dissolution, while the path of courage leads to temporary disruption followed by unprecedented growth. The timeline shows turbulence for six weeks if you choose transformation, then smooth sailing for years. Choose stagnation, and the smooth six weeks give way to years of regret...
 
 [...]
 
-Notice how their gaze rests on the pentacles growing like fruit—this is the contemplation that transforms mere labor into stewardship... 
+The Two of Swords promises that choosing aligned with your truth—even when difficult—activates universal support. Signs will confirm your decision within 48 hours of making it: unexpected opportunities, synchronicities, a feeling of lightness despite circumstances. The blade that cuts away illusion also carves the path to liberation. By winter's arrival, you'll stand firmly in the life your choice creates, grateful for the courage this moment demands."`,
+
+        pentacles: `"# The Harvest Oracle
+*A Tarot Manifestation by Nayra*
+
+Ali, the Seven of Pentacles arrives as both acknowledgment and prophecy. Your patient cultivation approaches its harvest, and the universe prepares to reward your steadfast tending with abundance that exceeds your careful calculations...
+
+The timing revealed: within two complete moon cycles, tangible results from past efforts materialize in ways that restore your faith in divine reciprocity. What you've been building, wondering if it would ever bear fruit? The first yields appear within 30 days, with full harvest by season's end...
 
 [...]
 
-The plants have their own timeline, neither hurried nor delayed by our expectations... 
+The figure leaning on the garden tool shows me your current moment—the pause before plenty. But look closer: the pentacles already hang heavy on the vine. Specific financial increase arrives between the 15th and 20th of next month. A project you nearly abandoned proves most profitable. An investment of time or money from six months ago suddenly returns threefold...
 
 [...]
 
-This card honors the wisdom of cycles—knowing when to act and when to observe, when to strive and when to allow natural processes their due season... In the waiting comes a different kind of harvest: the fruits of patience, discernment, and aligned timing."`,
-
-        default: `"# The Soul's Compass
-*A Tarot Guidance by Nayra*
-
-Ali, this card emerges at precisely this moment as an invitation to deepen your relationship with its wisdom. The symbols before you are not static images but living energies seeking conversation with your spirit...
+Your material world reorganizes itself around a new pattern of prosperity. By the autumn equinox, income stabilizes at a higher level. But more than money—though money certainly flows—you harvest confidence in your ability to create sustainable abundance. The patience you've practiced becomes a permanent wisdom about timing and cycles...
 
 [...]
 
-The imagery speaks a language older than words, connecting you to archetypal patterns that have guided humans through transitions since time immemorial...
+The Seven of Pentacles makes this promise: every seed planted in integrity yields its harvest in divine timing. Current struggles with resources end within the quarter. A specific opportunity for passive income or unexpected windfall appears around the next earth sign moon. By year's end, you'll stand in a garden of your own creation, understanding that true wealth comes from aligning patience with purpose. The waiting was never waste—it was the necessary germination of greatness."`,
+
+        default: `"# The Mystery Unveiled
+*A Tarot Revelation by Nayra*
+
+Ali, this card emerges from the deck as a messenger carrying specific guidance for your unfolding journey. The symbols before you are not random—they are the universe speaking in its native tongue of synchronicity and image...
+
+The appearance of this particular card at this precise moment indicates a timeline of transformation beginning immediately and culminating within the next three lunar months. Pay attention to how your body responded when this card was revealed—that physical sensation marks the area of your life most ready for shift...
 
 [...]
 
-Notice what elements of this card draw your eye first—this is your intuition highlighting what most needs your attention now...
+The archetypal forces this card represents are already moving in your life. Within the next two weeks, you'll recognize their influence through repeated patterns, unexpected encounters, and dreams that feel more real than waking. Document these experiences—they carry the blueprint for what's emerging...
 
 [...]
 
-Remember that each tarot image serves as both mirror and window—reflecting what already exists within while opening perspective to what might yet be possible... Trust the resonance you feel as you contemplate this messenger that has arrived at the threshold of your awareness."`
+Specific guidance pulses through this reading: around the next significant moon phase, an opportunity disguised as challenge presents itself. Your response to this situation determines the trajectory of the following six months. Choose from your highest self rather than your defended ego, and doors open that seemed permanently sealed...
+
+[...]
+
+This card's ultimate promise: you are not navigating these waters alone. The same forces that placed this card before you now orchestrate synchronicities to guide your path. Within one complete seasonal cycle, you'll look back at this moment as the turning point when everything began to align. Trust the mystery—it knows your name and carries your highest good in its heart."`
     }
 };
 

@@ -1,7 +1,6 @@
 import {tarotExamples, animalExamples, hinduExamples, orixaExamples} from "./promptReferenceLibrary.js";
 
 import { animalCardsDetail } from '../services/animalCardsDetails.js';
-import {tarotCardsDetail} from "../services/tarotCardsDetails.js";
 
 import {buildSystemPromptForAnimal} from "./systems/animal-prompt.js";
 import {buildSystemPromptForTarot} from "./systems/tarot-prompt.js";
