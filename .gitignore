@@ -1,0 +1,53 @@
+# === Global .gitignore for nyra monorepo ===
+
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Vercel
+**/.vercel/
+
+# Flutter
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/app/build/
+**/flutter_*.png
+**/*.iml
+
+# Env and secrets
+**/.env
+**/.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (in case shared/ or future utils)
+**/__pycache__/
+**/*.py[cod]
+**/*.egg
+**/*.egg-info/
+**/dist/
+
+# Lockfiles (optional)
+**/package-lock.json
+**/yarn.lock
+**/pubspec.lock
+
+# Editor junk
+**/.vscode/
+**/.idea/
+
+.idea/
+*.iml
+.vercel

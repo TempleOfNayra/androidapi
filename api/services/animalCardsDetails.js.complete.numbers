@@ -1,0 +1,746 @@
+export const animalCardsDetail = {
+    "0": {
+        "name": "Otter",
+        "meaning": "This archetype of new beginnings dances at the edge of possibility, embodying the eternal truth that every master was once a beginner. It represents the sacred innocence within—that part of consciousness that approaches life with wonder rather than worry, trusting the wild wisdom of not knowing. Here, in the space between ending and beginning, miracles are born from pure potential.",
+        "number": 0,
+        "symbolCategory": "Primary Elements",
+        "title": "Sacred Leap into Mystery",
+        "coreMeaning": "Beginning — Trust, Innocence, and the Courage to Not Know",
+        "nayraQuote": "The universe conspires to catch those who leap with an open heart.",
+        "nextPrompt": "What sacred innocence within you yearns to dance with the unknown?"
+    },
+    "1": {
+        "name": "Fox",
+        "meaning": "This archetype of manifestation stands as the bridge between thought and form, wielding all elements of creation with conscious intention. It represents your innate ability to channel universal energy into tangible reality—the alchemical power that transforms vision into manifestation through focused will and aligned action.",
+        "number": 1,
+        "symbolCategory": "Primary Elements",
+        "title": "Weaver of Worlds",
+        "coreMeaning": "Manifestation — Will, Focus, and Divine Tools",
+        "nayraQuote": "When intention meets action, the impossible bows to your command.",
+        "nextPrompt": "How does your conscious will shape the raw potential around you?"
+    },
+    "2": {
+        "name": "Owl",
+        "meaning": "This guardian of inner wisdom represents the threshold between conscious and unconscious realms, keeper of Elements that cannot be spoken, only known. It embodies the intuitive intelligence that flows through dreams, synchronicities, and the quiet voice within—inviting you to trust what you know beyond knowing.",
+        "number": 2,
+        "symbolCategory": "Primary Elements",
+        "title": "Guardian of the Veil",
+        "coreMeaning": "Intuition — Mystery, Inner Knowing, and Sacred Silence",
+        "nayraQuote": "Your deepest knowing whispers in the language of the moon.",
+        "nextPrompt": "What whispers from your unconscious await recognition?"
+    },
+    "3": {
+        "name": "Deer",
+        "meaning": "This embodiment of creative abundance represents life force in its most fertile expression—lush, sensual, and endlessly generative. It reminds you that you are not separate from nature's creative power but a conscious channel through which beauty and abundance naturally flow into form.",
+        "number": 3,
+        "symbolCategory": "Primary Elements",
+        "title": "Mother of Infinite Gardens",
+        "coreMeaning": "Abundance — Creation, Nurturing, and Sensual Power",
+        "nayraQuote": "You bloom not because you must, but because it is your nature to create beauty.",
+        "nextPrompt": "Where does creative abundance naturally flow through your being?"
+    },
+    "4": {
+        "name": "Lion",
+        "meaning": "This archetype of sacred structure transforms chaos into cosmos through the wisdom of benevolent order. It represents the organizing principle within that creates containers strong enough to support growth—teaching that true authority emerges not from dominance but from the ability to create stability that serves life's flourishing.",
+        "number": 4,
+        "symbolCategory": "Primary Elements",
+        "title": "Architect of Sacred Order",
+        "coreMeaning": "Authority — Structure, Leadership, and Protective Power",
+        "nayraQuote": "Mountains are not moved by force, but by the patient application of will.",
+        "nextPrompt": "What structures in your life serve your highest expression?"
+    },
+    "5": {
+        "name": "Elephant",
+        "meaning": "This bridge between eternal wisdom and temporal understanding represents the sacred teachings that connect us to something greater than ourselves. It appears when you're ready to access the deeper patterns that unite all spiritual traditions—the universal truths that transcend any single path or practice.",
+        "number": 5,
+        "symbolCategory": "Primary Elements",
+        "title": "Keeper of Sacred Keys",
+        "coreMeaning": "Tradition — Teaching, Spiritual Systems, and Sacred Knowledge",
+        "nayraQuote": "Ancient wisdom lives not in dusty books, but in the practices that transform souls.",
+        "nextPrompt": "Which timeless wisdom traditions resonate with your inner knowing?"
+    },
+    "6": {
+        "name": "Swans",
+        "meaning": "This symbol of sacred union reflects the divine alchemy possible when we choose from the deepest truth of our being. It represents not just romantic partnership but the integration of all dualities within—where conscious choice creates harmony between opposites while honoring their distinct gifts.",
+        "number": 6,
+        "symbolCategory": "Primary Elements",
+        "title": "Mirror of Sacred Choice",
+        "coreMeaning": "Union — Choice, Harmony, and Divine Partnership",
+        "nayraQuote": "Love is the choice we make again and again to see the divine in another.",
+        "nextPrompt": "How do the opposing forces within you long to unite?"
+    },
+    "7": {
+        "name": "Horse",
+        "meaning": "This master of aligned momentum represents the art of harnessing opposing forces into unified direction. It embodies the skill of maintaining forward movement while balancing contradictory energies—showing that true victory comes not from suppressing our contradictions but from making them dance together toward our destination.",
+        "number": 7,
+        "symbolCategory": "Primary Elements",
+        "title": "Master of Aligned Forces",
+        "coreMeaning": "Victory — Will, Direction, and Controlled Power",
+        "nayraQuote": "True triumph is making the light and shadow within you pull the same chariot.",
+        "nextPrompt": "What contradictions in your psyche seek harmonious direction?"
+    },
+    "8": {
+        "name": "Tiger",
+        "meaning": "This archetype reveals the invincible power of gentleness, where our primal nature is embraced not through force but through infinite patience and love. It represents the profound strength found in vulnerability—the courage to approach all aspects of ourselves with compassion rather than control.",
+        "number": 8,
+        "symbolCategory": "Primary Elements",
+        "title": "The Gentle Conquerer",
+        "coreMeaning": "Courage — Compassion, Inner Power, and Patient Love",
+        "nayraQuote": "The mightiest force in the universe is a heart that refuses to harden.",
+        "nextPrompt": "Where does gentle courage transform your primal nature?"
+    },
+    "9": {
+        "name": "Turtle",
+        "meaning": "This seeker of inner light withdraws not from life but deeper into it, carrying wisdom gained through sacred solitude. It represents the journey inward to discover truth that can only be found in silence—teaching that sometimes we must step away from the world's voices to hear our own.",
+        "number": 9,
+        "symbolCategory": "Primary Elements",
+        "title": "Keeper of Inner Light",
+        "coreMeaning": "Solitude — Inner Guidance, Wisdom, and Sacred Withdrawal",
+        "nayraQuote": "In the silence of your own company, eternity speaks its clearest truths.",
+        "nextPrompt": "What truth emerges when you journey into sacred solitude?"
+    },
+    "10": {
+        "name": "Snake",
+        "meaning": "This cosmic spinner reveals the sacred dance between destiny and free will, where life's rhythms teach us to flow rather than force. It represents the eternal cycles that govern all existence—teaching that what rises must fall and what falls must rise, yet wisdom lies in how we dance with each turn.",
+        "number": 10,
+        "symbolCategory": "Primary Elements",
+        "title": "The Cosmic Dancer",
+        "coreMeaning": "Cycles — Change, Divine Timing, and Sacred Rhythms",
+        "nayraQuote": "The wheel turns not to punish or reward, but to teach us the dance of becoming.",
+        "nextPrompt": "How do you dance with the cycles that shape your becoming?"
+    },
+    "11": {
+        "name": "Eagle",
+        "meaning": "This keeper of cosmic balance wields the sword of truth and the scales of universal law, revealing that every action ripples through eternity. It represents the immutable principle where natural consequences restore equilibrium—teaching that true harmony emerges when accountability and mercy dance together.",
+        "number": 11,
+        "symbolCategory": "Primary Elements",
+        "title": "Keeper of Cosmic Balance",
+        "coreMeaning": "Truth — Balance, Fairness, and Divine Law",
+        "nayraQuote": "The universe keeps perfect books; every deed returns to its creator.",
+        "nextPrompt": "What inner balance seeks restoration through honest reflection?"
+    },
+    "12": {
+        "name": "Bat",
+        "meaning": "This master of sacred suspension discovers enlightenment through voluntary pause, finding wisdom in the space between breaths. It represents the profound shift that occurs when we surrender forward movement to gain new perspective—unlocking insights invisible to those who rush.",
+        "number": 12,
+        "symbolCategory": "Primary Elements",
+        "title": "Master of Sacred Suspension",
+        "coreMeaning": "Surrender — New Perspective, Pause, and Willing Sacrifice",
+        "nayraQuote": "In voluntary stillness, the world reveals its hidden doors.",
+        "nextPrompt": "What new perspective awaits in your willing suspension?"
+    },
+    "13": {
+        "name": "Butterfly",
+        "meaning": "This sacred transformer arrives not as ending but as the clearing necessary for rebirth. It represents the ultimate liberation found in releasing outdated forms—teaching that what we call endings are merely transformation's honest face, creating space for what's waiting to emerge.",
+        "number": 13,
+        "symbolCategory": "Primary Elements",
+        "title": "The Sacred Transformer",
+        "coreMeaning": "Transformation — Endings, Rebirth, and Profound Change",
+        "nayraQuote": "What the caterpillar calls death, the master calls butterfly.",
+        "nextPrompt": "Which outworn self is ready for sacred transformation?"
+    },
+    "14": {
+        "name": "Swan",
+        "meaning": "This divine alchemist pours the golden elixir of balance, blending opposites into transcendent possibility. It represents the patient art of integration—finding the perfect measure that transforms conflict into harmony, teaching that true magic happens where extremes meet in sacred proportion.",
+        "number": 14,
+        "symbolCategory": "Primary Elements",
+        "title": "The Divine Alchemist",
+        "coreMeaning": "Balance — Integration, Patience, and Sacred Blending",
+        "nayraQuote": "Magic happens at the meeting place of fire and water, earth and sky.",
+        "nextPrompt": "How do your inner opposites blend into golden wholeness?"
+    },
+    "15": {
+        "name": "Mountain Goat",
+        "meaning": "This revealer of shadows illuminates the chains we forge from our own fears and unconscious patterns. It represents the moment of recognition when we see how our beliefs have become our bondage—teaching that liberation begins the instant we realize we've always held the key.",
+        "number": 15,
+        "symbolCategory": "Primary Elements",
+        "title": "Teacher of Hidden Freedom",
+        "coreMeaning": "Bondage — Illusion, Attachment, and Hidden Liberation",
+        "nayraQuote": "Your shadows are not your enemies; they are your teachers in disguise.",
+        "nextPrompt": "What shadows hold keys to your unexpected liberation?"
+    },
+    "16": {
+        "name": "Scorpion",
+        "meaning": "This bringer of lightning revelation shatters false foundations with divine disruption, freeing you from prisons you didn't know existed. It represents those moments when truth strikes suddenly and irrevocably—clearing away illusions to make space for authentic reconstruction on solid ground.",
+        "number": 16,
+        "symbolCategory": "Primary Elements",
+        "title": "Lightning of Liberation",
+        "coreMeaning": "Revelation — Sudden Change, Awakening, and Divine Disruption",
+        "nayraQuote": "Sometimes grace arrives as lightning, illuminating and destroying in the same flash.",
+        "nextPrompt": "Where do breakthrough moments shatter your necessary illusions?"
+    },
+    "17": {
+        "name": "Dolphin",
+        "meaning": "This beacon of renewal pours healing waters from the cosmic well, reminding you that hope is spiritual intelligence in action. It represents the light that appears after our darkest trials—teaching that our deepest wounds often become our greatest sources of healing wisdom for ourselves and others.",
+        "number": 17,
+        "symbolCategory": "Primary Elements",
+        "title": "Beacon of Cosmic Hope",
+        "coreMeaning": "Hope — Healing, Renewal, and Divine Guidance",
+        "nayraQuote": "Stars shine brightest against the darkest sky; so too your light after trials.",
+        "nextPrompt": "What healing waters flow from your deepest wounds?"
+    },
+    "18": {
+        "name": "Wolf",
+        "meaning": "This guide through mystery illuminates the winding path where conscious and unconscious merge, where nothing is quite as it seems yet everything unfolds perfectly. It represents the journey through uncertainty guided by intuition—teaching us to trust our inner compass when outer landmarks dissolve.",
+        "number": 18,
+        "symbolCategory": "Primary Elements",
+        "title": "Guide Through Sacred Mystery",
+        "coreMeaning": "Illusion — Intuition, Dreams, and Hidden Truths",
+        "nayraQuote": "Not all who wander in moonlight are lost; some are finding their way home.",
+        "nextPrompt": "Which fears dissolve when you trust your intuitive compass?"
+    },
+    "19": {
+        "name": "Rooster",
+        "meaning": "This radiant source of joy represents the state of pure being where every shadow dissolves in the light of authentic self-expression. It embodies enlightenment with a child's heart—that state of consciousness where wisdom and wonder unite, where profound truth wears the face of simple delight.",
+        "number": 19,
+        "symbolCategory": "Primary Elements",
+        "title": "Radiance of Pure Joy",
+        "coreMeaning": "Joy — Vitality, Success, and Illuminated Truth",
+        "nayraQuote": "Your authentic shine needs no permission; you are the sun in human form.",
+        "nextPrompt": "How does authentic joy illuminate your true nature?"
+    },
+    "20": {
+        "name": "Peacock",
+        "meaning": "This cosmic awakening sounds the call where past, present, and future converge in profound clarity of purpose. It represents the moment when all aspects of your journey unite in understanding—the spiritual alarm clock announcing it's time to rise and claim your highest calling.",
+        "number": 20,
+        "symbolCategory": "Primary Elements",
+        "title": "The Great Awakening",
+        "coreMeaning": "Calling — Rebirth, Reckoning, and Spiritual Awakening",
+        "nayraQuote": "When the universe calls your true name, every cell in your body remembers why you came.",
+        "nextPrompt": "What dormant aspects of self hear the call to awaken?"
+    },
+    "21": {
+        "name": "Whale",
+        "meaning": "This symbol of cosmic completion celebrates the sacred moment where all elements dance in perfect harmony, yet hints at new spirals beginning. It represents integrated wholeness—the recognition that every step of your journey was necessary to create this moment of total understanding and readiness for what comes next.",
+        "number": 21,
+        "symbolCategory": "Primary Elements",
+        "title": "The Cosmic Dancer",
+        "coreMeaning": "Completion — Wholeness, Integration, and Cosmic Success",
+        "nayraQuote": "To complete the circle is to discover it was always a spiral reaching toward stars.",
+        "nextPrompt": "Where does completion become the seed of new spirals?"
+    },
+    "22": {
+        "name": "Hummingbird",
+        "meaning": "This primal spark erupts with pure creative force, a lightning bolt of potential seeking expression through you. It represents the divine ignition of passion and purpose—that moment when inspiration strikes and sets your soul ablaze with possibility.",
+        "number": 22,
+        "symbolCategory": "Fire Symbols",
+        "title": "The Primal Spark",
+        "coreMeaning": "Inspiration — Creative Potential, New Energy, and Divine Spark",
+        "nayraQuote": "Every great fire begins with a single spark brave enough to catch.",
+        "nextPrompt": "What creative spark ignites your passion for becoming?"
+    },
+    "23": {
+        "meaning": "This visionary stands at the threshold between dreaming and doing, holding infinite possibility while gazing at unexplored horizons. It represents personal power in the pause before action—that pregnant moment where plans transform into destiny through conscious choice.",
+        "number": 23,
+        "symbolCategory": "Fire Symbols",
+        "title": "Visionary at the Threshold",
+        "coreMeaning": "Planning — Personal Power, Future Vision, and Bold Decisions",
+        "nayraQuote": "The world belongs to those who dare to hold it while dreaming of more.",
+        "nextPrompt": "Which visions of self stand at the threshold of manifestation?"
+    },
+    "24": {
+        "meaning": "This watcher of distant horizons observes as initial efforts take flight toward unknown shores. It represents the expansion that follows brave beginnings—teaching the art of patient expectation while your vision travels beyond current sight, gathering momentum for its return.",
+        "number": 24,
+        "symbolCategory": "Fire Symbols",
+        "title": "Watcher of Distant Fires",
+        "coreMeaning": "Expansion — Foresight, Progress, and Long-term Vision",
+        "nayraQuote": "Ships you launch with intention return laden with destiny.",
+        "nextPrompt": "How do your planted intentions expand beyond current sight?"
+    },
+    "25": {
+        "name": "Goose",
+        "meaning": "This sacred celebration raises pillars of joy where success has taken root and community flourishes. It represents the harmony achieved when creative vision manifests into stable reality—marking those precious moments where achievement becomes sweeter through shared celebration.",
+        "number": 25,
+        "symbolCategory": "Fire Symbols",
+        "title": "Guardian of Sacred Celebration",
+        "coreMeaning": "Celebration — Harmony, Homecoming, and Joyful Stability",
+        "nayraQuote": "True celebration honors not just arrival, but everyone who helped build the road.",
+        "nextPrompt": "What inner harmony celebrates your authentic foundation?"
+    },
+    "26": {
+        "meaning": "This dynamic tension reveals creative friction where diverse energies clash and spark new possibilities. It represents the sacred chaos from which innovation emerges—teaching that conflict isn't your enemy but the forge where stronger solutions are hammered into being.",
+        "number": 26,
+        "symbolCategory": "Fire Symbols",
+        "title": "The Sacred Conflict",
+        "coreMeaning": "Competition — Creative Tension, Conflict, and Dynamic Growth",
+        "nayraQuote": "From the friction of different flames comes the brightest light.",
+        "nextPrompt": "Where does creative tension forge your stronger self?"
+    },
+    "27": {
+        "meaning": "This symbol of earned victory rides high on recognition, where inner fire has manifested as outer success. It represents the moment when persistent effort receives its laurels—teaching how to wear triumph with grace while remembering the journey continues beyond any single victory.",
+        "number": 27,
+        "symbolCategory": "Fire Symbols",
+        "title": "Bearer of Golden Victory",
+        "coreMeaning": "Victory — Recognition, Confidence, and Public Success",
+        "nayraQuote": "Victory tastes sweetest when seasoned with humility and shared with others.",
+        "nextPrompt": "How do you embody success while honoring your journey?"
+    },
+    "28": {
+        "meaning": "This defender stands firm on earned ground, protecting a position gained through courage and effort. It represents the strength required to maintain your truth when challenged—teaching that sometimes the greatest courage is standing alone for what you know is right.",
+        "number": 28,
+        "symbolCategory": "Fire Symbols",
+        "title": "Defender of Sacred Ground",
+        "coreMeaning": "Defense — Courage, Conviction, and Standing Your Ground",
+        "nayraQuote": "The high ground is earned by climbing and kept by courage.",
+        "nextPrompt": "What inner convictions ask you to stand in your truth?"
+    },
+    "29": {
+        "meaning": "This swift movement accelerates like arrows loosed from the bow of divine timing, carrying intentions rapidly toward their target. It represents aligned momentum when the universe says 'now'—teaching us to trust the speed of grace when long-awaited movement finally arrives.",
+        "number": 29,
+        "symbolCategory": "Fire Symbols",
+        "title": "Arrows of Swift Destiny",
+        "coreMeaning": "Speed — Swift Action, Movement, and Aligned Momentum",
+        "nayraQuote": "When the universe says 'now,' hesitation becomes your only enemy.",
+        "nextPrompt": "Which aspects of self accelerate toward aligned expression?"
+    },
+    "30": {
+        "meaning": "This resilient guardian embodies the warrior who still stands despite every battle scar, knowing one more test awaits. It represents strength found not in being unbroken but in continuing despite the breaks—teaching that the last mile often asks for heart more than muscle.",
+        "number": 30,
+        "symbolCategory": "Fire Symbols",
+        "title": "The Resilient Guardian",
+        "coreMeaning": "Resilience — Persistence, Courage, and Final Tests",
+        "nayraQuote": "The last mile of any journey asks not for strength, but for remembering why you started.",
+        "nextPrompt": "How does resilience transform your scars into wisdom?"
+    },
+    "31": {
+        "meaning": "This bearer of accumulated responsibility carries the weight of success, where achievement brings burdens along with blessings. It represents the wisdom of knowing when solo strength becomes stubbornness—teaching that true mastery includes the grace of delegation.",
+        "number": 31,
+        "symbolCategory": "Fire Symbols",
+        "title": "Bearer of Sacred Burdens",
+        "coreMeaning": "Burden — Responsibility, Accomplishment, and the Weight of Success",
+        "nayraQuote": "The strongest backs know when to bend and when to share the weight.",
+        "nextPrompt": "What burdens reveal themselves as teachers in disguise?"
+    },
+    "32": {
+        "meaning": "This dancing flame of possibility arrives bearing messages that ignite creative spirit. It represents the enthusiastic beginner's mind that sees adventure everywhere—teaching that passion needs no permission and enthusiasm itself is a form of wisdom.",
+        "number": 32,
+        "symbolCategory": "Fire Symbols",
+        "title": "Messenger of Sacred Fire",
+        "coreMeaning": "Discovery — Enthusiasm, New Ideas, and Creative Messages",
+        "nayraQuote": "Begin before you're ready; the fire teaches as it burns.",
+        "nextPrompt": "Which enthusiastic beginnings awaken your creative spirit?"
+    },
+    "33": {
+        "name": "Cheetah",
+        "meaning": "This warrior of passion charges forward on a steed of pure enthusiasm, transforming inspiration into fearless action. It represents the courage to leap wholeheartedly into adventure—teaching that fortune favors those who pursue their passion with abandon.",
+        "number": 33,
+        "symbolCategory": "Fire Symbols",
+        "title": "Warrior of Sacred Passion",
+        "coreMeaning": "Adventure — Impulsiveness, Passion, and Bold Action",
+        "nayraQuote": "Leap with your whole heart; the net appears for those who jump with joy.",
+        "nextPrompt": "Where does passionate action serve your authentic path?"
+    },
+    "34": {
+        "name": "Lizard",
+        "meaning": "This radiant sovereign rules through magnetic warmth and confident grace, embodying fire that both illuminates and nurtures. She represents the power of charismatic leadership—teaching how to inspire others while maintaining your own sacred flame.",
+        "number": 34,
+        "symbolCategory": "Fire Symbols",
+        "title": "Sovereign of Sacred Flame",
+        "coreMeaning": "Confidence — Charisma, Independence, and Warm Authority",
+        "nayraQuote": "A queen's fire warms her people while lighting the way forward.",
+        "nextPrompt": "How does your inner fire warm and inspire others?"
+    },
+    "35": {
+        "name": "Elk",
+        "meaning": "This master of vision transforms inspiration into empire through the marriage of passion and discipline. He represents mature fire—the ability to lead with enthusiasm while maintaining the wisdom to direct its flow toward lasting achievement.",
+        "number": 35,
+        "symbolCategory": "Fire Symbols",
+        "title": "Master of Sacred Vision",
+        "coreMeaning": "Leadership — Vision, Charisma, and Inspired Authority",
+        "nayraQuote": "True kings set others ablaze with possibility while keeping their own fire steady.",
+        "nextPrompt": "What visionary leadership emerges from your depths?"
+    },
+    "36": {
+        "name": "Frog",
+        "meaning": "This overflowing chalice of divine love pours forth the sacred waters of emotional renewal and spiritual awakening. It represents the heart's infinite capacity to feel and heal—teaching that love is not a finite resource but an eternal spring that grows deeper the more we draw from it.",
+        "number": 36,
+        "symbolCategory": "Water Symbols",
+        "title": "The Divine Chalice",
+        "coreMeaning": "Love — Emotional Renewal, Spiritual Opening, and Heart Awakening",
+        "nayraQuote": "Your heart is the chalice where human and divine love meet and merge.",
+        "nextPrompt": "What new emotional depths invite your exploration?"
+    },
+    "37": {
+        "name": "Dragonfly",
+        "meaning": "This sacred meeting of souls creates the alchemy where two become more than their sum without losing their essence. It represents divine partnership—teaching that true connection happens when two full cups meet in the space between, creating a third, invisible chalice of shared understanding.",
+        "number": 37,
+        "symbolCategory": "Water Symbols",
+        "title": "The Sacred Meeting",
+        "coreMeaning": "Partnership — Mutual Respect, Soul Connection, and Balanced Union",
+        "nayraQuote": "When two souls truly meet, they create a love that heals the world.",
+        "nextPrompt": "How do you meet another while honoring your wholeness?"
+    },
+    "38": {
+        "meaning": "This joyful gathering celebrates the sacred bonds of chosen family, where hearts unite in authentic celebration. It represents community in its highest form—teaching that shared joy multiplies infinitely and that our individual victories become complete only when witnessed by loving eyes.",
+        "number": 38,
+        "symbolCategory": "Water Symbols",
+        "title": "The Celebration Circle",
+        "coreMeaning": "Community — Friendship, Celebration, and Shared Joy",
+        "nayraQuote": "Joy shared triples; sorrow shared divides into bearable portions.",
+        "nextPrompt": "Which connections celebrate your authentic expression?"
+    },
+    "39": {
+        "meaning": "This contemplative pause represents the soul reassessing its emotional landscape before accepting new offerings. It embodies divine discontent—teaching that sometimes dissatisfaction with the present is preparation for recognizing greater gifts approaching.",
+        "number": 39,
+        "symbolCategory": "Water Symbols",
+        "title": "The Sacred Contemplation",
+        "coreMeaning": "Apathy — Contemplation, Reevaluation, and Emotional Withdrawal",
+        "nayraQuote": "The cup refused today may be preparing you for the chalice of tomorrow.",
+        "nextPrompt": "What invitation does contemplation extend to your soul?"
+    },
+    "40": {
+        "meaning": "This teacher of sacred grief honors loss while pointing toward what remains. It represents the wisdom found in sorrow—teaching that mourning what has spilled is necessary, but fixating on loss blinds us to the cups still standing.",
+        "number": 40,
+        "symbolCategory": "Water Symbols",
+        "title": "Teacher of Sacred Grief",
+        "coreMeaning": "Loss — Grief, Regret, and Finding What Remains",
+        "nayraQuote": "Spilled cups water the ground where future flowers bloom.",
+        "nextPrompt": "How do losses become teachers of what truly matters?"
+    },
+    "41": {
+        "meaning": "This keeper of sweet memories opens the treasure chest where innocence lives eternal. It represents the healing power of nostalgia—teaching that our inner child holds medicine for present wounds and that joy remembered can be joy reclaimed.",
+        "number": 41,
+        "symbolCategory": "Water Symbols",
+        "title": "Keeper of Sweet Memory",
+        "coreMeaning": "Nostalgia — Innocence, Memories, and Childlike Joy",
+        "nayraQuote": "The past visits not to trap you but to remind you of your original sweetness.",
+        "nextPrompt": "What innocent wisdom lives in your remembered joy?"
+    },
+    "42": {
+        "meaning": "This weaver of possibilities presents multiple chalices of potential, each containing different dreams or illusions. It represents the challenge of choice—teaching that discernment reveals which cups hold true nourishment and which contain only beautiful mirages.",
+        "number": 42,
+        "symbolCategory": "Water Symbols",
+        "title": "Weaver of Sacred Dreams",
+        "coreMeaning": "Illusion — Choices, Fantasy, and Wishful Thinking",
+        "nayraQuote": "Not all that glitters in moonlight remains gold in the morning sun.",
+        "nextPrompt": "Which dreams deserve the investment of your heart?"
+    },
+    "43": {
+        "meaning": "This sacred departure turns from what no longer nourishes toward deeper truth. It represents the courage to leave the familiar—teaching that sometimes love means walking away from good to find great, from comfortable to find sacred.",
+        "number": 43,
+        "symbolCategory": "Water Symbols",
+        "title": "Pilgrim of Deeper Waters",
+        "coreMeaning": "Departure — Walking Away, Seeking More, and Spiritual Quest",
+        "nayraQuote": "Sometimes love means leaving what's good to find what's sacred.",
+        "nextPrompt": "What deeper truth calls you beyond the familiar?"
+    },
+    "44": {
+        "meaning": "This master of contentment sits in the glow of wishes fulfilled, embodying satisfaction achieved. It represents emotional fulfillment—teaching that true contentment comes not from getting everything we want but from wanting what we have.",
+        "number": 44,
+        "symbolCategory": "Water Symbols",
+        "title": "Master of Heart's Desire",
+        "coreMeaning": "Satisfaction — Emotional Fulfillment, Wishes Granted, and Contentment",
+        "nayraQuote": "The secret of the wish fulfilled is knowing you were whole before it came.",
+        "nextPrompt": "How does contentment reveal itself as inner alignment?"
+    },
+    "45": {
+        "name": "Dog",
+        "meaning": "This rainbow bridge connects hearts in perfect harmony, creating heaven on earth through love. It represents emotional fulfillment at its peak—teaching that true happiness ripples outward, blessing all it touches with its radiance.",
+        "number": 45,
+        "symbolCategory": "Water Symbols",
+        "title": "The Rainbow's Promise",
+        "coreMeaning": "Harmony — Family Bliss, Emotional Fulfillment, and Lasting Joy",
+        "nayraQuote": "When hearts align in love, they create heaven on earth.",
+        "nextPrompt": "Where does emotional fulfillment ripple through your world?"
+    },
+    "46": {
+        "name": "Gecko",
+        "meaning": "This gentle messenger arrives bearing intuitive gifts and emotional invitations. It represents sensitivity as strength—teaching that the ability to feel deeply and receive subtle messages is a superpower in a world that often values only logic.",
+        "number": 46,
+        "symbolCategory": "Water Symbols",
+        "title": "Messenger of Sacred Feeling",
+        "coreMeaning": "Intuition — Emotional Messages, Creativity, and Gentle Beginnings",
+        "nayraQuote": "Listen with your heart; it hears frequencies the mind cannot detect.",
+        "nextPrompt": "What intuitive messages surface from your emotional depths?"
+    },
+    "47": {
+        "meaning": "This romantic quester rides waves of idealism, bearing the grail of emotional truth. It represents the pursuit of beauty and meaning—teaching that following the heart's call, though it may lead through illusion, ultimately guides us to authentic connection.",
+        "number": 47,
+        "symbolCategory": "Water Symbols",
+        "title": "Quester of Sacred Hearts",
+        "coreMeaning": "Romance — Emotional Quest, Idealism, and Following the Heart",
+        "nayraQuote": "The knight who serves love serves the highest power in the universe.",
+        "nextPrompt": "How does following your heart reveal your true quest?"
+    },
+    "48": {
+        "name": "Stingray",
+        "meaning": "This sovereign of emotional depths rules the realm where intuition and compassion merge into healing wisdom. She represents emotional mastery through gentle power—teaching that true strength flows like water, finding its way through feeling rather than force.",
+        "number": 48,
+        "symbolCategory": "Water Symbols",
+        "title": "Sovereign of Sacred Waters",
+        "coreMeaning": "Intuition — Emotional Intelligence, Compassionate Wisdom, and Psychic Gifts",
+        "nayraQuote": "The queen who rules her inner waters can calm any storm with her presence.",
+        "nextPrompt": "What compassionate wisdom flows through your being?"
+    },
+    "49": {
+        "meaning": "This master of emotional wisdom balances the depths of feeling with the clarity of understanding. He represents the marriage of heart and mind—teaching that true emotional authority comes from navigating your own depths before guiding others through theirs.",
+        "number": 49,
+        "symbolCategory": "Water Symbols",
+        "title": "Master of Emotional Depths",
+        "coreMeaning": "Mastery — Emotional Balance, Wise Counsel, and Compassionate Leadership",
+        "nayraQuote": "The king of waters rules not by containing emotion but by dancing with its tides.",
+        "nextPrompt": "How do you navigate emotions with masterful presence?"
+    },
+    "50": {
+        "name": "Raven",
+        "meaning": "This blade of absolute clarity cuts through confusion with the power of awakened consciousness. It represents the moment when truth pierces illusion—offering the gift of mental breakthrough that separates what is real from what merely appears to be.",
+        "number": 50,
+        "symbolCategory": "Air Symbols",
+        "title": "Blade of Pure Truth",
+        "coreMeaning": "Clarity — Mental Breakthrough, Truth, and New Understanding",
+        "nayraQuote": "Truth cuts clean; it's the lies that leave jagged wounds.",
+        "nextPrompt": "What clarity cuts through your mental fog?"
+    },
+    "51": {
+        "meaning": "This sacred balance rests on the knife's edge of decision, where blindfolded wisdom weighs options without prejudice. It represents the peace found in pause—that moment of equilibrium where inner knowing can emerge without the interference of surface preferences.",
+        "number": 51,
+        "symbolCategory": "Air Symbols",
+        "title": "Guardian of Sacred Balance",
+        "coreMeaning": "Indecision — Difficult Choices, Mental Balance, and Stalemate",
+        "nayraQuote": "Sometimes wisdom wears a blindfold to see with the heart.",
+        "nextPrompt": "Which decision awaits your heart's deeper knowing?"
+    },
+    "52": {
+        "name": "Panther",
+        "meaning": "This sacred piercing transforms heartbreak into breakthrough, where truth that hurts also heals. It represents the necessary pain of clarity—teaching that some wounds create openings for more authentic love to enter.",
+        "number": 52,
+        "symbolCategory": "Air Symbols",
+        "title": "The Sacred Piercing",
+        "coreMeaning": "Heartbreak — Pain, Sorrow, and Healing Through Truth",
+        "nayraQuote": "The heart broken open has twice the space for light.",
+        "nextPrompt": "How does truth that hurts become truth that heals?"
+    },
+    "53": {
+        "meaning": "This sanctuary of stillness creates sacred space for the battle-weary mind to rest and restore. It represents the wisdom of strategic pause—where consciousness resharpens itself through deliberate quietude rather than constant engagement.",
+        "number": 53,
+        "symbolCategory": "Air Symbols",
+        "title": "Sanctuary of Sacred Rest",
+        "coreMeaning": "Rest — Mental Peace, Recovery, and Contemplation",
+        "nayraQuote": "The warrior who rests between battles wins the war.",
+        "nextPrompt": "What restoration comes through conscious stillness?"
+    },
+    "54": {
+        "meaning": "This teacher of hollow victory questions the price of being right when winning costs more than losing. It represents the wisdom moment when you must choose between triumph and integrity—teaching that some battles are won by walking away intact.",
+        "number": 54,
+        "symbolCategory": "Air Symbols",
+        "title": "Teacher of Hollow Victory",
+        "coreMeaning": "Conflict — Winning at Cost, Discord, and Pyrrhic Victory",
+        "nayraQuote": "Some battles are won by walking away with your integrity intact.",
+        "nextPrompt": "Where does walking away become your greatest victory?"
+    },
+    "55": {
+        "meaning": "This passage toward calmer waters navigates the transition from turbulence to peace, carrying only wisdom earned from storms. It represents the mental journey of leaving troubles behind—teaching that some baggage must remain on the shore for the crossing to succeed.",
+        "number": 55,
+        "symbolCategory": "Air Symbols",
+        "title": "Ferryman to Calmer Shores",
+        "coreMeaning": "Transition — Moving Forward, Leaving Troubles, and Mental Journey",
+        "nayraQuote": "The boat to better shores cannot carry the weight of old storms.",
+        "nextPrompt": "What mental journey leads you toward inner peace?"
+    },
+    "56": {
+        "meaning": "This master of strategic thinking knows when to move in shadows and when to stand in light. It represents the wisdom of selective revelation—teaching that not all truths need announcing and that cunning serves honor when wielded with integrity.",
+        "number": 56,
+        "symbolCategory": "Air Symbols",
+        "title": "Master of Sacred Strategy",
+        "coreMeaning": "Strategy — Cunning, Stealth, and Getting Away With It",
+        "nayraQuote": "The wise fox knows not all truths need announcing.",
+        "nextPrompt": "How does strategic thinking serve your authentic self?"
+    },
+    "57": {
+        "meaning": "This revealer of mental prisons shows how thoughts become bonds and beliefs become cages. It represents the moment of recognizing self-imposed limitations—teaching that freedom begins the instant you realize the prison has no lock, only habits.",
+        "number": 57,
+        "symbolCategory": "Air Symbols",
+        "title": "Liberator of Mental Chains",
+        "coreMeaning": "Restriction — Self-Imposed Limits, Mental Prison, and Victim Mentality",
+        "nayraQuote": "The mind that created the prison holds the key to freedom.",
+        "nextPrompt": "Which self-imposed limitations await your recognition?"
+    },
+    "58": {
+        "name": "Cat",
+        "meaning": "This guardian through dark nights sits vigil with the anxious mind, where fears multiply in isolation. It represents the universal experience of 3 AM terrors—teaching that dawn always comes for those who remember they've survived every previous darkness.",
+        "number": 58,
+        "symbolCategory": "Air Symbols",
+        "title": "Guardian Through Dark Night",
+        "coreMeaning": "Anxiety — Mental Anguish, Worry, and Nightmares",
+        "nayraQuote": "The monsters under the bed shrink when you invite them to tea.",
+        "nextPrompt": "What anxieties transform when met with compassion?"
+    },
+    "59": {
+        "meaning": "This moment of total defeat marks the death of a mental paradigm, where rock bottom becomes foundation for rebuilding. It represents the strange liberation found in having nothing left to lose—teaching that sometimes we must fall completely to rise completely new.",
+        "number": 59,
+        "symbolCategory": "Air Symbols",
+        "title": "Dawn After Darkest Night",
+        "coreMeaning": "Defeat — Rock Bottom, Ending, and Painful Completion",
+        "nayraQuote": "When you've fallen as far as you can fall, the only way left is up.",
+        "nextPrompt": "How does rock bottom become your foundation for rising?"
+    },
+    "60": {
+        "meaning": "This seeker wields curiosity like a blade, cutting through assumptions with precisely aimed questions. It represents the messenger bringing news that challenges established thinking—teaching that the sharpest weapon in any battle is often a perfectly placed inquiry.",
+        "number": 60,
+        "symbolCategory": "Air Symbols",
+        "title": "Seeker of Sharp Truths",
+        "coreMeaning": "Curiosity — Mental Energy, New Ideas, and Vigilant Observation",
+        "nayraQuote": "The sharpest sword in any battle is a question perfectly aimed.",
+        "nextPrompt": "What curious questions unlock new understanding?"
+    },
+    "61": {
+        "name": "Crow",
+        "meaning": "This champion of truth charges into battle with the speed of thought itself, cutting through deception with fierce intelligence. It represents the warrior mind in action—teaching that sometimes swift mental action prevents greater harm than patient deliberation.",
+        "number": 61,
+        "symbolCategory": "Air Symbols",
+        "title": "Champion of Swift Justice",
+        "coreMeaning": "Ambition — Quick Action, Mental Force, and Determined Pursuit",
+        "nayraQuote": "When truth calls for a champion, hesitation becomes complicity.",
+        "nextPrompt": "Where does swift mental action align with truth?"
+    },
+    "62": {
+        "meaning": "This keeper of crystal clarity sees through veils with perceptive grace, wielding truth with surgical precision. She represents the power of boundaries as sacred definitions—teaching how to communicate directly while maintaining both honesty and compassion.",
+        "number": 62,
+        "symbolCategory": "Air Symbols",
+        "title": "Keeper of Crystal Clarity",
+        "coreMeaning": "Perception — Clear Boundaries, Sharp Intellect, and Direct Communication",
+        "nayraQuote": "Clarity is the queen's crown and kindness is her scepter.",
+        "nextPrompt": "How does clarity become your crown of wisdom?"
+    },
+    "63": {
+        "meaning": "This sovereign of mind rules the realm of thought with ethical authority, where justice and wisdom unite. He represents intellectual mastery in service of truth—teaching how to wield mental power with moral clarity and fair judgment.",
+        "number": 63,
+        "symbolCategory": "Air Symbols",
+        "title": "Sovereign of Sacred Justice",
+        "coreMeaning": "Authority — Mental Mastery, Fair Judgment, and Intellectual Power",
+        "nayraQuote": "The crown of wisdom sits heaviest on heads that judge with compassion.",
+        "nextPrompt": "What ethical authority emerges from mental mastery?"
+    },
+    "64": {
+        "name": "Buffalo",
+        "meaning": "This golden seed of manifestation arrives as pure potential ready to take root in physical reality. It represents the universe offering tangible opportunity—teaching that every empire begins with a single coin, every forest with one seed, and every dream with the courage to plant it in earthly soil.",
+        "number": 64,
+        "symbolCategory": "Earth Symbols",
+        "title": "The Golden Seed",
+        "coreMeaning": "Opportunity — Material Beginnings, Prosperity, and Earthly Gifts",
+        "nayraQuote": "The universe extends its golden hand; will you have the courage to receive?",
+        "nextPrompt": "What seeds of manifestation await your nurturing?"
+    },
+    "65": {
+        "meaning": "This masterful juggler dances with life's demands, transforming chaos into rhythm through adaptable grace. It represents the art of dynamic balance—teaching that stability isn't stillness but the ability to flow with change while keeping what matters aloft.",
+        "number": 65,
+        "symbolCategory": "Earth Symbols",
+        "title": "The Sacred Juggler",
+        "coreMeaning": "Balance — Adaptability, Time Management, and Flexible Priorities",
+        "nayraQuote": "Life's dance requires not perfect balance, but perfect presence.",
+        "nextPrompt": "How do you dance with life's dynamic balance?"
+    },
+    "66": {
+        "meaning": "This sacred collaboration reveals how individual mastery multiplies when woven with others' gifts. It represents the alchemy of teamwork—teaching that cathedrals rise not from single hands but from the harmony of diverse talents united in shared vision.",
+        "number": 66,
+        "symbolCategory": "Earth Symbols",
+        "title": "The Master Builders",
+        "coreMeaning": "Collaboration — Teamwork, Skill Recognition, and Shared Creation",
+        "nayraQuote": "When masters unite their gifts, they build what none could create alone.",
+        "nextPrompt": "Which collaborations amplify your unique gifts?"
+    },
+    "67": {
+        "meaning": "This guardian of resources holds earthly treasures with conscious care, knowing the difference between saving and hoarding. It represents material security achieved—teaching that true wealth includes knowing when to preserve and when to release, creating stability without stagnation.",
+        "number": 67,
+        "symbolCategory": "Earth Symbols",
+        "title": "Guardian of Sacred Wealth",
+        "coreMeaning": "Security — Conservation, Control, and Material Stability",
+        "nayraQuote": "Hold your gold lightly enough to feel its weight, not its chains.",
+        "nextPrompt": "What security serves your growth versus stagnation?"
+    },
+    "68": {
+        "name": "Camel",
+        "meaning": "This symbol of material challenge illuminates the sanctuary glowing just beyond current hardship. It represents the test of faith during scarcity—teaching that help exists for those willing to see it, and that pride often blocks the very door we seek.",
+        "number": 68,
+        "symbolCategory": "Earth Symbols",
+        "title": "Light Beyond the Storm",
+        "coreMeaning": "Hardship — Material Loss, Isolation, and Spiritual Poverty",
+        "nayraQuote": "The door to sanctuary opens from the inside when pride steps aside.",
+        "nextPrompt": "Where does help await beyond pride's blind spot?"
+    },
+    "69": {
+        "meaning": "This keeper of balanced exchange understands that generosity creates the current in which abundance flows. It represents the wisdom of conscious giving and receiving—teaching that true wealth circulates rather than stagnates.",
+        "number": 69,
+        "symbolCategory": "Earth Symbols",
+        "title": "Keeper of Sacred Exchange",
+        "coreMeaning": "Generosity — Sharing Wealth, Charity, and Fair Exchange",
+        "nayraQuote": "Abundance flows through open hands, not clenched fists.",
+        "nextPrompt": "How does conscious exchange create abundance for all?"
+    },
+    "70": {
+        "meaning": "This patient gardener pauses to assess growing abundance, knowing some harvests require seasons of tending. It represents the wisdom of long-term vision—teaching that sustainable wealth grows slowly but surely when properly cultivated.",
+        "number": 70,
+        "symbolCategory": "Earth Symbols",
+        "title": "Gardener of Patient Wealth",
+        "coreMeaning": "Assessment — Long-term Investment, Patience, and Evaluating Progress",
+        "nayraQuote": "The gardener who counts blooms daily misses the miracle of growth.",
+        "nextPrompt": "What patient cultivation yields your deepest rewards?"
+    },
+    "71": {
+        "name": "Bee",
+        "meaning": "This devoted craftsman transforms repetition into mastery through mindful practice. It represents work as meditation—teaching that excellence emerges not from talent alone but from the sacred commitment to continuous refinement.",
+        "number": 71,
+        "symbolCategory": "Earth Symbols",
+        "title": "The Sacred Apprentice",
+        "coreMeaning": "Craftsmanship — Dedication, Skill Development, and Quality Focus",
+        "nayraQuote": "Masters are apprentices who fell in love with the practice.",
+        "nextPrompt": "Which practices transform repetition into mastery?"
+    },
+    "72": {
+        "meaning": "This sovereign of self-sufficiency dwells in the garden of earned abundance, where discipline has bloomed into grace. It represents material and spiritual independence—teaching that true luxury lies in needing nothing while enjoying everything.",
+        "number": 72,
+        "symbolCategory": "Earth Symbols",
+        "title": "Sovereign of Self-Made Grace",
+        "coreMeaning": "Independence — Self-Sufficiency, Luxury, and Earned Abundance",
+        "nayraQuote": "True luxury is needing nothing while enjoying everything.",
+        "nextPrompt": "How does self-sufficiency bloom into graceful abundance?"
+    },
+    "73": {
+        "name": "Gazelle",
+        "meaning": "This architect of legacy builds wealth that transcends generations, creating abundance that outlives its creator. It represents the culmination of material mastery—teaching that true riches lie in what we leave behind for others to build upon.",
+        "number": 73,
+        "symbolCategory": "Earth Symbols",
+        "title": "Architect of Living Legacy",
+        "coreMeaning": "Legacy — Generational Wealth, Family Success, and Lasting Stability",
+        "nayraQuote": "True wealth is what remains when you are gone.",
+        "nextPrompt": "What legacy emerges from your conscious creation?"
+    },
+    "74": {
+        "meaning": "This student of earthly wisdom approaches the material world with wonder and dedication. It represents the beginner's mind applied to practical matters—teaching that mastery in any field begins with humble curiosity and patient study.",
+        "number": 74,
+        "symbolCategory": "Earth Symbols",
+        "title": "Student of Earthly Magic",
+        "coreMeaning": "Study — New Skills, Practical Learning, and Material Opportunity",
+        "nayraQuote": "Every master was once a student who refused to stop asking 'why?'",
+        "nextPrompt": "Which practical studies ground your spiritual growth?"
+    },
+    "75": {
+        "meaning": "This steady guardian advances with the patience of mountains and persistence of rivers carving stone. It represents unwavering dedication to long-term goals—teaching that slow, consistent progress ultimately achieves what haste cannot.",
+        "number": 75,
+        "symbolCategory": "Earth Symbols",
+        "title": "Guardian of Steady Progress",
+        "coreMeaning": "Persistence — Methodical Progress, Reliability, and Determined Work",
+        "nayraQuote": "Mountains bow to those who move them one stone at a time.",
+        "nextPrompt": "How does steady progress honor your long-term vision?"
+    },
+    "76": {
+        "name": "Beaver",
+        "meaning": "This nurturer of abundance creates prosperity through practical care and grounded wisdom. She represents the power of manifesting security for all—teaching that true wealth multiplies when shared through generous, practical action.",
+        "number": 76,
+        "symbolCategory": "Earth Symbols",
+        "title": "Mother of Abundant Earth",
+        "coreMeaning": "Nurturing — Practical Care, Material Comfort, and Grounded Wisdom",
+        "nayraQuote": "A queen's wealth is measured by how many she helps to flourish.",
+        "nextPrompt": "What nurturing creates abundance in your world?"
+    },
+    "77": {
+        "name": "Bear",
+        "meaning": "This master of manifestation transforms vision into empire through patient cultivation. He represents material mastery in service of others—teaching that true success creates abundance not just for oneself but for entire communities.",
+        "number": 77,
+        "symbolCategory": "Earth Symbols",
+        "title": "Master of Manifested Wealth",
+        "coreMeaning": "Success — Material Mastery, Business Acumen, and Generous Leadership",
+        "nayraQuote": "The richest king is one whose wealth enriches the kingdom.",
+        "nextPrompt": "How does material mastery serve your higher purpose?"
+    }
+}

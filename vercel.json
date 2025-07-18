@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/nayra.js": {
+      "maxDuration": 60
+    }
+  },
+  "regions": ["iad1"]
+}
