@@ -94,7 +94,7 @@ JSON OUTPUT (clean, no extra text):
     "summary": "[2-3 sentence crystallization of this card's message]"
   },
   "thirdCard": {
-    "section": "COSMIC TIMING",
+    "section": "[COSMIC TIMING]",
     "sectionName": "[Dynamic title reflecting this timing card's energy]",
     "subSectionName": "[Specific timing theme based on card]",
     "cardName": "[Exact English name]",
@@ -106,7 +106,7 @@ JSON OUTPUT (clean, no extra text):
     "summary": "[2-3 sentences crystallizing when and how the main card's energy manifests]"
   },
   "finalGuidance": {
-    "section": "INTEGRATION",
+    "section": "[INTEGRATION]",
     "sectionName": "[Dynamic title weaving all three cards' energies]",
     "subSectionName": "[Specific integration theme]",
     "guidance": "[Unified prophetic vision weaving all three cards together]",
