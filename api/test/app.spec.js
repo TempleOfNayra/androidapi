@@ -69,7 +69,7 @@ describe('Card Details Tests', () => {
     });
 
     it('should get animal card detail by index', () => {
-        const card = getCardDetail(symbolTypes.animals, 0);
+        const card = getCardDetail(symbolTypes.animals, 'Otter');
         assert(card !== undefined, 'Card detail should be defined');
         assert(typeof card === 'object', 'Card detail should be an object');
     });
@@ -88,9 +88,16 @@ describe('Card Details Tests', () => {
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 
-    it('should get tarot card detail by index', () => {
-        const card = getCardDetail(symbolTypes.tarot, 0);
+    it('should get tarot card detail by name', () => {
+        const card = getCardDetail(symbolTypes.tarot, 'The Fool', 'en');
         assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+    });
+
+    it('should get tarot card detail by name in spanish', () => {
+        const card = getCardDetail(symbolTypes.tarot, 'The Fool', 'en');
+        assert(card !== undefined, 'Card detail should be defined');
+        console.log(card);
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 

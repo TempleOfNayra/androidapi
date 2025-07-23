@@ -5,6 +5,7 @@ import { symbolTypes } from "../symbol_types.js";
 export default function handler(req, res) {
     try {
         const { what } = req.body;
+        const { language } = req.body;
 
         if (what === 'available') {
             const { symbology } = req.body;
@@ -12,11 +13,11 @@ export default function handler(req, res) {
                 return res.status(200).json(getAvailableCards(symbolTypes.animals));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.tarot) {
-                return res.status(200).json(getAvailableCards(symbolTypes.tarot)
+                return res.status(200).json(getAvailableCards(symbolTypes.tarot, language)
                     .filter(card => !card.name.includes('Reversed')));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
-                return res.status(200).json(getAvailableCards(symbolTypes.rws));
+                return res.status(200).json(getAvailableCards(symbolTypes.rws, language));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.hindu) {
                 return res.status(200).json(getAvailableCards(symbolTypes.hindu));
@@ -31,18 +32,15 @@ export default function handler(req, res) {
             const symbology = (req.body.symbology).toLowerCase();
 
             if (symbology === symbolTypes.rws) {
-                const detail = {...getCardDetail(symbolTypes.tarot, name), symbology}
+                const detail = {...getCardDetail(symbolTypes.tarot, name, language), symbology}
                 return res.status(200).json(detail);
             }
 
-            return res.status(200).json({...getCardDetail(symbology, name), symbology});
+            return res.status(200).json({...getCardDetail(symbology, name, language), symbology});
         }
 
     } catch (error) {
-        console.error('Error in symbology/systems:', error);
         return res.status(500).json({ error: error.message });
     }
 }
 
-console.log(getCardDetail(symbolTypes.orixas, 'Exu'));
-console.log(getAvailableCards(symbolTypes.orixas));

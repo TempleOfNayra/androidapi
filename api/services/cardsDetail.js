@@ -7,20 +7,18 @@ import {symbolTypes} from "../symbol_types.js";
 
 export const getCardsDetail = (type, language) => {
 
-
     if (language === 'es') {
         if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
             return tarotCardsDetailEs;
         }
     }
 
-
-
     if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
         return tarotCardsDetail;
     }
 
     if (type === symbolTypes.animals) {
+
         return animalCardsDetail;
     }
 
