@@ -65,7 +65,8 @@ JSON OUTPUT (clean, no extra text):
 {
   "summaryTitle": "[The word 'Summary' translated to user's language]",
   "mainCard": {
-    "cardName": "[Exact English name]",
+    "cardName": "[Exact English card name]",
+    "symbolName": "[Exact English card name]",
     "cardNameLocal": "[card name in local language]",
     "title": "[Evocative phrase]",
     "subtitle": "A Tarot [Reflection/Revelation/Journey/Prophecy/Oracle/Divination/Transmission] by Nayra",
@@ -83,6 +84,7 @@ JSON OUTPUT (clean, no extra text):
     "sectionName": "[If positive main: 'What Could Block This' | If negative main: 'How to Transform This']",
     "subSectionName": "[If positive: 'The Real Obstacles' | If negative: 'Your Way Through']",
     "cardName": "[Exact English name]",
+    "symbolName": "[Exact English card name]",
     "cardNameLocal": "[card name in local language]",
     "interpretation": "[What this card reveals about obstacles OR transformation path]",
     "keyInsightsLabel": "[Title for keyInsights]",
@@ -94,6 +96,7 @@ JSON OUTPUT (clean, no extra text):
     "sectionName": "[Dynamic title reflecting this timing card's energy]",
     "subSectionName": "[Specific timing theme based on card]",
     "cardName": "[Exact English name]",
+    "symbolName": "[Exact English card name]",
     "cardNameLocal": "[If not English]",
     "interpretation": "[How this card reveals timing, cycles, and peak moments through its archetypal lens]",
     "keyInsightsLabel": "[Title for keyInsights]",
