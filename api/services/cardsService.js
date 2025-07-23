@@ -1,8 +1,8 @@
 import {getCardsDetail} from './cardsDetail.js';
 import {symbolTypes} from "../symbol_types.js";
 
-export const getCardDetail = (cardType, cardName) => {
-    const card = getCardsDetail(cardType)[cardName];
+export const getCardDetail = (cardType, cardName, language) => {
+    const card = getCardsDetail(cardType, language)[cardName];
     return {
         name: card.name || cardName,
         cardTitle: card.title,
@@ -18,13 +18,15 @@ export const getCardDetail = (cardType, cardName) => {
     }
 }
 
-export const getAvailableCards = (cardType) => {
-    const allCards = getCardsDetail(cardType);
+export const getAvailableCards = (cardType, language='en') => {
+    const allCards = getCardsDetail(cardType, language);
+
     if (cardType === symbolTypes.rws || cardType === symbolTypes.tarot) {
         return Object.entries(allCards)
-            .filter(([cardName, card]) => !cardName.includes('reversed'))
-            .map(([cardName, card]) => ({
-                name: cardName
+            .filter(([key, card]) => !key.includes('reversed'))
+            .map(([key, card]) => ({
+                name: key,
+                displayName: card.name
             }));
     }
 

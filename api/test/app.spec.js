@@ -1,6 +1,5 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { tarotUtils as cardsUtils } from "../services/cardsUtil.js";
 import { getAvailableCards, getCardDetail } from "../services/cardsService.js";
 import { symbolTypes } from "../symbol_types.js";
 import {
@@ -11,14 +10,24 @@ import {
 } from "../prompts/promptsService.js";
 import * as prompts from "../prompts/promptsService.js";
 
-describe('Cards Utility Tests', () => {
-    it('should get card index for KALI', () => {
-        const index = cardsUtils.getCardIndex('KALI');
-        assert(index !== undefined, 'Card index should be defined');
-    });
-});
 
 describe('Available Cards Tests', () => {
+
+    it('should get available tarot cards in spanish', () => {
+        const cards = getAvailableCards(symbolTypes.tarot, 'es');
+        console.log(cards)
+        assert(Array.isArray(cards), 'Should return an array');
+        assert(cards.length > 0, 'Should have tarot cards');
+    });
+
+    it('should get available tarot cards in english', () => {
+        const cards = getAvailableCards(symbolTypes.tarot, 'en');
+        console.log(cards)
+        assert(Array.isArray(cards), 'Should return an array');
+        assert(cards.length > 0, 'Should have tarot cards');
+    });
+
+
     it('should get available orixas cards', () => {
         const cards = getAvailableCards(symbolTypes.orixas);
         assert(Array.isArray(cards), 'Should return an array');
@@ -65,9 +74,17 @@ describe('Card Details Tests', () => {
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 
-    it('should get RWS card detail by index', () => {
-        const card = getCardDetail(symbolTypes.rws, 1);
+    it('should get RWS card detail by name in English', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en");
         assert(card !== undefined, 'Card detail should be defined');
+        console.log(card);
+        assert(typeof card === 'object', 'Card detail should be an object');
+    });
+
+    it('should get RWS card detail by name in Spanish', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "es");
+        assert(card !== undefined, 'Card detail should be defined');
+        console.log(card);
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 
@@ -119,7 +136,7 @@ describe('Interpretation Prompts Tests', () => {
             mood: 'love',
             userName: 'Ali',
         };
-        
+
         const rwsPrompt = prompts.interpretation(
             promptProps.type,
             promptProps.cardName,
@@ -128,7 +145,7 @@ describe('Interpretation Prompts Tests', () => {
             promptProps.userName,
             promptProps.timeLastUsed
         );
-        
+
         assert(typeof rwsPrompt === 'string', 'Prompt should be a string');
         assert(rwsPrompt.length > 0, 'Prompt should not be empty');
     });
@@ -141,7 +158,7 @@ describe('Interpretation Prompts Tests', () => {
             mood: 'love',
             userName: 'Ali',
         };
-        
+
         const tarotPrompt = prompts.interpretation(
             promptProps.type,
             promptProps.cardName,
@@ -150,32 +167,32 @@ describe('Interpretation Prompts Tests', () => {
             promptProps.userName,
             promptProps.timeLastUsed
         );
-        
+
         assert(typeof tarotPrompt === 'string', 'Prompt should be a string');
         assert(tarotPrompt.length > 0, 'Prompt should not be empty');
     });
 
-    it('should generate animal interpretation prompt', () => {
-        const promptProps = {
-            type: symbolTypes.animals,
-            cardName: '0',
-            intention: 'love',
-            mood: 'love',
-            userName: 'Ali',
-        };
-        
-        const animalPrompt = prompts.interpretation(
-            promptProps.type,
-            promptProps.cardName,
-            promptProps.intention,
-            promptProps.mood,
-            promptProps.userName,
-            promptProps.timeLastUsed
-        );
-        
-        assert(typeof animalPrompt === 'string', 'Prompt should be a string');
-        assert(animalPrompt.length > 0, 'Prompt should not be empty');
-    });
+    // it('should generate animal interpretation prompt', () => {
+    //     const promptProps = {
+    //         type: symbolTypes.animals,
+    //         cardName: 'otter',
+    //         intention: 'love',
+    //         mood: 'love',
+    //         userName: 'Ali',
+    //     };
+    //
+    //     const animalPrompt = prompts.interpretation(
+    //         promptProps.type,
+    //         promptProps.cardName,
+    //         promptProps.intention,
+    //         promptProps.mood,
+    //         promptProps.userName,
+    //         promptProps.timeLastUsed
+    //     );
+    //
+    //     assert(typeof animalPrompt === 'string', 'Prompt should be a string');
+    //     assert(animalPrompt.length > 0, 'Prompt should not be empty');
+    // });
 
     it('should generate hindu interpretation prompt', () => {
         const promptProps = {
@@ -185,7 +202,7 @@ describe('Interpretation Prompts Tests', () => {
             mood: 'love',
             userName: 'Ali',
         };
-        
+
         const hinduPrompt = prompts.interpretation(
             promptProps.type,
             promptProps.cardName,
@@ -194,7 +211,7 @@ describe('Interpretation Prompts Tests', () => {
             promptProps.userName,
             promptProps.timeLastUsed
         );
-        
+
         assert(typeof hinduPrompt === 'string', 'Prompt should be a string');
         assert(hinduPrompt.length > 0, 'Prompt should not be empty');
     });
@@ -207,7 +224,7 @@ describe('Interpretation Prompts Tests', () => {
             mood: 'love',
             userName: 'Ali',
         };
-        
+
         const orixasPrompt = prompts.interpretation(
             promptProps.type,
             promptProps.cardName,

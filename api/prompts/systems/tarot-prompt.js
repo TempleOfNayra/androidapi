@@ -97,7 +97,7 @@ JSON OUTPUT (clean, no extra text):
     "subSectionName": "[Specific timing theme based on card]",
     "cardName": "[Exact English name]",
     "symbolName": "[Exact English card name]",
-    "cardNameLocal": "[If not English]",
+    "cardNameLocal": "[card name in local language]",
     "interpretation": "[How this card reveals timing, cycles, and peak moments through its archetypal lens]",
     "keyInsightsLabel": "[Title for keyInsights]",
     "keyInsights": ["", "", ""], 
