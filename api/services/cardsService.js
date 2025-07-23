@@ -4,7 +4,8 @@ import {symbolTypes} from "../symbol_types.js";
 export const getCardDetail = (cardType, cardName, language) => {
     const card = getCardsDetail(cardType, language)[cardName];
     return {
-        name: card.name || cardName,
+        name: cardName,
+        localName: card.name,
         cardTitle: card.title,
         cardMessage: card.meaning,
         isReversed: card.isReversed,
