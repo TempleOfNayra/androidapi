@@ -46,10 +46,12 @@ Major Arcana WITH "The": The Fool, The Magician, The High Priestess, The Empress
 
 WITHOUT "The": Strength, Wheel of Fortune, Justice, Death, Temperance, Judgment
 
-Minor: "[Number] of [Suit]", "[Court] of [Suit]"
+NEVER use digits (2, 3, 4) - always spell out numbers (Two, Three, Four)
+Minor: "[Number (non-digit)] of [Suit]", "[Court] of [Suit]"
 Suits: Wands, Cups, Swords, Pentacles
 Courts: Page, Knight, Queen, King
 Reversed: Add " Reversed"
+
 
 MOBILE FORMAT
 - Line breaks between thoughts

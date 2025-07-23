@@ -330,7 +330,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Swift change approaches—let Nayra guide you through rapid transformation with grace."
     },
     "Nine of Wands": {
-
         "name": "Nine of Wands",
         "meaning": "The Nine of Wands embodies the warrior who still stands despite every battle scar, knowing one more test awaits. Your strength lies not in being unbroken but in continuing despite the breaks.",
         "suitNumber": 9,
@@ -352,7 +351,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Success weighs heavy—let Nayra reveal how to transform burden into blessing."
     },
     "Page of Wands": {
-
         "name": "Page of Wands",
         "meaning": "The Page of Wands arrives as a dancing flame of possibility, bringing messages that ignite your creative spirit. This eager student of fire reminds you that enthusiasm is its own form of wisdom.",
         "suitNumber": 11,
