@@ -5,7 +5,7 @@ export const getCardDetail = (cardType, cardName, language) => {
     const card = getCardsDetail(cardType, language)[cardName];
     return {
         name: cardName,
-        localName: card.name,
+        displayName: card.name,
         cardTitle: card.title,
         cardMessage: card.meaning,
         isReversed: card.isReversed,
