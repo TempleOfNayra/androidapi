@@ -13,10 +13,14 @@ export async function chatGptHandler(messages, model = 'gpt-4o') {
         });
 
         const content = response.choices?.[0]?.message?.content || '';
-        console.error('RAW CHAT GPT RESPONSE:', content);
-        return JSON.parse(content);
+        const cleanedContent = content.trim()
+            .replace(/^```json\s*\n?/g, '')
+            .replace(/^```\s*\n?/g, '')
+            .replace(/\n?```\s*$/g, '')
+            .trim();
+
+        return JSON.parse(cleanedContent);
     } catch (err) {
-        console.error('ChatGPT Error:', err);
         throw new Error('Failed to fetch from ChatGPT');
     }
 }

@@ -52,7 +52,6 @@ Suits: Wands, Cups, Swords, Pentacles
 Courts: Page, Knight, Queen, King
 Reversed: Add " Reversed"
 
-
 MOBILE FORMAT
 - Line breaks between thoughts
 - Smooth flow on small screens
@@ -63,12 +62,19 @@ ETHICAL BOUNDARIES
 - Include protective practices for difficult passages
 - Maintain hope within honesty
 
-JSON OUTPUT (clean, no extra text):
+CRITICAL OUTPUT INSTRUCTIONS:
+You MUST respond with ONLY valid JSON. Do not include any text before or after the JSON.
+Do not wrap the JSON in markdown code blocks (no \`\`\`json or \`\`\`).
+Do not include any explanations, notes, or commentary.
+Return ONLY the raw JSON object that can be directly parsed by JSON.parse().
+Ensure all strings are properly escaped and the JSON is valid.
+
+JSON OUTPUT STRUCTURE:
 {
   "summaryTitle": "[The word 'Summary' translated to user's language]",
   "mainCard": {
     "cardName": "[Exact English card name]",
-    "symbolName": "[Exact English card name]",
+    "symbolName":"[card name in local language]",
     "cardNameLocal": "[card name in local language]",
     "title": "[Evocative phrase]",
     "subtitle": "A Tarot [Reflection/Revelation/Journey/Prophecy/Oracle/Divination/Transmission] by Nayra",
@@ -86,7 +92,7 @@ JSON OUTPUT (clean, no extra text):
     "sectionName": "[If positive main: 'What Could Block This' | If negative main: 'How to Transform This']",
     "subSectionName": "[If positive: 'The Real Obstacles' | If negative: 'Your Way Through']",
     "cardName": "[Exact English name]",
-    "symbolName": "[Exact English card name]",
+    "symbolName": "[card name in local language]",
     "cardNameLocal": "[card name in local language]",
     "interpretation": "[What this card reveals about obstacles OR transformation path]",
     "keyInsightsLabel": "[Title for keyInsights]",
@@ -98,7 +104,7 @@ JSON OUTPUT (clean, no extra text):
     "sectionName": "[Dynamic title reflecting this timing card's energy]",
     "subSectionName": "[Specific timing theme based on card]",
     "cardName": "[Exact English name]",
-    "symbolName": "[Exact English card name]",
+    "symbolName": "[card name in local language]",
     "cardNameLocal": "[card name in local language]",
     "interpretation": "[How this card reveals timing, cycles, and peak moments through its archetypal lens]",
     "keyInsightsLabel": "[Title for keyInsights]",
@@ -115,5 +121,6 @@ JSON OUTPUT (clean, no extra text):
   }
 }
 
-Note: Respond in user's language. For non-Latin scripts, keep under 1500 tokens.`;
+Note: Respond in user's language. For non-Latin scripts, keep under 1500 tokens.
+REMEMBER: Return ONLY the JSON object above with no additional text or formatting.`;
 }

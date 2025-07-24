@@ -74,16 +74,21 @@ export default async function handler(req, res) {
 
     try {
         const result = await llmRouter(model, messages);
-        result.mainCard.cardName = cardName+ '';
+        // result.mainCard.cardName = cardName +  '';
         result.symbology = type;
         res.status(200).json({ ...result, version: 'n2'});
     } catch (error) {
-        const result = await llmRouter('openai', messages);
-        result.mainCard.cardName = cardName+ '';
-        result.symbology = type;
-        res.status(200).json({ ...result, version: 'n2'});
+        try {
+            const result = await llmRouter('openai', messages);
+            result.mainCard.cardName = cardName+ '';
+            result.symbology = type;
 
-        res.status(500).json({ error: "Server error", details: error.message });
+            console.log(result);
+
+            res.status(200).json({ ...result, version: 'n2'});
+        } catch(error) {
+            res.status(500).json({ error: "Server error", details: error.message });
+        }
     }
 }
 
