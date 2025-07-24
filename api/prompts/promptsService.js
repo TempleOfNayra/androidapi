@@ -15,7 +15,7 @@ export {
     buildSystemPromptForOrixas
 };
 
-export function interpretation(type, cardName, intention, mood, userName = null, lastUsedTime = null) {
+export function interpretation(type, cardName, language, intention, mood, userName = null, lastUsedTime = null) {
     if ((!mood && !intention) || !cardName) {
         throw new Error(`Missing mood=${mood} or intention =${intention} or card name = ${cardName}`);
     }
@@ -56,6 +56,7 @@ export function interpretation(type, cardName, intention, mood, userName = null,
         intention ? `intention: ${intention}` : null,
         userName ? `seeker's name: ${formattedName}` : null,
         lastUsedTime ? `last reading: ${lastUsedTime}` : null,
+        `you speak in language code: ${language}`,
         '', // Empty line
         'STYLE REFERENCE for this specific card:',
         example,
@@ -64,5 +65,6 @@ export function interpretation(type, cardName, intention, mood, userName = null,
     ];
 
     // Filter out null values and join with newlines
-    return promptParts.filter(part => part !== null).join('\n');
+    return  promptParts.filter(part => part !== null).join('\n');
+
 }

@@ -36,7 +36,7 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: "Invalid model specified" });
         }
 
-        const [promptProps, chatHistory, detectedLanguage] = await makePromptProperties(req.body);
+        const [promptProps, chatHistory] = await makePromptProperties(req.body);
         const type = req.body.symbology;
 
         let systemPrompt;
@@ -59,6 +59,7 @@ export default async function handler(req, res) {
         const userPrompt = prompts.interpretation(
             promptProps.type,
             cardName,
+            promptProps.language,
             promptProps.intention,
             promptProps.mood,
             promptProps.userName,
@@ -101,6 +102,7 @@ async function makePromptProperties(body) {
         mainCard,
         isReversed,
         mood,
+        language,
         isTrial = false,
         userName = null,
         timeLastUsed = null,
@@ -109,8 +111,8 @@ async function makePromptProperties(body) {
     } = body;
 
     return [
-        { step, intention, userName, mainCard, isReversed, timeLastUsed, poeticLevel, isTrial, mood, type },
-        chatHistory
+        { step, language, intention, userName, mainCard, isReversed, timeLastUsed, poeticLevel, isTrial, mood, type },
+        chatHistory,
     ];
 }
 
