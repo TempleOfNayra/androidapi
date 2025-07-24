@@ -7,6 +7,8 @@ export default function handler(req, res) {
         const { what } = req.body;
         const { language } = req.body;
 
+        console.log(language);
+
         if (what === 'available') {
             const { symbology } = req.body;
             if (symbology && symbology.toLowerCase() === symbolTypes.animals) {
