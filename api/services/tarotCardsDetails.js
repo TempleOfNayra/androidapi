@@ -1714,7 +1714,3 @@ export const tarotCardsDetail = {
         "nextPrompt": "Wealth questions worth—let Nayra reveal how true kings create abundance for all."
     },
 };
-
-// Verification:
-// Total cards in original file: 156
-// Cards with numbers assigned: 156
