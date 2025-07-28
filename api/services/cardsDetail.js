@@ -1,5 +1,6 @@
 import { tarotCardsDetail } from './tarotCardsDetails.js';
 import { tarotCardsDetailEs } from './tarotCardsDetails_es.js';
+import { tarotCardsDetailFr } from './tarotCardsDetails_fr.js';
 import { tarotCardsDetailPt } from './tarotCardsDetails_pt.js';
 import { tarotCardsDetailHi } from './tarotCardsDetails_hi.js';
 import { animalCardsDetail } from './animalCardsDetails.js';
@@ -26,6 +27,12 @@ export const getCardsDetail = (type, language) => {
     if (language === 'hi') {
         if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
             return tarotCardsDetailHi;
+        }
+    }
+
+    if (language === 'fr') {
+        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+            return tarotCardsDetailFr;
         }
     }
 

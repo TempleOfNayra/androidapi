@@ -4,13 +4,17 @@ import { symbolTypes } from "../symbol_types.js";
 
 export default function handler(req, res) {
     try {
+        res.setHeader('Access-Control-Allow-Origin', 'https://www.nayra.io');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
         const { what } = req.body;
         const { language } = req.body;
 
         if (what === 'available') {
             const { symbology } = req.body;
             if (symbology && symbology.toLowerCase() === symbolTypes.animals) {
-                return res.status(200).json(getAvailableCards(symbolTypes.animals));
+                return res.status(200).json(getAvailableCards(symbolTypes.animals, language));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.tarot) {
                 return res.status(200).json(getAvailableCards(symbolTypes.tarot, language)
@@ -20,10 +24,10 @@ export default function handler(req, res) {
                 return res.status(200).json(getAvailableCards(symbolTypes.rws, language));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.hindu) {
-                return res.status(200).json(getAvailableCards(symbolTypes.hindu));
+                return res.status(200).json(getAvailableCards(symbolTypes.hindu, language));
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.orixas) {
-                return res.status(200).json(getAvailableCards(symbolTypes.orixas));
+                return res.status(200).json(getAvailableCards(symbolTypes.orixas, language));
             }
         }
 
