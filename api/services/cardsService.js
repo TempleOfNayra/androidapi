@@ -35,13 +35,15 @@ export const getAvailableCards = (cardType, language='en') => {
         return Object.entries(allCards)
             .filter(([cardName, card]) => card.name)
             .map(([cardName, card]) => ({
-                name: card.name
+                name: card.name,
+                displayName: card.name
             }));
     }
 
     return Object.entries(allCards)
         .filter(([cardName, card]) => card.name)
         .map(([cardName, card]) => ({
-            name: card.name
+            name: card.name,
+            displayName: card.name
         }));
 }
