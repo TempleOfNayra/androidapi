@@ -68,18 +68,18 @@ const tarotExamples = {
 
     // Card category definitions
     challengingCards: [
-        'Tower', 'Death', 'Devil', 'Ten of Swords', 'Three of Swords', 'Nine of Swords',
+        'The Tower', 'Death', 'The Devil', 'Ten of Swords', 'Three of Swords', 'Nine of Swords',
         'Five of Pentacles', 'Ten of Wands', 'Eight of Cups', 'Five of Swords', 'Seven of Swords'
     ],
 
     upliftingCards: [
-        'Sun', 'Star', 'World', 'Ten of Cups', 'Ten of Pentacles', 'Nine of Cups',
+        'The Sun', 'The Star', 'The World', 'Ten of Cups', 'Ten of Pentacles', 'Nine of Cups',
         'Three of Cups', 'Ace of Cups', 'Ace of Wands', 'Ace of Pentacles', 'Temperance',
         'Nine of Pentacles', 'Four of Wands', 'Six of Wands', 'Strength'
     ],
 
     transitionalCards: [
-        'Hanged Man', 'Wheel of Fortune', 'Judgment', 'Fool', 'Hermit', 'Moon',
+        'Hanged Man', 'Wheel of Fortune', 'Judgment', 'The Fool', 'Hermit', 'The Moon',
         'Two of Pentacles', 'Eight of Wands', 'Eight of Pentacles', 'Six of Swords',
         'Two of Wands', 'Seven of Cups', 'Four of Cups'
     ],

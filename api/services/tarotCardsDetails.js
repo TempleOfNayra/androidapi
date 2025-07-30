@@ -1,6 +1,5 @@
 export const tarotCardsDetail = {
     "The Fool": {
-
         "name": "The Fool",
         "meaning": "The Fool dances at the edge of possibility, reminding us that every master was once a beginner. This card invites you to trust the wild wisdom of not knowing, for it is in the space of innocence that miracles are born.",
         "suitNumber": 0,
