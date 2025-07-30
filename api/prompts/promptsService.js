@@ -57,10 +57,10 @@ export function interpretation(type, cardName, language, intention, mood, userNa
         userName ? `seeker's name: ${formattedName}` : null,
         lastUsedTime ? `last reading: ${lastUsedTime}` : null,
         `you speak in language code: ${language}`,
-        '', // Empty line
+        '',
         'STYLE REFERENCE for this specific card:',
         example,
-        '', // Empty line
+        '',
         'Note: Your complete reading should be fully developed (not more than 1200 words total across all sections), emotionally rich, and layered with meaning. The [...] indicates substantial content that should be expanded in your full reading.'
     ];
 
