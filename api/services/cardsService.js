@@ -2,6 +2,9 @@ import {getCardsDetail} from './cardsDetail.js';
 import {symbolTypes} from "../symbol_types.js";
 
 export const getCardDetail = (cardType, cardName, language) => {
+
+    console.log('language 1: ' , language);
+
     const card = getCardsDetail(cardType, language)[cardName];
     return {
         name: cardName,

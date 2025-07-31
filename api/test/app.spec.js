@@ -102,6 +102,13 @@ describe('Card Details Tests', () => {
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 
+    it('should get RWS card detail by name in Farsi', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "fa");
+        assert(card !== undefined, 'Card detail should be defined');
+        console.log(card);
+        assert(typeof card === 'object', 'Card detail should be an object');
+    });
+
     it('should get RWS card detail by name in French', () => {
         const card = getCardDetail(symbolTypes.rws, "The Fool", "fr");
         assert(card !== undefined, 'Card detail should be defined');
@@ -124,6 +131,16 @@ describe('Card Details Tests', () => {
 
     it('should get tarot card detail by name in spanish', () => {
         const card = getCardDetail(symbolTypes.tarot, 'The Fool', 'en');
+        assert(card !== undefined, 'Card detail should be defined');
+        console.log(card);
+        assert(typeof card === 'object', 'Card detail should be an object');
+    });
+
+    it('should get tarot card detail by name in farsi', () => {
+        console.log('starting the farsi card detail');
+        const language = 'fa';
+        console.log('language in the test:', language);
+        const card = getCardDetail(symbolTypes.tarot, 'The Fool', 'fa');
         assert(card !== undefined, 'Card detail should be defined');
         console.log(card);
         assert(typeof card === 'object', 'Card detail should be an object');
