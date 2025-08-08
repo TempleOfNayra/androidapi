@@ -1,24 +1,34 @@
 import {getCardsDetail} from './cardsDetail.js';
 import {symbolTypes} from "../symbol_types.js";
+import {tarotCardsCompleteMeaning} from "./cards/tarotCardsMeaningComplete_en.js";
 
-export const getCardDetail = (cardType, cardName, language) => {
+export const getCardDetail = (cardType, cardName, language, flow) => {
+    try {
+        const card = getCardsDetail(cardType, language)[cardName];
+        const detail =  {
+            name: cardName,
+            displayName: card.name,
+            cardTitle: card.title,
+            cardMessage: card.meaning,
+            isReversed: card.isReversed,
+            number: card.number + "",
+            suitNumber: card.suitNumber + "",
+            suit: card.suit,
+            coreMeaning: card.coreMeaning,
+            nayraQuote: card.nayraQuote,
+            nextPrompt: card.nextPrompt,
+            isMajor: card.suit === "MajorArcana"
+        }
 
-    console.log('language 1: ' , language);
+        if (flow) {
+            const moreDetail = tarotCardsCompleteMeaning[card.number + ''];
+            return {...detail, [flow]: moreDetail[flow]}
+        }
 
-    const card = getCardsDetail(cardType, language)[cardName];
-    return {
-        name: cardName,
-        displayName: card.name,
-        cardTitle: card.title,
-        cardMessage: card.meaning,
-        isReversed: card.isReversed,
-        number: card.number + "",
-        suitNumber: card.suitNumber + "",
-        suit: card.suit,
-        coreMeaning: card.coreMeaning,
-        nayraQuote: card.nayraQuote,
-        nextPrompt: card.nextPrompt,
-        isMajor: card.suit === "MajorArcana"
+        return detail;
+    } catch (err) {
+        console.error("Error in getCardDetail:", err);
+        return null; // or {}
     }
 }
 

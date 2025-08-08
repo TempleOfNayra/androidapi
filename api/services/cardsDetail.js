@@ -1,57 +1,42 @@
-import { tarotCardsDetail } from './tarotCardsDetails.js';
-import { tarotCardsDetailEs } from './tarotCardsDetails_es.js';
-import { tarotCardsDetailFr } from './tarotCardsDetails_fr.js';
-import { tarotCardsDetailPt } from './tarotCardsDetails_pt.js';
-import { tarotCardsDetailHi } from './tarotCardsDetails_hi.js';
-import { tarotCardsDetailFa } from './tarotCardsDetails_fa.js';
-import { animalCardsDetail } from './animalCardsDetails.js';
-import { hinduDeitiesDetail } from './HinduDeities.js';
-import { orixasDetail } from "./OrixasDetail.js";
+import { tarotCardsDetail } from './cards/tarotCardsDetails.js';
+import { tarotCardsDetailEs } from './cards/tarotCardsDetails_es.js';
+import { tarotCardsDetailFr } from './cards/tarotCardsDetails_fr.js';
+import { tarotCardsDetailPt } from './cards/tarotCardsDetails_pt.js';
+import { tarotCardsDetailHi } from './cards/tarotCardsDetails_hi.js';
+import { tarotCardsDetailFa } from './cards/tarotCardsDetails_fa.js';
+import { animalCardsDetail } from './cards/animalCardsDetails.js';
+import { hinduDeitiesDetail } from './cards/HinduDeities.js';
+import { orixasDetail } from "./cards/OrixasDetail.js";
 import {symbolTypes} from "../symbol_types.js";
 
-export const getCardsDetail = (type, language) => {
-
+export const getCardsDetail = (type, language, flow) => {
     if (language) {
         language = language.toLowerCase();
     }
 
-    console.log(language);
-    if (language === 'es') {
-        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+    if (type === symbolTypes.tarot || type === symbolTypes.rws) {
+        if (language === 'es') {
             return tarotCardsDetailEs;
         }
-    }
-
-    if (language === 'pt') {
-        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+        if (language === 'pt') {
             return tarotCardsDetailPt;
         }
-    }
 
-    if (language === 'fa') {
-        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+        if (language === 'fa') {
             return tarotCardsDetailFa;
         }
-    }
 
-    if (language === 'hi') {
-        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+        if (language === 'hi') {
             return tarotCardsDetailHi;
         }
-    }
 
-    if (language === 'fr') {
-        if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
+        if (language === 'fr') {
             return tarotCardsDetailFr;
         }
-    }
-
-    if (type === symbolTypes.tarot || type === symbolTypes.rws)  {
         return tarotCardsDetail;
     }
 
     if (type === symbolTypes.animals) {
-
         return animalCardsDetail;
     }
 

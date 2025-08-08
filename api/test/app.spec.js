@@ -95,6 +95,62 @@ describe('Card Details Tests', () => {
         assert(typeof card === 'object', 'Card detail should be an object');
     });
 
+    it('should get RWS card detail by name in English with flowDetails answer', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "answer");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.answer !== null, 'Card detail should be an object');
+        assert.ok('answer' in card, 'answer should exist');
+    });
+    it('should get RWS card detail by name in English with flowDetails past', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "past");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.past !== null, 'Card detail should be an object');
+        assert.ok('past' in card, 'past should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails present', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "present");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.present !== null, 'Card detail should be an object');
+        assert.ok('present' in card, 'present should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails future', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "future");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.future !== null, 'Card detail should be an object');
+        assert.ok('future' in card, 'future should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails daily', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "daily");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.daily !== null, 'Card detail should be an object');
+        assert.ok('daily' in card, 'daily should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails block', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "block");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.block !== null, 'Card detail should be an object');
+        assert.ok('block' in card, 'block should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails flow', () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "flow");
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.flowxxx !== null, 'Card detail should be an object');
+        assert.ok('flow' in card, 'flow should exist');
+    });
+
+
     it('should get RWS card detail by name in Spanish', () => {
         const card = getCardDetail(symbolTypes.rws, "The Fool", "es");
         assert(card !== undefined, 'Card detail should be defined');
@@ -174,7 +230,7 @@ describe('System Prompts Tests', () => {
 
     it('should build system prompt for orixas', () => {
         const prompt = buildSystemPromptForOrixas();
-        assert(typeof prompt === 'string', 'Prompt should be a string');
+        assert(typeof prompt === 'string', 'Prompt should be a s    tring');
         assert(prompt.length > 0, 'Prompt should not be empty');
     });
 });

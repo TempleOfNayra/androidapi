@@ -1,6 +1,6 @@
 // addCardNumbers.js
 
-import { tarotCardsDetail } from '../services/tarotCardsDetails.js';
+import { tarotCardsDetail } from '../services/cards/tarotCardsDetails.js';
 
 // Define the standard tarot deck order
 const TAROT_DECK_ORDER = [

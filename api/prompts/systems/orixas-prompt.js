@@ -1,4 +1,4 @@
-import {orixasDetail} from "../../services/OrixasDetail.js";
+import {orixasDetail} from "../../services/cards/OrixasDetail.js";
 
 export const getOrixasMapping = () => {
     return Object.entries(orixasDetail)

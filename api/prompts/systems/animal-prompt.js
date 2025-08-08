@@ -1,4 +1,4 @@
-import { animalCardsDetail } from '../../services/animalCardsDetails.js';
+import { animalCardsDetail } from '../../services/cards/animalCardsDetails.js';
 
 export const getAnimalMapping = () => {
     return Object.entries(animalCardsDetail)

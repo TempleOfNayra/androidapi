@@ -1,4 +1,4 @@
-import {hinduDeitiesDetail} from "../../services/HinduDeities.js";
+import {hinduDeitiesDetail} from "../../services/cards/HinduDeities.js";
 
 
 export const getHinduMapping = () => {

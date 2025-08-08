@@ -10,7 +10,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "You stand at life's precipice—let Nayra illuminate whether to leap or wait for wings."
     },
     "The Magician": {
-
         "name": "The Magician",
         "meaning": "The Magician stands as the bridge between heaven and earth, wielding the four elements with conscious intention. You hold the cosmic toolkit—now is the time to alchemize your dreams into reality through focused will.",
         "suitNumber": 1,
@@ -21,7 +20,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The tools of creation await—let Nayra reveal which element will unlock your power."
     },
     "The High Priestess": {
-
         "name": "The High Priestess",
         "meaning": "The High Priestess guards the threshold between worlds, keeper of mysteries that cannot be spoken, only known. She invites you to silence the noise and listen to the ancient wisdom that flows through your intuitive channels.",
         "suitNumber": 2,
@@ -32,7 +30,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Sacred mysteries stir within—let Nayra translate the whispers your soul already knows."
     },
     "The Empress": {
-
         "name": "The Empress",
         "meaning": "The Empress embodies creation itself—lush, sensual, and endlessly abundant. She reminds you that you are nature, not separate from it, and your creative power flows as naturally as rivers to the sea.",
         "suitNumber": 3,
@@ -43,7 +40,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your creative garden awaits—let Nayra show you which seeds are ready to bloom."
     },
     "The Emperor": {
-
         "name": "The Emperor",
         "meaning": "The Emperor transforms chaos into cosmos through the sacred architecture of order. He teaches that true authority comes not from dominance but from the wisdom to create structures that support life's flourishing.",
         "suitNumber": 4,
@@ -54,7 +50,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your kingdom calls for order—let Nayra reveal how to build foundations that last."
     },
     "The Hierophant": {
-
         "name": "The Hierophant",
         "meaning": "The Hierophant bridges the eternal and temporal, translating cosmic law into human understanding. This teacher appears when you're ready to understand the deeper patterns that govern both tradition and transformation.",
         "suitNumber": 5,
@@ -65,7 +60,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Sacred teachings await—let Nayra unlock the wisdom meant specifically for your path."
     },
     "The Lovers": {
-
         "name": "The Lovers",
         "meaning": "The Lovers reflect the divine union possible when we choose from the deepest truth of our being. This is the alchemy of conscious choice—where two become one while remaining beautifully, distinctly themselves.",
         "suitNumber": 6,
@@ -76,7 +70,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "A sacred choice beckons—let Nayra illuminate the path your heart already knows."
     },
     "The Chariot": {
-
         "name": "The Chariot",
         "meaning": "The Chariot masters the art of aligned momentum, harnessing opposing forces into unified direction. Victory comes not from suppressing contradictions but from making them dance together toward your destination.",
         "suitNumber": 7,
@@ -87,7 +80,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Victory awaits your command—let Nayra show you how to harness your opposing forces."
     },
     "Strength": {
-
         "name": "Strength",
         "meaning": "Strength reveals the invincible power of gentleness, where the lion of our primal nature is tamed not by force but by infinite patience and love. Here, vulnerability becomes your greatest armor.",
         "suitNumber": 8,
@@ -98,7 +90,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner lion stirs—let Nayra reveal how gentleness becomes your greatest power."
     },
     "The Hermit": {
-
         "name": "The Hermit",
         "meaning": "The Hermit withdraws not from life but deeper into it, carrying a lantern lit by inner knowing. In sacred solitude, you discover that the teacher you've been seeking has been within you all along.",
         "suitNumber": 9,
@@ -109,7 +100,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner light beckons—let Nayra guide you through the wisdom found in sacred solitude."
     },
     "Wheel of Fortune": {
-
         "name": "Wheel of Fortune",
         "meaning": "The Wheel of Fortune spins the cosmic web where fate and free will dance as partners. This turning point reminds you that while you cannot control the wheel's movement, you can choose how you ride its rhythms.",
         "suitNumber": 10,
@@ -120,7 +110,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The wheel turns for you—let Nayra reveal how to ride destiny's current with grace."
     },
     "Justice": {
-
         "name": "Justice",
         "meaning": "Justice wields the sword of truth and the scales of cosmic law, revealing that every action ripples through eternity. This is the profound balance where mercy and accountability create true harmony.",
         "suitNumber": 11,
@@ -131,7 +120,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The scales await your truth—let Nayra show you how balance restores your power."
     },
     "The Hanged Man": {
-
         "name": "The Hanged Man",
         "meaning": "The Hanged Man discovers enlightenment through sacred pause, finding wisdom in the space between breaths. By surrendering the need to move forward, you unlock perspectives invisible to those who rush.",
         "suitNumber": 12,
@@ -142,7 +130,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "A new perspective awaits—let Nayra reveal what treasures hide in sacred stillness."
     },
     "Death": {
-
         "name": "Death",
         "meaning": "Death arrives not as ending but as sacred transformation, clearing space for what's waiting to be born. This is the ultimate liberation—releasing form to discover the immortal essence that you truly are.",
         "suitNumber": 13,
@@ -153,7 +140,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Transformation calls your name—let Nayra guide you through death into rebirth."
     },
     "Temperance": {
-
         "name": "Temperance",
         "meaning": "Temperance pours the golden elixir of balance, blending opposites into a third, transcendent possibility. This is the art of sacred alchemy—finding the perfect measure that transforms lead into gold.",
         "suitNumber": 14,
@@ -164,7 +150,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Sacred alchemy awaits—let Nayra show you how to blend your contradictions into gold."
     },
     "The Devil": {
-
         "name": "The Devil",
         "meaning": "The Devil illuminates the chains we forge from our own fears and desires, revealing that every prison has a door we've forgotten we can open. Liberation begins the moment you remember you hold the key.",
         "suitNumber": 15,
@@ -175,7 +160,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Hidden chains await revelation—let Nayra illuminate the key you've always held."
     },
     "The Tower": {
-
         "name": "The Tower",
         "meaning": "The Tower brings lightning revelation that shatters false foundations, freeing you from prisons you didn't know you inhabited. This divine disruption clears the way for authentic reconstruction on solid ground.",
         "suitNumber": 16,
@@ -186,7 +170,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Lightning strikes your tower—let Nayra reveal what liberation hides in the rubble."
     },
     "The Star": {
-
         "name": "The Star",
         "meaning": "The Star pours healing waters from the cosmic well, reminding you that hope is not wishful thinking but a form of spiritual intelligence. After the storm, you become both the wounded and the healer.",
         "suitNumber": 17,
@@ -197,7 +180,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Healing waters flow toward you—let Nayra show you where hope lives in your darkness."
     },
     "The Moon": {
-
         "name": "The Moon",
         "meaning": "The Moon illuminates the winding path through illusion, where nothing is quite as it seems yet everything is exactly as it should be. Trust your inner compass when outer landmarks dissolve into shadow.",
         "suitNumber": 18,
@@ -208,7 +190,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Mysteries dance in moonlight—let Nayra guide you through illusion to hidden truth."
     },
     "The Sun": {
-
         "name": "The Sun",
         "meaning": "The Sun radiates the joy of pure being, where every shadow is banished by the light of authentic self-expression. This is enlightenment with a child's heart—profound wisdom wrapped in simple delight.",
         "suitNumber": 19,
@@ -219,7 +200,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner sun rises—let Nayra reveal how to shine without dimming your light."
     },
     "Judgement": {
-
         "name": "Judgement",
         "meaning": "Judgement sounds the cosmic call to awakening, where past, present, and future converge in a moment of profound reckoning. This is your spiritual alarm clock—time to rise and claim your highest calling.",
         "suitNumber": 20,
@@ -230,7 +210,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your soul's calling echoes—let Nayra translate the cosmic summons meant for you."
     },
     "The World": {
-
         "name": "The World",
         "meaning": "The World celebrates the sacred completion where all elements dance in perfect harmony, yet hints at new spirals beginning. You have become whole by embracing every part of your journey as necessary and sacred.",
         "suitNumber": 21,
@@ -241,7 +220,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "You've come full circle—let Nayra reveal what new spiral awaits your cosmic dance."
     },
     "Ace of Wands": {
-
         "name": "Ace of Wands",
         "meaning": "The Ace of Wands erupts with primal creative force, a lightning bolt of pure potential seeking expression through you. This is the divine spark that sets souls ablaze with purpose and passion.",
         "suitNumber": 1,
@@ -252,7 +230,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Creative fire ignites within—let Nayra show you how to channel this sacred spark."
     },
     "Two of Wands": {
-
         "name": "Two of Wands",
         "meaning": "The Two of Wands stands at the threshold between dreaming and doing, holding the world in your hands while gazing at horizons yet unexplored. Power lies in the pause before the leap.",
         "suitNumber": 2,
@@ -263,7 +240,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The world awaits your vision—let Nayra reveal which horizon calls your name."
     },
     "Three of Wands": {
-
         "name": "Three of Wands",
         "meaning": "The Three of Wands watches ships set sail carrying your dreams toward distant shores. Your initial efforts have taken flight; now comes the art of patient expectation and expanded vision.",
         "suitNumber": 3,
@@ -274,7 +250,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your ships sail toward destiny—let Nayra illuminate what treasures they carry back."
     },
     "Four of Wands": {
-
         "name": "Four of Wands",
         "meaning": "The Four of Wands raises the sacred pillars of celebration, marking territory where joy has taken root and community flourishes. This is success made sweeter by sharing its fruits.",
         "suitNumber": 4,
@@ -285,7 +260,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Joy seeks celebration—let Nayra show you what sacred milestone you've reached."
     },
     "Five of Wands": {
-
         "name": "Five of Wands",
         "meaning": "The Five of Wands reveals creative friction where diverse energies clash and spark new possibilities. This chaos is not your enemy but the sacred fire that forges stronger solutions.",
         "suitNumber": 5,
@@ -296,7 +270,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Creative conflict sparks growth—let Nayra reveal how friction becomes your forge."
     },
     "Six of Wands": {
-
         "name": "Six of Wands",
         "meaning": "The Six of Wands rides high on earned victory, where inner fire has manifested as outer recognition. This triumph belongs to you—wear your laurels while remembering the journey continues.",
         "suitNumber": 6,
@@ -307,7 +280,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Victory crowns your efforts—let Nayra show you how to wear success with grace."
     },
     "Seven of Wands": {
-
         "name": "Seven of Wands",
         "meaning": "The Seven of Wands stands firm on the mountain you've climbed, defending your position against those who would claim your ground. Courage means standing for your truth when standing alone.",
         "suitNumber": 7,
@@ -318,7 +290,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your position needs defending—let Nayra reveal how to stand firm with wisdom."
     },
     "Eight of Wands": {
-
         "name": "Eight of Wands",
         "meaning": "The Eight of Wands accelerates like arrows loosed from the bow of divine timing, carrying your intentions swiftly toward their target. Movement happens now—trust the momentum you've created.",
         "suitNumber": 8,
@@ -339,7 +310,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "One final test awaits—let Nayra show you how your scars become your strength."
     },
     "Ten of Wands": {
-
         "name": "Ten of Wands",
         "meaning": "The Ten of Wands carries the weight of success, where achievement brings responsibility that can either burden or teach you the art of delegation. True mastery knows when to share the load.",
         "suitNumber": 10,
@@ -360,7 +330,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "A fiery message arrives—let Nayra decode what passionate opportunity calls you."
     },
     "Knight of Wands": {
-
         "name": "Knight of Wands",
         "meaning": "The Knight of Wands charges forward on a steed of pure passion, transforming inspiration into action with fearless confidence. This warrior of fire knows that fortune favors the bold.",
         "suitNumber": 12,
@@ -371,7 +340,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Adventure calls your name—let Nayra show you where passion leads to purpose."
     },
     "Queen of Wands": {
-
         "name": "Queen of Wands",
         "meaning": "The Queen of Wands radiates magnetic confidence, ruling her realm with warmth that nurtures and fire that inspires. She shows you how to be both torch and hearth—illuminating and warming in equal measure.",
         "suitNumber": 13,
@@ -382,7 +350,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner queen awakens—let Nayra reveal how to rule with warmth and wisdom."
     },
     "King of Wands": {
-
         "name": "King of Wands",
         "meaning": "The King of Wands transforms vision into empire through the marriage of inspiration and discipline. This master of fire demonstrates how to lead with passion while maintaining the wisdom to direct its flow.",
         "suitNumber": 14,
@@ -393,7 +360,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Visionary leadership beckons—let Nayra show you how to inspire while you lead."
     },
     "Ace of Cups": {
-
         "name": "Ace of Cups",
         "meaning": "The Ace of Cups overflows with the nectar of divine love, offering you a chalice filled with infinite emotional and spiritual possibility. Drink deeply—this is the water that transforms deserts into gardens.",
         "suitNumber": 1,
@@ -404,7 +370,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Divine love overflows—let Nayra reveal what sacred emotions seek to fill your cup."
     },
     "Two of Cups": {
-
         "name": "Two of Cups",
         "meaning": "The Two of Cups creates sacred space where two souls recognize themselves in each other's eyes. This divine mirror reflects not just romance but the profound meeting of any two hearts in truth.",
         "suitNumber": 2,
@@ -415,7 +380,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Sacred connection calls—let Nayra illuminate the divine mirror before you."
     },
     "Three of Cups": {
-
         "name": "Three of Cups",
         "meaning": "The Three of Cups raises a toast to the divine trinity of friendship, where individual streams merge into a river of shared joy. Community becomes the chalice that holds more than any single cup.",
         "suitNumber": 3,
@@ -426,7 +390,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Community celebrates with you—let Nayra show you which bonds multiply your joy."
     },
     "Four of Cups": {
-
         "name": "Four of Cups",
         "meaning": "The Four of Cups sits in contemplative withdrawal, where the soul reassesses its emotional landscape before accepting new offerings. Sometimes the greatest gift is the pause before receiving.",
         "suitNumber": 4,
@@ -437,7 +400,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "A new cup awaits—let Nayra reveal why your soul pauses before receiving."
     },
     "Five of Cups": {
-
         "name": "Five of Cups",
         "meaning": "The Five of Cups honors the sacred grief that waters future joy, teaching that loss and gain dance together in the human heart. What remains standing often holds more than what has fallen.",
         "suitNumber": 5,
@@ -448,7 +410,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Grief teaches wisdom—let Nayra show you what gifts hide in your losses."
     },
     "Six of Cups": {
-
         "name": "Six of Cups",
         "meaning": "The Six of Cups opens the treasure chest of memory where innocence is preserved in amber, offering its sweetness to heal present wounds. The inner child holds medicine the adult has forgotten.",
         "suitNumber": 6,
@@ -459,7 +420,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Sweet memories surface—let Nayra reveal what healing your inner child brings."
     },
     "Seven of Cups": {
-
         "name": "Seven of Cups",
         "meaning": "The Seven of Cups presents a mystical array of possibilities, each chalice holding a different dream or illusion. Wisdom lies in discerning which cups hold nectar and which hold only mist.",
         "suitNumber": 7,
@@ -470,7 +430,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Many cups beckon—let Nayra help you choose which dreams deserve your devotion."
     },
     "Eight of Cups": {
-
         "name": "Eight of Cups",
         "meaning": "The Eight of Cups turns away from what no longer nourishes, embarking on a pilgrimage toward deeper truth. This departure is not defeat but the courage to seek the ocean when pools no longer satisfy.",
         "suitNumber": 8,
@@ -481,7 +440,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your soul seeks deeper waters—let Nayra guide your sacred departure."
     },
     "Nine of Cups": {
-
         "name": "Nine of Cups",
         "meaning": "The Nine of Cups sits in the glow of wishes fulfilled, reminding you that contentment is both destination and journey. This is the smile of one who has learned the alchemy of gratitude.",
         "suitNumber": 9,
@@ -492,7 +450,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Wishes manifest around you—let Nayra reveal the deeper magic of contentment."
     },
     "Ten of Cups": {
-
         "name": "Ten of Cups",
         "meaning": "The Ten of Cups paints the rainbow bridge connecting hearts in perfect harmony, where love has created its own kingdom. This is happiness that ripples outward, blessing all it touches.",
         "suitNumber": 10,
@@ -503,7 +460,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Rainbow blessings arch above—let Nayra show you how to sustain this sacred joy."
     },
     "Page of Cups": {
-
         "name": "Page of Cups",
         "meaning": "The Page of Cups arrives bearing messages from the realm of feeling, where intuition speaks in symbols and synchronicities. This gentle messenger teaches that sensitivity is a superpower.",
         "suitNumber": 11,
@@ -514,7 +470,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "An intuitive message arrives—let Nayra decode what your heart already knows."
     },
     "Knight of Cups": {
-
         "name": "Knight of Cups",
         "meaning": "The Knight of Cups rides on waves of romantic idealism, bearing the grail of emotional truth with chivalrous devotion. This quester seeks not just love but the sacred in every connection.",
         "suitNumber": 12,
@@ -525,7 +480,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Romance quests for you—let Nayra reveal where your heart's grail awaits."
     },
     "Queen of Cups": {
-
         "name": "Queen of Cups",
         "meaning": "The Queen of Cups reigns over the ocean of emotion with compassionate wisdom, holding space for all feelings without drowning in any. She shows how to be deeply empathic while maintaining your sacred center.",
         "suitNumber": 13,
@@ -536,7 +490,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Emotional mastery calls—let Nayra show you how to rule your inner waters wisely."
     },
     "King of Cups": {
-
         "name": "King of Cups",
         "meaning": "The King of Cups masters the art of emotional leadership, navigating stormy seas with calm authority. This sovereign shows how to rule the heart's realm with both depth and stability.",
         "suitNumber": 14,
@@ -547,7 +500,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Emotional sovereignty beckons—let Nayra guide you to master your inner seas."
     },
     "Ace of Swords": {
-
         "name": "Ace of Swords",
         "meaning": "The Ace of Swords cuts through confusion with the blade of absolute clarity, offering you the power to separate truth from illusion with a single stroke. This is the mind's enlightenment moment.",
         "suitNumber": 1,
@@ -558,7 +510,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Truth's blade awaits—let Nayra reveal what illusions need cutting through."
     },
     "Two of Swords": {
-
         "name": "Two of Swords",
         "meaning": "The Two of Swords balances on the knife's edge of decision, where the blindfold of impartiality allows inner wisdom to weigh options without prejudice. Peace exists in the pause before choice.",
         "suitNumber": 2,
@@ -569,7 +520,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "A choice demands balance—let Nayra illuminate the path your heart already knows."
     },
     "Three of Swords": {
-
         "name": "Three of Swords",
         "meaning": "The Three of Swords pierces the heart with truth that heals through hurting, revealing that some pain is the price of clarity. This sacred wound creates space for more authentic love.",
         "suitNumber": 3,
@@ -580,7 +530,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Truth pierces deeply—let Nayra show you how heartbreak becomes breakthrough."
     },
     "Four of Swords": {
-
         "name": "Four of Swords",
         "meaning": "The Four of Swords creates sanctuary for the battle-weary mind, where rest becomes an act of wisdom rather than surrender. In stillness, the sword of consciousness resharpens itself.",
         "suitNumber": 4,
@@ -591,7 +540,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your mind needs sanctuary—let Nayra guide you to restorative stillness."
     },
     "Five of Swords": {
-
         "name": "Five of Swords",
         "meaning": "The Five of Swords questions the price of victory when winning costs more than losing would have. This teacher arrives when you must choose between being right and being wise.",
         "suitNumber": 5,
@@ -602,7 +550,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Victory tastes bitter—let Nayra reveal when winning becomes losing."
     },
     "Six of Swords": {
-
         "name": "Six of Swords",
         "meaning": "The Six of Swords navigates the crossing from turbulent to calmer waters, carrying only the wisdom earned from storms. This journey requires leaving some baggage on the shore behind you.",
         "suitNumber": 6,
@@ -613,7 +560,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Calmer waters beckon—let Nayra guide your passage from storm to peace."
     },
     "Seven of Swords": {
-
         "name": "Seven of Swords",
         "meaning": "The Seven of Swords masters the art of strategic thinking, knowing when to move in shadows and when to stand in light. This is not deception but the wisdom of choosing your revelations.",
         "suitNumber": 7,
@@ -624,7 +570,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Strategy calls for cunning—let Nayra show you when stealth serves truth."
     },
     "Eight of Swords": {
-
         "name": "Eight of Swords",
         "meaning": "The Eight of Swords reveals prisons built from thoughts, where the binding ropes are beliefs you've forgotten you can untie. Freedom begins the moment you realize the cage has no lock.",
         "suitNumber": 8,
@@ -635,7 +580,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Mental chains bind you—let Nayra reveal the key you've always held."
     },
     "Nine of Swords": {
-
         "name": "Nine of Swords",
         "meaning": "The Nine of Swords sits vigil with the anxious mind in its darkest hour, where fears multiply in the echo chamber of night. Dawn always comes for those who remember they survived every previous darkness.",
         "suitNumber": 9,
@@ -646,7 +590,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Anxiety haunts your nights—let Nayra show you how darkness teaches trust in dawn."
     },
     "Ten of Swords": {
-
         "name": "Ten of Swords",
         "meaning": "The Ten of Swords marks the death of a mental paradigm, where total defeat becomes the ground for total transformation. Rock bottom is solid foundation for rebuilding with wisdom.",
         "suitNumber": 10,
@@ -657,7 +600,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Rock bottom arrives—let Nayra illuminate the phoenix path from defeat to triumph."
     },
     "Page of Swords": {
-
         "name": "Page of Swords",
         "meaning": "The Page of Swords wields curiosity like a blade, cutting through assumptions with questions that reveal hidden truths. This messenger brings news that challenges you to think in new ways.",
         "suitNumber": 11,
@@ -668,7 +610,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "New perspectives arrive—let Nayra decode the message that challenges your thinking."
     },
     "Knight of Swords": {
-
         "name": "Knight of Swords",
         "meaning": "The Knight of Swords charges into battle for truth with the speed of thought itself, cutting through deception with fierce intelligence. This warrior of the mind knows that sometimes swift action prevents greater harm.",
         "suitNumber": 12,
@@ -745,7 +686,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Security questions freedom—let Nayra show you when holding becomes hoarding."
     },
     "Five of Pentacles": {
-
         "name": "Five of Pentacles",
         "meaning": "The Five of Pentacles illuminates the sanctuary glowing just beyond the storm, reminding you that help exists for those willing to see it. In your darkest winter, warmth is closer than you think.",
         "suitNumber": 5,
@@ -756,7 +696,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Help glows nearby—let Nayra guide you to the sanctuary you've been passing."
     },
     "Six of Pentacles": {
-
         "name": "Six of Pentacles",
         "meaning": "The Six of Pentacles balances the scales of giving and receiving, understanding that generosity creates the current in which abundance flows. This is karma made visible through conscious exchange.",
         "suitNumber": 6,
@@ -767,7 +706,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The scales seek balance—let Nayra show you how generosity multiplies wealth."
     },
     "Seven of Pentacles": {
-
         "name": "Seven of Pentacles",
         "meaning": "The Seven of Pentacles pauses in the garden to assess growth, knowing that some harvests require patience beyond a single season. This is the wisdom of tending what takes time to ripen.",
         "suitNumber": 7,
@@ -778,7 +716,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your garden grows slowly—let Nayra reveal which seeds need more patience."
     },
     "Eight of Pentacles": {
-
         "name": "Eight of Pentacles",
         "meaning": "The Eight of Pentacles transforms work into meditation, where repetition becomes refinement and practice becomes prayer. This is mastery earned one careful stroke at a time.",
         "suitNumber": 8,
@@ -789,7 +726,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Mastery calls for devotion—let Nayra show you how practice becomes sacred."
     },
     "Nine of Pentacles": {
-
         "name": "Nine of Pentacles",
         "meaning": "The Nine of Pentacles dwells in the garden of self-sufficiency, where disciplined effort has bloomed into graceful abundance. This is wealth that includes but transcends material possessions.",
         "suitNumber": 9,
@@ -800,7 +736,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Abundance blooms around you—let Nayra reveal how to enjoy without attachment."
     },
     "Ten of Pentacles": {
-
         "name": "Ten of Pentacles",
         "meaning": "The Ten of Pentacles builds legacy that transcends generations, where wealth becomes wisdom passed through bloodlines and chosen families. This is abundance that outlives its creators.",
         "suitNumber": 10,
@@ -811,7 +746,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Legacy takes form—let Nayra show you what treasure transcends lifetimes."
     },
     "Page of Pentacles": {
-
         "name": "Page of Pentacles",
         "meaning": "The Page of Pentacles studies the book of earth with devoted attention, finding magic in the practical and sacred in the mundane. This student knows that mastery begins with beginner's mind.",
         "suitNumber": 11,
@@ -822,7 +756,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "New learning beckons—let Nayra reveal what earthly wisdom awaits your study."
     },
     "Knight of Pentacles": {
-
         "name": "Knight of Pentacles",
         "meaning": "The Knight of Pentacles advances with the patience of mountains and the persistence of rivers carving canyons. This steady warrior proves that slow and steady not only finishes but masters the race.",
         "suitNumber": 12,
@@ -833,7 +766,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Steady progress calls—let Nayra show you how patience carves canyons."
     },
     "Queen of Pentacles": {
-
         "name": "Queen of Pentacles",
         "meaning": "The Queen of Pentacles creates abundance through nurturing, transforming resources into comfort and security for all in her realm. She shows that practical magic is the most powerful spell.",
         "suitNumber": 13,
@@ -844,7 +776,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Nurturing creates abundance—let Nayra reveal how your care multiplies wealth."
     },
     "King of Pentacles": {
-
         "name": "King of Pentacles",
         "meaning": "The King of Pentacles transforms vision into empire through patient cultivation and wise investment. This master of manifestation shows that true wealth serves rather than enslaves.",
         "suitNumber": 14,
@@ -855,7 +786,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Empire awaits building—let Nayra show you how to rule wealth with wisdom."
     },
     "The Fool Reversed": {
-
         "name": "The Fool Reversed",
         "meaning": "The Fool Reversed pauses at the cliff's edge, wisdom whispering where innocence once sang. This is not fear but the sacred recognition that some leaps require preparation, not just faith.",
         "suitNumber": 0,
@@ -866,7 +796,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Caution whispers wisdom—let Nayra reveal when your leap will land on solid ground."
     },
     "The Magician Reversed": {
-
         "name": "The Magician Reversed",
         "meaning": "The Magician Reversed reveals power scattered or misdirected, where potential awaits proper channeling. This is your invitation to align inner truth with outer action before wielding your magic.",
         "suitNumber": 1,
@@ -877,7 +806,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your magic seeks alignment—let Nayra show you how to gather your scattered power."
     },
     "The High Priestess Reversed": {
-
         "name": "The High Priestess Reversed",
         "meaning": "The High Priestess Reversed indicates intuition struggling to surface through mental noise. Your inner oracle speaks, but are you creating the silence necessary to hear her whispers?",
         "suitNumber": 2,
@@ -888,7 +816,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your intuition calls softly—let Nayra help you quiet the noise to hear its message."
     },
     "The Empress Reversed": {
-
         "name": "The Empress Reversed",
         "meaning": "The Empress Reversed signals creative energy blocked or neglected, where the garden within needs tending before it can bloom for others. Self-nurture is not selfish but sacred.",
         "suitNumber": 3,
@@ -899,7 +826,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner garden thirsts—let Nayra show you how to water your own roots first."
     },
     "The Emperor Reversed": {
-
         "name": "The Emperor Reversed",
         "meaning": "The Emperor Reversed questions structures that have become cages, where control has calcified into tyranny. True power knows when to bend so it doesn't break.",
         "suitNumber": 4,
@@ -910,7 +836,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your structures need examining—let Nayra reveal which walls protect and which imprison."
     },
     "The Hierophant Reversed": {
-
         "name": "The Hierophant Reversed",
         "meaning": "The Hierophant Reversed breaks free from dogma's chains, seeking personal revelation over inherited belief. This rebel sage knows that true spirituality questions everything, including itself.",
         "suitNumber": 5,
@@ -921,7 +846,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Convention calls for rebellion—let Nayra guide your sacred departure from worn paths."
     },
     "The Lovers Reversed": {
-
         "name": "The Lovers Reversed",
         "meaning": "The Lovers Reversed reveals disharmony in the dance of relationship, where choices made from fear create separation. Before union with another, marriage with self must be consummated.",
         "suitNumber": 6,
@@ -932,7 +856,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Love seeks realignment—let Nayra show you how to marry yourself before another."
     },
     "The Chariot Reversed": {
-
         "name": "The Chariot Reversed",
         "meaning": "The Chariot Reversed spins its wheels without direction, where willpower lacks wisdom's guidance. Victory requires not just movement but knowing which direction leads to true triumph.",
         "suitNumber": 7,
@@ -943,7 +866,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your chariot spins in circles—let Nayra reveal the true north of your victory."
     },
     "Strength Reversed": {
-
         "name": "Strength Reversed",
         "meaning": "Strength Reversed reveals the lion within roaring unheard, where self-doubt drowns out inner power. Your greatest strength may be admitting where you need support.",
         "suitNumber": 8,
@@ -954,7 +876,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your inner lion needs tending—let Nayra show you where gentleness becomes strength."
     },
     "The Hermit Reversed": {
-
         "name": "The Hermit Reversed",
         "meaning": "The Hermit Reversed emerges from excessive isolation, where solitude has soured into loneliness. The lantern you've been carrying is meant to light paths for others too.",
         "suitNumber": 9,
@@ -965,7 +886,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Isolation calls for connection—let Nayra guide your light back to the world."
     },
     "Wheel of Fortune Reversed": {
-
         "name": "Wheel of Fortune Reversed",
         "meaning": "The Wheel of Fortune Reversed reveals resistance to life's natural cycles, where fighting the current exhausts more than flowing with it. Sometimes the wheel needs you to be still.",
         "suitNumber": 10,
@@ -976,7 +896,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The wheel resists your push—let Nayra show you when to steer and when to surrender."
     },
     "Justice Reversed": {
-
         "name": "Justice Reversed",
         "meaning": "Justice Reversed exposes imbalance in the scales of consequence, where accountability has been avoided or misplaced. Truth delayed is not truth denied—it always finds its moment.",
         "suitNumber": 11,
@@ -987,7 +906,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "The scales tip unfairly—let Nayra reveal how truth restores its own balance."
     },
     "The Hanged Man Reversed": {
-
         "name": "The Hanged Man Reversed",
         "meaning": "The Hanged Man Reversed breaks free from paralyzing suspension, where waiting has become stagnation. Sometimes the sacrifice is to stop sacrificing and start moving.",
         "suitNumber": 12,
@@ -998,7 +916,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Suspension has served its purpose—let Nayra show you how to cut yourself down."
     },
     "Death Reversed": {
-
         "name": "Death Reversed",
         "meaning": "Death Reversed clings to what seeks release, where fear of endings prevents new beginnings. The phoenix cannot rise if you won't let the old self fully burn.",
         "suitNumber": 13,
@@ -1009,7 +926,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Something begs for release—let Nayra guide you through fear into transformation."
     },
     "Temperance Reversed": {
-
         "name": "Temperance Reversed",
         "meaning": "Temperance Reversed spills the sacred mixture through impatience or excess, where extremes have shattered the golden mean. Balance begins with acknowledging where you've tipped too far.",
         "suitNumber": 14,
@@ -1020,7 +936,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your mixture needs rebalancing—let Nayra show you the perfect measure for your life."
     },
     "The Devil Reversed": {
-
         "name": "The Devil Reversed",
         "meaning": "The Devil Reversed begins breaking chains link by link, where recognition of bondage initiates liberation. You're closer to freedom than you think—the lock is already opening.",
         "suitNumber": 15,
@@ -1031,7 +946,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your chains loosen their grip—let Nayra illuminate the final key to freedom."
     },
     "The Tower Reversed": {
-
         "name": "The Tower Reversed",
         "meaning": "The Tower Reversed delays inevitable revelation, where structures crumble in slow motion rather than sudden collapse. Change resisted arrives as suffering; change accepted arrives as grace.",
         "suitNumber": 16,
@@ -1042,7 +956,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Your tower trembles slowly—let Nayra show you how to dismantle with grace, not disaster."
     },
     "The Star Reversed": {
-
         "name": "The Star Reversed",
         "meaning": "The Star Reversed dims its light through despair or disconnection, where hope needs rekindling from within. Even the darkest night holds stars—you've just forgotten how to see them.",
         "suitNumber": 17,
@@ -1053,7 +966,6 @@ export const tarotCardsDetail = {
         "nextPrompt": "Hope hides behind clouds—let Nayra help you remember where your stars still shine."
     },
     "The Moon Reversed": {
-
         "name": "The Moon Reversed",
         "meaning": "The Moon Reversed begins lifting the veil of illusion, where confusion gives way to dawning clarity. The monsters you feared were shadows cast by your own light.",
         "suitNumber": 18,
