@@ -17,7 +17,7 @@
   "devDependencies": {
     "jest": "^30.0.5",
     "nodemon": "^3.0.3",
-    "vercel": "^44.6.4"
+    "vercel": "^44.7.3"
   },
   "keywords": [
     "openai",

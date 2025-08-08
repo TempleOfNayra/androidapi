@@ -37,15 +37,14 @@ export default function handler(req, res) {
 
         if (what === 'detail') {
             const name = req.body.cardName ||  req.body.name;
-            const symbology = (req.body.symbology).toLowerCase();
             const flow  = req.body.flow && req.body.flow.toLowerCase();
+            let symbology = (req.body.symbology).toLowerCase();
 
             if (symbology === symbolTypes.rws) {
-                const detail = {...getCardDetail(symbolTypes.tarot, name, language, flow), symbology}
-                return res.status(200).json(detail);
+                symbology = symbolTypes.tarot;
             }
 
-            return res.status(200).json({...getCardDetail(symbology, name, language), symbology});
+            return res.status(200).json({...getCardDetail(symbology, name, language, flow), symbology});
         }
 
     } catch (error) {
