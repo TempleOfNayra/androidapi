@@ -1,4 +1,4 @@
-export const tarotCardsCompleteMeaning = {
+export const tarotCardsCompleteMeaningPt = {
     "0": {
         "love": "Você está pronto para um novo começo no amor. Este é o seu momento de liberar padrões antigos e abordar o romance com otimismo renovado. Confie no seu coração acima da sua história - sua inocência não é ingenuidade, é seu superpoder. Arrisque-se no amor, seja uma nova conexão ou dando nova vida a um relacionamento existente.",
         "money": "Uma nova oportunidade financeira está chamando seu nome. Você tem coragem para tentar uma abordagem não convencional à riqueza que outros podem considerar arriscada. Confie nos seus instintos sobre este novo começo - sua mente de iniciante pode ver possibilidades que a experiência pode perder. Assuma riscos calculados e lembre-se de que todo especialista já foi iniciante.",

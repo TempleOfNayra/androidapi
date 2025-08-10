@@ -146,6 +146,15 @@ describe('Card Details Tests', () => {
         const card = getCardDetail(symbolTypes.rws, "The Fool", "en", "flow");
         assert(card !== undefined, 'Card detail should be defined');
         assert(typeof card === 'object', 'Card detail should be an object');
+        assert(card.flow !== null, 'Card detail should be an object');
+        assert.ok('flow' in card, 'flow should exist');
+    });
+
+    it('should get RWS card detail by name in English with flowDetails flow in spanish' , () => {
+        const card = getCardDetail(symbolTypes.rws, "The Fool", "es", "flow");
+        console.log(card);
+        assert(card !== undefined, 'Card detail should be defined');
+        assert(typeof card === 'object', 'Card detail should be an object');
         assert(card.flowxxx !== null, 'Card detail should be an object');
         assert.ok('flow' in card, 'flow should exist');
     });

@@ -1,4 +1,4 @@
-export const tarotCardsCompleteMeaning = {
+export const tarotCardsCompleteMeaningEn = {
     "0": {
         "love": "You're ready for a fresh start in love. This is your moment to release old patterns and approach romance with renewed optimism. Trust your heart over your history - your innocence isn't naivety, it's your superpower. Take that chance on love, whether it's a new connection or breathing new life into an existing relationship.",
         "money": "A new financial opportunity is calling your name. You have the courage to try an unconventional approach to wealth that others might call risky. Trust your instincts about this fresh start - your beginner's mind can see possibilities that experience might miss. Take calculated risks and remember that every expert was once a beginner.",

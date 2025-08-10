@@ -1,4 +1,4 @@
-export const tarotCardsCompleteMeaning = {
+export const tarotCardsCompleteMeaningFr = {
     "0": {
         "love": "Vous êtes prêt(e) pour un nouveau départ en amour. C'est votre moment de libérer les anciens schémas et d'aborder la romance avec un optimisme renouvelé. Faites confiance à votre cœur plutôt qu'à votre histoire - votre innocence n'est pas de la naïveté, c'est votre superpouvoir. Tentez cette chance en amour, qu'il s'agisse d'une nouvelle connexion ou de redonner vie à une relation existante.",
         "money": "Une nouvelle opportunité financière vous appelle. Vous avez le courage d'essayer une approche non conventionnelle de la richesse que d'autres pourraient qualifier de risquée. Faites confiance à vos instincts concernant ce nouveau départ - votre esprit de débutant peut voir des possibilités que l'expérience pourrait manquer. Prenez des risques calculés et rappelez-vous que chaque expert était autrefois un débutant.",

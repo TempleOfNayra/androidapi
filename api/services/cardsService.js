@@ -1,6 +1,21 @@
 import {getCardsDetail} from './cardsDetail.js';
 import {symbolTypes} from "../symbol_types.js";
-import {tarotCardsCompleteMeaning} from "./cards/tarotCardsMeaningComplete_en.js";
+import {tarotCardsCompleteMeaningEn} from "./cards/tarotCardsMeaningComplete_en.js";
+import {tarotCardsCompleteMeaningEs} from "./cards/tarotCardsMeaningComplete_es.js";
+import {tarotCardsCompleteMeaningPt} from "./cards/tarotCardsMeaningComplete_pt.js";
+import {tarotCardsCompleteMeaningFa} from "./cards/tarotCardsMeaningComplete_fa.js";
+import {tarotCardsCompleteMeaningHi} from "./cards/tarotCardsMeaningComplete_hi.js";
+import {tarotCardsCompleteMeaningFr} from "./cards/tarotCardsMeaningComplete_fr.js";
+
+const completeMeaningForCard = (language) => {
+    if (language === "en") return tarotCardsCompleteMeaningEn;
+    if (language === "es") return tarotCardsCompleteMeaningEs;
+    if (language === "pt") return tarotCardsCompleteMeaningPt;
+    if (language === "fa") return tarotCardsCompleteMeaningFa;
+    if (language === "hi") return tarotCardsCompleteMeaningHi;
+    if (language === "fr") return tarotCardsCompleteMeaningFr;
+}
+
 
 export const getCardDetail = (cardType, cardName, language, flow) => {
     try {
@@ -21,7 +36,8 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
         }
 
         if (flow) {
-            const moreDetail = tarotCardsCompleteMeaning[card.number + ''];
+            const meanings = completeMeaningForCard(language);
+            const moreDetail = meanings[card.number + ''];
             return {...detail, [flow]: moreDetail[flow]}
         }
 
