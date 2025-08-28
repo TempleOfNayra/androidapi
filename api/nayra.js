@@ -86,6 +86,18 @@ export default async function handler(req, res) {
         const result = await llmRouter(model, messages);
         // result.mainCard.cardName = cardName +  '';
         result.symbology = type;
+        
+        console.log('\n=== OLD API (nayra.js) FULL RESPONSE ===');
+        console.log('\nINPUT:');
+        console.log('  mainCard:', req.body.mainCard);
+        console.log('  mood:', req.body.mood);
+        console.log('  cards:', req.body.cards);
+        console.log('  pageNames:', req.body.pageNames);
+        
+        console.log('\n=== COMPLETE OLD API RESPONSE ===');
+        console.log(JSON.stringify(result, null, 2));
+        console.log('=== END OLD API RESPONSE ===\n');
+        
         res.status(200).json({ ...result, version: 'n2'});
     } catch (error) {
         try {

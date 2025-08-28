@@ -36,6 +36,7 @@ export default function handler(req, res) {
         }
 
         if (what === 'detail') {
+            console.log('------ detail ---------');
             const name = req.body.cardName ||  req.body.name;
             const flow  = req.body.flow && req.body.flow.toLowerCase();
             let symbology = (req.body.symbology).toLowerCase();

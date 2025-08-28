@@ -34,12 +34,17 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
             nextPrompt: card.nextPrompt,
             isMajor: card.suit === "MajorArcana"
         }
-
+        console.log('if flow', flow);
         if (flow) {
+            console.log('if flow - yes ');
+            console.log('if flow - language: ', language);
             const meanings = completeMeaningForCard(language);
             const moreDetail = meanings[card.number + ''];
+            console.log({...detail, [flow]: moreDetail[flow]});
             return {...detail, [flow]: moreDetail[flow]}
         }
+
+        console.log(detail);
 
         return detail;
     } catch (err) {

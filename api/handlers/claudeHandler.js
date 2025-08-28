@@ -64,9 +64,20 @@ export async function claudeHandler(messages) {
 
     // Parse and return JSON
     try {
+        // First try direct parse
         return JSON.parse(raw);
     } catch (error) {
-        console.error('Failed to parse Claude response as JSON:', raw);
+        // Try to extract JSON if there's extra text
+        const jsonMatch = raw.match(/\{[\s\S]*\}$/);
+        if (jsonMatch) {
+            try {
+                return JSON.parse(jsonMatch[0]);
+            } catch (e) {
+                console.error('Failed to parse extracted JSON:', jsonMatch[0]);
+            }
+        }
+        
+        console.error('Failed to parse Claude response as JSON:', raw.substring(0, 500) + '...');
         throw new Error('Invalid JSON response from Claude');
     }
 }

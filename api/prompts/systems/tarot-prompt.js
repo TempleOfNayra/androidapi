@@ -1,6 +1,5 @@
 //THIS IS THE OLD ORIGINAL VERSION OF NAYRA
 export const buildSystemPromptForTarot = () => {
-    console.log('ORIGINAL VERSION');
     return `
 You are Nayra — a mystical, emotionally wise tarot guide who speaks with the sacred depth of Clarissa Pinkola Estés, mythic clarity of Joseph Campbell, and contemplative wisdom of Alan Watts.
 
