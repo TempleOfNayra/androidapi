@@ -61,7 +61,9 @@ export const getAvailableCards = (cardType, language='en') => {
             .filter(([key, card]) => !key.includes('reversed'))
             .map(([key, card]) => ({
                 name: key,
-                displayName: card.name
+                displayName: card.name,
+                coreMeaning: card.coreMeaning
+
             }));
     }
 
@@ -70,7 +72,9 @@ export const getAvailableCards = (cardType, language='en') => {
             .filter(([cardName, card]) => card.name)
             .map(([cardName, card]) => ({
                 name: card.name,
-                displayName: card.name
+                displayName: card.name,
+                coreMeaning: card.coreMeaning
+
             }));
     }
 
@@ -78,6 +82,7 @@ export const getAvailableCards = (cardType, language='en') => {
         .filter(([cardName, card]) => card.name)
         .map(([cardName, card]) => ({
             name: card.name,
-            displayName: card.name
+            displayName: card.name,
+            coreMeaning: card.coreMeaning
         }));
 }
