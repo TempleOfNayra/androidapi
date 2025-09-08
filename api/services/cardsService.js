@@ -63,7 +63,6 @@ export const getAvailableCards = (cardType, language='en') => {
                 name: key,
                 displayName: card.name,
                 coreMeaning: card.coreMeaning
-
             }));
     }
 
@@ -74,7 +73,6 @@ export const getAvailableCards = (cardType, language='en') => {
                 name: card.name,
                 displayName: card.name,
                 coreMeaning: card.coreMeaning
-
             }));
     }
 
