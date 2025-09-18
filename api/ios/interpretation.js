@@ -1,25 +1,22 @@
-import { buildSystemPromptForReflection } from "./prompts/systemPromptReflection.js";
-import { buildReflectionPrompt } from "./prompts/reflectionPrompt.js";
-import { llmRouter } from '../handlers/llmRouter.js';
 import { checkAuthAndRateLimit } from '../lib/gatekeeper.js';
-import {interpretation} from "../prompts/promptsService.js";
+import { setupCORS, handlePreflight, validateMethod } from './utils/http-setup.js';
+import { getInterpretation } from './utils/step1-interpretation.js';
+import { generateMetadata } from './utils/step2-metadata.js';
+import { parseMetadataJSON, buildFinalResponse } from './utils/parsing.js';
 
 const isProd = false;
 
 export default async function handler(req, res) {
-    
-    res.setHeader('Access-Control-Allow-Origin', 'https://www.nayra.io');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-api-key');
+
+    setupCORS(res);
 
     // Handle preflight OPTIONS request
-    if (req.method === 'OPTIONS') {
-        res.status(200).end();
+    if (handlePreflight(req, res)) {
         return;
     }
 
-    if (req.method !== "POST") {
-        return res.status(405).json({ error: "Method not allowed" });
+    if (!validateMethod(req, res, 'POST')) {
+        return;
     }
 
     const step = req.body.step;
@@ -31,92 +28,63 @@ export default async function handler(req, res) {
         }
     }
 
-    // Handle AI interpretation for iOS (reflection-based, not fortune-telling)
-    const model = req.body.model?.toLowerCase() || "claude";
-    const allowedModels = ["openai", "deepseek", "claude"];
-    if (!allowedModels.includes(model)) {
-        return res.status(400).json({ error: "Invalid model specified" });
-    }
-
-    const promptProps = makePromptPropertiesForReflection(req.body);
-    const systemPrompt = buildSystemPromptForReflection(promptProps.symbology);
-
-    const userPrompt = buildReflectionPrompt(
-        promptProps.cards,
-        promptProps.symbology,
-        promptProps.journalEntry,
-        promptProps.intention,
-        promptProps.wisdomStyle,
-        promptProps.spiritualityLevel,
-        promptProps.lifeChapter,
-        promptProps.userName,
-        promptProps.language
-    );
-
-    const messages = [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt }
-    ];
-
     try {
-        const result = await llmRouter(model, messages);
-        result.symbology = promptProps.symbology;
-        result.cards = promptProps.cards;
+        const startTime = Date.now();
         
-        console.log('\n=== iOS REFLECTION API INPUT ===');
-        console.log('  Cards:', promptProps.cards);
-        console.log('  Symbology:', promptProps.symbology);
-        console.log('  Journal Entry:', promptProps.journalEntry?.substring(0, 100) + '...');
-        console.log('  Wisdom Style:', promptProps.wisdomStyle);
-        console.log('  Spirituality Level:', promptProps.spiritualityLevel);
-        console.log('  Life Chapter:', promptProps.lifeChapter);
-        console.log('\n=== iOS REFLECTION API RESULT ===');
-        console.log('  INTERPRETATION', result);
+        // Get input from request
+        const {
+            cards = ['The Sun'],
+            symbology = 'tarot',
+            journalEntry = '',
+            wisdomStyle = 'campbell',  // Default to campbell to match stylePrompts keys
+            spiritualityLevel = 1,
+            lifeChapter = 'building',
+            language = 'en',
+            userName = null,
+            model = 'claude'
+        } = req.body || {};
 
+        // Use first card if multiple are provided
+        const card = Array.isArray(cards) ? cards[0] : cards;
 
-        res.status(200).json({ ...result, version: 'ios-reflection-v1'});
+        // STEP 1: Get natural, high-quality interpretation
+        const step1Result = await getInterpretation({
+            card,
+            symbology,
+            journalEntry,
+            wisdomStyle,
+            spiritualityLevel,
+            lifeChapter,
+            userName,
+            model
+        });
+
+        const interpretation = step1Result.interpretation;
+        const step1Time = step1Result.time;
+
+        // STEP 2: Generate metadata fields based on the interpretation
+        const step2Result = await generateMetadata(card, interpretation, model);
+        const metadata = step2Result.metadata; // Already parsed JSON
+        const step2Time = step2Result.time;
+
+        // Combine into final structure
+        const finalResult = buildFinalResponse(metadata, interpretation, card, cards, symbology);
+
+        const totalTime = Date.now() - startTime;
+        
+        console.log('\n=== iOS INTERPRETATION COMPLETE ===');
+        console.log('Two separate API calls completed successfully');
+        console.log('Interpretation quality preserved, metadata generated');
+        console.log('\n⏱️ === TIMING SUMMARY ===');
+        console.log(`⏱️ Step 1 (Interpretation): ${step1Time}ms`);
+        console.log(`⏱️ Step 2 (Metadata):      ${step2Time}ms`);
+        console.log(`⏱️ Total Time:             ${totalTime}ms`);
+        console.log('========================\n');
+        
+        res.status(200).json(finalResult);
+        
     } catch (error) {
-        console.log('=== ERROR WITH PRIMARY MODEL ===');
-        console.log(error);
-        try {
-            // Fallback to OpenAI
-            const result = await llmRouter('openai', messages);
-            result.symbology = promptProps.symbology;
-            result.cards = promptProps.cards;
-
-            res.status(200).json({ ...result, version: 'ios-reflection-v1'});
-        } catch(error) {
-            res.status(500).json({ error: "Server error", details: error.message });
-        }
+        console.error('Handler failed:', error);
+        res.status(500).json({ error: error.message });
     }
-}
-
-function makePromptPropertiesForReflection(body) {
-    const {
-        step,
-        intention,
-        cards = [],
-        symbology = 'wisdom',
-        journalEntry = '',
-        wisdomStyle = null,
-        spiritualityLevel = null,
-        lifeChapter = null,
-        language = 'en',
-        userName = null,
-        isTrial = false
-    } = body;
-
-    return { 
-        step, 
-        language, 
-        intention, 
-        userName, 
-        cards,
-        symbology,
-        journalEntry,
-        wisdomStyle,
-        spiritualityLevel,
-        lifeChapter,
-        isTrial
-    };
 }

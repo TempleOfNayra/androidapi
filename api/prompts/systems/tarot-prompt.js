@@ -82,14 +82,13 @@ JSON OUTPUT STRUCTURE:
    "symbolName":"[card name in local language]",
    "cardNameLocal": "[card name in local language]",
    "title": "[Evocative phrase]",
-   "subtitle": "A Tarot [Reflection/Revelation/Journey/Prophecy/Oracle/Divination/Transmission] by Nayra",
-   "section": "ESSENCE",
+   "subtitle": "A [Reflection/Revelation/Journey/Prophecy/Oracle/Divination/Transmission] by Nayra",
+   "section": "SECTION",
    "sectionName": "[Create a poetic name that captures this specific card's essence]",
-   "interpretation": "[Rich interpretation based on card meaning and user's intention - as long and detailed as needed]",
+   "interpretation":  INTERPRETATION FROM FIRST PART
    "keyInsightsLabel": "[Title for keyInsights]",
    "keyInsights": ["[Specific prediction/manifestation]", "[Specific prediction/manifestation]", "[Specific prediction/manifestation]"], 
    "summary": "[2-3 sentence crystallization of the prophecy]",
-   "isPositive": true/false,
    "dailyInspiration": "[Mystical wisdom that captures the reading's essence]"
  },
  "secondCard": {
