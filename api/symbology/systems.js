@@ -1,8 +1,9 @@
 // /api/symbology/systems.js
 import { getAvailableCards,getCardDetail } from '../services/cardsService.js';
 import { symbolTypes } from "../symbol_types.js";
+import { search } from '../services/search/index.js';
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
     try {
         res.setHeader('Access-Control-Allow-Origin', 'https://www.nayra.io');
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -36,7 +37,6 @@ export default function handler(req, res) {
         }
 
         if (what === 'detail') {
-            console.log('------ detail ---------');
             const name = req.body.cardName ||  req.body.name;
             const flow  = req.body.flow && req.body.flow.toLowerCase();
             let symbology = (req.body.symbology).toLowerCase();
@@ -46,6 +46,29 @@ export default function handler(req, res) {
             }
 
             return res.status(200).json({...getCardDetail(symbology, name, language, flow), symbology});
+        }
+
+        if (what === 'search') {
+            const { keyword, symbology } = req.body;
+
+            if (!keyword) {
+                return res.status(400).json({ error: 'Keyword is required for search' });
+            }
+
+            if (!symbology) {
+                return res.status(400).json({ error: 'Symbology is required for search' });
+            }
+
+            try {
+                const searchResults = await search(keyword, symbology, language || 'en');
+                return res.status(200).json(searchResults);
+            } catch (searchError) {
+                console.error('Search failed:', searchError);
+                return res.status(500).json({
+                    error: 'Search failed',
+                    message: searchError.message
+                });
+            }
         }
 
     } catch (error) {

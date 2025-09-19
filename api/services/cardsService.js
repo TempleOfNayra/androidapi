@@ -62,7 +62,8 @@ export const getAvailableCards = (cardType, language='en') => {
             .map(([key, card]) => ({
                 name: key,
                 displayName: card.name,
-                coreMeaning: card.coreMeaning
+                coreMeaning: card.coreMeaning,
+                keywords: card.keywords || [],
             }));
     }
 
@@ -72,7 +73,9 @@ export const getAvailableCards = (cardType, language='en') => {
             .map(([cardName, card]) => ({
                 name: card.name,
                 displayName: card.name,
-                coreMeaning: card.coreMeaning
+                coreMeaning: card.coreMeaning,
+                keywords: card.keywords || [],
+
             }));
     }
 
@@ -81,6 +84,7 @@ export const getAvailableCards = (cardType, language='en') => {
         .map(([cardName, card]) => ({
             name: card.name,
             displayName: card.name,
-            coreMeaning: card.coreMeaning
+            coreMeaning: card.coreMeaning,
+            keywords: card.keywords || [],
         }));
 }
