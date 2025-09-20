@@ -7,7 +7,8 @@ export const animalCardsDetail = {
         "title": "Sacred Leap into Mystery",
         "coreMeaning": "Beginning — Trust, Innocence, and the Courage to Not Know",
         "nayraQuote": "The universe conspires to catch those who leap with an open heart.",
-        "nextPrompt": "What sacred innocence within you yearns to dance with the unknown?"
+        "nextPrompt": "What sacred innocence within you yearns to dance with the unknown?",
+        "keywords": ["beginning", "innocence", "spontaneity", "free spirit", "adventure", "journey", "leap of faith", "new start", "fresh", "naive", "optimistic", "carefree", "risk", "potential", "youth", "inexperience", "originality", "freedom", "wanderer", "trust", "courage", "unknown", "foolish", "playful", "curious", "openness", "wonder", "possibilities", "fearless", "childlike", "pure"]
     },
     "Fox": {
         "name": "Fox",
@@ -17,7 +18,8 @@ export const animalCardsDetail = {
         "title": "Weaver of Worlds",
         "coreMeaning": "Manifestation — Will, Focus, and Divine Tools",
         "nayraQuote": "When intention meets action, the impossible bows to your command.",
-        "nextPrompt": "How does your conscious will shape the raw potential around you?"
+        "nextPrompt": "How does your conscious will shape the raw potential around you?",
+        "keywords": ["manifestation", "power", "skill", "concentration", "action", "resourcefulness", "willpower", "creation", "ability", "talent", "transformation", "focus", "confidence", "mastery", "will", "divine tools", "magic", "alchemy", "intention", "conscious", "awareness", "control", "capability", "competence", "achievement", "realization", "potential", "initiative", "determination"]
     },
     "Owl": {
         "name": "Owl",
@@ -27,7 +29,8 @@ export const animalCardsDetail = {
         "title": "Guardian of the Veil",
         "coreMeaning": "Intuition — Mystery, Inner Knowing, and Sacred Silence",
         "nayraQuote": "Your deepest knowing whispers in the language of the moon.",
-        "nextPrompt": "What whispers from your unconscious await recognition?"
+        "nextPrompt": "What whispers from your unconscious await recognition?",
+        "keywords": ["intuition", "mystery", "subconscious", "higher power", "wisdom", "secrets", "inner voice", "unconscious", "divine feminine", "spirituality", "sacred knowledge", "psychic", "dreams", "hidden", "receptive", "passive", "stillness", "meditation", "lunar", "mystical", "esoteric", "veiled", "inner knowing", "patience", "silence", "duality", "guardian", "threshold"]
     },
     "Deer": {
         "name": "Deer",
@@ -37,7 +40,8 @@ export const animalCardsDetail = {
         "title": "Mother of Infinite Gardens",
         "coreMeaning": "Abundance — Creation, Nurturing, and Sensual Power",
         "nayraQuote": "You bloom not because you must, but because it is your nature to create beauty.",
-        "nextPrompt": "Where does creative abundance naturally flow through your being?"
+        "nextPrompt": "Where does creative abundance naturally flow through your being?",
+        "keywords": ["fertility", "abundance", "motherhood", "nature", "nurturing", "creativity", "beauty", "femininity", "luxury", "sensuality", "harvest", "pregnancy", "material wealth", "comfort", "earthly pleasures", "growth", "nourishment", "maternal", "venus", "love", "harmony", "receptivity", "compassion", "unconditional love", "divine feminine", "creation", "birth", "prosperity"]
     },
     "Lion": {
         "name": "Lion",
@@ -47,7 +51,8 @@ export const animalCardsDetail = {
         "title": "Architect of Sacred Order",
         "coreMeaning": "Authority — Structure, Leadership, and Protective Power",
         "nayraQuote": "Mountains are not moved by force, but by the patient application of will.",
-        "nextPrompt": "What structures in your life serve your highest expression?"
+        "nextPrompt": "What structures in your life serve your highest expression?",
+        "keywords": ["authority", "structure", "control", "father figure", "leadership", "stability", "power", "protection", "discipline", "provider", "establishment", "logic", "foundation", "order", "masculine", "rules", "boundaries", "strategy", "ambition", "rational", "government", "law", "tradition", "security", "dominance", "achievement", "material success", "sovereignty"]
     },
     "Elephant": {
         "name": "Elephant",
@@ -57,7 +62,8 @@ export const animalCardsDetail = {
         "title": "Keeper of Sacred Keys",
         "coreMeaning": "Tradition — Teaching, Spiritual Systems, and Sacred Knowledge",
         "nayraQuote": "Ancient wisdom lives not in dusty books, but in the practices that transform souls.",
-        "nextPrompt": "Which timeless wisdom traditions resonate with your inner knowing?"
+        "nextPrompt": "Which timeless wisdom traditions resonate with your inner knowing?",
+        "keywords": ["tradition", "conformity", "institution", "education", "belief system", "spiritual wisdom", "religious", "ceremony", "conventional", "mentor", "teaching", "orthodoxy", "marriage", "commitment", "society", "approval", "tradition", "moral", "ethics", "values", "doctrine", "dogma", "ritual", "sacred", "guidance", "counsel", "established order", "spiritual authority"]
     },
     "Swans": {
         "name": "Swans",
@@ -67,7 +73,8 @@ export const animalCardsDetail = {
         "title": "Mirror of Sacred Choice",
         "coreMeaning": "Union — Choice, Harmony, and Divine Partnership",
         "nayraQuote": "Love is the choice we make again and again to see the divine in another.",
-        "nextPrompt": "How do the opposing forces within you long to unite?"
+        "nextPrompt": "How do the opposing forces within you long to unite?",
+        "keywords": ["love", "relationships", "choices", "alignment", "values", "partnership", "union", "attraction", "harmony", "soulmate", "romance", "sexuality", "passion", "desire", "commitment", "communication", "duality", "balance", "decisions", "crossroads", "temptation", "free will", "personal beliefs", "moral choices", "connection", "intimacy", "trust", "vulnerability"]
     },
     "Horse": {
         "name": "Horse",
@@ -77,7 +84,8 @@ export const animalCardsDetail = {
         "title": "Master of Aligned Forces",
         "coreMeaning": "Victory — Will, Direction, and Controlled Power",
         "nayraQuote": "True triumph is making the light and shadow within you pull the same chariot.",
-        "nextPrompt": "What contradictions in your psyche seek harmonious direction?"
+        "nextPrompt": "What contradictions in your psyche seek harmonious direction?",
+        "keywords": ["control", "willpower", "determination", "success", "ambition", "focus", "victory", "assertion", "direction", "self-discipline", "confidence", "conquest", "overcoming", "hard work", "triumph", "journey", "progress", "warrior", "vehicle", "mastery", "drive", "momentum", "opposing forces", "balance", "swift action", "achievement", "perseverance", "courage"]
     },
     "Tiger": {
         "name": "Tiger",
@@ -87,7 +95,8 @@ export const animalCardsDetail = {
         "title": "The Gentle Conquerer",
         "coreMeaning": "Courage — Compassion, Inner Power, and Patient Love",
         "nayraQuote": "The mightiest force in the universe is a heart that refuses to harden.",
-        "nextPrompt": "Where does gentle courage transform your primal nature?"
+        "nextPrompt": "Where does gentle courage transform your primal nature?",
+        "keywords": ["strength", "courage", "patience", "compassion", "control", "inner strength", "gentle power", "persuasion", "influence", "taming", "confidence", "self-control", "determination", "fortitude", "resilience", "endurance", "heart over mind", "soft control", "feminine power", "grace under pressure", "moral courage", "kindness", "understanding", "forgiveness", "healing", "integration", "beast taming", "raw power"]
     },
     "Turtle": {
         "name": "Turtle",
@@ -97,7 +106,8 @@ export const animalCardsDetail = {
         "title": "Keeper of Inner Light",
         "coreMeaning": "Solitude — Inner Guidance, Wisdom, and Sacred Withdrawal",
         "nayraQuote": "In the silence of your own company, eternity speaks its clearest truths.",
-        "nextPrompt": "What truth emerges when you journey into sacred solitude?"
+        "nextPrompt": "What truth emerges when you journey into sacred solitude?",
+        "keywords": ["solitude", "introspection", "guidance", "wisdom", "inner light", "soul searching", "meditation", "self-discovery", "contemplation", "isolation", "withdrawal", "prudence", "discretion", "seeking", "spiritual quest", "inner voice", "teacher", "mentor", "enlightenment", "truth seeking", "patience", "inner journey", "reflection", "philosophy", "maturity", "experience", "lantern", "illumination"]
     },
     "Snake": {
         "name": "Snake",
@@ -107,7 +117,8 @@ export const animalCardsDetail = {
         "title": "The Cosmic Dancer",
         "coreMeaning": "Cycles — Change, Divine Timing, and Sacred Rhythms",
         "nayraQuote": "The wheel turns not to punish or reward, but to teach us the dance of becoming.",
-        "nextPrompt": "How do you dance with the cycles that shape your becoming?"
+        "nextPrompt": "How do you dance with the cycles that shape your becoming?",
+        "keywords": ["cycles", "change", "fate", "luck", "fortune", "karma", "turning point", "destiny", "opportunities", "life cycles", "ups and downs", "movement", "chance", "synchronicity", "pivotal moment", "evolution", "progress", "seasons", "time", "revolution", "unexpected", "gambling", "risk", "wheel turning", "cosmic forces", "divine timing", "breakthrough", "fortune's wheel"]
     },
     "Eagle": {
         "name": "Eagle",
@@ -117,7 +128,8 @@ export const animalCardsDetail = {
         "title": "Keeper of Cosmic Balance",
         "coreMeaning": "Truth — Balance, Fairness, and Divine Law",
         "nayraQuote": "The universe keeps perfect books; every deed returns to its creator.",
-        "nextPrompt": "What inner balance seeks restoration through honest reflection?"
+        "nextPrompt": "What inner balance seeks restoration through honest reflection?",
+        "keywords": ["justice", "fairness", "truth", "law", "balance", "accountability", "karma", "cause and effect", "integrity", "honesty", "responsibility", "legal matters", "decision", "impartiality", "objectivity", "ethics", "consequences", "clarity", "court", "judgment", "equilibrium", "scales", "sword", "divine justice", "moral law", "righteousness", "adjustment", "correction"]
     },
     "Bat": {
         "name": "Bat",
@@ -127,7 +139,8 @@ export const animalCardsDetail = {
         "title": "Master of Sacred Suspension",
         "coreMeaning": "Surrender — New Perspective, Pause, and Willing Sacrifice",
         "nayraQuote": "In voluntary stillness, the world reveals its hidden doors.",
-        "nextPrompt": "What new perspective awaits in your willing suspension?"
+        "nextPrompt": "What new perspective awaits in your willing suspension?",
+        "keywords": ["sacrifice", "suspension", "letting go", "surrender", "new perspective", "waiting", "patience", "martyrdom", "release", "reversal", "contemplation", "limbo", "transition", "paradox", "enlightenment", "different viewpoint", "pause", "spiritual growth", "wisdom", "trials", "selflessness", "metamorphosis", "breaking patterns", "seeing differently", "voluntary sacrifice", "divine perspective", "illumination", "rebirth pending"]
     },
     "Butterfly": {
         "name": "Butterfly",
@@ -137,7 +150,8 @@ export const animalCardsDetail = {
         "title": "The Sacred Transformer",
         "coreMeaning": "Transformation — Endings, Rebirth, and Profound Change",
         "nayraQuote": "What the caterpillar calls death, the master calls butterfly.",
-        "nextPrompt": "Which outworn self is ready for sacred transformation?"
+        "nextPrompt": "Which outworn self is ready for sacred transformation?",
+        "keywords": ["transformation", "endings", "beginnings", "change", "transition", "release", "metamorphosis", "rebirth", "renewal", "regeneration", "cycles", "mortality", "letting go", "severance", "conclusion", "closure", "elimination", "inevitable change", "profound change", "phoenix", "resurrection", "clearing", "purging", "evolution", "revolution", "death and rebirth", "major transition", "transformation"]
     },
     "Swan": {
         "name": "Swan",
@@ -147,7 +161,8 @@ export const animalCardsDetail = {
         "title": "The Divine Alchemist",
         "coreMeaning": "Balance — Integration, Patience, and Sacred Blending",
         "nayraQuote": "Magic happens at the meeting place of fire and water, earth and sky.",
-        "nextPrompt": "How do your inner opposites blend into golden wholeness?"
+        "nextPrompt": "How do your inner opposites blend into golden wholeness?",
+        "keywords": ["balance", "moderation", "patience", "harmony", "alchemy", "healing", "integration", "middle path", "compromise", "peace", "tranquility", "adaptation", "coordination", "tempering", "blending", "synthesis", "equilibrium", "purpose", "meaning", "flow", "divine connection", "guardian angel", "higher learning", "philosophy", "fusion", "unification", "patience", "art"]
     },
     "Mountain Goat": {
         "name": "Mountain Goat",
@@ -157,7 +172,8 @@ export const animalCardsDetail = {
         "title": "Teacher of Hidden Freedom",
         "coreMeaning": "Bondage — Illusion, Attachment, and Hidden Liberation",
         "nayraQuote": "Your shadows are not your enemies; they are your teachers in disguise.",
-        "nextPrompt": "What shadows hold keys to your unexpected liberation?"
+        "nextPrompt": "What shadows hold keys to your unexpected liberation?",
+        "keywords": ["bondage", "addiction", "sexuality", "materialism", "attachment", "restriction", "temptation", "shadow self", "obsession", "dependency", "illusion", "oppression", "powerlessness", "fear", "ignorance", "hopelessness", "violence", "chains", "vices", "excess", "enslavement", "lust", "earthly pleasure", "hedonism", "manipulation", "control", "darkness", "raw desire"]
     },
     "Scorpion": {
         "name": "Scorpion",
@@ -167,7 +183,8 @@ export const animalCardsDetail = {
         "title": "Lightning of Liberation",
         "coreMeaning": "Revelation — Sudden Change, Awakening, and Divine Disruption",
         "nayraQuote": "Sometimes grace arrives as lightning, illuminating and destroying in the same flash.",
-        "nextPrompt": "Where do breakthrough moments shatter your necessary illusions?"
+        "nextPrompt": "Where do breakthrough moments shatter your necessary illusions?",
+        "keywords": ["destruction", "upheaval", "chaos", "revelation", "awakening", "breakdown", "liberation", "sudden change", "crisis", "release", "downfall", "exposure", "disaster", "shock", "disruption", "lightning bolt", "ego death", "breakthrough", "truth revealed", "collapse", "foundation shaking", "catastrophe", "enlightenment", "divine intervention", "rebuilding", "clearing", "purification", "forced change"]
     },
     "Dolphin": {
         "name": "Dolphin",
@@ -177,7 +194,8 @@ export const animalCardsDetail = {
         "title": "Beacon of Cosmic Hope",
         "coreMeaning": "Hope — Healing, Renewal, and Divine Guidance",
         "nayraQuote": "Stars shine brightest against the darkest sky; so too your light after trials.",
-        "nextPrompt": "What healing waters flow from your deepest wounds?"
+        "nextPrompt": "What healing waters flow from your deepest wounds?",
+        "keywords": ["hope", "inspiration", "serenity", "healing", "renewal", "spirituality", "faith", "purpose", "guidance", "peace", "tranquility", "wishes", "optimism", "insight", "astronomy", "future", "calm", "free flowing", "blessings", "generosity", "water bearer", "aquarius", "wishes granted", "divine love", "protection", "good fortune", "spiritual guidance", "bright future"]
     },
     "Wolf": {
         "name": "Wolf",
@@ -187,7 +205,8 @@ export const animalCardsDetail = {
         "title": "Guide Through Sacred Mystery",
         "coreMeaning": "Illusion — Intuition, Dreams, and Hidden Truths",
         "nayraQuote": "Not all who wander in moonlight are lost; some are finding their way home.",
-        "nextPrompt": "Which fears dissolve when you trust your intuitive compass?"
+        "nextPrompt": "Which fears dissolve when you trust your intuitive compass?",
+        "keywords": ["illusion", "intuition", "dreams", "subconscious", "fear", "anxiety", "deception", "confusion", "imagination", "mystery", "unconscious", "secrets", "shadow work", "psychic", "lunar cycles", "feminine", "emotions", "night", "hidden enemies", "insecurity", "dark night of soul", "uncertainty", "fluctuation", "reflection", "projection", "instinct", "madness", "howling"]
     },
     "Rooster": {
         "name": "Rooster",
@@ -197,7 +216,8 @@ export const animalCardsDetail = {
         "title": "Radiance of Pure Joy",
         "coreMeaning": "Joy — Vitality, Success, and Illuminated Truth",
         "nayraQuote": "Your authentic shine needs no permission; you are the sun in human form.",
-        "nextPrompt": "How does authentic joy illuminate your true nature?"
+        "nextPrompt": "How does authentic joy illuminate your true nature?",
+        "keywords": ["joy", "success", "vitality", "enlightenment", "warmth", "happiness", "positivity", "celebration", "achievement", "radiance", "energy", "life", "consciousness", "clarity", "confidence", "optimism", "enthusiasm", "childlike wonder", "playfulness", "growth", "abundance", "truth", "glory", "triumph", "illumination", "good fortune", "contentment", "brilliance"]
     },
     "Peacock": {
         "name": "Peacock",
@@ -207,7 +227,8 @@ export const animalCardsDetail = {
         "title": "The Great Awakening",
         "coreMeaning": "Calling — Rebirth, Reckoning, and Spiritual Awakening",
         "nayraQuote": "When the universe calls your true name, every cell in your body remembers why you came.",
-        "nextPrompt": "What dormant aspects of self hear the call to awaken?"
+        "nextPrompt": "What dormant aspects of self hear the call to awaken?",
+        "keywords": ["judgment", "rebirth", "redemption", "awakening", "renewal", "reckoning", "absolution", "resurrection", "calling", "purpose", "forgiveness", "release", "transformation", "evaluation", "assessment", "decision", "karma", "inner calling", "revelation", "acceptance", "atonement", "final judgment", "trumpet call", "arising", "liberation", "cosmic consciousness", "divine calling", "fresh start"]
     },
     "Whale": {
         "name": "Whale",
@@ -217,7 +238,8 @@ export const animalCardsDetail = {
         "title": "The Cosmic Dancer",
         "coreMeaning": "Completion — Wholeness, Integration, and Cosmic Success",
         "nayraQuote": "To complete the circle is to discover it was always a spiral reaching toward stars.",
-        "nextPrompt": "Where does completion become the seed of new spirals?"
+        "nextPrompt": "Where does completion become the seed of new spirals?",
+        "keywords": ["completion", "accomplishment", "fulfillment", "wholeness", "achievement", "integration", "travel", "unity", "closure", "success", "realization", "enlightenment", "cosmic consciousness", "celebration", "synthesis", "graduation", "triumph", "perfection", "harmony", "world travel", "global awareness", "full circle", "totality", "cosmic dance", "mastery", "attainment", "universe", "infinite possibility"]
     },
     "Hummingbird": {
         "name": "Hummingbird",
@@ -227,7 +249,8 @@ export const animalCardsDetail = {
         "title": "The Primal Spark",
         "coreMeaning": "Inspiration — Creative Potential, New Energy, and Divine Spark",
         "nayraQuote": "Every great fire begins with a single spark brave enough to catch.",
-        "nextPrompt": "What creative spark ignites your passion for becoming?"
+        "nextPrompt": "What creative spark ignites your passion for becoming?",
+        "keywords": ["inspiration", "new beginning", "creative spark", "potential", "passion", "enthusiasm", "initiative", "breakthrough", "opportunity", "courage", "growth", "birth", "innovation", "vitality", "fire energy", "divine spark", "motivation", "ambition", "raw power", "spontaneity", "spiritual gift", "awakening", "enterprise", "adventure"]
     },
     "Goose": {
         "name": "Goose",
@@ -247,7 +270,8 @@ export const animalCardsDetail = {
         "title": "Warrior of Sacred Passion",
         "coreMeaning": "Adventure — Impulsiveness, Passion, and Bold Action",
         "nayraQuote": "Leap with your whole heart; the net appears for those who jump with joy.",
-        "nextPrompt": "Where does passionate action serve your authentic path?"
+        "nextPrompt": "Where does passionate action serve your authentic path?",
+        "keywords": ["adventure", "impulsive", "passionate", "energetic", "hot-tempered", "charming", "rebellious", "fearless", "confident", "daring", "action", "journey", "haste", "warrior of fire", "courageous", "risk-taker", "charismatic", "bold", "restless", "competitive", "traveler", "spontaneous action", "quest for passion", "fiery pursuit"]
     },
     "Lizard": {
         "name": "Lizard",
@@ -257,7 +281,8 @@ export const animalCardsDetail = {
         "title": "Sovereign of Sacred Flame",
         "coreMeaning": "Confidence — Charisma, Independence, and Warm Authority",
         "nayraQuote": "A queen's fire warms her people while lighting the way forward.",
-        "nextPrompt": "How does your inner fire warm and inspire others?"
+        "nextPrompt": "How does your inner fire warm and inspire others?",
+        "keywords": ["confident", "independent", "charismatic", "bold", "creative", "passionate", "warm", "vibrant", "courageous", "determined", "outgoing", "magnetic", "queen of fire", "optimistic", "friendly", "energetic", "inspiring", "generous", "wholehearted", "vivacious", "self-assured", "fertility", "leadership", "radiant"]
     },
     "Elk": {
         "name": "Elk",
@@ -267,7 +292,8 @@ export const animalCardsDetail = {
         "title": "Master of Sacred Vision",
         "coreMeaning": "Leadership — Vision, Charisma, and Inspired Authority",
         "nayraQuote": "True kings set others ablaze with possibility while keeping their own fire steady.",
-        "nextPrompt": "What visionary leadership emerges from your depths?"
+        "nextPrompt": "What visionary leadership emerges from your depths?",
+        "keywords": ["natural leader", "visionary", "entrepreneur", "charismatic", "bold", "inspiring", "confident", "king of fire", "generous", "motivating", "influential", "commanding", "optimistic", "adventurous", "passionate leader", "courageous", "pioneering", "ambitious", "creative vision", "masterful", "noble", "expansive", "authoritative", "protective"]
     },
     "Frog": {
         "name": "Frog",
@@ -277,7 +303,8 @@ export const animalCardsDetail = {
         "title": "The Divine Chalice",
         "coreMeaning": "Love — Emotional Renewal, Spiritual Opening, and Heart Awakening",
         "nayraQuote": "Your heart is the chalice where human and divine love meet and merge.",
-        "nextPrompt": "What new emotional depths invite your exploration?"
+        "nextPrompt": "What new emotional depths invite your exploration?",
+        "keywords": ["new love", "emotional beginning", "intuition", "spiritual awakening", "creativity", "compassion", "emotional release", "joy", "inner peace", "fertility", "new relationship", "forgiveness", "divine love", "emotional renewal", "happiness", "fulfillment", "abundance", "healing", "receptivity", "grace", "blessing", "emotional gift", "psychic opening", "heart opening"]
     },
     "Dragonfly": {
         "name": "Dragonfly",
@@ -287,7 +314,8 @@ export const animalCardsDetail = {
         "title": "The Sacred Meeting",
         "coreMeaning": "Partnership — Mutual Respect, Soul Connection, and Balanced Union",
         "nayraQuote": "When two souls truly meet, they create a love that heals the world.",
-        "nextPrompt": "How do you meet another while honoring your wholeness?"
+        "nextPrompt": "How do you meet another while honoring your wholeness?",
+        "keywords": ["partnership", "union", "love", "attraction", "connection", "relationships", "harmony", "balance", "mutual respect", "soulmate", "romance", "friendship", "equality", "proposal", "engagement", "truce", "cooperation", "healing", "reconciliation", "chemistry", "mutual attraction", "unified", "bond", "sacred union"]
     },
     "Dog": {
         "name": "Dog",
@@ -297,7 +325,8 @@ export const animalCardsDetail = {
         "title": "The Rainbow's Promise",
         "coreMeaning": "Harmony — Family Bliss, Emotional Fulfillment, and Lasting Joy",
         "nayraQuote": "When hearts align in love, they create heaven on earth.",
-        "nextPrompt": "Where does emotional fulfillment ripple through your world?"
+        "nextPrompt": "Where does emotional fulfillment ripple through your world?",
+        "keywords": ["happiness", "fulfillment", "emotional contentment", "family harmony", "divine love", "blissful relationships", "peace", "emotional abundance", "happy family", "rainbow", "wishes fulfilled", "joyful", "domestic bliss", "true happiness", "loving community", "emotional security", "happily ever after", "alignment", "gratitude", "celebration", "wholeness", "completion", "emotional success", "joy"]
     },
     "Gecko": {
         "name": "Gecko",
@@ -307,7 +336,8 @@ export const animalCardsDetail = {
         "title": "Messenger of Sacred Feeling",
         "coreMeaning": "Intuition — Emotional Messages, Creativity, and Gentle Beginnings",
         "nayraQuote": "Listen with your heart; it hears frequencies the mind cannot detect.",
-        "nextPrompt": "What intuitive messages surface from your emotional depths?"
+        "nextPrompt": "What intuitive messages surface from your emotional depths?",
+        "keywords": ["emotional message", "intuition", "creativity", "sensitivity", "dreamer", "romantic", "gentle", "artistic", "psychic ability", "emotional beginning", "inner child", "imagination", "idealistic", "tender", "innocent", "loving message", "surprise", "synchronicity", "student of water", "emotional learning", "sweet", "vulnerable", "receptive", "poetic"]
     },
     "Stingray": {
         "name": "Stingray",
@@ -317,7 +347,8 @@ export const animalCardsDetail = {
         "title": "Sovereign of Sacred Waters",
         "coreMeaning": "Intuition — Emotional Intelligence, Compassionate Wisdom, and Psychic Gifts",
         "nayraQuote": "The queen who rules her inner waters can calm any storm with her presence.",
-        "nextPrompt": "What compassionate wisdom flows through your being?"
+        "nextPrompt": "What compassionate wisdom flows through your being?",
+        "keywords": ["compassionate", "intuitive", "nurturing", "emotional", "empathic", "psychic", "caring", "supportive", "healing", "queen of water", "sensitive", "loving", "creative", "dreamy", "romantic", "maternal", "spiritual", "receptive", "emotional intelligence", "wise woman", "heart-centered", "devoted", "gentle strength", "deep feeling"]
     },
     "Raven": {
         "name": "Raven",
@@ -327,7 +358,8 @@ export const animalCardsDetail = {
         "title": "Blade of Pure Truth",
         "coreMeaning": "Clarity — Mental Breakthrough, Truth, and New Understanding",
         "nayraQuote": "Truth cuts clean; it's the lies that leave jagged wounds.",
-        "nextPrompt": "What clarity cuts through your mental fog?"
+        "nextPrompt": "What clarity cuts through your mental fog?",
+        "keywords": ["mental clarity", "breakthrough", "new idea", "truth", "justice", "mental force", "clear thinking", "communication", "new perspective", "realization", "power", "victory", "sharp mind", "decision", "cutting through", "insight", "intellect", "focus", "determination", "logic", "analysis", "revelation", "mental gift", "discernment"]
     },
     "Panther": {
         "name": "Panther",
@@ -337,7 +369,8 @@ export const animalCardsDetail = {
         "title": "The Sacred Piercing",
         "coreMeaning": "Heartbreak — Pain, Sorrow, and Healing Through Truth",
         "nayraQuote": "The heart broken open has twice the space for light.",
-        "nextPrompt": "How does truth that hurts become truth that heals?"
+        "nextPrompt": "How does truth that hurts become truth that heals?",
+        "keywords": ["heartbreak", "sorrow", "grief", "loss", "betrayal", "painful truth", "separation", "sadness", "tears", "loneliness", "depression", "emotional pain", "trauma", "hurt", "rejection", "suffering", "emotional release", "healing crisis", "harsh words", "conflict", "disappointment", "painful realization", "emotional wound", "heartache"]
     },
     "Cat": {
         "name": "Cat",
@@ -357,7 +390,8 @@ export const animalCardsDetail = {
         "title": "Champion of Swift Justice",
         "coreMeaning": "Ambition — Quick Action, Mental Force, and Determined Pursuit",
         "nayraQuote": "When truth calls for a champion, hesitation becomes complicity.",
-        "nextPrompt": "Where does swift mental action align with truth?"
+        "nextPrompt": "Where does swift mental action align with truth?",
+        "keywords": ["ambitious", "action-oriented", "driven", "fast-thinking", "assertive", "direct", "impatient", "intellectual", "courageous", "warrior of air", "swift action", "determined", "aggressive", "rushing forward", "single-minded", "authoritative", "mental force", "champion of truth", "quick decision", "charging ahead", "quest for truth", "mental pursuit", "brave", "fierce"]
     },
     "Buffalo": {
         "name": "Buffalo",
@@ -367,7 +401,8 @@ export const animalCardsDetail = {
         "title": "The Golden Seed",
         "coreMeaning": "Opportunity — Material Beginnings, Prosperity, and Earthly Gifts",
         "nayraQuote": "The universe extends its golden hand; will you have the courage to receive?",
-        "nextPrompt": "What seeds of manifestation await your nurturing?"
+        "nextPrompt": "What seeds of manifestation await your nurturing?",
+        "keywords": ["new opportunity", "manifestation", "prosperity", "new job", "material gain", "abundance", "security", "potential wealth", "grounding", "new venture", "investment", "practical beginning", "tangible results", "material gift", "foundation", "health", "trust", "resources", "stability", "physical gift", "earthly blessing", "seed", "golden opportunity", "success"]
     },
     "Camel": {
         "name": "Camel",
@@ -397,7 +432,8 @@ export const animalCardsDetail = {
         "title": "Architect of Living Legacy",
         "coreMeaning": "Legacy — Generational Wealth, Family Success, and Lasting Stability",
         "nayraQuote": "True wealth is what remains when you are gone.",
-        "nextPrompt": "What legacy emerges from your conscious creation?"
+        "nextPrompt": "What legacy emerges from your conscious creation?",
+        "keywords": ["wealth", "inheritance", "family legacy", "old money", "tradition", "financial security", "accomplishment", "stability", "established", "ancestry", "long-term success", "contribution", "affluence", "permanent", "solid foundations", "conventionality", "dynasty", "material abundance", "family business", "retirement", "generations", "culmination", "lasting success", "prosperity"]
     },
     "Beaver": {
         "name": "Beaver",
@@ -407,7 +443,8 @@ export const animalCardsDetail = {
         "title": "Mother of Abundant Earth",
         "coreMeaning": "Nurturing — Practical Care, Material Comfort, and Grounded Wisdom",
         "nayraQuote": "A queen's wealth is measured by how many she helps to flourish.",
-        "nextPrompt": "What nurturing creates abundance in your world?"
+        "nextPrompt": "What nurturing creates abundance in your world?",
+        "keywords": ["nurturing", "practical", "providing", "motherly", "down-to-earth", "resourceful", "queen of earth", "generous", "reliable", "warm-hearted", "sensible", "luxurious", "homely", "abundant", "security-focused", "business-minded", "fertile", "welcoming", "material comfort", "financial security", "nature-loving", "grounded wisdom", "prosperity", "supportive"]
     },
     "Bear": {
         "name": "Bear",
@@ -417,6 +454,7 @@ export const animalCardsDetail = {
         "title": "Master of Manifested Wealth",
         "coreMeaning": "Success — Material Mastery, Business Acumen, and Generous Leadership",
         "nayraQuote": "The richest king is one whose wealth enriches the kingdom.",
-        "nextPrompt": "How does material mastery serve your higher purpose?"
+        "nextPrompt": "How does material mastery serve your higher purpose?",
+        "keywords": ["wealth", "business success", "leadership", "security", "discipline", "abundance", "king of earth", "reliable", "generous provider", "practical wisdom", "enterprising", "steady", "masterful", "materialistic", "protective", "conservative", "established", "financial security", "empire builder", "patient investor", "grounded authority", "prosperous", "accomplished", "stable leadership"]
     }
 };
