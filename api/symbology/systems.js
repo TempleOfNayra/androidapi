@@ -1,6 +1,7 @@
 // /api/symbology/systems.js
 import { getAvailableCards,getCardDetail } from '../services/cardsService.js';
 import { symbolTypes } from "../symbol_types.js";
+import { generateVoice } from './textToVoice.js';
 
 export default async function handler(req, res) {
     try {
@@ -33,6 +34,9 @@ export default async function handler(req, res) {
             if (symbology && symbology.toLowerCase() === symbolTypes.orixas) {
                 return res.status(200).json(getAvailableCards(symbolTypes.orixas, language));
             }
+            if (symbology && symbology.toLowerCase() === symbolTypes.saints) {
+                return res.status(200).json(getAvailableCards(symbolTypes.saints, language));
+            }
         }
 
         if (what === 'detail') {
@@ -45,6 +49,10 @@ export default async function handler(req, res) {
             }
 
             return res.status(200).json({...getCardDetail(symbology, name, language, flow), symbology});
+        }
+
+        if (what === 'voice') {
+            return generateVoice(req, res);
         }
 
     } catch (error) {

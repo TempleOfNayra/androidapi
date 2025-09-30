@@ -3,5 +3,7 @@ export const symbolTypes = {
     animals: 'animals',
     tarot: 'tarot',
     hindu: 'hindu',
-    orixas: 'orixas'
+    orixas: 'orixas',
+    saints: 'saints',
+
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Test</title>
+</head>
+<body>
+    <h1>ElevenLabs Voice Test</h1>
+    <textarea id="text" rows="4" cols="50">Hello, this is a test of the voice generation system.</textarea><br><br>
+    <button onclick="generateVoice()">Generate Voice</button>
+    <button onclick="playAudio()" disabled id="playBtn">Play Audio</button>
+    <br><br>
+    <audio id="audioPlayer" controls style="display:none;"></audio>
+    <div id="status"></div>
+
+    <script>
+        let audioData = null;
+
+        async function generateVoice() {
+            const text = document.getElementById('text').value;
+            const status = document.getElementById('status');
+            status.textContent = 'Generating voice...';
+
+            try {
+                const response = await fetch('http://localhost:3000/api/symbology/systems', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        what: 'voice',
+                        text: text,
+                        language: 'en'
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.audio) {
+                    audioData = data.audio;
+                    const audioPlayer = document.getElementById('audioPlayer');
+                    audioPlayer.src = audioData;
+                    audioPlayer.style.display = 'block';
+                    document.getElementById('playBtn').disabled = false;
+                    status.textContent = `Voice generated! Characters: ${data.character_count}`;
+                    audioPlayer.play();
+                } else {
+                    status.textContent = 'Error: ' + (data.error || 'Unknown error');
+                }
+            } catch (error) {
+                status.textContent = 'Error: ' + error.message;
+            }
+        }
+
+        function playAudio() {
+            if (audioData) {
+                document.getElementById('audioPlayer').play();
+            }
+        }
+    </script>
+</body>
+</html>

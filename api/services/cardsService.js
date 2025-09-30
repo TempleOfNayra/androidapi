@@ -16,13 +16,12 @@ const completeMeaningForCard = (language) => {
     if (language === "fr") return tarotCardsCompleteMeaningFr;
 }
 
-
 export const getCardDetail = (cardType, cardName, language, flow) => {
     try {
         const card = getCardsDetail(cardType, language)[cardName];
         const detail =  {
             name: cardName,
-            displayName: card.name,
+            displayName: card.displayName || card.name,
             cardTitle: card.title,
             cardMessage: card.meaning,
             isReversed: card.isReversed,
@@ -67,23 +66,11 @@ export const getAvailableCards = (cardType, language='en') => {
             }));
     }
 
-    if (cardType === symbolTypes.hindu|| cardType === symbolTypes.orixas) {
-        return Object.entries(allCards)
-            .filter(([cardName, card]) => card.name)
-            .map(([cardName, card]) => ({
-                name: card.name,
-                displayName: card.name,
-                coreMeaning: card.coreMeaning,
-                keywords: card.keywords || [],
-
-            }));
-    }
-
     return Object.entries(allCards)
         .filter(([cardName, card]) => card.name)
         .map(([cardName, card]) => ({
-            name: card.name,
-            displayName: card.name,
+            name: cardName,
+            displayName:card.displayName || card.name,
             coreMeaning: card.coreMeaning,
             keywords: card.keywords || [],
         }));

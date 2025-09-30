@@ -6,6 +6,7 @@ import { tarotCardsDetailHi } from './cards/tarotCardsDetails_hi.js';
 import { tarotCardsDetailFa } from './cards/tarotCardsDetails_fa.js';
 import { animalCardsDetail } from './cards/animalCardsDetails.js';
 import { hinduDeitiesDetail } from './cards/HinduDeities.js';
+import { saintsCardDetails } from './cards/saintsCardsDetail.js';
 import { orixasDetail } from "./cards/OrixasDetail.js";
 import {symbolTypes} from "../symbol_types.js";
 
@@ -46,6 +47,10 @@ export const getCardsDetail = (type, language, flow) => {
 
     if (type === symbolTypes.orixas) {
         return orixasDetail;
+    }
+
+    if (type === symbolTypes.saints) {
+        return saintsCardDetails;
     }
 }
 

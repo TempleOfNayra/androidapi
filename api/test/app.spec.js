@@ -41,6 +41,13 @@ describe('Available Cards Tests', () => {
         assert(cards.length > 0, 'Should have tarot cards');
     });
 
+    it('should get available saints cards in english', () => {
+        const cards = getAvailableCards(symbolTypes.saints, 'en');
+        console.log(cards)
+        assert(Array.isArray(cards), 'Should return an array');
+        assert(cards.length > 0, 'Should have tarot cards');
+    });
+
 
     it('should get available orixas cards', () => {
         const cards = getAvailableCards(symbolTypes.orixas);
@@ -162,6 +169,14 @@ describe('Card Details Tests', () => {
 
     it('should get RWS card detail by name in Spanish', () => {
         const card = getCardDetail(symbolTypes.rws, "The Fool", "es");
+        assert(card !== undefined, 'Card detail should be defined');
+        // console.log(card);
+        assert(typeof card === 'object', 'Card detail should be an object');
+    });
+
+
+    it('should get Saints card detail by name in english', () => {
+        const card = getCardDetail(symbolTypes.saints, "0", "es");
         assert(card !== undefined, 'Card detail should be defined');
         // console.log(card);
         assert(typeof card === 'object', 'Card detail should be an object');

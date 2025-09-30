@@ -76,7 +76,23 @@ export async function claudeHandler(messages) {
                 console.error('Failed to parse extracted JSON:', jsonMatch[0]);
             }
         }
-        
+
+        // Special handling for interpretation responses
+        // If it looks like it starts with JSON but failed to parse,
+        // try to wrap the raw text as an interpretation
+        if (raw.includes('"interpretation"') || raw.startsWith('{"interpretation"')) {
+            console.log('Attempting to fix malformed interpretation JSON...');
+            try {
+                // Extract the interpretation text between quotes, handling escaped quotes
+                const match = raw.match(/"interpretation"\s*:\s*"((?:[^"\\]|\\.)*)"/);
+                if (match && match[1]) {
+                    return { interpretation: match[1].replace(/\\"/g, '"').replace(/\\n/g, '\n') };
+                }
+            } catch (e) {
+                console.error('Failed to extract interpretation from malformed JSON');
+            }
+        }
+
         console.error('Failed to parse Claude response as JSON:', raw.substring(0, 500) + '...');
         throw new Error('Invalid JSON response from Claude');
     }

@@ -2,7 +2,7 @@ import { checkAuthAndRateLimit } from '../lib/gatekeeper.js';
 import { setupCORS, handlePreflight, validateMethod } from './utils/http-setup.js';
 import { getInterpretation } from './utils/step1-interpretation.js';
 import { generateMetadata } from './utils/step2-metadata.js';
-import { parseMetadataJSON, buildFinalResponse } from './utils/parsing.js';
+import { buildFinalResponse } from './utils/parsing.js';
 
 const isProd = false;
 
@@ -29,8 +29,11 @@ export default async function handler(req, res) {
     }
 
     try {
+        console.log('\n🔵 === iOS INTERPRETATION API CALLED ===');
+        console.log('🔵 Request body:', JSON.stringify(req.body, null, 2));
+
         const startTime = Date.now();
-        
+
         // Get input from request
         const {
             cards = ['The Sun'],
@@ -44,10 +47,22 @@ export default async function handler(req, res) {
             model = 'claude'
         } = req.body || {};
 
+        console.log('🔵 Parsed params:', {
+            cards, symbology, wisdomStyle, spiritualityLevel,
+            lifeChapter, language, userName, model,
+            journalEntryLength: journalEntry?.length || 0
+        });
+
+        console.log('++++++++++++++++++++++++++++');
+        console.log(cards);
+        console.log('++++++++++++++++++++++++++++');
+
         // Use first card if multiple are provided
         const card = Array.isArray(cards) ? cards[0] : cards;
+        console.log('🔵 Using card:', card);
 
         // STEP 1: Get natural, high-quality interpretation
+        console.log('\n📝 === STEP 1: Getting Interpretation ===')
         const step1Result = await getInterpretation({
             card,
             symbology,
@@ -61,18 +76,24 @@ export default async function handler(req, res) {
 
         const interpretation = step1Result.interpretation;
         const step1Time = step1Result.time;
+        console.log('✅ Step 1 complete. Interpretation length:', interpretation?.length);
+        console.log('📝 Interpretation preview:', interpretation?.substring(0, 200) + '...');
 
         // STEP 2: Generate metadata fields based on the interpretation
+        console.log('\n🔮 === STEP 2: Generating Metadata ===')
         const step2Result = await generateMetadata(card, interpretation, model);
         const metadata = step2Result.metadata; // Already parsed JSON
         const step2Time = step2Result.time;
+        console.log('✅ Step 2 complete. Metadata:', JSON.stringify(metadata, null, 2));
 
         // Combine into final structure
-        const finalResult = buildFinalResponse(metadata, interpretation, card, cards, symbology);
+        console.log('\n🔧 === Building Final Response ===');
+        const finalResult = buildFinalResponse(metadata, interpretation, card, symbology);
+        console.log('📦 Final result structure:', JSON.stringify(finalResult, null, 2));
 
         const totalTime = Date.now() - startTime;
         
-        console.log('\n=== iOS INTERPRETATION COMPLETE ===');
+        console.log('\n✅ === iOS INTERPRETATION COMPLETE ===');
         console.log('Two separate API calls completed successfully');
         console.log('Interpretation quality preserved, metadata generated');
         console.log('\n⏱️ === TIMING SUMMARY ===');
@@ -80,11 +101,16 @@ export default async function handler(req, res) {
         console.log(`⏱️ Step 2 (Metadata):      ${step2Time}ms`);
         console.log(`⏱️ Total Time:             ${totalTime}ms`);
         console.log('========================\n');
-        
+
+        console.log('🚀 Sending response with status 200');
+        console.log('🚀 Response preview:', JSON.stringify(finalResult));
         res.status(200).json(finalResult);
         
     } catch (error) {
-        console.error('Handler failed:', error);
+        console.error('❌ === iOS HANDLER FAILED ===');
+        console.error('❌ Error message:', error.message);
+        console.error('❌ Error stack:', error.stack);
+        console.error('❌ Full error:', error);
         res.status(500).json({ error: error.message });
     }
 }
