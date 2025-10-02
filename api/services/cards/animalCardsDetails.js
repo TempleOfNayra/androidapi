@@ -1,14 +1,16 @@
 export const animalCardsDetail = {
     "Otter": {
         "name": "Otter",
+        "coreEssence": "Finds joy in life's flow",
         "meaning": "This archetype of new beginnings dances at the edge of possibility, embodying the eternal truth that every master was once a beginner. It represents the sacred innocence within—that part of consciousness that approaches life with wonder rather than worry, trusting the wild wisdom of not knowing. Here, in the space between ending and beginning, miracles are born from pure potential.",
         "number": 0,
         "title": "Sacred Leap into Mystery",
         "coreMeaning": "Beginning — Trust, Innocence, and the Courage to Not Know",
-        "keywords": ["beginning", "innocence", "spontaneity", "free spirit", "adventure", "journey", "leap of faith", "new start", "fresh", "naive", "optimistic", "carefree", "risk", "potential", "youth", "inexperience", "originality", "freedom", "wanderer", "trust", "courage", "unknown", "foolish", "playful", "curious", "openness", "wonder", "possibilities", "fearless", "childlike", "pure"]
+        "keywords": ["breath", "beginning", "innocence", "spontaneity", "free spirit", "adventure", "journey", "leap of faith", "new start", "fresh", "naive", "optimistic", "carefree", "risk", "potential", "youth", "inexperience", "originality", "freedom", "wanderer", "trust", "courage", "unknown", "foolish", "playful", "curious", "openness", "wonder", "possibilities", "fearless", "childlike", "pure"]
     },
     "Fox": {
         "name": "Fox",
+        "coreEssence": "Navigates with clever wisdom",
         "meaning": "This archetype of manifestation stands as the bridge between thought and form, wielding all elements of creation with conscious intention. It represents your innate ability to channel universal energy into tangible reality—the alchemical power that transforms vision into manifestation through focused will and aligned action.",
         "number": 1,
         "title": "Weaver of Worlds",
@@ -17,14 +19,16 @@ export const animalCardsDetail = {
     },
     "Owl": {
         "name": "Owl",
+        "coreEssence": "Sees truth in darkness",
         "meaning": "This guardian of inner wisdom represents the threshold between conscious and unconscious realms, keeper of Elements that cannot be spoken, only known. It embodies the intuitive intelligence that flows through dreams, synchronicities, and the quiet voice within—inviting you to trust what you know beyond knowing.",
         "number": 2,
         "title": "Guardian of the Veil",
         "coreMeaning": "Intuition — Mystery, Inner Knowing, and Sacred Silence",
-        "keywords": ["intuition", "mystery", "subconscious", "higher power", "wisdom", "secrets", "inner voice", "unconscious", "divine feminine", "spirituality", "sacred knowledge", "psychic", "dreams", "hidden", "receptive", "passive", "stillness", "meditation", "lunar", "mystical", "esoteric", "veiled", "inner knowing", "patience", "silence", "duality", "guardian", "threshold"]
+        "keywords": ["awareness", "intuition", "mystery", "subconscious", "higher power", "wisdom", "secrets", "inner voice", "unconscious", "divine feminine", "spirituality", "sacred knowledge", "psychic", "dreams", "hidden", "receptive", "passive", "stillness", "meditation", "lunar", "mystical", "esoteric", "veiled", "inner knowing", "patience", "silence", "duality", "guardian", "threshold"]
     },
     "Deer": {
         "name": "Deer",
+        "coreEssence": "Moves through life gently",
         "meaning": "This embodiment of creative abundance represents life force in its most fertile expression—lush, sensual, and endlessly generative. It reminds you that you are not separate from nature's creative power but a conscious channel through which beauty and abundance naturally flow into form.",
         "number": 3,
         "title": "Mother of Infinite Gardens",
@@ -33,6 +37,7 @@ export const animalCardsDetail = {
     },
     "Lion": {
         "name": "Lion",
+        "coreEssence": "Commands with noble courage",
         "meaning": "This archetype of sacred structure transforms chaos into cosmos through the wisdom of benevolent order. It represents the organizing principle within that creates containers strong enough to support growth—teaching that true authority emerges not from dominance but from the ability to create stability that serves life's flourishing.",
         "number": 4,
         "title": "Architect of Sacred Order",
@@ -41,6 +46,7 @@ export const animalCardsDetail = {
     },
     "Elephant": {
         "name": "Elephant",
+        "coreEssence": "Remembers what matters most",
         "meaning": "This bridge between eternal wisdom and temporal understanding represents the sacred teachings that connect us to something greater than ourselves. It appears when you're ready to access the deeper patterns that unite all spiritual traditions—the universal truths that transcend any single path or practice.",
         "number": 5,
         "title": "Keeper of Sacred Keys",
@@ -49,6 +55,7 @@ export const animalCardsDetail = {
     },
     "Swans": {
         "name": "Swans",
+        "coreEssence": "Transforms through graceful love",
         "meaning": "This symbol of sacred union reflects the divine alchemy possible when we choose from the deepest truth of our being. It represents not just romantic partnership but the integration of all dualities within—where conscious choice creates harmony between opposites while honoring their distinct gifts.",
         "number": 6,
         "title": "Mirror of Sacred Choice",
@@ -57,6 +64,7 @@ export const animalCardsDetail = {
     },
     "Horse": {
         "name": "Horse",
+        "coreEssence": "Carries you toward victory",
         "meaning": "This master of aligned momentum represents the art of harnessing opposing forces into unified direction. It embodies the skill of maintaining forward movement while balancing contradictory energies—showing that true victory comes not from suppressing our contradictions but from making them dance together toward our destination.",
         "number": 7,
         "title": "Master of Aligned Forces",
@@ -65,6 +73,7 @@ export const animalCardsDetail = {
     },
     "Tiger": {
         "name": "Tiger",
+        "coreEssence": "Masters focused intensity",
         "meaning": "This archetype reveals the invincible power of gentleness, where our primal nature is embraced not through force but through infinite patience and love. It represents the profound strength found in vulnerability—the courage to approach all aspects of ourselves with compassion rather than control.",
         "number": 8,
         "title": "The Gentle Conquerer",
@@ -73,6 +82,7 @@ export const animalCardsDetail = {
     },
     "Turtle": {
         "name": "Turtle",
+        "coreEssence": "Teaches ancient patience",
         "meaning": "This seeker of inner light withdraws not from life but deeper into it, carrying wisdom gained through sacred solitude. It represents the journey inward to discover truth that can only be found in silence—teaching that sometimes we must step away from the world's voices to hear our own.",
         "number": 9,
         "title": "Keeper of Inner Light",
@@ -81,6 +91,7 @@ export const animalCardsDetail = {
     },
     "Snake": {
         "name": "Snake",
+        "coreEssence": "Sheds what no longer serves",
         "meaning": "This cosmic spinner reveals the sacred dance between destiny and free will, where life's rhythms teach us to flow rather than force. It represents the eternal cycles that govern all existence—teaching that what rises must fall and what falls must rise, yet wisdom lies in how we dance with each turn.",
         "number": 10,
         "title": "The Cosmic Dancer",
@@ -89,6 +100,7 @@ export const animalCardsDetail = {
     },
     "Eagle": {
         "name": "Eagle",
+        "coreEssence": "Soars above limitations",
         "meaning": "This keeper of cosmic balance wields the sword of truth and the scales of universal law, revealing that every action ripples through eternity. It represents the immutable principle where natural consequences restore equilibrium—teaching that true harmony emerges when accountability and mercy dance together.",
         "number": 11,
         "title": "Keeper of Cosmic Balance",
@@ -97,22 +109,25 @@ export const animalCardsDetail = {
     },
     "Bat": {
         "name": "Bat",
+        "coreEssence": "Navigates by inner knowing",
         "meaning": "This master of sacred suspension discovers enlightenment through voluntary pause, finding wisdom in the space between breaths. It represents the profound shift that occurs when we surrender forward movement to gain new perspective—unlocking insights invisible to those who rush.",
         "number": 12,
         "title": "Master of Sacred Suspension",
         "coreMeaning": "Surrender — New Perspective, Pause, and Willing Sacrifice",
-        "keywords": ["sacrifice", "suspension", "letting go", "surrender", "new perspective", "waiting", "patience", "martyrdom", "release", "reversal", "contemplation", "limbo", "transition", "paradox", "enlightenment", "different viewpoint", "pause", "spiritual growth", "wisdom", "trials", "selflessness", "metamorphosis", "breaking patterns", "seeing differently", "voluntary sacrifice", "divine perspective", "illumination", "rebirth pending"]
+        "keywords": ["stillness", "sacrifice", "suspension", "letting go", "surrender", "new perspective", "waiting", "patience", "martyrdom", "release", "reversal", "contemplation", "limbo", "transition", "paradox", "enlightenment", "different viewpoint", "pause", "spiritual growth", "wisdom", "trials", "selflessness", "metamorphosis", "breaking patterns", "seeing differently", "voluntary sacrifice", "divine perspective", "illumination", "rebirth pending"]
     },
     "Butterfly": {
         "name": "Butterfly",
+        "coreEssence": "Transforms completely and beautifully",
         "meaning": "This sacred transformer arrives not as ending but as the clearing necessary for rebirth. It represents the ultimate liberation found in releasing outdated forms—teaching that what we call endings are merely transformation's honest face, creating space for what's waiting to emerge.",
         "number": 13,
         "title": "The Sacred Transformer",
         "coreMeaning": "Transformation — Endings, Rebirth, and Profound Change",
-        "keywords": ["transformation", "endings", "beginnings", "change", "transition", "release", "metamorphosis", "rebirth", "renewal", "regeneration", "cycles", "mortality", "letting go", "severance", "conclusion", "closure", "elimination", "inevitable change", "profound change", "phoenix", "resurrection", "clearing", "purging", "evolution", "revolution", "death and rebirth", "major transition", "transformation"]
+        "keywords": ["impermanence", "transformation", "endings", "beginnings", "change", "transition", "release", "metamorphosis", "rebirth", "renewal", "regeneration", "cycles", "mortality", "letting go", "severance", "conclusion", "closure", "elimination", "inevitable change", "profound change", "phoenix", "resurrection", "clearing", "purging", "evolution", "revolution", "death and rebirth", "major transition", "transformation"]
     },
     "Swan": {
         "name": "Swan",
+        "coreEssence": "Glides through emotional waters",
         "meaning": "This divine alchemist pours the golden elixir of balance, blending opposites into transcendent possibility. It represents the patient art of integration—finding the perfect measure that transforms conflict into harmony, teaching that true magic happens where extremes meet in sacred proportion.",
         "number": 14,
         "title": "The Divine Alchemist",
@@ -121,6 +136,7 @@ export const animalCardsDetail = {
     },
     "Mountain Goat": {
         "name": "Mountain Goat",
+        "coreEssence": "Climbs impossible heights",
         "meaning": "This revealer of shadows illuminates the chains we forge from our own fears and unconscious patterns. It represents the moment of recognition when we see how our beliefs have become our bondage—teaching that liberation begins the instant we realize we've always held the key.",
         "number": 15,
         "title": "Teacher of Hidden Freedom",
@@ -129,14 +145,16 @@ export const animalCardsDetail = {
     },
     "Scorpion": {
         "name": "Scorpion",
+        "coreEssence": "Guards deep mysteries",
         "meaning": "This bringer of lightning revelation shatters false foundations with divine disruption, freeing you from prisons you didn't know existed. It represents those moments when truth strikes suddenly and irrevocably—clearing away illusions to make space for authentic reconstruction on solid ground.",
         "number": 16,
         "title": "Lightning of Liberation",
         "coreMeaning": "Revelation — Sudden Change, Awakening, and Divine Disruption",
-        "keywords": ["destruction", "upheaval", "chaos", "revelation", "awakening", "breakdown", "liberation", "sudden change", "crisis", "release", "downfall", "exposure", "disaster", "shock", "disruption", "lightning bolt", "ego death", "breakthrough", "truth revealed", "collapse", "foundation shaking", "catastrophe", "enlightenment", "divine intervention", "rebuilding", "clearing", "purification", "forced change"]
+        "keywords": ["letting go", "destruction", "upheaval", "chaos", "revelation", "awakening", "breakdown", "liberation", "sudden change", "crisis", "release", "downfall", "exposure", "disaster", "shock", "disruption", "lightning bolt", "ego death", "breakthrough", "truth revealed", "collapse", "foundation shaking", "catastrophe", "enlightenment", "divine intervention", "rebuilding", "clearing", "purification", "forced change"]
     },
     "Dolphin": {
         "name": "Dolphin",
+        "coreEssence": "Plays in life's waves",
         "meaning": "This beacon of renewal pours healing waters from the cosmic well, reminding you that hope is spiritual intelligence in action. It represents the light that appears after our darkest trials—teaching that our deepest wounds often become our greatest sources of healing wisdom for ourselves and others.",
         "number": 17,
         "title": "Beacon of Cosmic Hope",
@@ -145,6 +163,7 @@ export const animalCardsDetail = {
     },
     "Wolf": {
         "name": "Wolf",
+        "coreEssence": "Leads with pack wisdom",
         "meaning": "This guide through mystery illuminates the winding path where conscious and unconscious merge, where nothing is quite as it seems yet everything unfolds perfectly. It represents the journey through uncertainty guided by intuition—teaching us to trust our inner compass when outer landmarks dissolve.",
         "number": 18,
         "title": "Guide Through Sacred Mystery",
@@ -153,6 +172,7 @@ export const animalCardsDetail = {
     },
     "Rooster": {
         "name": "Rooster",
+        "coreEssence": "Announces new beginnings",
         "meaning": "This radiant source of joy represents the state of pure being where every shadow dissolves in the light of authentic self-expression. It embodies enlightenment with a child's heart—that state of consciousness where wisdom and wonder unite, where profound truth wears the face of simple delight.",
         "number": 19,
         "title": "Radiance of Pure Joy",
@@ -161,6 +181,7 @@ export const animalCardsDetail = {
     },
     "Peacock": {
         "name": "Peacock",
+        "coreEssence": "Displays your true colors",
         "meaning": "This cosmic awakening sounds the call where past, present, and future converge in profound clarity of purpose. It represents the moment when all aspects of your journey unite in understanding—the spiritual alarm clock announcing it's time to rise and claim your highest calling.",
         "number": 20,
         "title": "The Great Awakening",
@@ -169,6 +190,7 @@ export const animalCardsDetail = {
     },
     "Whale": {
         "name": "Whale",
+        "coreEssence": "Holds deep emotional wisdom",
         "meaning": "This symbol of cosmic completion celebrates the sacred moment where all elements dance in perfect harmony, yet hints at new spirals beginning. It represents integrated wholeness—the recognition that every step of your journey was necessary to create this moment of total understanding and readiness for what comes next.",
         "number": 21,
         "title": "The Cosmic Dancer",
@@ -177,6 +199,7 @@ export const animalCardsDetail = {
     },
     "Hummingbird": {
         "name": "Hummingbird",
+        "coreEssence": "Finds sweetness everywhere",
         "meaning": "This primal spark erupts with pure creative force, a lightning bolt of potential seeking expression through you. It represents the divine ignition of passion and purpose—that moment when inspiration strikes and sets your soul ablaze with possibility.",
         "number": 22,
         "title": "The Primal Spark",
@@ -185,6 +208,7 @@ export const animalCardsDetail = {
     },
     "Goose": {
         "name": "Goose",
+        "coreEssence": "Migrates toward purpose",
         "meaning": "This sacred celebration raises pillars of joy where success has taken root and community flourishes. It represents the harmony achieved when creative vision manifests into stable reality—marking those precious moments where achievement becomes sweeter through shared celebration.",
         "number": 25,
         "title": "Guardian of Sacred Celebration",
@@ -192,6 +216,7 @@ export const animalCardsDetail = {
     },
     "Cheetah": {
         "name": "Cheetah",
+        "coreEssence": "Strikes with perfect timing",
         "meaning": "This warrior of passion charges forward on a steed of pure enthusiasm, transforming inspiration into fearless action. It represents the courage to leap wholeheartedly into adventure—teaching that fortune favors those who pursue their passion with abandon.",
         "number": 33,
         "title": "Warrior of Sacred Passion",
@@ -200,6 +225,7 @@ export const animalCardsDetail = {
     },
     "Lizard": {
         "name": "Lizard",
+        "coreEssence": "Adapts to any challenge",
         "meaning": "This radiant sovereign rules through magnetic warmth and confident grace, embodying fire that both illuminates and nurtures. She represents the power of charismatic leadership—teaching how to inspire others while maintaining your own sacred flame.",
         "number": 34,
         "title": "Sovereign of Sacred Flame",
@@ -208,6 +234,7 @@ export const animalCardsDetail = {
     },
     "Elk": {
         "name": "Elk",
+        "coreEssence": "Stands tall in your power",
         "meaning": "This master of vision transforms inspiration into empire through the marriage of passion and discipline. He represents mature fire—the ability to lead with enthusiasm while maintaining the wisdom to direct its flow toward lasting achievement.",
         "number": 35,
         "title": "Master of Sacred Vision",
@@ -216,6 +243,7 @@ export const animalCardsDetail = {
     },
     "Frog": {
         "name": "Frog",
+        "coreEssence": "Leaps between worlds",
         "meaning": "This overflowing chalice of divine love pours forth the sacred waters of emotional renewal and spiritual awakening. It represents the heart's infinite capacity to feel and heal—teaching that love is not a finite resource but an eternal spring that grows deeper the more we draw from it.",
         "number": 36,
         "title": "The Divine Chalice",
@@ -224,6 +252,7 @@ export const animalCardsDetail = {
     },
     "Dragonfly": {
         "name": "Dragonfly",
+        "coreEssence": "Shifts perspective instantly",
         "meaning": "This sacred meeting of souls creates the alchemy where two become more than their sum without losing their essence. It represents divine partnership—teaching that true connection happens when two full cups meet in the space between, creating a third, invisible chalice of shared understanding.",
         "number": 37,
         "title": "The Sacred Meeting",
@@ -232,6 +261,7 @@ export const animalCardsDetail = {
     },
     "Dog": {
         "name": "Dog",
+        "coreEssence": "Loves without condition",
         "meaning": "This rainbow bridge connects hearts in perfect harmony, creating heaven on earth through love. It represents emotional fulfillment at its peak—teaching that true happiness ripples outward, blessing all it touches with its radiance.",
         "number": 45,
         "title": "The Rainbow's Promise",
@@ -240,6 +270,7 @@ export const animalCardsDetail = {
     },
     "Gecko": {
         "name": "Gecko",
+        "coreEssence": "Sticks to your path",
         "meaning": "This gentle messenger arrives bearing intuitive gifts and emotional invitations. It represents sensitivity as strength—teaching that the ability to feel deeply and receive subtle messages is a superpower in a world that often values only logic.",
         "number": 46,
         "title": "Messenger of Sacred Feeling",
@@ -248,6 +279,7 @@ export const animalCardsDetail = {
     },
     "Stingray": {
         "name": "Stingray",
+        "coreEssence": "Glides beneath the surface",
         "meaning": "This sovereign of emotional depths rules the realm where intuition and compassion merge into healing wisdom. She represents emotional mastery through gentle power—teaching that true strength flows like water, finding its way through feeling rather than force.",
         "number": 48,
         "title": "Sovereign of Sacred Waters",
@@ -256,6 +288,7 @@ export const animalCardsDetail = {
     },
     "Raven": {
         "name": "Raven",
+        "coreEssence": "Speaks between worlds",
         "meaning": "This blade of absolute clarity cuts through confusion with the power of awakened consciousness. It represents the moment when truth pierces illusion—offering the gift of mental breakthrough that separates what is real from what merely appears to be.",
         "number": 50,
         "title": "Blade of Pure Truth",
@@ -264,6 +297,7 @@ export const animalCardsDetail = {
     },
     "Panther": {
         "name": "Panther",
+        "coreEssence": "Moves through shadows powerfully",
         "meaning": "This sacred piercing transforms heartbreak into breakthrough, where truth that hurts also heals. It represents the necessary pain of clarity—teaching that some wounds create openings for more authentic love to enter.",
         "number": 52,
         "title": "The Sacred Piercing",
@@ -272,6 +306,7 @@ export const animalCardsDetail = {
     },
     "Cat": {
         "name": "Cat",
+        "coreEssence": "Maintains fierce independence",
         "meaning": "This guardian through dark nights sits vigil with the anxious mind, where fears multiply in isolation. It represents the universal experience of 3 AM terrors—teaching that dawn always comes for those who remember they've survived every previous darkness.",
         "number": 58,
         "title": "Guardian Through Dark Night",
@@ -279,6 +314,7 @@ export const animalCardsDetail = {
     },
     "Crow": {
         "name": "Crow",
+        "coreEssence": "Gathers life's treasures",
         "meaning": "This champion of truth charges into battle with the speed of thought itself, cutting through deception with fierce intelligence. It represents the warrior mind in action—teaching that sometimes swift mental action prevents greater harm than patient deliberation.",
         "number": 61,
         "title": "Champion of Swift Justice",
@@ -287,6 +323,7 @@ export const animalCardsDetail = {
     },
     "Buffalo": {
         "name": "Buffalo",
+        "coreEssence": "Provides abundant strength",
         "meaning": "This golden seed of manifestation arrives as pure potential ready to take root in physical reality. It represents the universe offering tangible opportunity—teaching that every empire begins with a single coin, every forest with one seed, and every dream with the courage to plant it in earthly soil.",
         "number": 64,
         "title": "The Golden Seed",
@@ -295,6 +332,7 @@ export const animalCardsDetail = {
     },
     "Camel": {
         "name": "Camel",
+        "coreEssence": "Endures any desert",
         "meaning": "This symbol of material challenge illuminates the sanctuary glowing just beyond current hardship. It represents the test of faith during scarcity—teaching that help exists for those willing to see it, and that pride often blocks the very door we seek.",
         "number": 68,
         "title": "Light Beyond the Storm",
@@ -302,6 +340,7 @@ export const animalCardsDetail = {
     },
     "Bee": {
         "name": "Bee",
+        "coreEssence": "Creates sweet community",
         "meaning": "This devoted craftsman transforms repetition into mastery through mindful practice. It represents work as meditation—teaching that excellence emerges not from talent alone but from the sacred commitment to continuous refinement.",
         "number": 71,
         "title": "The Sacred Apprentice",
@@ -309,6 +348,7 @@ export const animalCardsDetail = {
     },
     "Gazelle": {
         "name": "Gazelle",
+        "coreEssence": "Leaps with elegant speed",
         "meaning": "This architect of legacy builds wealth that transcends generations, creating abundance that outlives its creator. It represents the culmination of material mastery—teaching that true riches lie in what we leave behind for others to build upon.",
         "number": 73,
         "title": "Architect of Living Legacy",
@@ -317,6 +357,7 @@ export const animalCardsDetail = {
     },
     "Beaver": {
         "name": "Beaver",
+        "coreEssence": "Builds dreams persistently",
         "meaning": "This nurturer of abundance creates prosperity through practical care and grounded wisdom. She represents the power of manifesting security for all—teaching that true wealth multiplies when shared through generous, practical action.",
         "number": 76,
         "title": "Mother of Abundant Earth",
@@ -325,6 +366,7 @@ export const animalCardsDetail = {
     },
     "Bear": {
         "name": "Bear",
+        "coreEssence": "Hibernates to heal deeply",
         "meaning": "This master of manifestation transforms vision into empire through patient cultivation. He represents material mastery in service of others—teaching that true success creates abundance not just for oneself but for entire communities.",
         "number": 77,
         "title": "Master of Manifested Wealth",

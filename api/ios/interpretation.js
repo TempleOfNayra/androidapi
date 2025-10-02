@@ -1,8 +1,8 @@
 import { checkAuthAndRateLimit } from '../lib/gatekeeper.js';
 import { setupCORS, handlePreflight, validateMethod } from './utils/http-setup.js';
 import { getInterpretation } from './utils/step1-interpretation.js';
-import { generateMetadata } from './utils/step2-metadata.js';
-import { buildFinalResponse } from './utils/parsing.js';
+// import { generateMetadata } from './utils/step2-metadata.js';  // COMMENTED OUT - Only Step 1
+// import { buildFinalResponse } from './utils/parsing.js';        // COMMENTED OUT - Only Step 1
 
 const isProd = false;
 
@@ -39,6 +39,7 @@ export default async function handler(req, res) {
             cards = ['The Sun'],
             symbology = 'tarot',
             journalEntry = '',
+            intentionChips = [],
             wisdomStyle = 'campbell',  // Default to campbell to match stylePrompts keys
             spiritualityLevel = 1,
             lifeChapter = 'building',
@@ -55,6 +56,7 @@ export default async function handler(req, res) {
 
         console.log('++++++++++++++++++++++++++++');
         console.log(cards);
+        console.log(intentionChips);
         console.log('++++++++++++++++++++++++++++');
 
         // Use first card if multiple are provided
@@ -67,6 +69,7 @@ export default async function handler(req, res) {
             card,
             symbology,
             journalEntry,
+            intentionChips,
             wisdomStyle,
             spiritualityLevel,
             lifeChapter,
@@ -79,6 +82,8 @@ export default async function handler(req, res) {
         console.log('✅ Step 1 complete. Interpretation length:', interpretation?.length);
         console.log('📝 Interpretation preview:', interpretation?.substring(0, 200) + '...');
 
+        // STEP 2: COMMENTED OUT FOR NOW - Only focusing on Step 1
+        /*
         // STEP 2: Generate metadata fields based on the interpretation
         console.log('\n🔮 === STEP 2: Generating Metadata ===')
         const step2Result = await generateMetadata(card, interpretation, model);
@@ -92,7 +97,7 @@ export default async function handler(req, res) {
         console.log('📦 Final result structure:', JSON.stringify(finalResult, null, 2));
 
         const totalTime = Date.now() - startTime;
-        
+
         console.log('\n✅ === iOS INTERPRETATION COMPLETE ===');
         console.log('Two separate API calls completed successfully');
         console.log('Interpretation quality preserved, metadata generated');
@@ -105,6 +110,23 @@ export default async function handler(req, res) {
         console.log('🚀 Sending response with status 200');
         console.log('🚀 Response preview:', JSON.stringify(finalResult));
         res.status(200).json(finalResult);
+        */
+
+        // For now, just return Step 1 interpretation
+        const totalTime = Date.now() - startTime;
+        const simpleResult = {
+            interpretation: interpretation,
+            time: totalTime,
+            systemPrompt: step1Result.systemPrompt,
+            userPrompt: step1Result.userPrompt
+        };
+
+        console.log('\n✅ === STEP 1 INTERPRETATION COMPLETE ===');
+        console.log(`⏱️ Total Time: ${totalTime}ms`);
+        console.log('========================\n');
+
+        console.log('🚀 Sending response with status 200');
+        res.status(200).json(simpleResult);
         
     } catch (error) {
         console.error('❌ === iOS HANDLER FAILED ===');

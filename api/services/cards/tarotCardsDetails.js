@@ -6,6 +6,7 @@ export const tarotCardsDetail = {
         "title": "Sacred Leap into Mystery",
         "coreMeaning": "Beginning — Trust, Innocence, and the Courage to Not Know",
         "keywords": [
+            "breath",
             "beginning",
             "innocence",
             "spontaneity",
@@ -84,6 +85,7 @@ export const tarotCardsDetail = {
         "title": "Guardian of the Veil",
         "coreMeaning": "Intuition — Mystery, Inner Knowing, and Sacred Silence",
         "keywords": [
+            "awareness",
             "intuition",
             "mystery",
             "subconscious",
@@ -375,6 +377,7 @@ export const tarotCardsDetail = {
         "title": "The Cosmic Spinner",
         "coreMeaning": "Cycles — Change, Destiny, and Divine Timing",
         "keywords": [
+            "seasons",
             "luck",
             "karma",
             "fate",
@@ -449,6 +452,7 @@ export const tarotCardsDetail = {
         "title": "Master of Sacred Suspension",
         "coreMeaning": "Surrender — New Perspective, Pause, and Willing Sacrifice",
         "keywords": [
+            "stillness",
             "suspension",
             "letting go",
             "surrender",
@@ -484,6 +488,7 @@ export const tarotCardsDetail = {
         "title": "The Sacred Transformer",
         "coreMeaning": "Transformation — Endings, Rebirth, and Profound Change",
         "keywords": [
+            "impermanence",
             "ending",
             "transformation",
             "transition",
@@ -520,6 +525,7 @@ export const tarotCardsDetail = {
         "title": "The Divine Alchemist",
         "coreMeaning": "Balance — Integration, Patience, and Sacred Blending",
         "keywords": [
+            "forgiveness",
             "balance",
             "moderation",
             "patience",
@@ -591,6 +597,7 @@ export const tarotCardsDetail = {
         "title": "Lightning of Liberation",
         "coreMeaning": "Revelation — Sudden Change, Awakening, and Divine Disruption",
         "keywords": [
+            "letting go",
             "destruction",
             "upheaval",
             "chaos",
@@ -627,6 +634,7 @@ export const tarotCardsDetail = {
         "title": "Beacon of Cosmic Hope",
         "coreMeaning": "Hope — Healing, Renewal, and Divine Guidance",
         "keywords": [
+            "sky",
             "hope",
             "faith",
             "renewal",
@@ -770,6 +778,7 @@ export const tarotCardsDetail = {
         "title": "The Cosmic Dancer",
         "coreMeaning": "Completion — Wholeness, Integration, and Cosmic Success",
         "keywords": [
+            "interconnection",
             "completion",
             "accomplishment",
             "travel",
@@ -803,6 +812,7 @@ export const tarotCardsDetail = {
         "title": "The Primal Spark",
         "coreMeaning": "Inspiration — Creative Potential, New Energy, and Divine Spark",
         "keywords": [
+            "fire",
             "inspiration",
             "new beginning",
             "creative spark",
@@ -1031,6 +1041,7 @@ export const tarotCardsDetail = {
         "title": "The Divine Chalice",
         "coreMeaning": "Love — New Emotions, Spiritual Connection, and Open Heart",
         "keywords": [
+            "water",
             "new love",
             "emotional beginning",
             "intuition",
@@ -1138,6 +1149,7 @@ export const tarotCardsDetail = {
         "number": 44,
         "title": "Master of Heart's Desire",
         "coreMeaning": "Satisfaction — Emotional Fulfillment, Wishes Granted, and Contentment",
+        "keywords": ["gratitude"],
     },
     "Ten of Cups": {
         "name": "Ten of Cups",
@@ -1245,6 +1257,7 @@ export const tarotCardsDetail = {
         "title": "Oracle of Sacred Waters",
         "coreMeaning": "Compassion — Emotional Mastery, Intuitive Wisdom, and Nurturing",
         "keywords": [
+            "compassion",
             "compassionate",
             "intuitive",
             "nurturing",
@@ -1620,6 +1633,7 @@ export const tarotCardsDetail = {
         "title": "The Golden Seed",
         "coreMeaning": "Opportunity — Material Beginnings, Prosperity, and Manifestation",
         "keywords": [
+            "earth",
             "new opportunity",
             "manifestation",
             "prosperity",

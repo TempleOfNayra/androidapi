@@ -71,7 +71,7 @@ export const getAvailableCards = (cardType, language='en') => {
         .map(([cardName, card]) => ({
             name: cardName,
             displayName:card.displayName || card.name,
-            coreMeaning: card.coreMeaning,
+            coreMeaning: card.coreEssence || card.coreMeaning,
             keywords: card.keywords || [],
         }));
 }

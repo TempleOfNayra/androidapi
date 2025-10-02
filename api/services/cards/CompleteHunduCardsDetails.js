@@ -1,236 +1,78 @@
-export const hinduDeitiesCardDetails = {
-    "0": {
-        "name": "Ganesha — Lord of Sacred Beginnings"
-    },
-    "1": {
-        "name": "Vishwakarma — Cosmic Craftsman"
-    },
-    "2": {
-        "name": "Saraswati — Guardian of Sacred Mysteries"
-    },
-    "3": {
-        "name": "Lakshmi — Mother of Infinite Wealth"
-    },
-    "4": {
-        "name": "Brahma — Emperor of Cosmic Order"
-    },
-    "5": {
-        "name": "Brihaspati — Guru of Immortal Wisdom"
-    },
-    "6": {
-        "name": "Radha–Krishna — Eternal Beloveds"
-    },
-    "7": {
-        "name": "Arjuna on the Chariot"
-    },
-    "8": {
-        "name": "Hanuman — Champion of Boundless Devotion"
-    },
-    "9": {
-        "name": "Dakshinamurthy — Silent Teacher"
-    },
-    "10": {
-        "name": "Wheel of Dharma (Dharmachakra)"
-    },
-    "11": {
-        "name": "Dharmaraja (Yama) — Guardian of Justice"
-    },
-    "12": {
-        "name": "Bhagirath Bringing the Ganga"
-    },
-    "13": {
-        "name": "Kali — Mother of Sacred Destruction"
-    },
-    "14": {
-        "name": "Ardhanarishvara — Sacred Marriage"
-    },
-    "15": {
-        "name": "Ravana — Lord of Desire’s Chains"
-    },
-    "16": {
-        "name": "Indra’s Thunderbolt (Vajra)"
-    },
-    "17": {
-        "name": "Tara — Star of Infinite Compassion"
-    },
-    "18": {
-        "name": "Chandra — Lord of the Moon"
-    },
-    "19": {
-        "name": "Surya — Eternal Illuminator"
-    },
-    "20": {
-        "name": "Chitragupta — Keeper of Soul Records"
-    },
-    "21": {
-        "name": "Shiva as Nataraja — Lord of the Dance"
-    },
-    "22": {
-        "name": "Kamandalu (Sacred Water Pot)"
-    },
-    "23": {
-        "name": "Sita–Rama"
-    },
-    "24": {
-        "name": "Three Shaktis"
-    },
-    "25": {
-        "name": "Sage Vishwamitra (Contemplation)"
-    },
-    "26": {
-        "name": "Kunti’s Sorrow"
-    },
-    "27": {
-        "name": "Child Krishna with Yashoda"
-    },
-    "28": {
-        "name": "Maya (Illusion)"
-    },
-    "29": {
-        "name": "Buddha’s Departure (Renunciation)"
-    },
-    "30": {
-        "name": "Kubera (Wish Fulfillment)"
-    },
-    "31": {
-        "name": "Ram Rajya (Joyful Household/Kingdom)"
-    },
-    "32": {
-        "name": "Narada Muni (Divine Messenger)"
-    },
-    "33": {
-        "name": "Bhima as Protector"
-    },
-    "34": {
-        "name": "Annapurna (Nourishment)"
-    },
-    "35": {
-        "name": "Varuna (Lord of Waters)"
-    },
-    "36": {
-        "name": "Agni (Sacred Fire)"
-    },
-    "37": {
-        "name": "Nakula and Sahadeva (Planning the Campaign)"
-    },
-    "38": {
-        "name": "Bhagiratha Brings the Ganga"
-    },
-    "39": {
-        "name": "Diwali Celebrations"
-    },
-    "40": {
-        "name": "Kurukshetra Battle (Strife)"
-    },
-    "41": {
-        "name": "Arjuna’s Victory Procession"
-    },
-    "42": {
-        "name": "Abhimanyu’s Valiant Stand"
-    },
-    "43": {
-        "name": "Garuda (Swift Flight)"
-    },
-    "44": {
-        "name": "Karna (Wounded Resilience)"
-    },
-    "45": {
-        "name": "Sheshnag Bearing the Worlds"
-    },
-    "46": {
-        "name": "Young Dhruva (First Spark of Devotion)"
-    },
-    "47": {
-        "name": "Hanuman Leaping with the Mountain"
-    },
-    "48": {
-        "name": "Draupadi (Fiery Leadership)"
-    },
-    "49": {
-        "name": "Rama (Righteous Sovereignty)"
-    },
-    "50": {
-        "name": "Kali’s Sword (Truth-Cutting Clarity)"
-    },
-    "51": {
-        "name": "Arjuna’s Doubt"
-    },
-    "52": {
-        "name": "Gandhari’s Grief"
-    },
-    "53": {
-        "name": "Sage in Deep Meditation (Rest)"
-    },
-    "54": {
-        "name": "Ashwatthama’s Curse (Pyrrhic Victory)"
-    },
-    "55": {
-        "name": "Sanyasi’s Journey (Transition)"
-    },
-    "56": {
-        "name": "Shakuni (Cunning and Deception)"
-    },
-    "57": {
-        "name": "Ahalya Turned to Stone (Entrapment)"
-    },
-    "58": {
-        "name": "Mandodari’s Lament (Night Terrors)"
-    },
-    "59": {
-        "name": "Duryodhana’s Fall (Ruin)"
-    },
-    "60": {
-        "name": "Young Prahlada (Truth-Seeking Youth)"
-    },
-    "61": {
-        "name": "Parashurama (Decisive Action)"
-    },
-    "62": {
-        "name": "Savitri (Keen Intellect and Resolve)"
-    },
-    "63": {
-        "name": "Chandragupta Maurya (Strategic King)"
-    },
-    "64": {
-        "name": "Sri Yantra (Seed of Prosperity)"
-    },
-    "65": {
-        "name": "Balance of Artha and Dharma"
-    },
-    "66": {
-        "name": "Vishwakarma (Master Craftsman)"
-    },
-    "67": {
-        "name": "Dhritarashtra’s Grip (Possessiveness)"
-    },
-    "68": {
-        "name": "Sudama (Humble Poverty)"
-    },
-    "69": {
-        "name": "Goddess Lakshmi (Generosity & Flow)"
-    },
-    "70": {
-        "name": "Sita in Ashok Vatika (Patient Waiting)"
-    },
-    "71": {
-        "name": "Ekalavya (Dedicated Practice)"
-    },
-    "72": {
-        "name": "Shabari (Simple Abundance)"
-    },
-    "73": {
-        "name": "King Janaka (Wise Legacy Builder)"
-    },
-    "74": {
-        "name": "Young Ganesha (Studious Learner)"
-    },
-    "75": {
-        "name": "Nandi (Steady Devotion)"
-    },
-    "76": {
-        "name": "Kamadhenu (Nurturing Abundance)"
-    },
-    "77": {
-        "name": "Sri Venkateswara (Lord of Wealth)"
-    }
+export const deities =  {
+    "ganesha": { "displayName": "Ganesha", "tarotName": "The Fool", "name": "Ganesha", "number": 0 },
+    "vishwakarma": { "displayName": "Vishwakarma", "tarotName": "The Magician", "name": "Vishwakarma", "number": 1 },
+    "saraswati": { "displayName": "Saraswati", "tarotName": "The High Priestess", "name": "Saraswati", "number": 2 },
+    "lakshmi": { "displayName": "Lakshmi", "tarotName": "The Empress", "name": "Lakshmi", "number": 3 },
+    "indra": { "displayName": "Indra", "tarotName": "The Emperor", "name": "Indra", "number": 4 },
+    "brihaspati": { "displayName": "Brihaspati", "tarotName": "The Hierophant", "name": "Brihaspati", "number": 5 },
+    "krishna_radha": { "displayName": "Krishna & Radha", "tarotName": "The Lovers", "name": "Krishna Radha", "number": 6 },
+    "durga": { "displayName": "Durga", "tarotName": "The Chariot", "name": "Durga", "number": 7 },
+    "hanuman": { "displayName": "Hanuman", "tarotName": "Strength", "name": "Hanuman", "number": 8 },
+    "dakshinamurthy": { "displayName": "Dakshinamurthy", "tarotName": "The Hermit", "name": "Dakshinamurthy", "number": 9 },
+    "vishnu": { "displayName": "Vishnu", "tarotName": "Wheel of Fortune", "name": "Vishnu", "number": 10 },
+    "dharmaraja": { "displayName": "Dharmaraja", "tarotName": "Justice", "name": "Dharmaraja", "number": 11 },
+    "bhagirath": { "displayName": "Bhagirath", "tarotName": "The Hanged Man", "name": "Bhagirath", "number": 12 },
+    "kali": { "displayName": "Kali", "tarotName": "Death", "name": "Kali", "number": 13 },
+    "ardhanarishvara": { "displayName": "Ardhanarishvara", "tarotName": "Temperance", "name": "Ardhanarishvara", "number": 14 },
+    "mara": { "displayName": "Mara", "tarotName": "The Devil", "name": "Mara", "number": 15 },
+    "narasimha": { "displayName": "Narasimha", "tarotName": "The Tower", "name": "Narasimha", "number": 16 },
+    "tara": { "displayName": "Tara", "tarotName": "The Star", "name": "Tara", "number": 17 },
+    "soma": { "displayName": "Soma", "tarotName": "The Moon", "name": "Soma", "number": 18 },
+    "surya": { "displayName": "Surya", "tarotName": "The Sun", "name": "Surya", "number": 19 },
+    "chitragupta": { "displayName": "Chitragupta", "tarotName": "Judgement", "name": "Chitragupta", "number": 20 },
+    "nataraja": { "displayName": "Nataraja", "tarotName": "The World", "name": "Nataraja", "number": 21 },
+
+    "ganga": { "displayName": "Ganga", "tarotName": "Ace of Cups", "name": "Ganga", "number": 22 },
+    "rama_sita": { "displayName": "Rama & Sita", "tarotName": "Two of Cups", "name": "Rama & Sita", "number": 23 },
+    "tridevi": { "displayName": "Tridevi", "tarotName": "Three of Cups", "name": "Tridevi", "number": 24 },
+    "agastya": { "displayName": "Agastya", "tarotName": "Four of Cups", "name": "Agastya", "number": 25 },
+    "chandra": { "displayName": "Chandra", "tarotName": "Five of Cups", "name": "Chandra", "number": 26 },
+    "vamana": { "displayName": "Vamana", "tarotName": "Six of Cups", "name": "Vamana", "number": 27 },
+    "shiva_parvati": { "displayName": "Shiva & Parvati", "tarotName": "Seven of Cups", "name": "Shiva & Parvati", "number": 28 },
+    "rati": { "displayName": "Rati", "tarotName": "Eight of Cups", "name": "Rati", "number": 29 },
+    "kubera": { "displayName": "Kubera", "tarotName": "Nine of Cups", "name": "Kubera", "number": 30 },
+    "kamadeva": { "displayName": "Kamadeva", "tarotName": "Ten of Cups", "name": "Kamadeva", "number": 31 },
+    "page_of_cups": { "displayName": "Narada", "tarotName": "Page of Cups", "name": "Narada", "number": 32 },
+    "knight_of_cups": { "displayName": "Jayadeva", "tarotName": "Knight of Cups", "name": "Jayadeva", "number": 33 },
+    "queen_of_cups": { "displayName": "Parvati", "tarotName": "Queen of Cups", "name": "Parvati", "number": 34 },
+    "king_of_cups": { "displayName": "Varuna", "tarotName": "King of Cups", "name": "Varuna", "number": 35 },
+
+    "agni": { "displayName": "Agni", "tarotName": "Ace of Wands", "name": "Agni", "number": 36 },
+    "ashvins": { "displayName": "Ashvins", "tarotName": "Two of Wands", "name": "Ashvins", "number": 37 },
+    "rama": { "displayName": "Rama", "tarotName": "Three of Wands", "name": "Rama", "number": 38 },
+    "annapurna": { "displayName": "Annapurna", "tarotName": "Four of Wands", "name": "Annapurna", "number": 39 },
+    "murugan": { "displayName": "Murugan", "tarotName": "Five of Wands", "name": "Murugan", "number": 40 },
+    "savitri": { "displayName": "Savitri", "tarotName": "Seven of Wands", "name": "Savitri", "number": 42 },
+    "bheema": { "displayName": "Bheema", "tarotName": "Eight of Wands", "name": "Bheema", "number": 43 },
+    "hanuman_drona": { "displayName": "Hanuman (Dronagiri)", "tarotName": "Ten of Wands", "name": "Hanuman", "number": 45 },
+    "page_of_wands": { "displayName": "Skanda", "tarotName": "Page of Wands", "name": "Skanda", "number": 46 },
+    "knight_of_wands": { "displayName": "Garuda", "tarotName": "Knight of Wands", "name": "Garuda", "number": 47 },
+    "queen_of_wands": { "displayName": "Draupadi", "tarotName": "Queen of Wands", "name": "Draupadi", "number": 48 },
+    "king_of_wands": { "displayName": "Falcon", "tarotName": "King of Wands", "name": "Falcon", "number": 49 },
+
+    "kali_truth": { "displayName": "Kali (Sword of Truth)", "tarotName": "Ace of Swords", "name": "Kali", "number": 50 },
+    "arjuna_gita": { "displayName": "Arjuna (Dilemma)", "tarotName": "Two of Swords", "name": "Arjuna", "number": 51 },
+    "drona": { "displayName": "Drona", "tarotName": "Three of Swords", "name": "Drona", "number": 52 },
+    "ashwatthama": { "displayName": "Ashwatthama", "tarotName": "Four of Swords", "name": "Ashwatthama", "number": 53 },
+    "parasurama": { "displayName": "Parashurama", "tarotName": "Five of Swords", "name": "Parashurama", "number": 54 },
+    "ganga_passage": { "displayName": "Ganga's Passage", "tarotName": "Six of Swords", "name": "Ganga", "number": 55 },
+    "karna": { "displayName": "Karna", "tarotName": "Seven of Swords", "name": "Karna", "number": 56 },
+    "abhimanyu": { "displayName": "Abhimanyu", "tarotName": "Eight of Swords", "name": "Abhimanyu", "number": 57 },
+    "jatayu": { "displayName": "Jatayu", "tarotName": "Ten of Swords", "name": "Jatayu", "number": 59 },
+    "page_of_swords": { "displayName": "Shuka", "tarotName": "Page of Swords", "name": "Shuka", "number": 60 },
+    "knight_of_swords": { "displayName": "Karttikeya", "tarotName": "Knight of Swords", "name": "Karttikeya", "number": 61 },
+    "queen_of_swords": { "displayName": "Draupadi (Justice)", "tarotName": "Queen of Swords", "name": "Draupadi", "number": 62 },
+    "king_of_swords": { "displayName": "", "tarotName": "King of Swords", "name": "", "number": 63 },
+
+    "prithvi": { "displayName": "Prithvi", "tarotName": "Ace of Pentacles", "name": "Prithvi", "number": 64 },
+    "ananta": { "displayName": "Ananta", "tarotName": "Two of Pentacles", "name": "Ananta", "number": 65 },
+    "vishwakarma_workshop": { "displayName": "Vishwakarma (Workshop)", "tarotName": "Three of Pentacles", "name": "Vishwakarma", "number": 66 },
+    "dhanvantari": { "displayName": "Dhanvantari", "tarotName": "Four of Pentacles", "name": "Dhanvantari", "number": 67 },
+    "shani": { "displayName": "Shani", "tarotName": "Five of Pentacles", "name": "Shani", "number": 68 },
+    "annapurna_alms": { "displayName": "Annapurna (Alms)", "tarotName": "Six of Pentacles", "name": "Annapurna", "number": 69 },
+    "parvati_tapas": { "displayName": "Parvati (Tapas)", "tarotName": "Seven of Pentacles", "name": "Parvati", "number": 70 },
+    "lakshmi_tree": { "displayName": "Lakshmi (Tree of Plenty)", "tarotName": "Eight of Pentacles", "name": "Lakshmi", "number": 71 },
+    "surabhi": { "displayName": "Surabhi", "tarotName": "Nine of Pentacles", "name": "Surabhi", "number": 72 },
+    "bhu_devi": { "displayName": "Bhu Devi", "tarotName": "Queen of Pentacles", "name": "Bhu Devi", "number": 76 },
+    "kubera": { "displayName": "Kubera", "tarotName": "King of Pentacles", "name": "Kubera", "number": 77 }
 }

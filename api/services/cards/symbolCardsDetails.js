@@ -65,7 +65,7 @@ export const symbolCards = {
     "Eye": {"number": 60, "displayName": "Eye", "tarot": "Page of Swords"},
     "Knife/Dagger": {"number": 61, "displayName": "Knife/Dagger", "tarot": "Knight of Swords"},
     "Mirror": {"number": 62, "displayName": "Mirror", "tarot": "Queen of Swords"},
-    "Helmet": {"number": 63, "displayName": "Helmet", "tarot": "King of Swords"}
+    "Helmet": {"number": 63, "displayName": "Helmet", "tarot": "King of Swords"},
 
     "Seed": {"number": 64, "displayName": "Seed", "tarot": "Ace of Pentacles"},
     "Knot": {"number": 65, "displayName": "Knot", "tarot": "Two of Pentacles"},

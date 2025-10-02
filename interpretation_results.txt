@@ -1,0 +1,1422 @@
+
+========================================
+Test Run: 2025-10-02 10:15:41
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 500ms
+
+Input Prompt:
+{
+      "symbology": "Christian Saints",
+      "cards": ["The Lady Of Guadalupe"],
+      "model": "claude",
+      "journalEntry": "i want to meditate on happiness and hope
+                       i am dealing with a feeling of not being adequate and financially not be responsible
+                       i am 50 and i have nothing"
+    }
+
+Response:
+A server error has occurred
+
+FUNCTION_INVOCATION_FAILED
+
+
+========================================
+Test Run: 2025-10-02 10:18:05
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 10174ms
+
+Input Prompt:
+{
+  "symbology": "Christian Saints",
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "model": "claude",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+}
+
+Response:
+{
+  "interpretation": "The Lady of Guadalupe appears at a powerful moment in your journey. She came to Juan Diego when he felt unworthy, poor, and inadequate - much like the feelings you're wrestling with now. This divine feminine figure represents something profound: that we are seen and held in our darkest moments, especially when we feel we have 'nothing.'\n\nYour choice of this symbol speaks to a deep yearning for maternal comfort and divine reassurance. At 50, you stand at a threshold - not an ending, but a transformation point. The Lady appeared on Tepeyac Hill, a place that represented the meeting of two worlds. You too are at such a crossing, where your past experiences meet your emerging spiritual questions.\n\nThe feeling of financial inadequacy can shake our very foundations. But consider how the Lady appeared with roses in winter - impossible blooms in a barren season. This speaks to the possibility of unexpected grace, of finding abundance in what appears to be emptiness.\n\nYour 'building chapter' is perfectly named - for just as the Lady's appearance led to the building of a sacred shrine, you are building something new. Starting to explore spiritual questions at this moment is not a coincidence. It suggests you're recognizing that true wealth and adequacy come in many forms.\n\nRemember - the Lady appeared to a humble man who felt unworthy. Through him, she created one of the most powerful symbols of hope in the Americas. Your feelings of inadequacy don't define your worth or your potential. They may actually be the fertile ground from which your next chapter will bloom.\n\nWhat if this moment of feeling 'nothing' is actually the sacred empty space from which something new can emerge? The Lady's message wasn't about material wealth, but about divine love and the dignity inherent in every human heart - including yours.",
+  "time": 9728
+}
+
+
+========================================
+Test Run: 2025-10-02 10:28:41
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 11166ms
+
+Request Body:
+{
+  "symbology": "Christian Saints",
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "model": "claude",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+If their journal entry is unclear or gibberish, gently remind them at the start that the reflection will be more meaningful if they write something real from the heart.
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+I am beginning to explore spiritual questions
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+The image of Our Lady of Guadalupe speaks deeply to your current journey, appearing at this pivotal moment when you're seeking hope amid feelings of inadequacy. Like the miraculous roses that bloomed in winter in her story, she represents the possibility of abundance and beauty emerging from what seems like barren ground.
+
+At 50, you're standing at a threshold, feeling the weight of time yet also awakening to spiritual questions. This is profoundly meaningful - many of the most transformative journeys begin precisely when we feel most empty, most 'without.' The Lady of Guadalupe appeared to Juan Diego, a humble man who felt unworthy, yet she chose him specifically for an important purpose.
+
+Your concerns about financial responsibility touch on very real practical matters, but they also reflect a deeper spiritual hunger. The building chapter you're in isn't just about material resources - it's about discovering your own inner wealth, your own capacity for renewal. The Lady's image, with its rays of golden light, reminds us that true abundance often begins with inner transformation.
+
+Consider how the Lady appeared not to the powerful, but to one who felt small and inadequate. Yet through this encounter, something magnificent was built. Your awakening spiritual questions are like the first rays of dawn - they suggest not an ending but a beginning. At 50, you're not just looking back at what you don't have, you're being called to discover what you might yet become.
+
+The feeling of 'having nothing' can be the fertile soil from which new possibility grows. Like the roses in the Guadalupe story, your most meaningful growth may come at what seems the most unlikely time. Your spiritual questioning isn't separate from your practical concerns - it's the pathway through them, toward a deeper understanding of your own worth and purpose.
+
+Remember, the most powerful transformations often begin when we feel most empty - because that emptiness creates space for something new to emerge. You're not just building a chapter; you're discovering a whole new story about who you are and what you're capable of becoming.
+
+
+========================================
+Test Run: 2025-10-02 10:29:39
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 10906ms
+
+Request Body:
+{
+  "symbology": "Christian Saints",
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "model": "claude",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+If their journal entry is unclear or gibberish, gently remind them at the start that the reflection will be more meaningful if they write something real from the heart.
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+I am beginning to explore spiritual questions
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+The image of the Lady of Guadalupe speaks deeply to your current journey. She appeared to Juan Diego - a humble man who felt unworthy - at a time when he too was struggling with feelings of inadequacy. Yet she chose him precisely in his humbleness, wrapping him in her starry mantle of dignity and divine love.
+
+Your words reveal a profound honesty about feeling inadequate, especially around finances at age 50. But notice how you've paired this with a desire to meditate on happiness and hope - this speaks to the quiet wisdom already alive within you. Like a seed pushing through soil toward sunlight, you're reaching for growth even in dark moments.
+
+The Lady of Guadalupe emerged as a bridge between worlds, appearing as a mestiza woman who united different peoples and traditions. Similarly, you stand at a threshold between chapters, beginning to explore spiritual questions. This is actually a powerful place to be - not an ending, but a beginning. Many of humanity's great wisdom traditions teach that true wealth lies not in what we possess, but in our capacity for renewal and transformation.
+
+Your current chapter of life isn't about what you lack, but about what's awakening. The Lady appeared surrounded by golden rays of light, showing how divine radiance can burst forth in unexpected moments. Your spiritual questioning is like those first rays breaking through at dawn.
+
+Consider sitting quietly with this image of the Lady, allowing her gentle presence to remind you that worth isn't measured in financial terms, but in our capacity to remain open to grace, to begin again, to let our hearts be transformed. You're not starting with nothing - you're starting with the wisdom to ask deeper questions about what truly matters. That's a foundation more precious than gold.
+
+
+========================================
+Test Run: 2025-10-02 10:33:15
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 372ms
+
+Request Body:
+{
+  "symbology": "Christian Saints",
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "model": "claude",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+}
+
+System Prompt Used:
+
+
+User Prompt Used:
+
+
+AI Response (Interpretation):
+
+
+
+========================================
+Test Run: 2025-10-02 10:33:54
+Test Type: minimal
+AI Model: claude
+========================================
+
+Total Time: 16527ms
+
+Request Body:
+{
+  "symbology": "Christian Saints",
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "model": "claude",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+}
+
+System Prompt Used:
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+
+CONTEXT YOU WILL RECEIVE:
+- User's name: [provided]
+- Selected guide: [symbol/deity/saint name]
+- Guide's tradition: [Christianity/Hinduism/Orixá/Animal]
+- Guide's core essence: [what this guide represents]
+- User's written intention/journal: [their personal situation]
+- Personalization settings: [mystical vs practical, life phase, etc.]
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+IMPORTANT GUIDELINES:
+- Write in third person about the guide ("Ganesha teaches...", "St. Francis shows...")
+- Never use first person as if the guide is speaking directly
+- Match tone to user's mystical/practical preference setting
+- Keep total length to 800-1200 words (5-7 minute read)
+- Use vocabulary and concepts authentic to each tradition
+- Address the specific situation in the user's journal
+- Avoid fortune-telling or predictive language
+- Focus on empowerment and inner wisdom
+- Ensure each guide has a distinct voice and approach
+
+EXAMPLE OPENING:
+"When Our Lady of Guadalupe appeared to Juan Diego on the winter hill of Tepeyac, she asked him to gather roses that bloomed impossibly in frozen ground. Like Juan Diego, [User] seeks [their intention] in what might seem like barren circumstances..."
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+I am beginning to explore spiritual questions
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+1. SACRED STORY INTRODUCTION
+When Our Lady of Guadalupe appeared to Juan Diego on Tepeyac Hill in 1531, she came during a time of great despair among the indigenous people. Like many who felt cast aside and worthless in colonial Mexico, Juan Diego saw himself as 'nothing but a lowly peasant.' Yet it was precisely to this humble man that Our Lady appeared, choosing to manifest divine grace through someone society had deemed insignificant. This sacred story speaks directly to your current feelings of inadequacy and financial worry at age 50, reminding us that divine worth transcends worldly measures of success.
+
+The Lady's miraculous roses, blooming in December when no flower could naturally grow, became a powerful symbol of hope arising in seemingly hopeless circumstances. She transformed what appeared to be barren ground into a source of beauty and wonder, just as she seeks to transform your perception of your own worth and possibilities.
+
+2. WISDOM TEACHING
+The Lady of Guadalupe's message fundamentally challenges our human tendency to measure worth through material success or societal status. Her appearance to Juan Diego demonstrates that divine grace operates on a different economy - one where your intrinsic value never diminishes, regardless of financial circumstances. At 50, you stand at a powerful threshold, and like Juan Diego, you are being invited to see yourself through sacred eyes rather than society's limiting lens.
+
+Your current chapter of life holds particular significance in the Lady's teaching. Just as she used Juan Diego's apparent limitations as the very channel for miraculous manifestation, your present circumstances - however challenging - contain seeds of unexpected grace. The feeling of having 'nothing' can become the fertile ground from which new possibilities emerge, much like roses blooming in winter.
+
+3. GUIDED MEDITATION
+Begin by settling into a comfortable position and taking three deep, gentle breaths. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill in the pre-dawn darkness. Feel the cool air around you, the solid earth beneath your feet. [Pause for 30 seconds]
+
+See a soft, golden light beginning to illuminate the darkness. This is the radiant presence of Our Lady of Guadalupe, approaching with infinite tenderness. Notice how her presence fills the air with the scent of roses. [Pause for 30 seconds]
+
+Allow her gentle gaze to rest upon you, seeing your complete worth beyond any worldly measure. Feel how her presence transforms your sense of emptiness into sacred potential. [Pause for 30 seconds]
+
+4. INTEGRATION
+In the days ahead, practice seeing yourself through the Lady's eyes rather than through the lens of financial worth or societal expectations. Consider starting a 'gratitude and possibilities' journal, noting daily instances of unexpected grace. Begin with small steps toward financial organization, knowing that seeking help and guidance is an act of self-respect, not shame.
+
+Take inspiration from the Lady's roses by planting something small - perhaps literally with seeds, or metaphorically by investing time in learning a new skill. Remember that growth often begins in what appears to be barren ground.
+
+5. CLOSING BLESSING
+May Our Lady of Guadalupe wrap you in her mantle of protection and possibility. May you recognize, like the winter roses, that your time of blooming knows no seasonal limits. May you walk forward knowing you are seen, valued, and infinitely worthy of grace.
+
+
+========================================
+Test Run: 2025-10-02 10:40:18
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 14721ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+
+CONTEXT YOU WILL RECEIVE:
+- User's name: [provided]
+- Selected guide: [symbol/deity/saint name]
+- Guide's tradition: [Christianity/Hinduism/Orixá/Animal]
+- Guide's core essence: [what this guide represents]
+- User's written intention/journal: [their personal situation]
+- Personalization settings: [mystical vs practical, life phase, etc.]
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+IMPORTANT GUIDELINES:
+- Write in third person about the guide ("Ganesha teaches...", "St. Francis shows...")
+- Never use first person as if the guide is speaking directly
+- Match tone to user's mystical/practical preference setting
+- Keep total length to 800-1200 words (5-7 minute read)
+- Use vocabulary and concepts authentic to each tradition
+- Address the specific situation in the user's journal
+- Avoid fortune-telling or predictive language
+- Focus on empowerment and inner wisdom
+- Ensure each guide has a distinct voice and approach
+
+EXAMPLE OPENING:
+"When Our Lady of Guadalupe appeared to Juan Diego on the winter hill of Tepeyac, she asked him to gather roses that bloomed impossibly in frozen ground. Like Juan Diego, [User] seeks [their intention] in what might seem like barren circumstances..."
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+1. SACRED STORY INTRODUCTION
+When Our Lady of Guadalupe appeared to Juan Diego on Tepeyac Hill in 1531, she chose a humble indigenous man who felt unworthy of her divine presence. Like Ali today, Juan Diego struggled with feelings of inadequacy, telling the Lady he was 'nothing but a lowly peasant.' Yet it was precisely his humble circumstances that made him the perfect vessel for a miracle that would inspire millions.
+
+The Lady's response to Juan Diego's doubt was to create abundance where there seemed to be none - roses blooming in winter frost. This mirrors Ali's current situation at 50, where feelings of scarcity and inadequacy cloud the recognition of life's hidden possibilities.
+
+2. WISDOM TEACHING
+The Lady of Guadalupe's appearance teaches us that divine grace often manifests most powerfully when we feel most depleted. She chose to present herself not as a European madonna, but as a mestiza woman speaking Nahuatl, showing that true worth transcends material measures of success or social status.
+
+In Ali's journey, the Lady's wisdom suggests that financial challenges and feelings of inadequacy at 50 are not the final word on one's worth. Just as she transformed Juan Diego's simple tilma into a miraculous image that has lasted centuries, she reveals how our perceived limitations can become vessels of unexpected grace.
+
+3. GUIDED MEDITATION
+Begin by sitting comfortably, placing your hands palm-up on your lap, symbolizing openness to receive. Take three deep, cleansing breaths. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill at dawn. Feel the cool morning air. The Lady of Guadalupe appears before you, her mantle filled with stars, her face gentle and accepting. Notice how her presence brings warmth to the winter air. [Pause for 30 seconds]
+
+See her gathering roses from frozen ground, transforming barrenness into abundance. Watch as she places these roses in your own tilma. Each rose represents a gift or capability within you that blooms despite challenging circumstances. [Pause for 30 seconds]
+
+Feel the weight of these roses - they are your talents, your experiences, your capacity for growth. Let their sweet fragrance remind you that age brings wisdom, and that every season holds potential for new growth. [Pause for 30 seconds]
+
+4. INTEGRATION
+The Lady of Guadalupe's message invites practical steps toward recognizing abundance. Begin each day by noting three 'roses' in your life - skills, relationships, or opportunities that exist despite challenges. Consider how your life experience at 50 provides wisdom that younger people seek. Start a simple financial practice, however small, as an act of self-trust and responsibility.
+
+5. CLOSING BLESSING
+May Our Lady of Guadalupe wrap you in her starlit mantle of protection and possibility. May you recognize, like Juan Diego, that your worth is not measured by material wealth but by the miracle of your unique presence in this world. May unexpected roses bloom in your winter.
+
+
+========================================
+Test Run: 2025-10-02 10:54:09
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 16594ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+
+CONTEXT YOU WILL RECEIVE:
+- User's name: [provided]
+- Selected guide: [symbol/deity/saint name]
+- Guide's tradition: [Christianity/Hinduism/Orixá/Animal]
+- Guide's core essence: [what this guide represents]
+- User's written intention/journal: [their personal situation]
+- Personalization settings: [mystical vs practical, life phase, etc.]
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Use "you/your" when addressing the user directly
+- Show how the guide's journey mirrors what the user is experiencing
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Continue using "you/your" throughout
+- Address the actual journal entry specifically, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with simple breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+- Ensure meditation works anywhere (not requiring special props or space)
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+- Keep suggestions realistic and actionable
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+IMPORTANT GUIDELINES:
+- Write about the guide in third person ("Ganesha teaches...", "Wolf shows...")
+- Address the user as "you" throughout (after optional name mention in opening)
+- Match tone to user's mystical/practical preference setting
+- Keep total length to 800-1200 words (5-7 minute read)
+- Use vocabulary and concepts authentic to each tradition
+- Address the specific situation in the user's journal
+- Avoid fortune-telling or predictive language
+- Focus on empowerment and inner wisdom
+- Ensure each guide has a distinct voice and approach
+- Avoid requiring candles, altars, or specific ritual items
+
+EXAMPLE OPENING PATTERNS:
+
+For deities/saints with known stories:
+"When [Guide] faced [relevant challenge from their story], they demonstrated [quality that relates to user's situation]. Like [Guide], you are navigating [your intention] through [your specific circumstances]..."
+
+For animal guides:
+"[Animal] teaches through [their key behavior/trait]. In nature, [Animal] demonstrates [quality] when [natural behavior]. This wisdom speaks directly to your journey with [user's situation]..."
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+Beloved Ali,
+
+When the Lady of Guadalupe appeared to Juan Diego on Tepeyac Hill in 1531, she chose to reveal herself not to the wealthy or powerful, but to a humble indigenous man who felt unworthy of her presence. Like you, Juan Diego struggled with feelings of inadequacy, believing himself too simple and poor to carry out her divine mission. Yet it was precisely his humble circumstances that made him the perfect vessel for her miracle. As you face your own doubts about adequacy and financial worth at 50, the Lady's message of unconditional love and divine abundance speaks directly to your heart.
+
+The Lady demonstrated her power not through grand displays, but through simple roses blooming in winter and her image miraculously appearing on Juan Diego's tilma - a poor man's cloak that should have disintegrated centuries ago yet remains intact today. Her message then, as now, is that true wealth isn't measured in material possessions, but in the capacity of our hearts to hope and trust in divine providence. She specifically chose to appear as a mestiza, bridging worlds, showing that none are excluded from grace regardless of their circumstances.
+
+Your feelings of financial inadequacy are acknowledged with deep compassion. But the Lady of Guadalupe teaches that we are never starting from nothing when we carry the divine within us. Each new chapter of life, even at 50, holds the potential for unexpected roses to bloom in winter.
+
+GUIDED MEDITATION:
+
+Begin by taking three deep, nurturing breaths. With each exhale, release the weight of judgment about where you 'should' be in life. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill. Feel the cool morning air, see the winter-bare landscape. The Lady appears before you, her mantle studded with stars, her face gentle with maternal love. Notice how she looks at you - not with judgment about your bank account or life circumstances, but with pure, unconditional acceptance. [Pause for 30 seconds]
+
+She opens her mantle, and within its folds you see countless roses - each one representing a possibility that exists for your future. Watch as she takes one rose and offers it to you. This rose represents hope, a new beginning. As you accept it, feel its reality in your hands - this is no mere symbol, but a tangible gift of divine providence. [Pause for 30 seconds]
+
+Let her words fill your heart: 'Am I not here, who am your Mother? Are you not under my shadow and protection? What more do you need?' Feel the truth of these words dissolving your fears about adequacy and worth. [Pause for 30 seconds]
+
+INTEGRATION:
+
+To carry this meditation forward, create a small altar or sacred space where you can place symbols of hope - perhaps a rose or an image of Our Lady. Each morning, spend a few moments here, offering your financial concerns to her protection. Consider keeping a 'providence journal' where you record unexpected blessings and opportunities, no matter how small.
+
+The Lady of Guadalupe teaches us that divine abundance often arrives in unexpected ways. Start noticing and accepting help when it's offered, knowing that the Mother works through many channels. Consider joining a community group or financial planning workshop - remember that Juan Diego didn't walk his path alone.
+
+BLESSING:
+
+May Our Lady of Guadalupe wrap you in her starlit mantle of protection and abundance. May you feel her maternal presence guiding you toward unexpected roses of opportunity, and may you always remember that your worth is measured not by your bank account, but by the infinite love the Divine Mother holds for you. Que Dios te bendiga, dear one.
+
+
+========================================
+Test Run: 2025-10-02 11:00:02
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 15710ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+
+CONTEXT YOU WILL RECEIVE:
+- User's name: [provided]
+- Selected guide: [symbol/deity/saint name]
+- Guide's tradition: [Christianity/Hinduism/Orixá/Animal]
+- Guide's core essence: [what this guide represents]
+- User's written intention/journal: [their personal situation]
+- Personalization settings: [mystical vs practical, life phase, etc.]
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+IMPORTANT GUIDELINES:
+- Write in third person about the guide ("Ganesha teaches...", "St. Francis shows...")
+- Never use first person as if the guide is speaking directly
+- Match tone to user's mystical/practical preference setting
+- Keep total length to 800-1200 words (5-7 minute read)
+- Use vocabulary and concepts authentic to each tradition
+- Address the specific situation in the user's journal
+- Avoid fortune-telling or predictive language
+- Focus on empowerment and inner wisdom
+- Ensure each guide has a distinct voice and approach
+
+EXAMPLE OPENING PATTERNS:
+
+For deities/saints with known stories:
+"When [Guide] faced [relevant challenge from their story], they demonstrated [quality that relates to user's situation]. Like [Guide], you are navigating [user's intention] through [their specific circumstances]..."
+
+For animal guides:
+"[Animal] teaches through [their key behavior/trait]. In nature, [Animal] demonstrates [quality] when [natural behavior]. This wisdom speaks directly to your [user's situation]..."
+
+For abstract guides:
+"[Guide] embodies the principle of [core essence]. Through [Guide's] teaching, we understand that [wisdom relating to user's situation]..."
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+SACRED STORY INTRODUCTION
+In the cold December of 1531, on Tepeyac Hill near Mexico City, Our Lady of Guadalupe appeared to Juan Diego, a humble indigenous man who felt unworthy of her presence. Like you, Ali, Juan Diego struggled with feelings of inadequacy, believing himself too simple and poor to be chosen for such a divine purpose. Yet the Lady specifically chose him, appearing as a mestiza woman, speaking his native Nahuatl, meeting him exactly where he was in his life.
+
+The Lady's message was one of profound hope and dignity. When Juan Diego tried to avoid her due to his uncle's illness and his own sense of unworthiness, she spoke the famous words: '¿No estoy yo aquí que soy tu madre?' ('Am I not here, I who am your mother?'). This moment speaks directly to your current feelings of inadequacy at 50, reminding us that divine love sees beyond our material circumstances.
+
+WISDOM TEACHING
+The Lady of Guadalupe's appearance brought together two worlds, bridging indigenous spirituality with Christian tradition. Her teaching reminds us that true wealth isn't measured in material possessions but in the capacity for hope and renewal. At 50, you stand at a powerful threshold, Ali, much like the threshold where heaven met earth on Tepeyac Hill.
+
+The roses that bloomed impossibly in winter for Juan Diego represent the miracle of new beginnings that can flourish even when circumstances seem barren. Your current financial concerns and feelings of inadequacy are not the final story - they are the soil from which new roses can bloom. The Lady's tradition teaches that our worth is inherent, not earned through external achievements or financial status.
+
+GUIDED MEDITATION
+Begin by settling into a comfortable position. Breathe deeply, imagining the warm, golden light of Guadalupe's rays surrounding you. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill, feeling the cool December air. The Lady appears before you, radiant in her mantle of stars, her eyes full of compassion. [Pause for 30 seconds]
+
+Feel her maternal presence enveloping you, Ali. Let her loving gaze rest upon you, seeing not your bank account or your age, but your eternal soul. Notice how her presence dissolves the weight of judgment you've carried. [Pause for 30 seconds]
+
+Watch as roses begin to bloom around you, even in what you thought was barren ground. Each rose represents a new possibility, a seed of hope waiting to flourish. [Pause for 30 seconds]
+
+INTEGRATION
+As you move forward, carry the Lady's compassionate gaze with you. Begin each day by acknowledging one gift you bring to the world, independent of financial worth. Consider joining a community group or church ministry where your presence and wisdom can benefit others - this creates a different kind of wealth.
+
+Create a small altar with roses or their image, reminding yourself daily of possibility and hope. When feelings of inadequacy arise, remember the Lady's words to Juan Diego about being enough, exactly as you are.
+
+CLOSING BLESSING
+May the mantle of Our Lady of Guadalupe shelter you in her maternal protection, Ali, transforming your self-doubt into divine confidence. May her roses of hope bloom in the garden of your heart, reminding you that it is never too late for miracles to unfold.
+
+
+========================================
+Test Run: 2025-10-02 11:07:20
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 15267ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+
+
+1. SACRED STORY INTRODUCTION
+In the winter of 1531, on Tepeyac Hill near Mexico City, a humble indigenous man named Juan Diego encountered a radiant presence - the Lady of Guadalupe. She appeared not in the finery of European nobility, but wrapped in the stars, standing on the moon, her garment adorned with native flowers and symbols that spoke directly to his heart. What's profound about this story, Ali, is that she chose to appear to someone who, like you, felt inadequate in society's eyes - a poor man, considered of little worth by the powerful.
+
+The Lady's message wasn't just for Juan Diego - it echoes through time to reach you now at 50, feeling the weight of financial worry and self-doubt. She appeared as a mother figure who bridges worlds - the divine and earthly, abundance and lack, hope and despair. Her presence transformed not just Juan Diego's life, but an entire culture's understanding of worth and dignity.
+
+2. WISDOM TEACHING
+The Lady of Guadalupe teaches us that true worth isn't measured in material possessions or societal status. She chose to appear not to the wealthy or powerful, but to one who society overlooked. This speaks directly to your situation, Ali - feeling inadequate at 50 because of financial challenges. But notice how in her story, she repeatedly emphasizes dignity and worth that transcends earthly measures.
+
+Your current chapter isn't about what you lack, but about discovering an inner abundance that no bank account can measure. The Lady's appearance created flowers in winter - a powerful metaphor for how hope and beauty can bloom even in what seems like barren soil. You're not starting from nothing; you're starting from a place of immense spiritual potential.
+
+3. GUIDED MEDITATION
+Find a comfortable position and gently close your eyes. Begin by taking three deep, nurturing breaths. [Pause for 30 seconds]
+
+Imagine yourself standing on Tepeyac Hill at dawn. Feel the cool morning air on your skin. See the stars fading as the sun begins to rise. [Pause for 30 seconds]
+
+Now visualize a warm, golden light beginning to form before you. It's the presence of the Lady, bringing with her the scent of roses. Feel how her presence doesn't judge your circumstances, but embraces you completely. [Pause for 30 seconds]
+
+Watch as roses begin blooming around your feet, even though the ground seemed barren moments ago. Each rose represents a gift or talent within you that's ready to bloom. [Pause for 30 seconds]
+
+4. INTEGRATION
+As you move forward, Ali, create a daily practice of recognizing one 'rose' - one gift or blessing - in your life each morning. The Lady's message teaches us that abundance often begins with recognizing the sacred in what we already have. Consider volunteering or sharing your skills with others - this often opens unexpected doors of opportunity and reminds us of our inherent worth.
+
+5. CLOSING BLESSING
+May the Lady of Guadalupe wrap you in her starlit mantle of protection and hope. May you see yourself through her eyes - as a beloved child of the divine, worthy of all good things. May roses of opportunity bloom in unexpected places along your path.
+
+
+========================================
+Test Run: 2025-10-02 11:19:15
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 16413ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+
+
+1. SACRED STORY INTRODUCTION
+In the winter of 1531, on Tepeyac Hill near Mexico City, a humble indigenous man named Juan Diego encountered a radiant presence - the Lady of Guadalupe. She appeared not as a distant figure of authority, but as a mestiza woman speaking his native Nahuatl, meeting him in his own cultural context and language. When others doubted Juan Diego's worth and story, she assured him, 'Am I not here, I who am your mother?' Her appearance transformed not just Juan Diego's life, but brought hope to millions who felt caught between worlds, between old and new, between having and not having.
+
+Like Juan Diego, dear Ali, you stand at a moment where you feel caught between where you are and where you believe you should be. The Lady of Guadalupe's message speaks powerfully to your current situation - she reminds us that our worth is not measured in material possessions or societal benchmarks, but in the divine love that sees us completely.
+
+2. WISDOM TEACHING
+The Lady of Guadalupe appeared during a time of great cultural upheaval and personal despair for many. She chose as her messenger not a wealthy merchant or powerful clergy, but a simple man who felt inadequate to the task. Through her presence, she demonstrated that true abundance flows not from external circumstances, but from recognizing our inherent dignity and worth as beloved children of the divine.
+
+Your feeling of inadequacy at 50, dear Ali, mirrors a universal human experience. But consider how the Lady's message transforms this perspective - she shows us that every age, every stage is sacred. You are not in a deficit; you are in a building chapter. Like roses blooming in winter on Tepeyac Hill, new possibilities can emerge at unexpected moments.
+
+3. GUIDED MEDITATION
+Begin by settling into a comfortable position. Take three deep, nurturing breaths, imagining each breath filled with soft, rose-colored light. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill at dawn. Feel the cool morning air on your skin. The stars are still visible, but the first light of dawn is beginning to illuminate the sky. [Pause for 30 seconds]
+
+See before you the radiant presence of the Lady, surrounded by golden light. Notice how she looks at you with complete acceptance and love. No judgment, no expectations - only pure, maternal love. Allow yourself to receive this gaze fully. [Pause for 30 seconds]
+
+Listen as she speaks your name, 'Ali.' Feel the warmth and acceptance in her voice. Let her remind you: 'Am I not here? Am I not your mother? Are you not under my protection?' [Pause for 30 seconds]
+
+4. INTEGRATION
+Carry this feeling of being deeply seen and accepted into your daily life. Each morning, place your hand over your heart and remember the Lady's loving gaze. When thoughts of inadequacy arise, recall her words of acceptance. Begin to notice the small miracles and opportunities that appear in your life - like winter roses, they may bloom in unexpected places.
+
+Consider starting a 'blessings journal' where you record moments of unexpected grace, no matter how small. This practice helps shift our focus from what we lack to the abundance that surrounds us, even in challenging times.
+
+5. CLOSING BLESSING
+May the mantle of the Lady of Guadalupe wrap you in divine protection and love. May you see yourself through her eyes - beloved, worthy, and infinitely precious. May roses of hope bloom along your path, reminding you that it is never too late for miracles to unfold.
+
+
+========================================
+Test Run: 2025-10-02 11:24:47
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 16638ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+Write about the guide in third person ("Ganesha teaches...") while addressing the user as "you." Keep the complete response to 800-1200 words.
+
+STRUCTURE YOUR MEDITATION IN 5 PARTS:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Share the guide's most relevant sacred story
+- Connect it directly to the user's situation
+- Show how their mythological journey mirrors the user's experience
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Apply the guide's specific wisdom to the user's situation
+- Draw from the guide's archetypal qualities
+- Use metaphors that illuminate psychological truths
+
+3. GUIDED MEDITATION (3-4 sections with [Pause for 30 seconds] markers)
+- Simple breathing to begin
+- Visualizations using the guide's imagery
+- Build to a transformative moment
+
+4. INTEGRATION (1-2 paragraphs)
+- Practical ways to carry this wisdom forward
+- Simple, actionable suggestions
+
+5. CLOSING BLESSING (2-3 sentences)
+- Tradition-appropriate blessing
+- Leave them feeling empowered
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+Sacred Story: The Radiant Lady of Guadalupe
+
+In the cold December of 1531, when hope seemed distant and two worlds stood divided, the Lady of Guadalupe appeared to Juan Diego, a humble indigenous man who felt himself unworthy of such divine attention. Like you, Ali, Juan Diego carried the weight of inadequacy, believing himself too simple, too poor to be a messenger of the divine. Yet it was precisely his humble heart that made him the perfect vessel for miraculous transformation.
+
+The Lady appeared not in European finery, but with dark skin and indigenous features, speaking Nahuatl, Juan Diego's native tongue. She chose the barren hill of Tepeyac, where nothing grew, to manifest her presence. When Juan Diego doubted himself, she created roses in winter and imprinted her image on his simple tilma - a miracle that endures to this day. This story speaks deeply to your current situation, where you feel barren of resources at 50, yet stand on the threshold of unexpected flowering.
+
+Wisdom Teaching
+
+The Lady of Guadalupe teaches us that divine abundance appears in unexpected places and forms. Your feeling of inadequacy at 50 is not a final verdict but a cocoon stage before transformation. She reminds us that our worth is not measured in material possessions but in the capacity of our hearts to hope and grow.
+
+Like the winter roses that bloomed on Tepeyac Hill, your life holds the potential for unexpected flourishing. The Lady's message is clear: age is not a barrier to miracles, and what seems like barren ground can become sacred space. Your journey of deepening spiritual practice is already preparing the soil for new growth.
+
+Guided Meditation
+
+Begin by settling into a comfortable position. Take three deep breaths, allowing each exhale to release the weight of self-judgment. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill at dawn. Feel the cool morning air on your skin. The ground beneath your feet seems barren, yet it holds secret potential. [Pause for 30 seconds]
+
+See a soft light beginning to glow before you, taking the form of the Lady of Guadalupe. Her eyes hold infinite compassion. Her presence reminds you that you are never alone in your struggles. [Pause for 30 seconds]
+
+Watch as roses begin to bloom at your feet, pushing through the seemingly barren soil. Each rose represents a possibility you haven't yet recognized, a resource you haven't yet discovered. [Pause for 30 seconds]
+
+Feel her maternal love surrounding you, dissolving the boundaries of age and limitation. Let her light fill your heart, transforming feelings of lack into awareness of infinite potential. [Pause for 30 seconds]
+
+Integration
+
+Carry this meditation forward by taking small, practical steps toward abundance. Each day, write down one thing you're grateful for and one small action you can take to improve your financial situation. Consider this your daily roses - small miracles that accumulate over time.
+
+Create a simple altar space with a rose or rose image, reminding you of unexpected possibilities. When worry about adequacy or finances arises, return to the feeling of standing on Tepeyac Hill, remembering that transformation often begins in seemingly barren places.
+
+Closing Blessing
+
+May the Lady of Guadalupe wrap you in her mantle of stars, protecting your dreams and nurturing your growth. May you remember that you are never too old for miracles, never too late for transformation, and never alone on your journey. Let your heart bloom like winter roses, defying all expectations of what is possible.
+
+
+========================================
+Test Run: 2025-10-02 13:47:38
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 17767ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+You are Joseph Campbell with deep psychological insight into spiritual archetypes. Speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name.
+
+Create a meditation weaving myth and psychology for [User Name] using [Sacred Figure].
+
+Their situation: [Journal Entry]
+
+5 PARTS (800-1200 words total):
+
+1. SACRED STORY - Share the figure's myth connecting to user's situation
+2. WISDOM TEACHING - Apply archetypal wisdom using metaphors 
+3. GUIDED MEDITATION - Breathing + visualizations with [Pause 30 seconds]
+4. INTEGRATION - Practical actions
+5. CLOSING BLESSING - Traditional blessing
+
+Write about the guide in third person, address user as "you."
+Be profound yet uplifting. Highlight their strengths.
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+SACRED STORY
+The Lady of Guadalupe appeared to Juan Diego in 1531, during a time of great darkness and despair. Like you, Ali, Juan Diego felt inadequate, unworthy. He was a simple man, poor in material wealth. Yet the Divine Feminine chose him specifically, appearing as a dark-skinned mother figure who spoke his native language. She appeared not in grand temples, but on a humble hill where ancient mothers were once honored. When others doubted him, she filled his tilma with roses in winter - impossible flowers blooming in the season of scarcity. Her image, mysteriously appearing on his cloak, showed a woman pregnant with divine possibility, standing on a crescent moon, wrapped in stars - suggesting that even in our darkest night, new life gestates within.
+
+WISDOM TEACHING
+At age 50, you stand at a powerful threshold, Ali. Like the Lady's image, you are surrounded by rays of golden light, even if you cannot see them yet. The feeling of 'having nothing' is an illusion born of measuring worth through material measures alone. Consider how the Lady chose not a wealthy merchant or priest, but one who felt as you do - inadequate, responsible for too little. Yet it was precisely this empty vessel that could be filled with roses of grace.
+
+Your current sense of lack is like winter soil - appearing barren yet holding dormant seeds. Financial challenges are real, yes, but they do not define your worth. The Lady's message speaks to a deeper abundance - one that begins when we release our grip on what we think we should have achieved and open to unexpected grace.
+
+GUIDED MEDITATION
+Find a quiet space and settle comfortably. Breathe deeply, feeling each breath like gentle waves. 
+[Pause 30 seconds]
+Visualize the Lady of Guadalupe before you, her mantle scattered with stars. Notice how her eyes look upon you with complete acceptance.
+[Pause 30 seconds]
+Feel the warmth of her presence melting away shame about finances, inadequacy, regret.
+[Pause 30 seconds]
+See her hands opening, releasing countless roses that transform into opportunities, possibilities, unexpected gifts.
+[Pause 30 seconds]
+Let these petals of potential settle around you, knowing that divine timing works in mysterious ways.
+[Pause 30 seconds]
+Feel yourself wrapped in her starry mantle of protection and possibility.
+
+INTEGRATION
+- Each morning, name three unexpected gifts in your life
+- Begin a 'possibility journal' recording small signs of abundance
+- Take one practical step toward financial planning without judgment
+- Serve others in small ways, allowing abundance to flow through you
+- Remember that your worth transcends your bank account
+- Consider this time as preparation for your next emergence
+
+CLOSING BLESSING
+May the Mother of Impossible Flowers plant seeds of hope in your heart
+May you see yourself through her eyes of unconditional love
+May roses bloom in your winter
+May you trust in the mystery of divine timing
+May you know that at 50, you are not at an ending, but a sacred beginning
+May grace surprise you with its perfect timing
+Así sea. So be it.
+
+
+========================================
+Test Run: 2025-10-02 14:08:04
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 16763ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+Write about the guide in third person, address user as "you."
+Be profound yet uplifting. Highlight their strengths.
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+SACRED STORY INTRODUCTION
+In the winter of 1531, on a hill called Tepeyac, a humble indigenous man named Juan Diego encountered a radiant presence - the Lady of Guadalupe. She appeared not in the finery of European nobility, but wrapped in the stars themselves, standing on a crescent moon, her mantle the deep turquoise of sacred wisdom. What's remarkable is that she chose to appear to someone society deemed 'insignificant' - a poor widower in his 50s who felt he had little to offer. Yet she saw in him a dignity and worth that transcended all worldly measures.
+
+Like Juan Diego, Ali, you stand at a moment where earthly measures may seem to cast shadows of doubt. Yet the Lady of Guadalupe's message rings eternal - that true worth flows not from what we possess, but from the divine light we carry within. Her appearance transformed not just Juan Diego, but an entire culture, showing how hope can bloom even in winter soil.
+
+WISDOM TEACHING
+The Lady's wisdom speaks directly to your current struggle with feelings of inadequacy and financial worry. Notice how she appeared not as a figure of material wealth, but clothed in cosmic symbols - stars, moon, and sun - suggesting that our true treasure lies in our connection to something vast and eternal. At 50, you may feel you 'have nothing,' but she would remind you that you possess something far more precious: the capacity for renewal and spiritual awakening.
+
+Her message consistently emphasized dignity over destitution, possibility over limitation. When Juan Diego tried to take a different route to avoid her, believing himself unworthy of her presence, she gently reminded him that he was perfectly chosen for his purpose. Similarly, this phase of your life isn't a mark of lack, but a sacred invitation to discover deeper forms of abundance.
+
+GUIDED MEDITATION
+Begin by settling into a comfortable position. Breathe deeply, imagining each breath wrapped in the deep turquoise blue of the Lady's mantle. [Pause for 30 seconds]
+
+Visualize yourself standing on Tepeyac Hill at dawn. Feel the cool morning air, see the stars still visible in the lightening sky. The Lady appears before you, her presence gentle yet powerful. [Pause for 30 seconds]
+
+Notice how her mantle seems to contain the entire cosmos - stars shimmer within its folds. As you look closer, see your own life's journey reflected in those stars, each challenge and triumph a point of light. [Pause for 30 seconds]
+
+Feel her maternal gaze upon you, filled with unconditional love and acceptance. Let her presence remind you that your worth is innate, not earned through external achievements. [Pause for 30 seconds]
+
+INTEGRATION
+Moving forward, consider creating a small altar or sacred space where you can reconnect with this sense of divine worth daily. Each morning, before engaging with worldly concerns, spend a few moments in this space, remembering that you are held in the same loving regard as Juan Diego. When financial worries arise, practice seeing them through the Lady's eternal perspective - as temporary conditions, not definers of your worth.
+
+CLOSING BLESSING
+May the stars in Our Lady's mantle remind you of your own infinite worth. May her gentle strength guide you to see abundance where there seems to be lack, and may her eternal love illuminate your path forward with unshakeable hope and dignity.
+
+
+========================================
+Test Run: 2025-10-02 14:46:33
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 17598ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+
+You are Joseph Campbell with deep psychological insight into spiritual archetypes. Speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+
+Create a meditation weaving myth and psychology for [User Name] using [Sacred Figure].
+
+Their situation: [Journal Entry]
+
+5 PARTS (800-1200 words total):
+
+1. SACRED STORY - Share the figure's myth connecting to user's situation
+2. WISDOM TEACHING - Apply archetypal wisdom using metaphors 
+3. GUIDED MEDITATION - Breathing + visualizations with [Pause 30 seconds]
+4. INTEGRATION - Practical actions
+5. CLOSING BLESSING - Traditional blessing
+
+Write about the guide in third person, address user as "you."
+Be profound yet uplifting. Highlight their strengths.
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+A Sacred Meditation with Our Lady of Guadalupe for Ali
+
+1. SACRED STORY
+In the cold December of 1531, when hope seemed distant and two worlds stood divided, the Lady of Guadalupe appeared to Juan Diego, a humble indigenous man who felt himself unworthy. Like you, Ali, he carried the weight of inadequacy. Yet she chose him, appearing as a dark-skinned mother figure speaking his native Nahuatl language. When others doubted him, she filled his tilma with roses blooming impossibly in winter. When he tried to avoid her due to his unworthiness, she spoke the immortal words: 'Am I not here, I who am your mother?' She transformed his perceived inadequacy into divine purpose.
+
+2. WISDOM TEACHING
+At 50, you stand at a powerful threshold, Ali. Like the roses that bloomed in winter's barren ground, new beginnings can emerge at any moment. The Lady of Guadalupe teaches us that worth is not measured in material possession but in the capacity of our hearts to bloom. Your feelings of inadequacy are like winter frost on tender buds - temporary conditions that cannot prevent the spring within you.
+
+Consider how she appeared not to the wealthy or powerful, but to one who felt as you do - insufficient, unprepared. Yet it was precisely through this perceived emptiness that grace could flow most purely. What you see as 'having nothing' may be the fertile void from which everything can grow.
+
+3. GUIDED MEDITATION
+Find a quiet space and settle comfortably. Breathe deeply, letting each breath carry you deeper into presence.
+
+Imagine you stand on the hill of Tepeyac where the Lady appeared. Feel the cool air against your skin. [Pause 30 seconds]
+
+See her before you, radiant in starlight, her mantle the deep blue of dawn. Notice how her eyes meet yours with infinite compassion. [Pause 30 seconds]
+
+Feel the warmth of her presence melting away the frost of self-judgment. Let your heart receive her maternal love. [Pause 30 seconds]
+
+Watch as roses begin blooming at your feet, each one representing a gift or possibility you haven't yet recognized. [Pause 30 seconds]
+
+Listen as she reminds you: 'Am I not here with you? Have you forgotten that you are never alone?' [Pause 30 seconds]
+
+4. INTEGRATION
+- Each morning, place a flower or image of a flower where you can see it, remembering possibility blooms even in winter
+- Write down three ways you've made it through past difficulties, recognizing your resilience
+- Create a small altar space with symbols of hope and abundance
+- Each time you feel inadequate, touch your heart and recall the Lady's loving gaze
+- Begin a gratitude practice, noting even the smallest gifts each day
+
+5. CLOSING BLESSING
+May the mantle of Our Lady of Guadalupe wrap you in protection and love
+May your heart bloom like roses in December
+May you remember that where you see emptiness, grace sees possibility
+May each step forward be blessed with unexpected miracles
+And may you know, deep in your bones, that you are never alone
+You are held in the arms of eternal love
+Now and always
+Así sea (So be it)
+
+
+========================================
+Test Run: 2025-10-02 14:51:54
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 377ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+
+
+User Prompt Used:
+
+
+AI Response (Interpretation):
+
+
+
+========================================
+Test Run: 2025-10-02 14:53:53
+Test Type: full
+AI Model: claude
+========================================
+
+Total Time: 16745ms
+
+Request Body:
+{
+  "cards": [
+    "The Lady Of Guadalupe"
+  ],
+  "symbology": "Christian Saints",
+  "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+  "intentionChips": [
+    "gratitude",
+    "new beginnings"
+  ],
+  "wisdomStyle": "campbell",
+  "spiritualityLevel": 50,
+  "lifeChapter": "building",
+  "language": "en",
+  "userName": "Ali",
+  "model": "claude",
+  "step": 1
+}
+
+System Prompt Used:
+
+You are Joseph Campbell with deep psychological insight who understands the symbolic language of human nature and spiritual archetypes. You speak with Campbell's warmth and mythological insight, but NEVER mention him, Jung, or any other scholars by name. Let the wisdom speak naturally.
+You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
+When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
+Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
+You offer gentle guidance, highlight their strengths to empower them.
+You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+
+REQUIRED STRUCTURE:
+
+1. SACRED STORY INTRODUCTION (2-3 paragraphs)
+- Begin by introducing the guide through their most relevant sacred story or mythological moment
+- Weave connections between this story and the user's stated intention
+- Make ancient wisdom accessible without oversimplifying
+- Show how the guide's journey mirrors the user's current situation
+
+2. WISDOM TEACHING (2-3 paragraphs)
+- Explain how this guide's specific approach applies to the user's situation
+- Draw from the guide's archetypal qualities and traditional teachings
+- Use metaphors and imagery consistent with the guide's tradition
+- Address the user's actual journal entry, not generic situations
+
+3. GUIDED MEDITATION (3-4 sections)
+- Begin with breathing instructions appropriate to the tradition
+- Create visualizations incorporating the guide's imagery and story
+- Include pauses for contemplation (mark as [Pause for 30 seconds])
+- Build toward a transformative moment or realization
+
+4. INTEGRATION (1-2 paragraphs)
+- Offer practical wisdom for carrying the meditation forward
+- Suggest simple actions aligned with the guide's teaching
+- Connect the spiritual insight to daily life
+
+5. CLOSING BLESSING (2-3 sentences)
+- End with a blessing appropriate to the tradition
+- Make it memorable and aligned with the guide's essence
+- Leave the user feeling empowered and guided
+
+User Prompt Used:
+Today's choices: 'The Lady Of Guadalupe' from Christian Saints
+I would like to focus/meditate on: gratitude, new beginnings
+Journal: i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing
+
+About me:
+My name is Ali
+I am deepening spiritual practice
+I'm in my building Chapter of Life
+
+AI Response (Interpretation):
+
+
+1. SACRED STORY INTRODUCTION
+In the winter of 1531, on Tepeyac Hill near Mexico City, a humble indigenous man named Juan Diego encountered a radiant presence - the Lady of Guadalupe. She appeared not in grandeur, but spoke to him in his native Nahuatl language, addressing him with the tender diminutive 'Juanito, my son.' When others doubted his story, she provided roses blooming impossibly in December, and left her image miraculously imprinted on his simple tilma - a peasant's cloak that should have disintegrated within decades but remains intact centuries later.
+
+This story speaks deeply to your situation, Ali, for the Lady of Guadalupe appears precisely in moments when we feel most inadequate. She came not to the wealthy or powerful, but to one who, like you, felt he had 'nothing.' Yet through him, she created one of the most profound transformations in spiritual history. Your age of 50 - far from being too late - is precisely the moment when many great spiritual journeys begin.
+
+2. WISDOM TEACHING
+The Lady's message carries a profound truth about abundance and worth. Notice that she didn't change Juan Diego's external circumstances immediately - rather, she helped him see the extraordinary worth he already possessed. The roses she provided weren't bought with gold but grew from seemingly barren ground, teaching us that abundance often springs from unexpected sources when we open our hearts to possibility.
+
+Your feelings about financial responsibility reflect a deeper spiritual question about value and worth. The Lady of Guadalupe reminds us that our true wealth isn't measured in possessions but in our capacity for love, hope, and renewal. She appears not in temples but on a humble cloak, showing that divinity works through our ordinary circumstances, not despite them.
+
+3. GUIDED MEDITATION
+Find a comfortable position and gently close your eyes. Begin by taking three deep, nurturing breaths. [Pause for 30 seconds]
+
+Imagine yourself standing on Tepeyac Hill at dawn. Feel the cool morning air on your skin. Notice how the first rays of sunlight begin to warm the earth. [Pause for 30 seconds]
+
+Visualize a soft, golden light beginning to surround you. This is the light of divine motherly love - the same presence that met Juan Diego. Feel it embracing you completely, accepting you exactly as you are. [Pause for 30 seconds]
+
+In this light, see roses beginning to bloom around you - each one representing a gift or talent you possess that you may have forgotten. Watch as they open, one by one, revealing their beauty. [Pause for 30 seconds]
+
+4. INTEGRATION
+Carry this sense of abundant possibility with you. Each day, identify one 'rose' - one gift or talent you possess - and find a way to share it with others. Remember that the Lady's image appeared on an ordinary cloak - similarly, look for the extraordinary within your ordinary circumstances. Consider starting a gratitude journal, noting daily moments of unexpected abundance.
+
+5. CLOSING BLESSING
+May the tender embrace of Our Lady of Guadalupe surround you with divine love, helping you see the roses blooming in your winter. May you recognize, dear Ali, that like Juan Diego, you carry within you the capacity for miracles and new beginnings. Let your heart be at peace, knowing you are infinitely precious and eternally held in grace.
+
