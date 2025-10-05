@@ -31,7 +31,8 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
             coreMeaning: card.coreMeaning,
             nayraQuote: card.nayraQuote,
             nextPrompt: card.nextPrompt,
-            isMajor: card.suit === "MajorArcana"
+            isMajor: card.suit === "MajorArcana",
+            coreIntention: card.coreIntentions || card.coreMeaning
         }
         console.log('if flow', flow);
         if (flow) {
@@ -54,7 +55,7 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
 
 export const getAvailableCards = (cardType, language='en') => {
     const allCards = getCardsDetail(cardType, language);
-
+    // console.log(allCards);
     if (cardType === symbolTypes.rws || cardType === symbolTypes.tarot) {
         return Object.entries(allCards)
             .filter(([key, card]) => !key.includes('reversed'))
@@ -66,12 +67,15 @@ export const getAvailableCards = (cardType, language='en') => {
             }));
     }
 
-    return Object.entries(allCards)
-        .filter(([cardName, card]) => card.name)
-        .map(([cardName, card]) => ({
-            name: cardName,
-            displayName:card.displayName || card.name,
-            coreMeaning: card.coreEssence || card.coreMeaning,
-            keywords: card.keywords || [],
-        }));
+
+        return Object.entries(allCards)
+            // .filter(([cardName, card]) => card.name)
+            .map(([cardName, card]) => ({
+                name: cardName,
+                displayName:card.displayName || card.name,
+                coreMeaning: card.coreEssence || card.coreMeaning,
+                keywords: card.keywords || [],
+            }));
+
+
 }

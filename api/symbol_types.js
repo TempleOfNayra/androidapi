@@ -5,5 +5,6 @@ export const symbolTypes = {
     hindu: 'hindu',
     orixas: 'orixas',
     saints: 'saints',
+    symbols: 'symbols',
 
 }

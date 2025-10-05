@@ -7,10 +7,12 @@ import { tarotCardsDetailFa } from './cards/tarotCardsDetails_fa.js';
 import { animalCardsDetail } from './cards/animalCardsDetails.js';
 import { hinduDeitiesDetail } from './cards/HinduDeities.js';
 import { saintsCardDetails } from './cards/saintsCardsDetail.js';
+import { symbolCards } from './cards/symbolCardsDetails.js';
 import { orixasDetail } from "./cards/OrixasDetail.js";
 import {symbolTypes} from "../symbol_types.js";
 
 export const getCardsDetail = (type, language, flow) => {
+    console.log('HERE ')
     if (language) {
         language = language.toLowerCase();
     }
@@ -43,6 +45,10 @@ export const getCardsDetail = (type, language, flow) => {
 
     if (type === symbolTypes.hindu) {
         return hinduDeitiesDetail;
+    }
+
+    if (type === symbolTypes.symbols) {
+        return symbolCards;
     }
 
     if (type === symbolTypes.orixas) {

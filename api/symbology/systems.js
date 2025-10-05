@@ -25,18 +25,20 @@ export default async function handler(req, res) {
                 return res.status(200).json(getAvailableCards(symbolTypes.tarot, language)
                     .filter(card => !card.name.includes('Reversed')));
             }
-            if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
-                return res.status(200).json(getAvailableCards(symbolTypes.rws, language));
-            }
-            if (symbology && symbology.toLowerCase() === symbolTypes.hindu) {
-                return res.status(200).json(getAvailableCards(symbolTypes.hindu, language));
-            }
-            if (symbology && symbology.toLowerCase() === symbolTypes.orixas) {
-                return res.status(200).json(getAvailableCards(symbolTypes.orixas, language));
-            }
-            if (symbology && symbology.toLowerCase() === symbolTypes.saints) {
-                return res.status(200).json(getAvailableCards(symbolTypes.saints, language));
-            }
+            return res.status(200).json(getAvailableCards(symbology, language));
+
+            // if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
+            //     return res.status(200).json(getAvailableCards(symbolTypes.rws, language));
+            // }
+            // if (symbology && symbology.toLowerCase() === symbolTypes.hindu) {
+            //     return res.status(200).json(getAvailableCards(symbolTypes.hindu, language));
+            // }
+            // if (symbology && symbology.toLowerCase() === symbolTypes.orixas) {
+            //     return res.status(200).json(getAvailableCards(symbolTypes.orixas, language));
+            // }
+            // if (symbology && symbology.toLowerCase() === symbolTypes.saints) {
+            //     return res.status(200).json(getAvailableCards(symbolTypes.saints, language));
+            // }
         }
 
         if (what === 'detail') {

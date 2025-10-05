@@ -16,20 +16,20 @@ echo ""
 if [ "$TEST_TYPE" = "minimal" ]; then
     # Minimal test - only journalEntry is provided
     REQUEST_BODY='{
-      "symbology": "Christian Saints",
-      "cards": ["The Lady Of Guadalupe"],
+      "symbology": "Tarot Cards",
+      "cards": ["The Strength"],
       "model": "claude",
-      "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing"
+      "journalEntry": "my capoeira teacher promissed me last year that he is going to graduate me this year in this particular event but today the event is around the corner and he is coming up with dum excuses that they do not make any sense, i am very disappointed that he doesnt care about me to stand up to his words "
     }'
     echo "📝 Testing with MINIMAL data (only journalEntry):"
 elif [ "$TEST_TYPE" = "full" ]; then
     # Full test - all fields provided
     REQUEST_BODY='{
-      "cards": ["The Lady Of Guadalupe"],
-      "symbology": "Christian Saints",
-      "journalEntry": "i want to meditate on happiness and hope. i am dealing with a feeling of not being adequate and financially not be responsible. i am 50 and i have nothing",
+      "cards": ["lion"],
+      "symbology": "universal symbols",
+      "journalEntry": "my capoeira teacher promised me last year that he is going to graduate me this year in this particular event but today the event is around the corner and he is coming up with dum excuses that they do not make any sense, i am very disappointed that he doesnt care about me to stand up to his words",
       "intentionChips": ["gratitude", "new beginnings"],
-      "wisdomStyle": "campbell",
+      "wisdomStyle": "rumi",
       "spiritualityLevel": 50,
       "lifeChapter": "building",
       "language": "en",

@@ -45,7 +45,16 @@ describe('Available Cards Tests', () => {
         const cards = getAvailableCards(symbolTypes.saints, 'en');
         console.log(cards)
         assert(Array.isArray(cards), 'Should return an array');
+        console.log(cards.length);
         assert(cards.length > 0, 'Should have tarot cards');
+    });
+
+    it('should get available symbols cards in english', () => {
+        const cards = getAvailableCards(symbolTypes.symbols, 'en');
+        console.log(cards)
+        assert(Array.isArray(cards), 'Should return an array');
+        console.log(cards.length);
+        // assert(cards.length > 0, 'Should have tarot cards');
     });
 
 

@@ -41,7 +41,8 @@ export async function getInterpretation(params) {
     } = params;
 
     // Use wisdomStyle to get the style-specific prompt, default to campbell if not found
-    const stylePrompt = stylePrompts[wisdomStyle] || stylePrompts.campbell;
+    const stylePrompt = stylePrompts[wisdomStyle];
+    console.log(stylePrompts);
 
     // Convert spirituality level to meaningful description
     const spiritualityDescription = getSpiritualityDescription(spiritualityLevel);
@@ -180,6 +181,20 @@ When someone shares their struggles and chosen symbols, you respond with reflect
 Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
 You offer gentle guidance, highlight their strengths to empower them.
 You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+
+SYMBOL-INTENTION INTEGRATION REQUIREMENTS:
+
+1. **Symbol Analysis Phase** (Do this internally, don't write it out):
+- Identify 3-4 core qualities of the chosen symbol
+- Map each user intention to specific aspects of the symbol
+- Find the intersection points between symbol and intentions
+
+2. **Weaving Instructions**:
+- Every section must demonstrate how the symbol embodies BOTH intentions
+- Use the symbol as a lens to explore each intention
+- Create metaphors that unite symbol + intention + personal situation
+
+
 
 REQUIRED STRUCTURE:
 
