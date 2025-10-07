@@ -1,10 +1,10 @@
 ========================================
-Interpretation Test Run: 2025-10-07 14:04:34
+Interpretation Test Run: 2025-10-07 14:17:50
 ========================================
 
 ========================================
 Test 1: Capoeira Teacher Betrayal
-Time: 12740ms
+Time: 22680ms
 ========================================
 
 Journal Entry:
@@ -12,95 +12,3 @@ my capoeira teacher promised me last year that he is going to graduate me this y
 
 AI Response:
 
-
-========================================
-Test 2: Boss Stealing Credit
-Time: 12391ms
-========================================
-
-Journal Entry:
-I am so angry at my boss who keeps taking credit for my work. Yesterday he presented MY project to the CEO as his own. I worked nights and weekends on this and he just stole it. I want to scream.
-
-AI Response:
-
-
-========================================
-Test 3: Partner Moving Abroad
-Time: 15025ms
-========================================
-
-Journal Entry:
-My partner of 5 years just told me they want to move to another country for work. I dont know if I should follow them or stay here where my family is. This feels like everything is falling apart.
-
-AI Response:
-
-
-========================================
-Test 4: Death of Parent
-Time: 15463ms
-========================================
-
-Journal Entry:
-My mother passed away last month after a long illness. I thought I was prepared but I feel so lost. I keep expecting her to call me. The house feels empty. How do I move forward when the person who loved me most is gone?
-
-AI Response:
-
-
-========================================
-Test 5: Financial Hardship
-Time: 12978ms
-========================================
-
-Journal Entry:
-I lost my job last week and have been rejected from 15 interviews. My savings are almost gone and rent is due next week. I feel like a failure. My family depends on me and I am letting them down.
-
-AI Response:
-
-
-========================================
-Test 6: Intentions Only - Self Love
-Time: 11665ms
-========================================
-
-Intentions:
-[
-  "self-love",
-  "healing",
-  "forgiveness"
-]
-
-AI Response:
-
-
-========================================
-Test 7: Journal Plus Intentions
-Time: 14122ms
-========================================
-
-Journal Entry:
-I started my own business but I am scared of failure. What if I am not good enough?
-
-Intentions:
-[
-  "abundance",
-  "confidence",
-  "success"
-]
-
-AI Response:
-
-
-========================================
-Test 8: Unclear Communication
-Time: 12969ms
-========================================
-
-Journal Entry:
-addy kajsdhf kajsdhf kajsdhf kjasdhf kjasdhf kajsdhf kajsdhf ka
-
-AI Response:
-
-========================================
-SUMMARY
-========================================
-Tests completed at: 2025-10-07 14:06:37

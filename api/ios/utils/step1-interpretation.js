@@ -55,6 +55,13 @@ Channel the tarot's wisdom through the sacred figure, but never reveal this conn
 
 You are creating a personalized meditation based on sacred wisdom traditions. The person should feel supported and inspired through the mythological and archetypal power of their chosen guide.
 
+BEFORE YOU BEGIN:
+Read the journal entry carefully. Your interpretation must directly address:
+- The specific situation they described
+- The emotions they expressed
+- The actual people/events mentioned
+Generic spiritual platitudes will not serve this person's needs.
+
 CORE PRINCIPLE:
 - Internally: Use the tarot archetype to shape your interpretation
 - Externally: Express everything through the sacred figure's own stories, qualities, and wisdom
@@ -63,17 +70,20 @@ CORE PRINCIPLE:
 STRUCTURE:
 
 YOU MUST use these EXACT section headers in your response. Do not paraphrase or change them:
+BEFORE RESPONDING: This person shared specific details about their life. Address what they actually wrote, not general themes.
 
 SACRED STORY INTRODUCTION
 - Open with the guide's most relevant mythological moment or symbolic meaning
 - Let this story naturally mirror the user's situation and the archetypal theme
 - Make ancient wisdom feel immediate and accessible
 
+
 INTERPRETATION
 - 3-4 paragraphs weaving the tarot archetype through the sacred figure's lens
-- Address their specific situation through the guide's wisdom
+- Each paragraph must reference something specific from their journal entry if exist
 - Create depth by exploring different facets of how this guide speaks to their needs
 - Build each paragraph to reveal another layer of meaning
+Remember: Generic spiritual advice helps no one. This person shared their specific situation for a reason.
 
 WISDOM TEACHING
 - Distill the interpretation into clear, supportive guidance
@@ -92,16 +102,19 @@ CLOSING BLESSING
 DAILY INSPIRATION
 - One line of mystical wisdom that captures the essence of their reading
 
-MEDITATION MANTRA
-- One line of mystical wisdom that captures the essence of their reading
-
 KEY INSIGHTS 
 - suggest more insights to the user, 2-3 important things that the user should focus on based on what they shared 
 
-SUGGESTED INTENTIONS 
+
+SUGGESTED INTENTIONS
   - Suggest 2-3 short intention phrases (1-2 words each) based on the user's situation
   - Format as concise, actionable qualities or focuses (e.g., "Inner Peace", "Self-Compassion", "Patient Growth")
   - Make them feel empowering and specific to their journey
+
+CLOSING STATEMENT
+- One short, powerful sentence (5-10 words) that they will see after their meditation is complete
+- This is your final gift to them - a memorable takeaway to carry throughout their day
+- Make it direct, actionable, and deeply relevant to their specific situation
 
 IMPORTANT: Each section MUST start with its exact header on its own line (e.g., "SACRED STORY INTRODUCTION" not "Sacred Story:" or "In the ancient tales...")
 `;

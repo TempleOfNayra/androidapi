@@ -8,7 +8,10 @@ export function parseInterpretationSections(text) {
         integration: '',
         closingBlessing: '',
         dailyInspiration: '',
-        meditationMantra: ''
+        meditationMantra: '',
+        keyInsights: [],
+        suggestedIntentions: [],
+        closingStatement: ''
     };
 
     // Split by section headers (with optional colons)
@@ -17,8 +20,10 @@ export function parseInterpretationSections(text) {
     const wisdomMatch = text.match(/WISDOM TEACHING\s*:?\s*\n([\s\S]*?)(?=\n\s*INTEGRATION|$)/i);
     const integrationMatch = text.match(/INTEGRATION\s*:?\s*\n([\s\S]*?)(?=\n\s*CLOSING BLESSING|$)/i);
     const blessingMatch = text.match(/CLOSING BLESSING\s*:?\s*\n([\s\S]*?)(?=\n\s*DAILY INSPIRATION|$)/i);
-    const inspirationMatch = text.match(/DAILY INSPIRATION\s*:?\s*\n([\s\S]*?)(?=\n\s*MEDITATION MANTRA|$)/i);
-    const mantraMatch = text.match(/MEDITATION MANTRA\s*:?\s*\n([\s\S]*?)$/i);
+    const inspirationMatch = text.match(/DAILY INSPIRATION\s*:?\s*\n([\s\S]*?)(?=\n\s*KEY INSIGHTS|MEDITATION MANTRA|$)/i);
+    const keyInsightsMatch = text.match(/KEY INSIGHTS\s*:?\s*\n([\s\S]*?)(?=\n\s*SUGGESTED INTENTIONS|$)/i);
+    const suggestedIntentionsMatch = text.match(/SUGGESTED INTENTIONS\s*:?\s*\n([\s\S]*?)(?=\n\s*CLOSING STATEMENT|$)/i);
+    const closingStatementMatch = text.match(/CLOSING STATEMENT\s*:?\s*\n([\s\S]*?)$/i);
 
     if (sacredMatch) sections.sacredStoryIntroduction = sacredMatch[1].trim();
     if (interpretationMatch) sections.interpretation = interpretationMatch[1].trim();
@@ -30,10 +35,24 @@ export function parseInterpretationSections(text) {
         let inspiration = inspirationMatch[1].trim();
         sections.dailyInspiration = inspiration.replace(/^["']|["']$/g, '');
     }
-    if (mantraMatch) {
-        // Remove surrounding quotes from meditation mantra if present
-        let mantra = mantraMatch[1].trim();
-        sections.meditationMantra = mantra.replace(/^["']|["']$/g, '');
+    if (keyInsightsMatch) {
+        // Parse key insights as bullet list
+        const insightsText = keyInsightsMatch[1].trim();
+        sections.keyInsights = insightsText
+            .split('\n')
+            .map(line => line.replace(/^[-•*]\s*/, '').trim())
+            .filter(line => line.length > 0);
+    }
+    if (suggestedIntentionsMatch) {
+        // Parse suggested intentions as bullet list
+        const intentionsText = suggestedIntentionsMatch[1].trim();
+        sections.suggestedIntentions = intentionsText
+            .split('\n')
+            .map(line => line.replace(/^[-•*]\s*/, '').trim())
+            .filter(line => line.length > 0);
+    }
+    if (closingStatementMatch) {
+        sections.closingStatement = closingStatementMatch[1].trim();
     }
 
     return sections;

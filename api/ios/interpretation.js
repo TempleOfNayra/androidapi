@@ -127,15 +127,13 @@ export default async function handler(req, res) {
                 section: "REFLECTION",
                 // sectionName: "SECTION NAME", // TODO: Generate poetic name
                 interpretation: sections.interpretation,
-
                 wisdomTitle: 'Wisdom Teaching',
                 wisdom: sections.wisdomTeaching,
-
                 keyInsightsLabel: "Key Insights",
-                keyInsights: [], // TODO: Extract from wisdom teaching
+                keyInsights: sections.keyInsights || [],
+                suggestedIntentions: sections.suggestedIntentions || [],
                 summary: sections.sacredStoryIntroduction || "",
                 dailyInspiration: sections.dailyInspiration || "",
-                meditationMantra: sections.meditationMantra || ""
             },
             // secondCard: {
             //     section: "",
@@ -164,12 +162,18 @@ export default async function handler(req, res) {
             //     summary: ""
             // },
             finalGuidance: {
-                section: "INTEGRATION",
+                section: "",
                 // sectionName: "Section Name",
-                subSectionName: "PRACTICE",
-                guidance: "",
+                subSectionName: "",
+                summary: sections.wisdomTeaching,
+                guidance: sections.closingBlessing || "",
+
+                practiceTitle: "",
                 practice: sections.integration || "",
-                summary: sections.closingBlessing || ""
+
+                blessingTitle: "",
+                closingBlessing: sections.closingBlessing || "",
+                closingStatement: sections.closingStatement || ""
             }
         };
 
