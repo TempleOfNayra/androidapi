@@ -22,6 +22,7 @@ Respond in this exact JSON format
 {
   "summaryTitle": "[The word 'Summary' in the same language as the *reflection* (not the symbol)]",
   "mainCard": {
+     "cardName": "[Exact English card name]",
     "aboutSymbolTitle": "[title that reads about [symbol]]",
     "aboutSymbol": "[Educational content about this symbol/deity - who they are, their domain, cultural significance, and an interesting lesser-known fact]",
     "cardNameLocal": "[symbol name in the reflection's language]",
@@ -33,7 +34,7 @@ Respond in this exact JSON format
       "[Key lesson or wisdom point 1 - extracted from the reflection's insights]",
       "[Key lesson or wisdom point 2 - extracted from the reflection's insights]",
       "[Key lesson or wisdom point 3 - extracted from the reflection's insights]"
-    ],
+    ],  
     "keyInsightsLabel": "[Dynamic title for the keyInsights list]",
     "dailyInspiration": "[Mystical wisdom that captures the reflection's essence]"
   },

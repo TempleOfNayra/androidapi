@@ -19,7 +19,14 @@ export async function chatGptHandler(messages, model = 'gpt-4o') {
             .replace(/\n?```\s*$/g, '')
             .trim();
 
-        return JSON.parse(cleanedContent);
+        // Try to parse as JSON first
+        try {
+            return JSON.parse(cleanedContent);
+        } catch (parseError) {
+            // If not JSON, return raw text wrapped in content field
+            console.log('Returning raw text response from OpenAI (not JSON)');
+            return { content: cleanedContent };
+        }
     } catch (err) {
         throw new Error('Failed to fetch from ChatGPT');
     }

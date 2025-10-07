@@ -62,38 +62,22 @@ export async function claudeHandler(messages) {
 
     console.timeEnd('Claude API Total Time');
 
-    // Parse and return JSON
+    // Try to parse as JSON first
     try {
-        // First try direct parse
         return JSON.parse(raw);
     } catch (error) {
         // Try to extract JSON if there's extra text
-        const jsonMatch = raw.match(/\{[\s\S]*\}$/);
+        const jsonMatch = raw.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
             try {
                 return JSON.parse(jsonMatch[0]);
             } catch (e) {
-                console.error('Failed to parse extracted JSON:', jsonMatch[0]);
+                // JSON parsing failed, continue to return raw text
             }
         }
 
-        // Special handling for interpretation responses
-        // If it looks like it starts with JSON but failed to parse,
-        // try to wrap the raw text as an interpretation
-        if (raw.includes('"interpretation"') || raw.startsWith('{"interpretation"')) {
-            console.log('Attempting to fix malformed interpretation JSON...');
-            try {
-                // Extract the interpretation text between quotes, handling escaped quotes
-                const match = raw.match(/"interpretation"\s*:\s*"((?:[^"\\]|\\.)*)"/);
-                if (match && match[1]) {
-                    return { interpretation: match[1].replace(/\\"/g, '"').replace(/\\n/g, '\n') };
-                }
-            } catch (e) {
-                console.error('Failed to extract interpretation from malformed JSON');
-            }
-        }
-
-        console.error('Failed to parse Claude response as JSON:', raw.substring(0, 500) + '...');
-        throw new Error('Invalid JSON response from Claude');
+        // If not JSON, return raw text wrapped in content field
+        console.log('Returning raw text response (not JSON)');
+        return { content: raw };
     }
 }

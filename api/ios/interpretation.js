@@ -1,8 +1,9 @@
 import { checkAuthAndRateLimit } from '../lib/gatekeeper.js';
 import { setupCORS, handlePreflight, validateMethod } from './utils/http-setup.js';
 import { getInterpretation } from './utils/step1-interpretation.js';
-import { generateMetadata } from './utils/step2-metadata.js';
-import { buildFinalResponse } from './utils/parsing.js';
+// import { generateMetadata } from './utils/step2-metadata.js';
+import { parseInterpretationSections } from './utils/parsing.js';
+import { INDEX_TO_NAME } from '../services/cardsUtil.js';
 import { appendFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -43,32 +44,40 @@ export default async function handler(req, res) {
 
         // Get input from request
         const {
-            cards = ['The Sun'],
-            symbology = 'tarot',
+            cards = [],
+            symbology,
             journalEntry = '',
             intentionChips = [],
             wisdomStyle = 'campbell',  // Default to campbell to match stylePrompts keys
             spiritualityLevel = 1,
-            lifeChapter = 'building',
+            lifeChapter,
             language = 'en',
             userName = null,
-            model = 'claude'
+            model = 'claude',
+            tarotCard,
+            cardNumber
         } = req.body || {};
 
         console.log('🔵 Parsed params:', {
             cards, symbology, wisdomStyle, spiritualityLevel,
-            lifeChapter, language, userName, model,
+            lifeChapter, language, userName, model, tarotCard, cardNumber,
             journalEntryLength: journalEntry?.length || 0
         });
 
-        console.log('++++++++++++++++++++++++++++');
-        console.log(cards);
-        console.log(intentionChips);
-        console.log('++++++++++++++++++++++++++++');
+
 
         // Use first card if multiple are provided
         const card = Array.isArray(cards) ? cards[0] : cards;
+
+        // Get tarot card name from cardNumber if provided
+        let tarotCardName = tarotCard;
+        if (cardNumber !== undefined && cardNumber !== null && INDEX_TO_NAME[cardNumber]) {
+            tarotCardName = INDEX_TO_NAME[cardNumber];
+            console.log('🔵 Resolved tarot card from cardNumber:', cardNumber, '->', tarotCardName);
+        }
+
         console.log('🔵 Using card:', card);
+        console.log('🔵 Using tarot card:', tarotCardName);
 
         // STEP 1: Get natural, high-quality interpretation
         console.log('\n📝 === STEP 1: Getting Interpretation ===')
@@ -81,7 +90,8 @@ export default async function handler(req, res) {
             spiritualityLevel,
             lifeChapter,
             userName,
-            model
+            model,
+            tarotCard: tarotCardName
         });
 
         const interpretation = step1Result.interpretation;
@@ -89,28 +99,79 @@ export default async function handler(req, res) {
         console.log('✅ Step 1 complete. Interpretation length:', interpretation?.length);
         console.log('📝 Interpretation preview:', interpretation?.substring(0, 200) + '...');
 
-        // STEP 2: Generate metadata fields based on the interpretation
-        console.log('\n🔮 === STEP 2: Generating Metadata ===')
-        const step2Result = await generateMetadata(card, interpretation, model);
-        const metadata = step2Result.metadata; // Already parsed JSON
-        const step2Time = step2Result.time;
-        console.log('✅ Step 2 complete. Metadata:', JSON.stringify(metadata, null, 2));
-
-        // Combine into final structure
-        console.log('\n🔧 === Building Final Response ===');
-        const finalResult = buildFinalResponse(metadata, interpretation, card, symbology);
-        console.log('📦 Final result structure:', JSON.stringify(finalResult, null, 2));
+        // Parse sections programmatically
+        console.log('\n📝 === Parsing Interpretation Sections ===');
+        const sections = parseInterpretationSections(interpretation);
+        console.log('✅ Parsed sections:', Object.keys(sections));
 
         const totalTime = Date.now() - startTime;
 
-        console.log('\n✅ === iOS INTERPRETATION COMPLETE ===');
-        console.log('Two separate API calls completed successfully');
-        console.log('Interpretation quality preserved, metadata generated');
+        console.log('\n✅ === INTERPRETATION COMPLETE ===');
         console.log('\n⏱️ === TIMING SUMMARY ===');
         console.log(`⏱️ Step 1 (Interpretation): ${step1Time}ms`);
-        console.log(`⏱️ Step 2 (Metadata):      ${step2Time}ms`);
         console.log(`⏱️ Total Time:             ${totalTime}ms`);
         console.log('========================\n');
+
+        // Build final response structure
+        const finalResult = {
+            summaryTitle: "Sacred Story",
+            symbology: symbology || "",
+            mainCard: {
+                cardName: card || "",
+                cardNumber: cardNumber || "",
+                displayName: card || "",
+                symbolName: card || "",
+                cardNameLocal: card || "",
+                title: "MESSAGE", // TODO: Generate evocative title
+                subtitle: "A Reflection by Nayra",
+                section: "REFLECTION",
+                // sectionName: "SECTION NAME", // TODO: Generate poetic name
+                interpretation: sections.interpretation,
+
+                wisdomTitle: 'Wisdom Teaching',
+                wisdom: sections.wisdomTeaching,
+
+                keyInsightsLabel: "Key Insights",
+                keyInsights: [], // TODO: Extract from wisdom teaching
+                summary: sections.sacredStoryIntroduction || "",
+                dailyInspiration: sections.dailyInspiration || "",
+                meditationMantra: sections.meditationMantra || ""
+            },
+            // secondCard: {
+            //     section: "",
+            //     sectionName: "",
+            //     subSectionName: "",
+            //     cardName: "",
+            //     symbolName: "",
+            //     cardNameLocal: "",
+            //     relationshipToFirst: "",
+            //     interpretation: "",
+            //     keyInsightsLabel: "",
+            //     keyInsights: [],
+            //     summary: ""
+            // },
+            // thirdCard: {
+            //     section: "",
+            //     sectionName: "",
+            //     subSectionName: "",
+            //     cardName: "",
+            //     symbolName: "",
+            //     cardNameLocal: "",
+            //     timingInteraction: "",
+            //     interpretation: "",
+            //     keyInsightsLabel: "",
+            //     keyInsights: [],
+            //     summary: ""
+            // },
+            finalGuidance: {
+                section: "INTEGRATION",
+                // sectionName: "Section Name",
+                subSectionName: "PRACTICE",
+                guidance: "",
+                practice: sections.integration || "",
+                summary: sections.closingBlessing || ""
+            }
+        };
 
         // Write results to file
         try {
@@ -125,7 +186,6 @@ Symbology: ${symbology}
 
 Total Time: ${totalTime}ms
 Step 1 Time: ${step1Time}ms
-Step 2 Time: ${step2Time}ms
 
 Request Body:
 ${JSON.stringify(req.body, null, 2)}
@@ -139,8 +199,11 @@ ${step1Result.userPrompt}
 AI Response (Interpretation):
 ${interpretation}
 
-Metadata Generated:
-${JSON.stringify(metadata, null, 2)}
+Parsed Sections:
+${JSON.stringify(sections, null, 2)}
+
+Final Result:
+${JSON.stringify(finalResult, null, 2)}
 
 `;
             appendFileSync(OUTPUT_FILE, logEntry);

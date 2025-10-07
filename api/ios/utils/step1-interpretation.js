@@ -37,7 +37,8 @@ export async function getInterpretation(params) {
         spiritualityLevel,
         lifeChapter,
         userName,
-        model = 'claude' // default to claude
+        model = 'claude', // default to claude
+        tarotCard
     } = params;
 
     // Use wisdomStyle to get the style-specific prompt, default to campbell if not found
@@ -47,184 +48,62 @@ export async function getInterpretation(params) {
     // Convert spirituality level to meaningful description
     const spiritualityDescription = getSpiritualityDescription(spiritualityLevel);
 
-//     let systemPrompt = `
-// ${stylePrompt}
-//
-// When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
-// Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
-// You offer gentle guidance, highlight their strengths to empower them.
-// You speak with the words both wove myth, philosophy, and psychology into accessible stories.
-// If their journal entry is unclear or gibberish, gently remind them at the start that the reflection will be more meaningful if they write something real from the heart.
-// `.trim();
-
-
-//     FIRST VERSION
-//     let systemPrompt  =  `You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
-//
-// CONTEXT YOU WILL RECEIVE:
-// - User's name: [provided]
-// - Selected guide: [symbol/deity/saint name]
-// - Guide's tradition: [Christianity/Hinduism/Orixá/Animal]
-// - Guide's core essence: [what this guide represents]
-// - User's written intention/journal: [their personal situation]
-// - Personalization settings: [mystical vs practical, life phase, etc.]
-//
-// REQUIRED STRUCTURE:
-//
-// 1. SACRED STORY INTRODUCTION (2-3 paragraphs)
-// - Begin by introducing the guide through their most relevant sacred story or mythological moment
-// - Weave connections between this story and the user's stated intention
-// - Make ancient wisdom accessible without oversimplifying
-// - Show how the guide's journey mirrors the user's current situation
-//
-// 2. WISDOM TEACHING (2-3 paragraphs)
-// - Explain how this guide's specific approach applies to the user's situation
-// - Draw from the guide's archetypal qualities and traditional teachings
-// - Use metaphors and imagery consistent with the guide's tradition
-// - Address the user's actual journal entry, not generic situations
-//
-// 3. GUIDED MEDITATION (3-4 sections)
-// - Begin with breathing instructions appropriate to the tradition
-// - Create visualizations incorporating the guide's imagery and story
-// - Include pauses for contemplation (mark as [Pause for 30 seconds])
-// - Build toward a transformative moment or realization
-//
-// 4. INTEGRATION (1-2 paragraphs)
-// - Offer practical wisdom for carrying the meditation forward
-// - Suggest simple actions aligned with the guide's teaching
-// - Connect the spiritual insight to daily life
-//
-// 5. CLOSING BLESSING (2-3 sentences)
-// - End with a blessing appropriate to the tradition
-// - Make it memorable and aligned with the guide's essence
-// - Leave the user feeling empowered and guided
-//
-// IMPORTANT GUIDELINES:
-// - Write in third person about the guide ("Ganesha teaches...", "St. Francis shows...")
-// - Never use first person as if the guide is speaking directly
-// - Match tone to user's mystical/practical preference setting
-// - Keep total length to 800-1200 words (5-7 minute read)
-// - Use vocabulary and concepts authentic to each tradition
-// - Address the specific situation in the user's journal
-// - Avoid fortune-telling or predictive language
-// - Focus on empowerment and inner wisdom
-// - Ensure each guide has a distinct voice and approach
-//
-// EXAMPLE OPENING PATTERNS:
-//
-// For deities/saints with known stories:
-// "When [Guide] faced [relevant challenge from their story], they demonstrated [quality that relates to user's situation]. Like [Guide], you are navigating [user's intention] through [their specific circumstances]..."
-//
-// For animal guides:
-// "[Animal] teaches through [their key behavior/trait]. In nature, [Animal] demonstrates [quality] when [natural behavior]. This wisdom speaks directly to your [user's situation]..."
-//
-// For abstract guides:
-// "[Guide] embodies the principle of [core essence]. Through [Guide's] teaching, we understand that [wisdom relating to user's situation]..."
-//
-// `.trim();
-//     let systemPrompt = `
-// ${stylePrompt}
-//
-// When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
-// Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
-// You offer gentle guidance, highlight their strengths to empower them.
-// You speak with the words both wove myth, philosophy, and psychology into accessible stories.
-// If their journal entry is unclear or gibberish, gently remind them at the start that the reflection will be more meaningful if they write something real from the heart.
-// `.trim();
-
-
-
-    //BEST ONE SO FAR
-//     let systemPrompt  =  `
-//
-//     ${stylePrompt}
-// You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
-// When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
-// Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
-// You offer gentle guidance, highlight their strengths to empower them.
-// You speak with the words both wove myth, philosophy, and psychology into accessible stories.
-// Write about the guide in third person ("Ganesha teaches...") while addressing the user as "you." Keep the complete response to 800-1200 words.
-//
-// STRUCTURE YOUR MEDITATION IN 5 PARTS:
-//
-// 1. SACRED STORY INTRODUCTION (2-3 paragraphs)
-// - Share the guide's most relevant sacred story
-// - Connect it directly to the user's situation
-// - Show how their mythological journey mirrors the user's experience
-//
-// 2. WISDOM TEACHING (2-3 paragraphs)
-// - Apply the guide's specific wisdom to the user's situation
-// - Draw from the guide's archetypal qualities
-// - Use metaphors that illuminate psychological truths
-//
-// 3. GUIDED MEDITATION (3-4 sections with [Pause for 30 seconds] markers)
-// - Simple breathing to begin
-// - Visualizations using the guide's imagery
-// - Build to a transformative moment
-//
-// 4. INTEGRATION (1-2 paragraphs)
-// - Practical ways to carry this wisdom forward
-// - Simple, actionable suggestions
-//
-// 5. CLOSING BLESSING (2-3 sentences)
-// - Tradition-appropriate blessing
-// - Leave them feeling empowered
-//
-//
-// `.trim();
-//
-
     let systemPrompt  = `
 ${stylePrompt}
-You are creating a personalized meditation script based on sacred wisdom traditions. Generate a meditation response following this structure:
-When someone shares their struggles and chosen symbols, you respond with reflections that are both profound and uplifting.
-Your words weave psychological wisdom with warmth and metaphor, helping the person feel supported and inspired rather than analyzed.
-You offer gentle guidance, highlight their strengths to empower them.
-You speak with the words both wove myth, philosophy, and psychology into accessible stories.
+The user provides their information, a symbol, and the tarot archetype that symbol represents.
+Channel the tarot's wisdom through the sacred figure, but never reveal this connection. The output should feel like receiving guidance from that deity, orixa, saint, or symbol directly.
 
-SYMBOL-INTENTION INTEGRATION REQUIREMENTS:
+You are creating a personalized meditation based on sacred wisdom traditions. The person should feel supported and inspired through the mythological and archetypal power of their chosen guide.
 
-1. **Symbol Analysis Phase** (Do this internally, don't write it out):
-- Identify 3-4 core qualities of the chosen symbol
-- Map each user intention to specific aspects of the symbol
-- Find the intersection points between symbol and intentions
+CORE PRINCIPLE:
+- Internally: Use the tarot archetype to shape your interpretation
+- Externally: Express everything through the sacred figure's own stories, qualities, and wisdom
+- Never mention cards, divination, predictions, or anything suggesting an underlying system
 
-2. **Weaving Instructions**:
-- Every section must demonstrate how the symbol embodies BOTH intentions
-- Use the symbol as a lens to explore each intention
-- Create metaphors that unite symbol + intention + personal situation
+STRUCTURE:
 
+YOU MUST use these EXACT section headers in your response. Do not paraphrase or change them:
 
+SACRED STORY INTRODUCTION
+- Open with the guide's most relevant mythological moment or symbolic meaning
+- Let this story naturally mirror the user's situation and the archetypal theme
+- Make ancient wisdom feel immediate and accessible
 
-REQUIRED STRUCTURE:
+INTERPRETATION
+- 3-4 paragraphs weaving the tarot archetype through the sacred figure's lens
+- Address their specific situation through the guide's wisdom
+- Create depth by exploring different facets of how this guide speaks to their needs
+- Build each paragraph to reveal another layer of meaning
 
-1. SACRED STORY INTRODUCTION (2-3 paragraphs)
-- Begin by introducing the guide through their most relevant sacred story or mythological moment
-- Weave connections between this story and the user's stated intention
-- Make ancient wisdom accessible without oversimplifying
-- Show how the guide's journey mirrors the user's current situation
+WISDOM TEACHING
+- Distill the interpretation into clear, supportive guidance
+- Use metaphors and imagery authentic to this tradition
+- Make the teaching memorable and actionable
 
-2. WISDOM TEACHING (2-3 paragraphs)
-- Explain how this guide's specific approach applies to the user's situation
-- Draw from the guide's archetypal qualities and traditional teachings
-- Use metaphors and imagery consistent with the guide's tradition
-- Address the user's actual journal entry, not generic situations
+INTEGRATION
+- Offer simple practices aligned with both the guide and the archetypal wisdom
+- Connect spiritual insight to daily life
+- Keep it practical and memorable
 
-3. GUIDED MEDITATION (3-4 sections)
-- Begin with breathing instructions appropriate to the tradition
-- Create visualizations incorporating the guide's imagery and story
-- Include pauses for contemplation (mark as [Pause for 30 seconds])
-- Build toward a transformative moment or realization
+CLOSING BLESSING
+- End with words that feel true to the tradition
+- Leave them feeling empowered and held by ancient wisdom
 
-4. INTEGRATION (1-2 paragraphs)
-- Offer practical wisdom for carrying the meditation forward
-- Suggest simple actions aligned with the guide's teaching
-- Connect the spiritual insight to daily life
+DAILY INSPIRATION
+- One line of mystical wisdom that captures the essence of their reading
 
-5. CLOSING BLESSING (2-3 sentences)
-- End with a blessing appropriate to the tradition
-- Make it memorable and aligned with the guide's essence
-- Leave the user feeling empowered and guided
+MEDITATION MANTRA
+- One line of mystical wisdom that captures the essence of their reading
+
+KEY INSIGHTS 
+- suggest more insights to the user, 2-3 important things that the user should focus on based on what they shared 
+
+SUGGESTED INTENTIONS 
+  - Suggest 2-3 short intention phrases (1-2 words each) based on the user's situation
+  - Format as concise, actionable qualities or focuses (e.g., "Inner Peace", "Self-Compassion", "Patient Growth")
+  - Make them feel empowering and specific to their journey
+
+IMPORTANT: Each section MUST start with its exact header on its own line (e.g., "SACRED STORY INTRODUCTION" not "Sacred Story:" or "In the ancient tales...")
 `;
 
     // Build user prompt dynamically based on provided fields
@@ -240,6 +119,10 @@ REQUIRED STRUCTURE:
         userPrompt = `Today's choices: '${card}' from ${symbology}\n` + userPrompt;
     }
 
+    // Add tarot card context if provided
+    if (tarotCard) {
+        userPrompt = `This symbol represents the tarot card: "${tarotCard}"\n` + userPrompt;
+    }
     // Build "about me" section only if any personal info is provided
     const aboutMeLines = [];
     if (userName) {
@@ -270,10 +153,10 @@ REQUIRED STRUCTURE:
     let interpretation;
 
     // Create messages array for llmRouter
-    const jsonUserPrompt = userPrompt + '\n\nRespond with a JSON object with your interpretation. Use this exact format:\n{"interpretation": "Your full interpretation text here"}';
+    // const jsonUserPrompt = userPrompt + '\n\nRespond with a JSON object with your interpretation. Use this exact format:\n{"interpretation": "Your full interpretation text here"}';
     const messages = [
         { role: "system", content: systemPrompt },
-        { role: "user", content: jsonUserPrompt }
+        { role: "user", content: userPrompt }
     ];
 
     try {
@@ -282,11 +165,18 @@ REQUIRED STRUCTURE:
         const result = await llmRouter(model, messages);
 
         // Extract interpretation from result
-        interpretation = result.interpretation || result.content || result.message || result.response || '';
-        if (typeof interpretation === 'object' && interpretation.interpretation) {
-            interpretation = interpretation.interpretation;
-        } else if (typeof interpretation === 'object') {
-            interpretation = JSON.stringify(interpretation);
+        if (typeof result === 'string') {
+            interpretation = result;
+        } else if (result.content) {
+            interpretation = typeof result.content === 'string' ? result.content : JSON.stringify(result.content);
+        } else if (result.interpretation) {
+            interpretation = typeof result.interpretation === 'string' ? result.interpretation : JSON.stringify(result.interpretation);
+        } else if (result.message) {
+            interpretation = typeof result.message === 'string' ? result.message : JSON.stringify(result.message);
+        } else if (result.response) {
+            interpretation = typeof result.response === 'string' ? result.response : JSON.stringify(result.response);
+        } else {
+            interpretation = JSON.stringify(result);
         }
     } catch (error) {
         console.log(`${model} failed with error:`, error.message);
@@ -297,12 +187,19 @@ REQUIRED STRUCTURE:
             try {
                 const result = await llmRouter('openai', messages);
 
-                // Extract interpretation from JSON result
-                interpretation = result.interpretation || result.content || result.message || result.response || '';
-                if (typeof interpretation === 'object' && interpretation.interpretation) {
-                    interpretation = interpretation.interpretation;
-                } else if (typeof interpretation === 'object') {
-                    interpretation = JSON.stringify(interpretation);
+                // Extract interpretation from result
+                if (typeof result === 'string') {
+                    interpretation = result;
+                } else if (result.content) {
+                    interpretation = typeof result.content === 'string' ? result.content : JSON.stringify(result.content);
+                } else if (result.interpretation) {
+                    interpretation = typeof result.interpretation === 'string' ? result.interpretation : JSON.stringify(result.interpretation);
+                } else if (result.message) {
+                    interpretation = typeof result.message === 'string' ? result.message : JSON.stringify(result.message);
+                } else if (result.response) {
+                    interpretation = typeof result.response === 'string' ? result.response : JSON.stringify(result.response);
+                } else {
+                    interpretation = JSON.stringify(result);
                 }
                 console.log('OpenAI fallback successful');
             } catch (fallbackError) {

@@ -16,9 +16,10 @@ echo ""
 if [ "$TEST_TYPE" = "minimal" ]; then
     # Minimal test - only journalEntry is provided
     REQUEST_BODY='{
-      "symbology": "Tarot Cards",
-      "cards": ["The Strength"],
+      "symbology": "Christian Saints",
+      "cards": ["king solomon"],
       "model": "claude",
+      "tarotCard": "strength",
       "journalEntry": "my capoeira teacher promissed me last year that he is going to graduate me this year in this particular event but today the event is around the corner and he is coming up with dum excuses that they do not make any sense, i am very disappointed that he doesnt care about me to stand up to his words "
     }'
     echo "📝 Testing with MINIMAL data (only journalEntry):"

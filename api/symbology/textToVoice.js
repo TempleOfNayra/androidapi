@@ -302,8 +302,8 @@ export async function generateVoice(req, res) {
         similarity_boost,
         style,
         use_speaker_boost,
-        // Provider selection (defaults to google)
-        provider = 'google',
+        // Provider selection (defaults to elevenlabs)
+        provider = 'elevenlabs',
         // Structured content with title, subtitle, body, etc.
         structured_content = null
     } = req.body;
