@@ -1,6 +1,7 @@
 export const tarotCardsDetail = {
     "The Fool": {
         "name": "The Fool",
+        "coreIntentions": "new beginnings, trusting process, releasing fear, innocent joy, fresh start",
         "meaning": "The Fool dances at the edge of possibility, reminding us that every master was once a beginner. This card invites you to trust the wild wisdom of not knowing, for it is in the space of innocence that miracles are born.",
         "number": 0,
         "title": "Sacred Leap into Mystery",
@@ -42,6 +43,7 @@ export const tarotCardsDetail = {
     },
     "The Magician": {
         "name": "The Magician",
+        "coreIntentions": "manifesting desires, focused intention, personal power, creating reality, divine will",
         "meaning": "The Magician stands as the bridge between heaven and earth, wielding the four elements with conscious intention. You hold the cosmic toolkit—now is the time to alchemize your dreams into reality through focused will.",
         "number": 1,
         "title": "Weaver of Worlds",
@@ -80,6 +82,7 @@ export const tarotCardsDetail = {
     },
     "The High Priestess": {
         "name": "The High Priestess",
+        "coreIntentions": "inner wisdom, trusting intuition, hidden knowledge, sacred mysteries, quiet knowing",
         "meaning": "The High Priestess guards the threshold between worlds, keeper of mysteries that cannot be spoken, only known. She invites you to silence the noise and listen to the ancient wisdom that flows through your intuitive channels.",
         "number": 2,
         "title": "Guardian of the Veil",
@@ -118,6 +121,7 @@ export const tarotCardsDetail = {
     },
     "The Empress": {
         "name": "The Empress",
+        "coreIntentions": "creative abundance, self nurturing, fertile ground, natural flow, motherly comfort",
         "meaning": "The Empress embodies creation itself—lush, sensual, and endlessly abundant. She reminds you that you are nature, not separate from it, and your creative power flows as naturally as rivers to the sea.",
         "number": 3,
         "title": "Mother of Infinite Gardens",
@@ -156,6 +160,7 @@ export const tarotCardsDetail = {
     },
     "The Emperor": {
         "name": "The Emperor",
+        "coreIntentions": "stable foundation, healthy boundaries, taking charge, structured growth, protective strength",
         "meaning": "The Emperor transforms chaos into cosmos through the sacred architecture of order. He teaches that true authority comes not from dominance but from the wisdom to create structures that support life's flourishing.",
         "number": 4,
         "title": "Architect of Sacred Order",
@@ -192,6 +197,7 @@ export const tarotCardsDetail = {
     },
     "The Hierophant": {
         "name": "The Hierophant",
+        "coreIntentions": "spiritual guidance, seeking wisdom, traditional values, finding teachers, sacred learning",
         "meaning": "The Hierophant bridges the eternal and temporal, translating cosmic law into human understanding. This teacher appears when you're ready to understand the deeper patterns that govern both tradition and transformation.",
         "number": 5,
         "title": "Keeper of Sacred Keys",
@@ -229,6 +235,7 @@ export const tarotCardsDetail = {
     },
     "The Lovers": {
         "name": "The Lovers",
+        "coreIntentions": "conscious choice, soul connection, harmonious union, relationship healing, authentic love",
         "meaning": "The Lovers reflect the divine union possible when we choose from the deepest truth of our being. This is the alchemy of conscious choice—where two become one while remaining beautifully, distinctly themselves.",
         "number": 6,
         "title": "Mirror of Sacred Choice",
@@ -265,6 +272,7 @@ export const tarotCardsDetail = {
     },
     "The Chariot": {
         "name": "The Chariot",
+        "coreIntentions": "inner victory, forward movement, overcoming obstacles, determined progress, self mastery",
         "meaning": "The Chariot masters the art of aligned momentum, harnessing opposing forces into unified direction. Victory comes not from suppressing contradictions but from making them dance together toward your destination.",
         "number": 7,
         "title": "Master of Aligned Forces",
@@ -300,8 +308,10 @@ export const tarotCardsDetail = {
             "perseverance"
         ],
     },
+
     "Strength": {
         "name": "Strength",
+        "coreIntentions": "gentle strength, patient courage, inner power, taming fear, compassionate force",
         "meaning": "Strength reveals the invincible power of gentleness, where the lion of our primal nature is tamed not by force but by infinite patience and love. Here, vulnerability becomes your greatest armor.",
         "number": 8,
         "title": "The Gentle Conquerer",
@@ -335,8 +345,10 @@ export const tarotCardsDetail = {
             "kindness"
         ],
     },
+
     "The Hermit": {
         "name": "The Hermit",
+        "coreIntentions": "soul searching, inner guidance, solitary wisdom, deep reflection, finding answers",
         "meaning": "The Hermit withdraws not from life but deeper into it, carrying a lantern lit by inner knowing. In sacred solitude, you discover that the teacher you've been seeking has been within you all along.",
         "number": 9,
         "title": "Keeper of Inner Light",
@@ -372,6 +384,7 @@ export const tarotCardsDetail = {
     },
     "Wheel of Fortune": {
         "name": "Wheel of Fortune",
+        "coreIntentions": "life cycles, turning point, divine timing, accepting change, karmic lessons",
         "meaning": "The Wheel of Fortune spins the cosmic web where fate and free will dance as partners. This turning point reminds you that while you cannot control the wheel's movement, you can choose how you ride its rhythms.",
         "number": 10,
         "title": "The Cosmic Spinner",
@@ -410,6 +423,7 @@ export const tarotCardsDetail = {
     },
     "Justice": {
         "name": "Justice",
+        "coreIntentions": "fair outcome, balanced decision, truth revealed, karmic justice, clear judgment",
         "meaning": "Justice wields the sword of truth and the scales of cosmic law, revealing that every action ripples through eternity. This is the profound balance where mercy and accountability create true harmony.",
         "number": 11,
         "title": "Keeper of Cosmic Balance",
@@ -447,6 +461,7 @@ export const tarotCardsDetail = {
     },
     "The Hanged Man": {
         "name": "The Hanged Man",
+        "coreIntentions": "sacred pause, new perspective, letting go, willing surrender, spiritual insight",
         "meaning": "The Hanged Man discovers enlightenment through sacred pause, finding wisdom in the space between breaths. By surrendering the need to move forward, you unlock perspectives invisible to those who rush.",
         "number": 12,
         "title": "Master of Sacred Suspension",
@@ -483,6 +498,7 @@ export const tarotCardsDetail = {
     },
     "Death": {
         "name": "Death",
+        "coreIntentions": "transformation time, necessary ending, phoenix rising, profound change, rebirth ready",
         "meaning": "Death arrives not as ending but as sacred transformation, clearing space for what's waiting to be born. This is the ultimate liberation—releasing form to discover the immortal essence that you truly are.",
         "number": 13,
         "title": "The Sacred Transformer",
@@ -520,6 +536,7 @@ export const tarotCardsDetail = {
     },
     "Temperance": {
         "name": "Temperance",
+        "coreIntentions": "finding balance, patient healing, middle path, gentle blending, inner harmony",
         "meaning": "Temperance pours the golden elixir of balance, blending opposites into a third, transcendent possibility. This is the art of sacred alchemy—finding the perfect measure that transforms lead into gold.",
         "number": 14,
         "title": "The Divine Alchemist",
@@ -557,6 +574,7 @@ export const tarotCardsDetail = {
     },
     "The Devil": {
         "name": "The Devil",
+        "coreIntentions": "breaking chains, releasing addiction, shadow work, seeing clearly, liberation calling",
         "meaning": "The Devil illuminates the chains we forge from our own fears and desires, revealing that every prison has a door we've forgotten we can open. Liberation begins the moment you remember you hold the key.",
         "number": 15,
         "title": "Teacher of Hidden Freedom",
@@ -592,6 +610,7 @@ export const tarotCardsDetail = {
     },
     "The Tower": {
         "name": "The Tower",
+        "coreIntentions": "sudden breakthrough, divine disruption, tower falling, truth explosion, forced awakening",
         "meaning": "The Tower brings lightning revelation that shatters false foundations, freeing you from prisons you didn't know you inhabited. This divine disruption clears the way for authentic reconstruction on solid ground.",
         "number": 16,
         "title": "Lightning of Liberation",
@@ -629,6 +648,7 @@ export const tarotCardsDetail = {
     },
     "The Star": {
         "name": "The Star",
+        "coreIntentions": "renewed hope, healing light, spiritual guidance, peaceful restoration, wish fulfillment",
         "meaning": "The Star pours healing waters from the cosmic well, reminding you that hope is not wishful thinking but a form of spiritual intelligence. After the storm, you become both the wounded and the healer.",
         "number": 17,
         "title": "Beacon of Cosmic Hope",
@@ -666,6 +686,7 @@ export const tarotCardsDetail = {
     },
     "The Moon": {
         "name": "The Moon",
+        "coreIntentions": "facing illusions, intuitive navigation, shadow integration, dream wisdom, psychic awakening",
         "meaning": "The Moon illuminates the winding path through illusion, where nothing is quite as it seems yet everything is exactly as it should be. Trust your inner compass when outer landmarks dissolve into shadow.",
         "number": 18,
         "title": "Guide Through Sacred Mystery",
@@ -702,6 +723,7 @@ export const tarotCardsDetail = {
     },
     "The Sun": {
         "name": "The Sun",
+        "coreIntentions": "radiant joy, success achieved, pure happiness, childlike wonder, vital energy",
         "meaning": "The Sun radiates the joy of pure being, where every shadow is banished by the light of authentic self-expression. This is enlightenment with a child's heart—profound wisdom wrapped in simple delight.",
         "number": 19,
         "title": "Radiance of Pure Joy",
@@ -739,6 +761,7 @@ export const tarotCardsDetail = {
     },
     "Judgement": {
         "name": "Judgement",
+        "coreIntentions": "spiritual calling, life review, soul awakening, purpose revealed, higher calling",
         "meaning": "Judgement sounds the cosmic call to awakening, where past, present, and future converge in a moment of profound reckoning. This is your spiritual alarm clock—time to rise and claim your highest calling.",
         "number": 20,
         "title": "The Great Awakening",
@@ -773,6 +796,7 @@ export const tarotCardsDetail = {
     },
     "The World": {
         "name": "The World",
+        "coreIntentions": "cycle completion, total fulfillment, world mastery, cosmic consciousness, infinite possibility",
         "meaning": "The World celebrates the sacred completion where all elements dance in perfect harmony, yet hints at new spirals beginning. You have become whole by embracing every part of your journey as necessary and sacred.",
         "number": 21,
         "title": "The Cosmic Dancer",
@@ -807,6 +831,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Wands": {
         "name": "Ace of Wands",
+        "coreIntentions": "creative spark, passionate beginning, new inspiration, spiritual fire, fresh energy",
         "meaning": "The Ace of Wands erupts with primal creative force, a lightning bolt of pure potential seeking expression through you. This is the divine spark that sets souls ablaze with purpose and passion.",
         "number": 22,
         "title": "The Primal Spark",
@@ -841,6 +866,7 @@ export const tarotCardsDetail = {
     },
     "Two of Wands": {
         "name": "Two of Wands",
+        "coreIntentions": "future planning, bold vision, personal power, strategic choice, confident direction",
         "meaning": "The Two of Wands stands at the threshold between dreaming and doing, holding the world in your hands while gazing at horizons yet unexplored. Power lies in the pause before the leap.",
         "number": 23,
         "title": "Visionary at the Threshold",
@@ -848,6 +874,7 @@ export const tarotCardsDetail = {
     },
     "Three of Wands": {
         "name": "Three of Wands",
+        "coreIntentions": "expanding horizons, leadership emerging, vision manifesting, opportunities growing, progress ahead",
         "meaning": "The Three of Wands watches ships set sail carrying your dreams toward distant shores. Your initial efforts have taken flight; now comes the art of patient expectation and expanded vision.",
         "number": 24,
         "title": "Watcher of Distant Fires",
@@ -855,6 +882,7 @@ export const tarotCardsDetail = {
     },
     "Four of Wands": {
         "name": "Four of Wands",
+        "coreIntentions": "joyful celebration, stable harmony, community blessing, achievement recognized, happy home",
         "meaning": "The Four of Wands raises the sacred pillars of celebration, marking territory where joy has taken root and community flourishes. This is success made sweeter by sharing its fruits.",
         "number": 25,
         "title": "Guardian of Sacred Celebration",
@@ -862,6 +890,7 @@ export const tarotCardsDetail = {
     },
     "Five of Wands": {
         "name": "Five of Wands",
+        "coreIntentions": "creative conflict, healthy competition, dynamic tension, diverse perspectives, energetic challenge",
         "meaning": "The Five of Wands reveals creative friction where diverse energies clash and spark new possibilities. This chaos is not your enemy but the sacred fire that forges stronger solutions.",
         "number": 26,
         "title": "The Sacred Conflict",
@@ -869,6 +898,7 @@ export const tarotCardsDetail = {
     },
     "Six of Wands": {
         "name": "Six of Wands",
+        "coreIntentions": "public victory, success recognized, confidence rising, leadership acknowledged, triumph achieved",
         "meaning": "The Six of Wands rides high on earned victory, where inner fire has manifested as outer recognition. This triumph belongs to you—wear your laurels while remembering the journey continues.",
         "number": 27,
         "title": "Bearer of Golden Victory",
@@ -876,6 +906,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Wands": {
         "name": "Seven of Wands",
+        "coreIntentions": "standing ground, defending position, courage tested, maintaining strength, protective stance",
         "meaning": "The Seven of Wands stands firm on the mountain you've climbed, defending your position against those who would claim your ground. Courage means standing for your truth when standing alone.",
         "number": 28,
         "title": "Defender of Sacred Ground",
@@ -883,6 +914,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Wands": {
         "name": "Eight of Wands",
+        "coreIntentions": "swift movement, rapid progress, quick communication, energy flowing, momentum building",
         "meaning": "The Eight of Wands accelerates like arrows loosed from the bow of divine timing, carrying your intentions swiftly toward their target. Movement happens now—trust the momentum you've created.",
         "number": 29,
         "title": "Arrows of Swift Destiny",
@@ -890,6 +922,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Wands": {
         "name": "Nine of Wands",
+        "coreIntentions": "resilient persistence, final push, weathered strength, boundary setting, nearly there",
         "meaning": "The Nine of Wands embodies the warrior who still stands despite every battle scar, knowing one more test awaits. Your strength lies not in being unbroken but in continuing despite the breaks.",
         "number": 30,
         "title": "The Resilient Guardian",
@@ -897,6 +930,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Wands": {
         "name": "Ten of Wands",
+        "coreIntentions": "heavy burden, responsibility accepted, completion near, maximum effort, temporary overwhelm",
         "meaning": "The Ten of Wands carries the weight of success, where achievement brings responsibility that can either burden or teach you the art of delegation. True mastery knows when to share the load.",
         "number": 31,
         "title": "Bearer of Sacred Burdens",
@@ -904,6 +938,7 @@ export const tarotCardsDetail = {
     },
     "Page of Wands": {
         "name": "Page of Wands",
+        "coreIntentions": "enthusiastic exploration, creative messages, adventurous spirit, youthful energy, passionate discovery",
         "meaning": "The Page of Wands arrives as a dancing flame of possibility, bringing messages that ignite your creative spirit. This eager student of fire reminds you that enthusiasm is its own form of wisdom.",
         "number": 32,
         "title": "Messenger of Sacred Fire",
@@ -937,6 +972,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Wands": {
         "name": "Knight of Wands",
+        "coreIntentions": "passionate pursuit, adventurous action, impulsive courage, fiery charm, bold movement",
         "meaning": "The Knight of Wands charges forward on a steed of pure passion, transforming inspiration into action with fearless confidence. This warrior of fire knows that fortune favors the bold.",
         "number": 33,
         "title": "Warrior of Sacred Passion",
@@ -970,6 +1006,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Wands": {
         "name": "Queen of Wands",
+        "coreIntentions": "confident leadership, warm authority, creative mastery, magnetic presence, generous spirit",
         "meaning": "The Queen of Wands radiates magnetic confidence, ruling her realm with warmth that nurtures and fire that inspires. She shows you how to be both torch and hearth—illuminating and warming in equal measure.",
         "number": 34,
         "title": "Sovereign of Sacred Flame",
@@ -1003,6 +1040,7 @@ export const tarotCardsDetail = {
     },
     "King of Wands": {
         "name": "King of Wands",
+        "coreIntentions": "visionary leadership, inspired authority, natural charisma, entrepreneurial spirit, motivating others",
         "meaning": "The King of Wands transforms vision into empire through the marriage of inspiration and discipline. This master of fire demonstrates how to lead with passion while maintaining the wisdom to direct its flow.",
         "number": 35,
         "title": "Master of Sacred Vision",
@@ -1036,6 +1074,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Cups": {
         "name": "Ace of Cups",
+        "coreIntentions": "emotional beginning, love flowing, heart opening, intuitive gifts, spiritual awakening",
         "meaning": "The Ace of Cups overflows with the nectar of divine love, offering you a chalice filled with infinite emotional and spiritual possibility. Drink deeply—this is the water that transforms deserts into gardens.",
         "number": 36,
         "title": "The Divine Chalice",
@@ -1070,6 +1109,7 @@ export const tarotCardsDetail = {
     },
     "Two of Cups": {
         "name": "Two of Cups",
+        "coreIntentions": "soul recognition, mutual attraction, emotional balance, partnership forming, love connection",
         "meaning": "The Two of Cups creates sacred space where two souls recognize themselves in each other's eyes. This divine mirror reflects not just romance but the profound meeting of any two hearts in truth.",
         "number": 37,
         "title": "The Sacred Meeting",
@@ -1103,6 +1143,7 @@ export const tarotCardsDetail = {
     },
     "Three of Cups": {
         "name": "Three of Cups",
+        "coreIntentions": "friendship celebration, joyful gathering, community support, shared happiness, social harmony",
         "meaning": "The Three of Cups raises a toast to the divine trinity of friendship, where individual streams merge into a river of shared joy. Community becomes the chalice that holds more than any single cup.",
         "number": 38,
         "title": "Celebration of Sacred Bonds",
@@ -1110,6 +1151,7 @@ export const tarotCardsDetail = {
     },
     "Four of Cups": {
         "name": "Four of Cups",
+        "coreIntentions": "emotional withdrawal, contemplation needed, reevaluating options, temporary apathy, inner processing",
         "meaning": "The Four of Cups sits in contemplative withdrawal, where the soul reassesses its emotional landscape before accepting new offerings. Sometimes the greatest gift is the pause before receiving.",
         "number": 39,
         "title": "The Sacred Contemplation",
@@ -1117,6 +1159,7 @@ export const tarotCardsDetail = {
     },
     "Five of Cups": {
         "name": "Five of Cups",
+        "coreIntentions": "processing grief, accepting loss, emotional release, finding hope, partial healing",
         "meaning": "The Five of Cups honors the sacred grief that waters future joy, teaching that loss and gain dance together in the human heart. What remains standing often holds more than what has fallen.",
         "number": 40,
         "title": "Teacher of Sacred Grief",
@@ -1124,6 +1167,7 @@ export const tarotCardsDetail = {
     },
     "Six of Cups": {
         "name": "Six of Cups",
+        "coreIntentions": "childhood healing, innocent joy, nostalgic comfort, karmic return, sweet memories",
         "meaning": "The Six of Cups opens the treasure chest of memory where innocence is preserved in amber, offering its sweetness to heal present wounds. The inner child holds medicine the adult has forgotten.",
         "number": 41,
         "title": "Keeper of Sweet Memory",
@@ -1131,6 +1175,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Cups": {
         "name": "Seven of Cups",
+        "coreIntentions": "emotional choices, imagination active, wishful thinking, multiple options, clarity needed",
         "meaning": "The Seven of Cups presents a mystical array of possibilities, each chalice holding a different dream or illusion. Wisdom lies in discerning which cups hold nectar and which hold only mist.",
         "number": 42,
         "title": "Weaver of Sacred Dreams",
@@ -1138,6 +1183,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Cups": {
         "name": "Eight of Cups",
+        "coreIntentions": "moving forward, leaving behind, spiritual quest, emotional evolution, necessary departure",
         "meaning": "The Eight of Cups turns away from what no longer nourishes, embarking on a pilgrimage toward deeper truth. This departure is not defeat but the courage to seek the ocean when pools no longer satisfy.",
         "number": 43,
         "title": "Pilgrim of Deeper Waters",
@@ -1145,6 +1191,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Cups": {
         "name": "Nine of Cups",
+        "coreIntentions": "emotional satisfaction, contentment found, wishes granted, personal happiness, grateful heart",
         "meaning": "The Nine of Cups sits in the glow of wishes fulfilled, reminding you that contentment is both destination and journey. This is the smile of one who has learned the alchemy of gratitude.",
         "number": 44,
         "title": "Master of Heart's Desire",
@@ -1153,6 +1200,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Cups": {
         "name": "Ten of Cups",
+        "coreIntentions": "family harmony, emotional fulfillment, lasting happiness, perfect contentment, rainbow blessings",
         "meaning": "The Ten of Cups paints the rainbow bridge connecting hearts in perfect harmony, where love has created its own kingdom. This is happiness that ripples outward, blessing all it touches.",
         "number": 45,
         "title": "The Rainbow's Promise",
@@ -1186,6 +1234,7 @@ export const tarotCardsDetail = {
     },
     "Page of Cups": {
         "name": "Page of Cups",
+        "coreIntentions": "intuitive messages, emotional learning, creative beginning, sensitive awareness, gentle start",
         "meaning": "The Page of Cups arrives bearing messages from the realm of feeling, where intuition speaks in symbols and synchronicities. This gentle messenger teaches that sensitivity is a superpower.",
         "number": 46,
         "title": "Messenger of Sacred Feeling",
@@ -1219,6 +1268,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Cups": {
         "name": "Knight of Cups",
+        "coreIntentions": "romantic pursuit, emotional quest, following heart, creative vision, idealistic journey",
         "meaning": "The Knight of Cups rides on waves of romantic idealism, bearing the grail of emotional truth with chivalrous devotion. This quester seeks not just love but the sacred in every connection.",
         "number": 47,
         "title": "Quester of Sacred Hearts",
@@ -1252,6 +1302,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Cups": {
         "name": "Queen of Cups",
+        "coreIntentions": "emotional mastery, intuitive wisdom, compassionate leadership, nurturing presence, deep feeling",
         "meaning": "The Queen of Cups reigns over the ocean of emotion with compassionate wisdom, holding space for all feelings without drowning in any. She shows how to be deeply empathic while maintaining your sacred center.",
         "number": 48,
         "title": "Oracle of Sacred Waters",
@@ -1286,6 +1337,7 @@ export const tarotCardsDetail = {
     },
     "King of Cups": {
         "name": "King of Cups",
+        "coreIntentions": "emotional maturity, balanced feelings, wise counsel, calm mastery, diplomatic strength",
         "meaning": "The King of Cups masters the art of emotional leadership, navigating stormy seas with calm authority. This sovereign shows how to rule the heart's realm with both depth and stability.",
         "number": 49,
         "title": "Navigator of Sacred Depths",
@@ -1319,6 +1371,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Swords": {
         "name": "Ace of Swords",
+        "coreIntentions": "mental clarity, breakthrough thinking, truth cutting, new understanding, clear communication",
         "meaning": "The Ace of Swords cuts through confusion with the blade of absolute clarity, offering you the power to separate truth from illusion with a single stroke. This is the mind's enlightenment moment.",
         "number": 50,
         "title": "Blade of Pure Truth",
@@ -1352,6 +1405,7 @@ export const tarotCardsDetail = {
     },
     "Two of Swords": {
         "name": "Two of Swords",
+        "coreIntentions": "difficult choice, mental balance, blocked vision, indecision resolved, seeing clearly",
         "meaning": "The Two of Swords balances on the knife's edge of decision, where the blindfold of impartiality allows inner wisdom to weigh options without prejudice. Peace exists in the pause before choice.",
         "number": 51,
         "title": "Guardian of Sacred Balance",
@@ -1359,6 +1413,7 @@ export const tarotCardsDetail = {
     },
     "Three of Swords": {
         "name": "Three of Swords",
+        "coreIntentions": "heartbreak healing, necessary pain, emotional truth, sorrow releasing, wound cleansing",
         "meaning": "The Three of Swords pierces the heart with truth that heals through hurting, revealing that some pain is the price of clarity. This sacred wound creates space for more authentic love.",
         "number": 52,
         "title": "The Sacred Piercing",
@@ -1392,6 +1447,7 @@ export const tarotCardsDetail = {
     },
     "Four of Swords": {
         "name": "Four of Swords",
+        "coreIntentions": "mental rest, peaceful recovery, contemplation time, healing pause, quiet restoration",
         "meaning": "The Four of Swords creates sanctuary for the battle-weary mind, where rest becomes an act of wisdom rather than surrender. In stillness, the sword of consciousness resharpens itself.",
         "number": 53,
         "title": "Sanctuary of Sacred Rest",
@@ -1399,6 +1455,7 @@ export const tarotCardsDetail = {
     },
     "Five of Swords": {
         "name": "Five of Swords",
+        "coreIntentions": "conflict resolution, unfair situation, empty victory, choosing integrity, learning humility",
         "meaning": "The Five of Swords questions the price of victory when winning costs more than losing would have. This teacher arrives when you must choose between being right and being wise.",
         "number": 54,
         "title": "Teacher of Hollow Victory",
@@ -1406,6 +1463,7 @@ export const tarotCardsDetail = {
     },
     "Six of Swords": {
         "name": "Six of Swords",
+        "coreIntentions": "mental transition, moving forward, leaving troubles, calmer waters, gradual improvement",
         "meaning": "The Six of Swords navigates the crossing from turbulent to calmer waters, carrying only the wisdom earned from storms. This journey requires leaving some baggage on the shore behind you.",
         "number": 55,
         "title": "Ferryman to Calmer Shores",
@@ -1413,6 +1471,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Swords": {
         "name": "Seven of Swords",
+        "coreIntentions": "strategic thinking, independent action, clever solutions, calculated risk, mental agility",
         "meaning": "The Seven of Swords masters the art of strategic thinking, knowing when to move in shadows and when to stand in light. This is not deception but the wisdom of choosing your revelations.",
         "number": 56,
         "title": "Master of Sacred Strategy",
@@ -1446,6 +1505,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Swords": {
         "name": "Eight of Swords",
+        "coreIntentions": "mental freedom, limiting beliefs, perceived trap, victim mentality, breaking free",
         "meaning": "The Eight of Swords reveals prisons built from thoughts, where the binding ropes are beliefs you've forgotten you can untie. Freedom begins the moment you realize the cage has no lock.",
         "number": 57,
         "title": "Liberator of Mental Chains",
@@ -1453,6 +1513,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Swords": {
         "name": "Nine of Swords",
+        "coreIntentions": "releasing anxiety, nightmare ending, mental anguish, worry dissolving, dawn approaching",
         "meaning": "The Nine of Swords sits vigil with the anxious mind in its darkest hour, where fears multiply in the echo chamber of night. Dawn always comes for those who remember they survived every previous darkness.",
         "number": 58,
         "title": "Guardian Through Dark Night",
@@ -1460,6 +1521,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Swords": {
         "name": "Ten of Swords",
+        "coreIntentions": "rock bottom, painful ending, complete release, nowhere but up, transformation ready",
         "meaning": "The Ten of Swords marks the death of a mental paradigm, where total defeat becomes the ground for total transformation. Rock bottom is solid foundation for rebuilding with wisdom.",
         "number": 59,
         "title": "Dawn After Darkest Night",
@@ -1493,6 +1555,7 @@ export const tarotCardsDetail = {
     },
     "Page of Swords": {
         "name": "Page of Swords",
+        "coreIntentions": "curious mind, truth seeking, mental agility, clear communication, vigilant awareness",
         "meaning": "The Page of Swords wields curiosity like a blade, cutting through assumptions with questions that reveal hidden truths. This messenger brings news that challenges you to think in new ways.",
         "number": 60,
         "title": "Seeker of Sharp Truths",
@@ -1526,6 +1589,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Swords": {
         "name": "Knight of Swords",
+        "coreIntentions": "swift action, direct communication, ambitious drive, quick thinking, determined pursuit",
         "meaning": "The Knight of Swords charges into battle for truth with the speed of thought itself, cutting through deception with fierce intelligence. This warrior of the mind knows that sometimes swift action prevents greater harm.",
         "number": 61,
         "title": "Champion of Swift Justice",
@@ -1560,6 +1624,7 @@ export const tarotCardsDetail = {
     "Queen of Swords": {
 
         "name": "Queen of Swords",
+        "coreIntentions": "clear boundaries, direct wisdom, independent thinking, experienced judgment, mental mastery",
         "meaning": "The Queen of Swords sees through veils with perceptive clarity, wielding truth with the precision of a surgeon and the grace of a diplomat. Her boundaries are not walls but sacred definitions.",
         "number": 62,
         "title": "Keeper of Crystal Clarity",
@@ -1594,6 +1659,7 @@ export const tarotCardsDetail = {
     "King of Swords": {
 
         "name": "King of Swords",
+        "coreIntentions": "intellectual authority, objective truth, fair leadership, strategic thinking, wise command",
         "meaning": "The King of Swords rules the realm of mind with ethical authority, where justice and wisdom unite in service of truth. This sovereign shows how to wield intellectual power with moral clarity.",
         "number": 63,
         "title": "Sovereign of Sacred Justice",
@@ -1628,6 +1694,7 @@ export const tarotCardsDetail = {
     "Ace of Pentacles": {
 
         "name": "Ace of Pentacles",
+        "coreIntentions": "material opportunity, prosperity beginning, tangible manifestation, earthly blessings, golden seeds",
         "meaning": "The Ace of Pentacles offers a golden seed pregnant with material and spiritual abundance. Plant it with intention, for this gift from earth's treasury will grow into whatever you nurture it to become.",
         "number": 64,
         "title": "The Golden Seed",
@@ -1663,6 +1730,7 @@ export const tarotCardsDetail = {
     "Two of Pentacles": {
 
         "name": "Two of Pentacles",
+        "coreIntentions": "juggling priorities, finding balance, flexible approach, resource management, dynamic flow",
         "meaning": "The Two of Pentacles dances with change, juggling resources with the grace of one who knows that balance is not stillness but constant, conscious adjustment. Master the rhythm of give and take.",
         "number": 65,
         "title": "Dancer of Sacred Balance",
@@ -1671,6 +1739,7 @@ export const tarotCardsDetail = {
     "Three of Pentacles": {
 
         "name": "Three of Pentacles",
+        "coreIntentions": "team collaboration, skill recognition, quality work, apprentice learning, creative partnership",
         "meaning": "The Three of Pentacles builds cathedrals through collaboration, where individual mastery serves the collective vision. This is the sacred mathematics where one plus one plus one equals infinity.",
         "number": 66,
         "title": "Master of Sacred Craft",
@@ -1679,6 +1748,7 @@ export const tarotCardsDetail = {
     "Four of Pentacles": {
 
         "name": "Four of Pentacles",
+        "coreIntentions": "financial security, material control, resource protection, stable foundation, conscious possession",
         "meaning": "The Four of Pentacles grips tightly to accumulated treasure, teaching the delicate balance between saving and hoarding. Security becomes prison when fear of loss overshadows joy of having.",
         "number": 67,
         "title": "Guardian of the Treasure",
@@ -1686,6 +1756,7 @@ export const tarotCardsDetail = {
     },
     "Five of Pentacles": {
         "name": "Five of Pentacles",
+        "coreIntentions": "overcoming hardship, seeking help, spiritual richness, material challenge, finding support",
         "meaning": "The Five of Pentacles illuminates the sanctuary glowing just beyond the storm, reminding you that help exists for those willing to see it. In your darkest winter, warmth is closer than you think.",
         "number": 68,
         "title": "Light Beyond the Storm",
@@ -1693,6 +1764,7 @@ export const tarotCardsDetail = {
     },
     "Six of Pentacles": {
         "name": "Six of Pentacles",
+        "coreIntentions": "generous sharing, fair exchange, balanced giving, charity flowing, reciprocal blessing",
         "meaning": "The Six of Pentacles balances the scales of giving and receiving, understanding that generosity creates the current in which abundance flows. This is karma made visible through conscious exchange.",
         "number": 69,
         "title": "Keeper of Sacred Exchange",
@@ -1700,6 +1772,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Pentacles": {
         "name": "Seven of Pentacles",
+        "coreIntentions": "patient investment, long-term vision, evaluating progress, sustainable growth, harvest coming",
         "meaning": "The Seven of Pentacles pauses in the garden to assess growth, knowing that some harvests require patience beyond a single season. This is the wisdom of tending what takes time to ripen.",
         "number": 70,
         "title": "Gardener of Patient Wealth",
@@ -1707,6 +1780,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Pentacles": {
         "name": "Eight of Pentacles",
+        "coreIntentions": "dedicated practice, skill mastery, quality focus, apprentice discipline, craftsman dedication",
         "meaning": "The Eight of Pentacles transforms work into meditation, where repetition becomes refinement and practice becomes prayer. This is mastery earned one careful stroke at a time.",
         "number": 71,
         "title": "The Sacred Apprentice",
@@ -1714,6 +1788,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Pentacles": {
         "name": "Nine of Pentacles",
+        "coreIntentions": "earned luxury, self sufficiency, refined success, independent wealth, graceful abundance",
         "meaning": "The Nine of Pentacles dwells in the garden of self-sufficiency, where disciplined effort has bloomed into graceful abundance. This is wealth that includes but transcends material possessions.",
         "number": 72,
         "title": "Sovereign of Self-Made Grace",
@@ -1721,6 +1796,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Pentacles": {
         "name": "Ten of Pentacles",
+        "coreIntentions": "lasting legacy, generational wealth, family success, material mastery, permanent achievement",
         "meaning": "The Ten of Pentacles builds legacy that transcends generations, where wealth becomes wisdom passed through bloodlines and chosen families. This is abundance that outlives its creators.",
         "number": 73,
         "title": "Architect of Living Legacy",
@@ -1754,6 +1830,7 @@ export const tarotCardsDetail = {
     },
     "Page of Pentacles": {
         "name": "Page of Pentacles",
+        "coreIntentions": "practical learning, steady progress, grounded approach, new skills, material beginnings",
         "meaning": "The Page of Pentacles studies the book of earth with devoted attention, finding magic in the practical and sacred in the mundane. This student knows that mastery begins with beginner's mind.",
         "number": 74,
         "title": "Student of Earthly Magic",
@@ -1787,6 +1864,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Pentacles": {
         "name": "Knight of Pentacles",
+        "coreIntentions": "methodical progress, reliable effort, patient work, steady advancement, persistent dedication",
         "meaning": "The Knight of Pentacles advances with the patience of mountains and the persistence of rivers carving canyons. This steady warrior proves that slow and steady not only finishes but masters the race.",
         "number": 75,
         "title": "Guardian of Steady Progress",
@@ -1820,6 +1898,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Pentacles": {
         "name": "Queen of Pentacles",
+        "coreIntentions": "practical nurturing, abundant provision, earthly wisdom, material comfort, grounded care",
         "meaning": "The Queen of Pentacles creates abundance through nurturing, transforming resources into comfort and security for all in her realm. She shows that practical magic is the most powerful spell.",
         "number": 76,
         "title": "Mother of Abundant Earth",
@@ -1853,6 +1932,7 @@ export const tarotCardsDetail = {
     },
     "King of Pentacles": {
         "name": "King of Pentacles",
+        "coreIntentions": "material mastery, wealth consciousness, successful leadership, established prosperity, generous authority",
         "meaning": "The King of Pentacles transforms vision into empire through patient cultivation and wise investment. This master of manifestation shows that true wealth serves rather than enslaves.",
         "number": 77,
         "title": "Master of Manifested Wealth",
@@ -1883,610 +1963,5 @@ export const tarotCardsDetail = {
             "accomplished",
             "stable leadership"
         ]
-    },
-    "The Fool Reversed": {
-        "name": "The Fool Reversed",
-        "meaning": "The Fool Reversed pauses at the cliff's edge, wisdom whispering where innocence once sang. This is not fear but the sacred recognition that some leaps require preparation, not just faith.",
-        "number": 0,
-        "title": "The Wise Fool's Reflection",
-        "coreMeaning": "Caution — Recklessness, Poor Timing, and Need for Grounding",
-    },
-    "The Magician Reversed": {
-        "name": "The Magician Reversed",
-        "meaning": "The Magician Reversed reveals power scattered or misdirected, where potential awaits proper channeling. This is your invitation to align inner truth with outer action before wielding your magic.",
-        "number": 1,
-        "title": "Seeker of Lost Power",
-        "coreMeaning": "Misalignment — Manipulation, Unused Talents, and Disconnected Will",
-    },
-    "The High Priestess Reversed": {
-        "name": "The High Priestess Reversed",
-        "meaning": "The High Priestess Reversed indicates intuition struggling to surface through mental noise. Your inner oracle speaks, but are you creating the silence necessary to hear her whispers?",
-        "number": 2,
-        "title": "The Veiled Oracle Awakening",
-        "coreMeaning": "Disconnection — Ignored Intuition, Hidden Secrets, and Surface Living",
-    },
-    "The Empress Reversed": {
-        "name": "The Empress Reversed",
-        "meaning": "The Empress Reversed signals creative energy blocked or neglected, where the garden within needs tending before it can bloom for others. Self-nurture is not selfish but sacred.",
-        "number": 3,
-        "title": "The Garden Waiting to Bloom",
-        "coreMeaning": "Depletion — Creative Blocks, Neglect, and Codependency",
-    },
-    "The Emperor Reversed": {
-        "name": "The Emperor Reversed",
-        "meaning": "The Emperor Reversed questions structures that have become cages, where control has calcified into tyranny. True power knows when to bend so it doesn't break.",
-        "number": 4,
-        "title": "The Flexible Throne",
-        "coreMeaning": "Rigidity — Domination, Inflexibility, and Abuse of Power",
-    },
-    "The Hierophant Reversed": {
-        "name": "The Hierophant Reversed",
-        "meaning": "The Hierophant Reversed breaks free from dogma's chains, seeking personal revelation over inherited belief. This rebel sage knows that true spirituality questions everything, including itself.",
-        "number": 5,
-        "title": "The Sacred Rebel",
-        "coreMeaning": "Nonconformity — Challenging Tradition, Personal Beliefs, and Breaking Rules",
-    },
-    "The Lovers Reversed": {
-        "name": "The Lovers Reversed",
-        "meaning": "The Lovers Reversed reveals disharmony in the dance of relationship, where choices made from fear create separation. Before union with another, marriage with self must be consummated.",
-        "number": 6,
-        "title": "The Inner Marriage",
-        "coreMeaning": "Disharmony — Imbalance, Poor Choices, and Relationship Issues",
-    },
-    "The Chariot Reversed": {
-        "name": "The Chariot Reversed",
-        "meaning": "The Chariot Reversed spins its wheels without direction, where willpower lacks wisdom's guidance. Victory requires not just movement but knowing which direction leads to true triumph.",
-        "number": 7,
-        "title": "The Wandering Warrior",
-        "coreMeaning": "Misdirection — Lack of Control, Aggression, and Going Nowhere",
-    },
-    "Strength Reversed": {
-        "name": "Strength Reversed",
-        "meaning": "Strength Reversed reveals the lion within roaring unheard, where self-doubt drowns out inner power. Your greatest strength may be admitting where you need support.",
-        "number": 8,
-        "title": "The Gentle Warrior's Rest",
-        "coreMeaning": "Weakness — Self-Doubt, Raw Emotion, and Inner Struggle",
-    },
-    "The Hermit Reversed": {
-        "name": "The Hermit Reversed",
-        "meaning": "The Hermit Reversed emerges from excessive isolation, where solitude has soured into loneliness. The lantern you've been carrying is meant to light paths for others too.",
-        "number": 9,
-        "title": "The Emerging Light",
-        "coreMeaning": "Isolation — Loneliness, Withdrawal, and Refusing Guidance",
-    },
-    "Wheel of Fortune Reversed": {
-        "name": "Wheel of Fortune Reversed",
-        "meaning": "The Wheel of Fortune Reversed reveals resistance to life's natural cycles, where fighting the current exhausts more than flowing with it. Sometimes the wheel needs you to be still.",
-        "number": 10,
-        "title": "The Wheel's Sacred Pause",
-        "coreMeaning": "Resistance — Bad Luck, Lack of Control, and Fighting Fate",
-    },
-    "Justice Reversed": {
-        "name": "Justice Reversed",
-        "meaning": "Justice Reversed exposes imbalance in the scales of consequence, where accountability has been avoided or misplaced. Truth delayed is not truth denied—it always finds its moment.",
-        "number": 11,
-        "title": "The Tilted Scales",
-        "coreMeaning": "Injustice — Unfairness, Dishonesty, and Avoiding Accountability",
-    },
-    "The Hanged Man Reversed": {
-        "name": "The Hanged Man Reversed",
-        "meaning": "The Hanged Man Reversed breaks free from paralyzing suspension, where waiting has become stagnation. Sometimes the sacrifice is to stop sacrificing and start moving.",
-        "number": 12,
-        "title": "The Freed Prisoner",
-        "coreMeaning": "Stagnation — Delays, Resistance to Change, and Pointless Sacrifice",
-    },
-    "Death Reversed": {
-        "name": "Death Reversed",
-        "meaning": "Death Reversed clings to what seeks release, where fear of endings prevents new beginnings. The phoenix cannot rise if you won't let the old self fully burn.",
-        "number": 13,
-        "title": "The Resisted Transformation",
-        "coreMeaning": "Resistance — Fear of Change, Holding On, and Delayed Endings",
-    },
-    "Temperance Reversed": {
-        "name": "Temperance Reversed",
-        "meaning": "Temperance Reversed spills the sacred mixture through impatience or excess, where extremes have shattered the golden mean. Balance begins with acknowledging where you've tipped too far.",
-        "number": 14,
-        "title": "The Seeking Balance",
-        "coreMeaning": "Imbalance — Excess, Impatience, and Lack of Moderation",
-    },
-    "The Devil Reversed": {
-        "name": "The Devil Reversed",
-        "meaning": "The Devil Reversed begins breaking chains link by link, where recognition of bondage initiates liberation. You're closer to freedom than you think—the lock is already opening.",
-        "number": 15,
-        "title": "The Chain Breaker",
-        "coreMeaning": "Liberation — Breaking Free, Release, and Reclaiming Power",
-    },
-    "The Tower Reversed": {
-        "name": "The Tower Reversed",
-        "meaning": "The Tower Reversed delays inevitable revelation, where structures crumble in slow motion rather than sudden collapse. Change resisted arrives as suffering; change accepted arrives as grace.",
-        "number": 16,
-        "title": "The Slow Awakening",
-        "coreMeaning": "Delayed Disaster — Avoiding Change, Inner Turmoil, and Gradual Collapse",
-    },
-    "The Star Reversed": {
-        "name": "The Star Reversed",
-        "meaning": "The Star Reversed dims its light through despair or disconnection, where hope needs rekindling from within. Even the darkest night holds stars—you've just forgotten how to see them.",
-        "number": 17,
-        "title": "The Hidden Star",
-        "coreMeaning": "Despair — Lost Faith, Disconnection, and Lack of Hope",
-    },
-    "The Moon Reversed": {
-        "name": "The Moon Reversed",
-        "meaning": "The Moon Reversed begins lifting the veil of illusion, where confusion gives way to dawning clarity. The monsters you feared were shadows cast by your own light.",
-        "number": 18,
-        "title": "The Clearing Mist",
-        "coreMeaning": "Emerging Clarity — Released Fears, Unveiled Deception, and Inner Confusion",
-    },
-    "The Sun Reversed": {
-
-        "name": "The Sun Reversed",
-        "meaning": "The Sun Reversed struggles to shine through inner clouds, where joy feels forced or forgotten. Your light isn't gone—it's waiting behind temporary weather of the soul.",
-        "number": 19,
-        "title": "The Clouded Light",
-        "coreMeaning": "Dimmed Joy — Inner Child Wounds, Lack of Success, and Temporary Sadness",
-    },
-    "Judgement Reversed": {
-
-        "name": "Judgement Reversed",
-        "meaning": "Judgement Reversed resists the call to rise, where self-forgiveness becomes the missing key to transformation. The universe calls your name—but first, you must answer to yourself.",
-        "number": 20,
-        "title": "The Inner Reckoning",
-        "coreMeaning": "Avoidance — Self-Doubt, Harsh Judgement, and Refusing the Call",
-    },
-    "The World Reversed": {
-
-        "name": "The World Reversed",
-        "meaning": "The World Reversed nears completion but hesitates at the threshold, where the final step feels like the hardest. You're closer than you think—trust the journey's perfect timing.",
-        "number": 21,
-        "title": "The Almost Dance",
-        "coreMeaning": "Incompletion — Lack of Closure, Delays, and Seeking External Validation",
-    },
-    "Ace of Wands Reversed": {
-
-        "name": "Ace of Wands Reversed",
-        "meaning": "The Ace of Wands Reversed smolders rather than blazes, where creative fire seeks the right conditions to ignite. Your spark isn't gone—it's gathering force for the right moment.",
-        "number": 22,
-        "title": "The Gathering Spark",
-        "coreMeaning": "Delays — Creative Blocks, False Starts, and Misdirected Energy",
-    },
-    "Two of Wands Reversed": {
-
-        "name": "Two of Wands Reversed",
-        "meaning": "The Two of Wands Reversed second-guesses the vision, where fear of choosing wrong paralyzes all choice. Perfect plans are the enemy of bold beginnings.",
-        "number": 23,
-        "title": "The Hesitant Visionary",
-        "coreMeaning": "Fear of Unknown — Poor Planning, Fear of Change, and Playing Small",
-    },
-    "Three of Wands Reversed": {
-
-        "name": "Three of Wands Reversed",
-        "meaning": "The Three of Wands Reversed watches empty horizons, where expectations meet reality's different timeline. Your ships are coming—they're just taking the scenic route.",
-        "number": 24,
-        "title": "The Patient Watcher",
-        "coreMeaning": "Delays — Lack of Foresight, Obstacles, and Frustrated Plans",
-    },
-    "Four of Wands Reversed": {
-
-        "name": "Four of Wands Reversed",
-        "meaning": "The Four of Wands Reversed postpones celebration, where harmony feels just out of reach. The foundation is there—it just needs recognition to become home.",
-        "number": 25,
-        "title": "The Unlit Hearth",
-        "coreMeaning": "Disharmony — Delayed Celebration, Conflict, and Lack of Support",
-    },
-    "Five of Wands Reversed": {
-
-        "name": "Five of Wands Reversed",
-        "meaning": "The Five of Wands Reversed ends the battle through exhaustion or wisdom, where conflict transforms into cooperation. Peace begins when someone drops their stick first.",
-        "number": 26,
-        "title": "The Peaceful Warrior",
-        "coreMeaning": "Resolution — Avoiding Conflict, Finding Common Ground, and Inner Peace",
-    },
-    "Six of Wands Reversed": {
-
-        "name": "Six of Wands Reversed",
-        "meaning": "The Six of Wands Reversed questions external validation, where private victories matter more than public acclaim. True success needs no audience but your own soul.",
-        "number": 27,
-        "title": "The Private Victory",
-        "coreMeaning": "Self-Doubt — Lack of Recognition, Fall from Grace, and Ego Check",
-    },
-    "Seven of Wands Reversed": {
-
-        "name": "Seven of Wands Reversed",
-        "meaning": "The Seven of Wands Reversed considers strategic retreat, where giving ground becomes wisdom rather than weakness. Some hills aren't worth dying on.",
-        "number": 28,
-        "title": "The Wise Retreat",
-        "coreMeaning": "Overwhelm — Giving Up, Feeling Defeated, and Strategic Withdrawal",
-    },
-    "Eight of Wands Reversed": {
-
-        "name": "Eight of Wands Reversed",
-        "meaning": "The Eight of Wands Reversed slows the arrows in flight, where divine timing differs from human impatience. The universe has reasons for its rhythm.",
-        "number": 29,
-        "title": "The Sacred Delay",
-        "coreMeaning": "Frustration — Delays, Missed Opportunities, and Slow Progress",
-    },
-    "Nine of Wands Reversed": {
-
-        "name": "Nine of Wands Reversed",
-        "meaning": "The Nine of Wands Reversed lays down defensive arms, recognizing that constant vigilance exhausts the warrior. Strength includes knowing when to lower your guard.",
-        "number": 30,
-        "title": "The Resting Guardian",
-        "coreMeaning": "Exhaustion — Paranoia, Burnout, and Breaking Point",
-    },
-    "Ten of Wands Reversed": {
-
-        "name": "Ten of Wands Reversed",
-        "meaning": "The Ten of Wands Reversed finally releases burdens carried too long, where delegation becomes liberation. You were never meant to carry the world alone.",
-        "number": 31,
-        "title": "The Unburdened Carrier",
-        "coreMeaning": "Release — Delegating, Letting Go, and Avoiding Responsibility",
-    },
-    "Page of Wands Reversed": {
-
-        "name": "Page of Wands Reversed",
-        "meaning": "The Page of Wands Reversed tempers enthusiasm with wisdom, where creative energy seeks proper channeling. The spark is there—it just needs direction.",
-        "number": 32,
-        "title": "The Learning Flame",
-        "coreMeaning": "Immaturity — Lack of Direction, Bad News, and Childish Behavior",
-    },
-    "Knight of Wands Reversed": {
-
-        "name": "Knight of Wands Reversed",
-        "meaning": "The Knight of Wands Reversed reins in runaway passion, where haste has been making waste. Speed without strategy is just expensive movement.",
-        "number": 33,
-        "title": "The Tempered Charge",
-        "coreMeaning": "Recklessness — Impulsiveness, Anger, and Misdirected Energy",
-    },
-    "Queen of Wands Reversed": {
-
-        "name": "Queen of Wands Reversed",
-        "meaning": "The Queen of Wands Reversed tends her inner flame before lighting others, where confidence rebuilds from within. A queen's power grows in private before it glows in public.",
-        "number": 34,
-        "title": "The Inner Flame Tender",
-        "coreMeaning": "Insecurity — Jealousy, Selfishness, and Demanding Behavior",
-    },
-    "King of Wands Reversed": {
-
-        "name": "King of Wands Reversed",
-        "meaning": "The King of Wands Reversed tempers autocratic tendencies, learning that true leadership inspires rather than demands. The greatest kings make others feel like royalty.",
-        "number": 35,
-        "title": "The Humble Sovereign",
-        "coreMeaning": "Tyranny — Impulsiveness, Ruthlessness, and Abuse of Power",
-    },
-    "Ace of Cups Reversed": {
-
-        "name": "Ace of Cups Reversed",
-        "meaning": "The Ace of Cups Reversed turns the chalice inward, where self-love must fill the cup before it can overflow to others. Empty vessels make hollow sounds.",
-        "number": 36,
-        "title": "The Inner Chalice",
-        "coreMeaning": "Blocked Emotions — Self-Love Issues, Emptiness, and Emotional Loss",
-    },
-    "Two of Cups Reversed": {
-
-        "name": "Two of Cups Reversed",
-        "meaning": "The Two of Cups Reversed reveals imbalance in the dance of connection, where harmony seeks restoration through honest communication. Love's cup spills when tipped too far either way.",
-        "number": 37,
-        "title": "The Seeking Balance",
-        "coreMeaning": "Imbalance — Broken Communication, Tension, and Separation",
-    },
-    "Three of Cups Reversed": {
-
-        "name": "Three of Cups Reversed",
-        "meaning": "The Three of Cups Reversed steps back from the crowd's celebration, recognizing that sometimes solitude serves joy better than forced festivity. Quality of connection trumps quantity.",
-        "number": 38,
-        "title": "The Selective Celebrant",
-        "coreMeaning": "Isolation — Overindulgence, Gossip, and Lost Community",
-    },
-    "Four of Cups Reversed": {
-
-        "name": "Four of Cups Reversed",
-        "meaning": "The Four of Cups Reversed awakens from emotional stupor, suddenly seeing gifts previously invisible. The fog of apathy lifts to reveal opportunities waiting patiently for recognition.",
-        "number": 39,
-        "title": "The Awakening Heart",
-        "coreMeaning": "New Awareness — End of Stagnation, Motivation, and Fresh Perspective",
-    },
-    "Five of Cups Reversed": {
-
-        "name": "Five of Cups Reversed",
-        "meaning": "The Five of Cups Reversed turns from spilled milk toward standing chalices, where grief transforms into wisdom. This is recovery's first step—seeing what remains with grateful eyes.",
-        "number": 40,
-        "title": "The Phoenix Heart",
-        "coreMeaning": "Recovery — Moving On, Forgiveness, and Finding Hope",
-    },
-    "Six of Cups Reversed": {
-
-        "name": "Six of Cups Reversed",
-        "meaning": "The Six of Cups Reversed releases nostalgia's golden chains, recognizing when memory becomes a beautiful prison. The past is meant to inform, not imprison, the present.",
-        "number": 41,
-        "title": "The Forward Walker",
-        "coreMeaning": "Living in Present — Leaving Past Behind, Independence, and Growth",
-    },
-    "Seven of Cups Reversed": {
-
-        "name": "Seven of Cups Reversed",
-        "meaning": "The Seven of Cups Reversed clears the fog of illusion, where overwhelming options crystallize into clear choice. Reality, however plain, surpasses the prettiest delusion.",
-        "number": 42,
-        "title": "The Clear Seer",
-        "coreMeaning": "Clarity — Reality Check, Clear Choices, and Commitment",
-    },
-    "Eight of Cups Reversed": {
-
-        "name": "Eight of Cups Reversed",
-        "meaning": "The Eight of Cups Reversed pauses the pilgrimage to reconsider what's being left behind. Sometimes the treasure you seek elsewhere is hidden deeper where you stand.",
-        "number": 43,
-        "title": "The Reconsidering Pilgrim",
-        "coreMeaning": "Stagnation — Fear of Change, False Starts, and Clinging",
-    },
-    "Nine of Cups Reversed": {
-
-        "name": "Nine of Cups Reversed",
-        "meaning": "The Nine of Cups Reversed questions whether wishes fulfilled brought expected happiness. True contentment comes from wanting what you have, not having what you want.",
-        "number": 44,
-        "title": "The Deeper Satisfaction",
-        "coreMeaning": "Inner Happiness — Materialism, Dissatisfaction, and Seeking True Joy",
-    },
-    "Ten of Cups Reversed": {
-
-        "name": "Ten of Cups Reversed",
-        "meaning": "The Ten of Cups Reversed seeks harmony beyond the picture-perfect facade, where authentic connection matters more than appearances. Real rainbows appear after real storms.",
-        "number": 45,
-        "title": "The Authentic Rainbow",
-        "coreMeaning": "Broken Harmony — Family Issues, Misaligned Values, and False Happiness",
-    },
-    "Page of Cups Reversed": {
-
-        "name": "Page of Cups Reversed",
-        "meaning": "The Page of Cups Reversed struggles to trust emotional messages, where intuition gets drowned by doubt. Your inner voice whispers—create the quiet to hear it.",
-        "number": 46,
-        "title": "The Doubting Messenger",
-        "coreMeaning": "Emotional Immaturity — Blocked Intuition, Escapism, and Insecurity",
-    },
-    "Knight of Cups Reversed": {
-
-        "name": "Knight of Cups Reversed",
-        "meaning": "The Knight of Cups Reversed dismounts from the high horse of fantasy, where romantic ideals meet earthly reality. True love includes both poetry and prose.",
-        "number": 47,
-        "title": "The Grounded Romantic",
-        "coreMeaning": "Moodiness — Unrealistic Expectations, Jealousy, and Emotional Turbulence",
-    },
-    "Queen of Cups Reversed": {
-
-        "name": "Queen of Cups Reversed",
-        "meaning": "The Queen of Cups Reversed guards her emotional boundaries, learning that empathy without limits drowns both giver and receiver. Compassion includes self-care.",
-        "number": 48,
-        "title": "The Boundary Keeper",
-        "coreMeaning": "Emotional Instability — Codependency, Insecurity, and Overwhelm",
-    },
-    "King of Cups Reversed": {
-
-        "name": "King of Cups Reversed",
-        "meaning": "The King of Cups Reversed navigates emotional storms, where feelings seek expression beyond rigid control. True mastery includes honoring the waves, not just calming them.",
-        "number": 49,
-        "title": "The Feeling King",
-        "coreMeaning": "Emotional Manipulation — Moodiness, Volatility, and Control Issues",
-    },
-    "Ace of Swords Reversed": {
-
-        "name": "Ace of Swords Reversed",
-        "meaning": "The Ace of Swords Reversed cuts through mental fog slowly, where clarity arrives in pieces rather than lightning strikes. Truth assembles itself one insight at a time.",
-        "number": 50,
-        "title": "The Emerging Clarity",
-        "coreMeaning": "Confusion — Mental Blocks, Misinformation, and Clouded Judgment",
-    },
-    "Two of Swords Reversed": {
-
-        "name": "Two of Swords Reversed",
-        "meaning": "The Two of Swords Reversed removes the blindfold of indecision, where painful clarity surpasses comfortable confusion. The choice you've been avoiding chooses you.",
-        "number": 51,
-        "title": "The Unveiled Choice",
-        "coreMeaning": "Indecision — Mental Chaos, Difficult Truths, and Information Overload",
-    },
-    "Three of Swords Reversed": {
-
-        "name": "Three of Swords Reversed",
-        "meaning": "The Three of Swords Reversed begins extracting sorrow's blades, where healing happens one careful removal at a time. Scars form to show you survived, not to keep you suffering.",
-        "number": 52,
-        "title": "The Healing Heart",
-        "coreMeaning": "Recovery — Releasing Pain, Forgiveness, and Emotional Healing",
-    },
-    "Four of Swords Reversed": {
-
-        "name": "Four of Swords Reversed",
-        "meaning": "The Four of Swords Reversed rises from necessary rest, where recuperation gives way to re-engagement. The warrior refreshed fights with wisdom, not just strength.",
-        "number": 53,
-        "title": "The Rising Warrior",
-        "coreMeaning": "Restlessness — Burnout, Awakening, and Need for Action",
-    },
-    "Five of Swords Reversed": {
-
-        "name": "Five of Swords Reversed",
-        "meaning": "The Five of Swords Reversed lays down arms in recognition that some victories cost more than defeat. This is wisdom's triumph—choosing peace over being right.",
-        "number": 54,
-        "title": "The Wise Surrender",
-        "coreMeaning": "Resolution — Making Amends, Past Conflicts, and Moving On",
-    },
-    "Six of Swords Reversed": {
-
-        "name": "Six of Swords Reversed",
-        "meaning": "The Six of Swords Reversed delays the crossing to calmer waters, recognizing unfinished business on this shore. Some baggage must be unpacked before the journey continues.",
-        "number": 55,
-        "title": "The Necessary Delay",
-        "coreMeaning": "Resistance — Baggage, Unfinished Business, and Turbulent Waters",
-    },
-    "Seven of Swords Reversed": {
-
-        "name": "Seven of Swords Reversed",
-        "meaning": "The Seven of Swords Reversed returns what was taken in shadow, where conscience outweighs cleverness. Truth told late surpasses lies maintained forever.",
-        "number": 56,
-        "title": "The Truth Returner",
-        "coreMeaning": "Coming Clean — Confession, Return, and Facing Consequences",
-    },
-    "Eight of Swords Reversed": {
-
-        "name": "Eight of Swords Reversed",
-        "meaning": "The Eight of Swords Reversed sees through self-made prisons, where mental bonds dissolve with shifted perspective. Freedom was always one thought away.",
-        "number": 57,
-        "title": "The Mind Liberator",
-        "coreMeaning": "Freedom — Self-Acceptance, New Perspective, and Liberation",
-    },
-    "Nine of Swords Reversed": {
-
-        "name": "Nine of Swords Reversed",
-        "meaning": "The Nine of Swords Reversed welcomes dawn after the dark night of the soul, where worried thoughts give way to morning clarity. Nightmares end when you stop feeding them fear.",
-        "number": 58,
-        "title": "The Dawn Welcomer",
-        "coreMeaning": "Hope — Light at End of Tunnel, Releasing Worry, and Finding Help",
-    },
-    "Ten of Swords Reversed": {
-
-        "name": "Ten of Swords Reversed",
-        "meaning": "The Ten of Swords Reversed rises from rock bottom with nowhere to go but up. This isn't just survival—it's the beginning of a resurrection story.",
-        "number": 59,
-        "title": "The Phoenix Rising",
-        "coreMeaning": "Recovery — Improvement, Regeneration, and Lessons Learned",
-    },
-    "Page of Swords Reversed": {
-
-        "name": "Page of Swords Reversed",
-        "meaning": "The Page of Swords Reversed learns when silence serves better than speech, where observation precedes wise action. Not every thought needs immediate expression.",
-        "number": 60,
-        "title": "The Thoughtful Observer",
-        "coreMeaning": "Hasty Communication — Gossip, Deception, and Speaking Without Thinking",
-    },
-    "Knight of Swords Reversed": {
-
-        "name": "Knight of Swords Reversed",
-        "meaning": "The Knight of Swords Reversed sheathes the blade of aggression, discovering that patience can be its own form of power. Charging blindly leads to unnecessary battles.",
-        "number": 61,
-        "title": "The Patient Warrior",
-        "coreMeaning": "No Direction — Impulsive Decisions, Aggression, and Scattered Energy",
-    },
-    "Queen of Swords Reversed": {
-
-        "name": "Queen of Swords Reversed",
-        "meaning": "The Queen of Swords Reversed softens judgment's sharp edges, learning that wisdom includes compassion. Truth spoken with love cuts cleaner than cold facts.",
-        "number": 62,
-        "title": "The Compassionate Judge",
-        "coreMeaning": "Cold-Hearted — Cruelty, Bitterness, and Harsh Communication",
-    },
-    "King of Swords Reversed": {
-
-        "name": "King of Swords Reversed",
-        "meaning": "The King of Swords Reversed questions rigid thinking, where intellectual flexibility becomes true intelligence. The wisest minds change when presented with new evidence.",
-        "number": 63,
-        "title": "The Flexible Thinker",
-        "coreMeaning": "Abuse of Power — Manipulation, Tyranny, and Rigid Thinking",
-    },
-    "Ace of Pentacles Reversed": {
-
-        "name": "Ace of Pentacles Reversed",
-        "meaning": "The Ace of Pentacles Reversed plants seeds in unprepared soil, where timing and readiness matter more than opportunity. Not every open door leads to your path.",
-        "number": 64,
-        "title": "The Patient Planter",
-        "coreMeaning": "Lost Opportunity — Poor Planning, Lack of Foresight, and Material Delay",
-    },
-    "Two of Pentacles Reversed": {
-
-        "name": "Two of Pentacles Reversed",
-        "meaning": "The Two of Pentacles Reversed drops the juggling act, recognizing that balance sometimes means choosing what to release. You can have anything, but not everything.",
-        "number": 65,
-        "title": "The Priority Master",
-        "coreMeaning": "Overwhelm — Poor Management, Disorganization, and Overcommitment",
-    },
-    "Three of Pentacles Reversed": {
-
-        "name": "Three of Pentacles Reversed",
-        "meaning": "The Three of Pentacles Reversed works alone in the temple, learning self-reliance before collaboration. Sometimes the team you need is the one within yourself.",
-        "number": 66,
-        "title": "The Solo Builder",
-        "coreMeaning": "Lack of Teamwork — Poor Collaboration, Disorganization, and Working Alone",
-    },
-    "Four of Pentacles Reversed": {
-
-        "name": "Four of Pentacles Reversed",
-        "meaning": "The Four of Pentacles Reversed opens clenched fists to let wealth flow, discovering that money moves like water—stagnant when hoarded, life-giving when flowing.",
-        "number": 67,
-        "title": "The Open Hand",
-        "coreMeaning": "Over-spending — Financial Loss, Generosity, and Letting Go",
-    },
-    "Five of Pentacles Reversed": {
-
-        "name": "Five of Pentacles Reversed",
-        "meaning": "The Five of Pentacles Reversed finds the door to sanctuary, where pride steps aside to allow help's entrance. Recovery begins with accepting the hand extended.",
-        "number": 68,
-        "title": "The Found Wanderer",
-        "coreMeaning": "Recovery — End of Hard Times, Spiritual Wealth, and Finding Help",
-    },
-    "Six of Pentacles Reversed": {
-
-        "name": "Six of Pentacles Reversed",
-        "meaning": "The Six of Pentacles Reversed questions the strings attached to generosity, where giving and receiving need clearer boundaries. True charity empowers rather than creates dependence.",
-        "number": 69,
-        "title": "The Mindful Giver",
-        "coreMeaning": "Strings Attached — Debt, Selfishness, and One-Sided Giving",
-    },
-    "Seven of Pentacles Reversed": {
-
-        "name": "Seven of Pentacles Reversed",
-        "meaning": "The Seven of Pentacles Reversed questions endless cultivation without harvest, where perfectionism prevents enjoying the fruits already ripe. Some gardens are ready now.",
-        "number": 70,
-        "title": "The Impatient Gardener",
-        "coreMeaning": "Impatience — Poor Investment, Lack of Growth, and Giving Up",
-    },
-    "Eight of Pentacles Reversed": {
-
-        "name": "Eight of Pentacles Reversed",
-        "meaning": "The Eight of Pentacles Reversed steps back from obsessive perfection, recognizing when good enough truly is. Mastery includes knowing when the work is complete.",
-        "number": 71,
-        "title": "The Balanced Craftsman",
-        "coreMeaning": "Perfectionism — Lack of Focus, Poor Quality, and Cutting Corners",
-    },
-    "Nine of Pentacles Reversed": {
-
-        "name": "Nine of Pentacles Reversed",
-        "meaning": "The Nine of Pentacles Reversed questions the price of independence, discovering that self-sufficiency can become self-isolation. Abundance shared multiplies rather than diminishes.",
-        "number": 72,
-        "title": "The Connected Abundance",
-        "coreMeaning": "Over-Investment — Work-Life Imbalance, Setbacks, and Superficiality",
-    },
-    "Ten of Pentacles Reversed": {
-
-        "name": "Ten of Pentacles Reversed",
-        "meaning": "The Ten of Pentacles Reversed rebuilds legacy on values beyond material wealth, where true inheritance includes wisdom, love, and the courage to forge new paths.",
-        "number": 73,
-        "title": "The Legacy Reimagined",
-        "coreMeaning": "Financial Failure — Family Disputes, Loss, and Breaking Tradition",
-    },
-    "Page of Pentacles Reversed": {
-
-        "name": "Page of Pentacles Reversed",
-        "meaning": "The Page of Pentacles Reversed learns through mistakes rather than textbooks, where practical wisdom comes from doing, failing, and trying again. Every master was once a disaster.",
-        "number": 74,
-        "title": "The Learning Student",
-        "coreMeaning": "Lack of Progress — Procrastination, Learning Issues, and Missed Messages",
-    },
-    "Knight of Pentacles Reversed": {
-
-        "name": "Knight of Pentacles Reversed",
-        "meaning": "The Knight of Pentacles Reversed breaks free from rutted paths, discovering that reliability includes knowing when to change course. Progress sometimes requires blessed disruption.",
-        "number": 75,
-        "title": "The Flexible Steward",
-        "coreMeaning": "Stagnation — Boredom, Feeling Stuck, and Extreme Perfectionism",
-    },
-    "Queen of Pentacles Reversed": {
-
-        "name": "Queen of Pentacles Reversed",
-        "meaning": "The Queen of Pentacles Reversed tends her own garden first, learning that nurturing others requires a full well within. Self-care is the foundation of sustainable giving.",
-        "number": 76,
-        "title": "The Self-Nurturing Queen",
-        "coreMeaning": "Self-Care — Work-Life Imbalance, Smothering, and Material Focus",
-    },
-    "King of Pentacles Reversed": {
-
-        "name": "King of Pentacles Reversed",
-        "meaning": "The King of Pentacles Reversed learns that empires built on greed crumble, while those built on generosity endure. True wealth creates more wealthy, not more poor.",
-        "number": 77,
-        "title": "The Generous Sovereign",
-        "coreMeaning": "Greed — Financial Loss, Stubbornness, and Materialism Over Spirit",
-    },
+    }
 };

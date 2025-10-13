@@ -1,6 +1,7 @@
 export const hinduDeitiesDetail = {
     "Ganesha": {
         "name": "Ganesha",
+        "coreIntentions": "new beginnings, trusting process, releasing fear, innocent joy, fresh start",
         "coreEssence": "Removes what blocks your path",
         "meaning": "This remover of obstacles dances at the threshold of every new beginning, embodying the divine paradox that wisdom often comes wrapped in unexpected forms. He represents the sacred gateway between intention and manifestation—teaching that obstacles are merely unopened doors waiting for the right key of understanding.",
         "number": 0,
@@ -42,6 +43,7 @@ export const hinduDeitiesDetail = {
     },
     "Vishwakarma": {
         "name": "Vishwakarma",
+        "coreIntentions": "manifesting desires, focused intention, personal power, creating reality, divine will",
         "coreEssence": "Builds your dreams into reality",
         "meaning": "This divine architect transforms thought into form through sacred craftsmanship, building bridges between imagination and reality. He represents the creative principle that shapes worlds—teaching that we are co-creators with the divine, manifesting through skillful action.",
         "number": 1,
@@ -81,6 +83,7 @@ export const hinduDeitiesDetail = {
     },
     "Saraswati": {
         "name": "Saraswati",
+        "coreIntentions": "inner wisdom, trusting intuition, hidden knowledge, sacred mysteries, quiet knowing",
         "coreEssence": "Flows wisdom through creativity",
         "meaning": "This keeper of hidden knowledge flows between seen and unseen realms, her veena playing the frequencies only the soul can hear. She represents intuitive wisdom—teaching that the deepest truths bypass the mind to whisper directly to consciousness.",
         "number": 2,
@@ -119,6 +122,7 @@ export const hinduDeitiesDetail = {
     },
     "Lakshmi": {
         "name": "Lakshmi",
+        "coreIntentions": "creative abundance, self nurturing, fertile ground, natural flow, motherly comfort",
         "coreEssence": "Attracts abundance naturally",
         "meaning": "This golden mother nurtures all forms of abundance, from material wealth to spiritual richness, teaching that prosperity flows where gratitude dwells. She represents creative abundance—showing that we birth beauty into the world through appreciation of what already is.",
         "number": 3,
@@ -157,6 +161,7 @@ export const hinduDeitiesDetail = {
     },
     "Indra": {
         "name": "Indra",
+        "coreIntentions": "stable foundation, healthy boundaries, taking charge, structured growth, protective strength",
         "coreEssence": "Commands your inner storms",
         "meaning": "This king of heaven maintains cosmic order through righteous authority, his thunderbolt establishing divine law across all realms. He represents sacred leadership—teaching that true power protects the vulnerable and serves the greater harmony.",
         "number": 4,
@@ -195,6 +200,7 @@ export const hinduDeitiesDetail = {
     },
     "Brihaspati": {
         "name": "Brihaspati",
+        "coreIntentions": "spiritual guidance, seeking wisdom, traditional values, finding teachers, sacred learning",
         "coreEssence": "Guides with wise counsel",
         "meaning": "This guru of the gods bridges celestial wisdom with earthly understanding, making the sacred accessible through teaching. He represents spiritual tradition—showing how ancient truths remain alive when transmitted through devoted hearts.",
         "number": 5,
@@ -233,6 +239,7 @@ export const hinduDeitiesDetail = {
     },
     "Krishna Radha": {
         "name": "Krishna Radha",
+        "coreIntentions": "conscious choice, soul connection, harmonious union, relationship healing, authentic love",
         "coreEssence": "Plays divine love's melody",
         "meaning": "This eternal romance demonstrates love as the highest spiritual path, where human emotion becomes a gateway to divine union. They represent sacred partnership—teaching that in true love, the boundaries between devotee and deity, lover and beloved, dissolve completely.",
         "number": 6,
@@ -271,6 +278,7 @@ export const hinduDeitiesDetail = {
     },
     "Durga": {
         "name": "Durga",
+        "coreIntentions": "inner victory, forward movement, overcoming obstacles, determined progress, self mastery",
         "coreEssence": "Conquers impossible battles",
         "meaning": "This unstoppable force rides into battle when dharma faces annihilation, wielding the combined powers of all gods. She represents righteous victory—teaching that when we fight for truth, the entire universe conspires to ensure our triumph.",
         "number": 7,
@@ -309,6 +317,7 @@ export const hinduDeitiesDetail = {
     },
     "Hanuman": {
         "name": "Hanuman",
+        "coreIntentions": "gentle strength, patient courage, inner power, taming fear, compassionate force",
         "coreEssence": "Leaps over any obstacle",
         "meaning": "This embodiment of devotion discovers infinite strength through complete surrender, proving that love makes the impossible possible. He represents heart-centered power—teaching that true strength flows not from ego but from selfless service to the divine.",
         "number": 8,
@@ -347,6 +356,7 @@ export const hinduDeitiesDetail = {
     },
     "Dakshinamurthy": {
         "name": "Dakshinamurthy",
+        "coreIntentions": "soul searching, inner guidance, solitary wisdom, deep reflection, finding answers",
         "coreEssence": "Teaches through sacred silence",
         "meaning": "This silent teacher sits beneath the cosmic tree, transmitting wisdom through silence more profound than words. He represents inner illumination—showing that ultimate truth reveals itself in solitude to those who turn awareness inward.",
         "number": 9,
@@ -385,6 +395,7 @@ export const hinduDeitiesDetail = {
     },
     "Vishnu": {
         "name": "Vishnu",
+        "coreIntentions": "life cycles, turning point, divine timing, accepting change, karmic lessons",
         "coreEssence": "Preserves what truly matters",
         "meaning": "This cosmic maintainer dreams reality in endless cycles, each breath sustaining worlds, each avatar addressing the age's need. He represents divine rhythm—teaching that preservation requires constant adaptation and that stability comes through flowing with change.",
         "number": 10,
@@ -423,6 +434,7 @@ export const hinduDeitiesDetail = {
     },
     "Dharmaraja": {
         "name": "Dharmaraja",
+        "coreIntentions": "fair outcome, balanced decision, truth revealed, karmic justice, clear judgment",
         "coreEssence": "Upholds your inner law",
         "meaning": "This impartial judge weighs every action on the scales of cosmic law, ensuring perfect justice without vengeance. He represents karmic balance—teaching that the universe maintains harmony through consequences that educate rather than punish.",
         "number": 11,
@@ -461,6 +473,7 @@ export const hinduDeitiesDetail = {
     },
     "Bhagirath": {
         "name": "Bhagirath",
+        "coreIntentions": "sacred pause, new perspective, letting go, willing surrender, spiritual insight",
         "coreEssence": "Brings heaven to earth",
         "meaning": "This devoted prince performed thousand-year penance to bring Ganga to earth, showing how sacrifice serves collective salvation. He represents conscious surrender—teaching that some victories require us to pause our personal desires for universal benefit.",
         "number": 12,
@@ -499,6 +512,7 @@ export const hinduDeitiesDetail = {
     },
     "Kali": {
         "name": "Kali",
+        "coreIntentions": "transformation time, necessary ending, phoenix rising, profound change, rebirth ready",
         "coreEssence": "Destroys to recreate",
         "meaning": "This dancer on time's edge destroys illusion with fierce compassion, her garland of skulls marking ego-deaths that birth truth. She represents total transformation—teaching that what terrifies the false self liberates the eternal soul.",
         "number": 13,
@@ -537,6 +551,7 @@ export const hinduDeitiesDetail = {
     },
     "Ardhanarishvara": {
         "name": "Ardhanarishvara",
+        "coreIntentions": "finding balance, patient healing, middle path, gentle blending, inner harmony",
         "coreEssence": "Balances all opposites within",
         "meaning": "This perfect unity of Shiva-Shakti transcends duality in one form, masculine and feminine dancing as unified consciousness. Represents divine integration—teaching that wholeness emerges when we stop choosing sides and embrace all aspects within.",
         "number": 14,
@@ -575,6 +590,7 @@ export const hinduDeitiesDetail = {
     },
     "Mara": {
         "name": "Mara",
+        "coreIntentions": "breaking chains, releasing addiction, shadow work, seeing clearly, liberation calling",
         "coreEssence": "Shows where desire traps you",
         "meaning": "This lord of temptation reveals how desires forge our chains, yet also shows that recognizing bondage is freedom's first step. He represents the teaching shadow—showing that our demons are often our greatest teachers in disguise.",
         "number": 15,
@@ -613,6 +629,7 @@ export const hinduDeitiesDetail = {
     },
     "Narasimha": {
         "name": "Narasimha",
+        "coreIntentions": "sudden breakthrough, divine disruption, tower falling, truth explosion, forced awakening",
         "coreEssence": "Protects with fierce compassion",
         "meaning": "This impossible avatar tears through reality's fabric when conventional forms cannot contain divine protection. He represents cosmic disruption—teaching that when evil seems invincible, divinity shatters all natural laws to restore dharma.",
         "number": 16,
@@ -651,6 +668,7 @@ export const hinduDeitiesDetail = {
     },
     "Tara": {
         "name": "Tara",
+        "coreIntentions": "renewed hope, healing light, spiritual guidance, peaceful restoration, wish fulfillment",
         "coreEssence": "Guides through life's ocean",
         "meaning": "This mother of compassion guides souls across samsara's ocean, her thousand arms ensuring none are left behind. She represents hope embodied—teaching that divine grace responds to sincere calls, taking whatever form her children need.",
         "number": 17,
@@ -689,6 +707,7 @@ export const hinduDeitiesDetail = {
     },
     "Soma": {
         "name": "Soma",
+        "coreIntentions": "facing illusions, intuitive navigation, shadow integration, dream wisdom, psychic awakening",
         "coreEssence": "Heals through gentle coolness",
         "meaning": "This lunar deity of divine nectar rules the mysterious realm where intoxication becomes illumination. He represents the mystical path—teaching that consciousness has many states, and confusion often precedes the deepest clarity.",
         "number": 18,
@@ -727,6 +746,7 @@ export const hinduDeitiesDetail = {
     },
     "Surya": {
         "name": "Surya",
+        "coreIntentions": "radiant joy, success achieved, pure happiness, childlike wonder, vital energy",
         "coreEssence": "Illuminates your true path",
         "meaning": "This source of all light rides across heaven in a chariot of dawn, dissolving darkness with the mere fact of his presence. He represents pure consciousness—teaching that enlightenment isn't achieved but revealed when clouds of ignorance part.",
         "number": 19,
@@ -765,6 +785,7 @@ export const hinduDeitiesDetail = {
     },
     "Chitragupta": {
         "name": "Chitragupta",
+        "coreIntentions": "spiritual calling, life review, soul awakening, purpose revealed, higher calling",
         "coreEssence": "Records your soul's journey",
         "meaning": "This divine accountant reads from the book where every soul's story is written, calling each to remember their true purpose. He represents spiritual awakening—teaching that judgment day is simply the moment we fully see ourselves.",
         "number": 20,
@@ -803,6 +824,7 @@ export const hinduDeitiesDetail = {
     },
     "Nataraja": {
         "name": "Nataraja",
+        "coreIntentions": "cycle completion, total fulfillment, world mastery, cosmic consciousness, infinite possibility",
         "coreEssence": "Dances through destruction and creation",
         "meaning": "This cosmic dancer performs the eternal rhythm where end and beginning are one movement, creation and destruction mere steps in an infinite dance. He represents mastery of cycles—teaching that completion is transformation, and every ending births new worlds.",
         "number": 21,

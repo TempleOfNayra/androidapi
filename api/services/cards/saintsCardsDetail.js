@@ -2,6 +2,7 @@ export const saintsCardDetails = {
     "st_francis_of_assisi": {
         "name": "St. Francis of Assisi",
         "coreEssence": "Finds joy in letting go",
+        "coreIntentions": "new beginnings, trusting process, releasing fear, innocent joy, fresh start",
         "meaning": "The joyful troubadour who stripped himself bare in the town square, abandoning wealth to dance with Lady Poverty. His holy foolishness transformed the world through radical trust, teaching birds to sing of God's love and calling the sun his brother. In his sacred innocence, he shows that wisdom often wears the mask of folly.",
         "number": 0,
         "title": "The Holy Fool's Dance",
@@ -49,6 +50,7 @@ export const saintsCardDetails = {
     "prophet_moses": {
         "name": "Prophet Moses",
         "coreEssence": "Parts seas of impossibility",
+        "coreIntentions": "manifesting desires, focused intention, personal power, creating reality, divine will",
         "meaning": "Prophet who wielded the staff of divine power, transforming reality through God's will. He turned staff to serpent, water to blood, and parted the sea - the ultimate magician channeling heaven's force to earth. At Sinai, he bridged the divine and human, bringing celestial law to earthly tablets. His raised staff shows that true magic is surrendering to become a conduit for the infinite.",
         "number": 1,
         "title": "The Divine Channel",
@@ -92,6 +94,7 @@ export const saintsCardDetails = {
     "st_teresa_of_ávila": {
         "name": "St. Teresa of Ávila",
         "coreEssence": "Explores your inner castle",
+        "coreIntentions": "inner wisdom, trusting intuition, hidden knowledge, sacred mysteries, quiet knowing",
         "meaning": "Mystical architect of the Interior Castle, she mapped the soul's seven mansions with precision. Her ecstasies pierced the veil between worlds while her practical wisdom reformed an entire order. She dwelt between silence and speech, showing that the deepest mysteries bloom in contemplation's garden.",
         "number": 2,
         "title": "Guardian of Inner Mysteries",
@@ -135,6 +138,7 @@ export const saintsCardDetails = {
     "mary_mother_of_god": {
         "name": "Mary, Mother of God",
         "coreEssence": "Nurtures all who seek comfort",
+        "coreIntentions": "creative abundance, self nurturing, fertile ground, natural flow, motherly comfort",
         "meaning": "Virgin Mother who bore divinity in her womb, Queen of Heaven nurturing all creation. Her 'yes' to Gabriel opened the door for infinite love to take flesh. She shows how receptive surrender becomes creative power, how emptiness can bear fullness, how humanity births the divine.",
         "number": 3,
         "title": "The God-Bearer",
@@ -178,6 +182,7 @@ export const saintsCardDetails = {
     "king_solomon": {
         "name": "King Solomon",
         "coreEssence": "Builds wisdom into action",
+        "coreIntentions": "stable foundation, healthy boundaries, taking charge, structured growth, protective strength",
         "meaning": "Wisest of rulers who built the Temple where heaven touched earth. His legendary judgment revealed truth through compassion, while his prosperity showed divine favor made manifest. Under his reign, order and abundance kissed, proving that true power serves the sacred.",
         "number": 4,
         "title": "The Temple Builder",
@@ -217,6 +222,7 @@ export const saintsCardDetails = {
     "st_peter": {
         "name": "St. Peter",
         "coreEssence": "Opens doors once locked",
+        "coreIntentions": "spiritual guidance, seeking wisdom, traditional values, finding teachers, sacred learning",
         "meaning": "The fisherman who received the keys to bind and loose, bridging earth and heaven through sacred authority. His human frailty transformed into rock-solid foundation, showing how divine power works through imperfect vessels. First among apostles, he guards the threshold between worlds.",
         "number": 5,
         "title": "Keeper of Sacred Keys",
@@ -261,6 +267,7 @@ export const saintsCardDetails = {
     "sts_louis_ix_and_margaret_of_provence": {
         "name": "Sts. Louis IX and Margaret of Provence",
         "coreEssence": "Unites love with purpose",
+        "coreIntentions": "conscious choice, soul connection, harmonious union, relationship healing, authentic love",
         "meaning": "Royal lovers whose marriage bed became an altar of sanctity. Together they proved that human love can be a ladder to heaven, bearing eleven children while pursuing holiness. Their union shows how two souls can choose each other and choose God in the same sacred breath.",
         "number": 6,
         "title": "The Crowned Hearts",
@@ -300,6 +307,7 @@ export const saintsCardDetails = {
     "st_george": {
         "name": "St. George",
         "coreEssence": "Slays your inner dragons",
+        "coreIntentions": "inner victory, forward movement, overcoming obstacles, determined progress, self mastery",
         "meaning": "Dragon-slayer who conquered chaos through divine might, his lance piercing through illusion to truth. Mounted on his charger, he shows how spiritual warriors harness opposing forces, transforming inner beasts into vehicles of victory. His triumph echoes wherever courage faces darkness.",
         "number": 7,
         "title": "The Dragon's Conqueror",
@@ -340,6 +348,7 @@ export const saintsCardDetails = {
     "st_jerome": {
         "name": "St. Jerome",
         "coreEssence": "Translates struggle into understanding",
+        "coreIntentions": "gentle strength, patient courage, inner power, taming fear, compassionate force",
         "meaning": "Desert scholar who pulled a thorn from a lion's paw, transforming a wild beast into his gentle companion. In his cave, the fierce became friend through patient compassion. His translation work required the same gentle persistence - taming languages as he tamed the lion, showing that true strength lies in steady, gentle mastery.",
         "number": 8,
         "title": "The Lion Tamer Scholar",
@@ -378,6 +387,7 @@ export const saintsCardDetails = {
     "st_anthony_of_egypt": {
         "name": "St. Anthony of Egypt",
         "coreEssence": "Finds treasure in solitude",
+        "coreIntentions": "soul searching, inner guidance, solitary wisdom, deep reflection, finding answers",
         "meaning": "Desert father who invented solitude as spiritual path, his lantern illuminating the way for countless seekers. In caves and waste places, he found paradise within, teaching that sometimes we must leave the world to find the Kingdom. His hermitage became the womb of monasticism.",
         "number": 9,
         "title": "The Desert Lantern",
@@ -418,6 +428,7 @@ export const saintsCardDetails = {
     "st_catherine_of_alexandria": {
         "name": "St. Catherine of Alexandria",
         "coreEssence": "Breaks the wheel of repetition",
+        "coreIntentions": "life cycles, turning point, divine timing, accepting change, karmic lessons",
         "meaning": "Virgin philosopher whose torture wheel shattered at her touch, transforming an instrument of death into her crown of victory. The wheel meant to break her became the symbol of fortune's turning - showing how the lowest point becomes the pivot to glory. Her story spins the cosmic truth that no fortune, good or ill, remains fixed forever.",
         "number": 10,
         "title": "The Shattered Wheel",
@@ -457,6 +468,7 @@ export const saintsCardDetails = {
     "st_michael_the_archangel": {
         "name": "St. Michael the Archangel",
         "coreEssence": "Protects what matters most",
+        "coreIntentions": "fair outcome, balanced decision, truth revealed, karmic justice, clear judgment",
         "meaning": "Heaven's warrior who weighs souls with perfect equilibrium, his scales measuring truth against illusion. With sword of discernment and armor of righteousness, he executes divine justice without passion or prejudice, showing that true judgment flows from love, not vengeance.",
         "number": 11,
         "title": "Heaven's Balance Keeper",
@@ -499,6 +511,7 @@ export const saintsCardDetails = {
     "st_simeon_stylites": {
         "name": "St. Simeon Stylites",
         "coreEssence": "Rises above the noise",
+        "coreIntentions": "sacred pause, new perspective, letting go, willing surrender, spiritual insight",
         "meaning": "Pillar-dweller who spent 36 years suspended between heaven and earth atop his column, finding divine wisdom through radical stillness. His voluntary ascent reversed worldly values - making powerlessness powerful, isolation into communion, stillness into action. From his suspended perch, he counseled thousands while never descending, showing how divine perspective comes from removing oneself from earthly concerns.",
         "number": 12,
         "title": "The Pillar Saint",
@@ -538,6 +551,7 @@ export const saintsCardDetails = {
     "st_mary_of_egypt": {
         "name": "St. Mary of Egypt",
         "coreEssence": "Transforms your deepest regrets",
+        "coreIntentions": "transformation time, necessary ending, phoenix rising, profound change, rebirth ready",
         "meaning": "From Alexandria's brothels to the desert's vast silence, her transformation rewrote her very essence. Seventeen years of prostitution dissolved into forty-seven years of solitary prayer. Her past self died completely at the Jordan River, birthing a saint from a sinner. She embodies the total death of who we were to become who we're meant to be.",
         "number": 13,
         "title": "The Desert Phoenix",
@@ -578,6 +592,7 @@ export const saintsCardDetails = {
     "st_benedict_of_nursia": {
         "name": "St. Benedict of Nursia",
         "coreEssence": "Balances work with prayer",
+        "coreIntentions": "finding balance, patient healing, middle path, gentle blending, inner harmony",
         "meaning": "Father of Western monasticism who wrote the Rule of perfect balance: ora et labora. His communities became alchemical vessels where prayer and work transmuted ordinary life into gold. He mixed the waters of action and contemplation until they became one sacred stream.",
         "number": 14,
         "title": "The Sacred Mixer",
@@ -618,6 +633,7 @@ export const saintsCardDetails = {
     "lucifer": {
         "name": "Lucifer",
         "coreEssence": "Confronts pride and illusion",
+        "coreIntentions": "breaking chains, releasing addiction, shadow work, seeing clearly, liberation calling",
         "meaning": "The Light-Bearer who fell through pride, becoming the Adversary who tempts humanity with illusions of power and pleasure. Once the most beautiful angel, his rebellion shows how attachment to ego creates our own chains. In his false promises, we see every addiction, every material obsession, every bondage we mistake for freedom. Yet even his darkness serves the Light by revealing what we must transcend.",
         "number": 15,
         "title": "The Fallen Star",
@@ -656,6 +672,7 @@ export const saintsCardDetails = {
     "st_barbara": {
         "name": "St. Barbara",
         "coreEssence": "Breaks through sudden storms",
+        "coreIntentions": "sudden breakthrough, divine disruption, tower falling, truth explosion, forced awakening",
         "meaning": "Tower-maiden who added Trinity's window to her prison, inviting lightning's liberation. Her father's fortress became her transformation chamber, his execution by heaven's fire proving that some towers must fall for truth to rise. She guards all who face sudden sacred storms.",
         "number": 16,
         "title": "Lightning's Daughter",
@@ -695,6 +712,7 @@ export const saintsCardDetails = {
     "our_lady_of_guadalupe": {
         "name": "Our Lady of Guadalupe",
         "coreEssence": "Brings hope where none exists",
+        "coreIntentions": "renewed hope, healing light, spiritual guidance, peaceful restoration, wish fulfillment",
         "meaning": "Star-mantled Mother who appeared to humble Juan Diego, her image miraculously blooming on his tilma. Standing on the moon, clothed with the sun, she brought heaven's hope to conquered peoples. Her roses bloom in winter, proving that miracles grow in unlikely soil.",
         "number": 17,
         "title": "The Star-Clothed Mother",
@@ -735,6 +753,7 @@ export const saintsCardDetails = {
     "st_john_of_the_cross": {
         "name": "St. John of the Cross",
         "coreEssence": "Guides through dark nights",
+        "coreIntentions": "facing illusions, intuitive navigation, shadow integration, dream wisdom, psychic awakening",
         "meaning": "Mystical poet of the Dark Night who mapped the soul's journey through divine darkness. In prison's shadows, he discovered that God often hides in absence, that confusion precedes clarity. His verses illuminate how moonless nights prepare us for dawn's glory.",
         "number": 18,
         "title": "Singer of Sacred Darkness",
@@ -775,6 +794,7 @@ export const saintsCardDetails = {
     "infant_john_the_baptist": {
         "name": "Infant John the Baptist",
         "coreEssence": "Recognizes joy arriving",
+        "coreIntentions": "radiant joy, success achieved, pure happiness, childlike wonder, vital energy",
         "meaning": "The child who leaped for joy in Elizabeth's womb when Mary arrived, recognizing the Light even before birth. Born to herald the dawn, his infant joy prophesied the coming Sun of Justice. In him we see pure recognition of divine presence, the innocent clarity that knows truth before words. His childhood in the desert prepared him to be the voice announcing the Light.",
         "number": 19,
         "title": "The Joyful Herald",
@@ -816,6 +836,7 @@ export const saintsCardDetails = {
     "st_gabriel_the_archangel": {
         "name": "St. Gabriel the Archangel",
         "coreEssence": "Delivers life-changing news",
+        "coreIntentions": "spiritual calling, life review, soul awakening, purpose revealed, higher calling",
         "meaning": "Divine messenger who announces cosmic shifts—from Mary's fiat to the final trumpet. He stands at time's threshold, calling souls to wake from sleep and recognize their moment. In his horn's blast, the dead rise and all illusions fall away before truth's dawn.",
         "number": 20,
         "title": "Heaven's Herald",
@@ -853,6 +874,7 @@ export const saintsCardDetails = {
     "christ_pantocrator_with_four_evangelists": {
         "name": "Christ Pantocrator with Four Evangelists",
         "coreEssence": "Holds all things together",
+        "coreIntentions": "cycle completion, total fulfillment, world mastery, cosmic consciousness, infinite possibility",
         "meaning": "Cosmic Christ holding all creation in divine embrace, surrounded by the four living creatures who speak His story. Matthew's angel, Mark's lion, Luke's ox, and John's eagle form the corners of completed reality. In Him, all opposites unite, all journeys find their home.",
         "number": 21,
         "title": "The All-Encompassing One",
@@ -889,6 +911,7 @@ export const saintsCardDetails = {
     "holy_grail_with_st_joseph_of_arimathea": {
         "name": "Holy Grail with St. Joseph of Arimathea",
         "coreEssence": "Receives new spiritual gifts",
+        "coreIntentions": "creative spark, passionate beginning, new inspiration, spiritual fire, fresh energy",
         "meaning": "The cup that caught divinity's blood, guarded by the secret disciple who gave his tomb for resurrection. This chalice of new beginnings overflows with grace, offering the first taste of spiritual wine that transforms water of ordinary existence.",
         "number": 22,
         "title": "The Crimson Chalice",
@@ -930,6 +953,7 @@ export const saintsCardDetails = {
     "sts_joachim_and_anne": {
         "name": "Sts. Joachim and Anne",
         "coreEssence": "Blesses patient waiting",
+        "coreIntentions": "future planning, bold vision, personal power, strategic choice, confident direction",
         "meaning": "Holy grandparents whose late-life embrace bore the Mother of God. Their patient love through barren years bloomed into humanity's hope. In their meeting at the Golden Gate, we see how divine timing orchestrates love's perfect partnerships.",
         "number": 23,
         "title": "The Golden Gate Meeting",
@@ -969,6 +993,7 @@ export const saintsCardDetails = {
     "three_marys_at_the_tomb": {
         "name": "Three Marys at the Tomb",
         "coreEssence": "Transforms grief to joy",
+        "coreIntentions": "expanding horizons, leadership emerging, vision manifesting, opportunities growing, progress ahead",
         "meaning": "Magdalene, Mother, and Cleopas—three faces of feminine grief transformed to joy. At the empty tomb, their sorrow became celebration, their mourning myrrh unnecessary. They show how shared grief, witnessed in community, transforms into shared resurrection.",
         "number": 24,
         "title": "The Myrrh-Bearers' Joy",
@@ -990,6 +1015,7 @@ export const saintsCardDetails = {
     "st_ignatius_of_loyola": {
         "name": "St. Ignatius of Loyola",
         "coreEssence": "Finds God in everything",
+        "coreIntentions": "joyful celebration, stable harmony, community blessing, achievement recognized, happy home",
         "meaning": "Wounded soldier who discovered God in all things through contemplation's discipline. His Spiritual Exercises teach the art of sacred pausing, of finding God in imagination's chambers. Yet sometimes he was so absorbed in inner vision that he missed the cup being offered in the present moment. From his stillness, the Jesuits' worldwide action was born.",
         "number": 25,
         "title": "The Contemplative Soldier",
@@ -1011,6 +1037,7 @@ export const saintsCardDetails = {
     "st_mary_magdalene": {
         "name": "St. Mary Magdalene",
         "coreEssence": "Heals through devoted love",
+        "coreIntentions": "creative conflict, healthy competition, dynamic tension, diverse perspectives, energetic challenge",
         "meaning": "Apostle to the apostles who wept at the tomb until tears became vision. Her grief carved channels for resurrection's announcement. Seven demons cast out left seven chambers for love to fill. In her weeping, we learn that some losses prepare us for greater findings.",
         "number": 26,
         "title": "The Weeping Witness",
@@ -1032,6 +1059,7 @@ export const saintsCardDetails = {
     "st_thérèse_of_lisieux": {
         "name": "St. Thérèse of Lisieux",
         "coreEssence": "Makes small acts powerful",
+        "coreIntentions": "public victory, success recognized, confidence rising, leadership acknowledged, triumph achieved",
         "meaning": "The Little Flower who discovered that spiritual childhood was the quickest path to God. Her 'little way' transformed ordinary acts into roses for heaven. She died at twenty-four having proven that innocence regained surpasses innocence retained, that smallest gestures of love echo in eternity.",
         "number": 27,
         "title": "The Little Way",
@@ -1053,6 +1081,7 @@ export const saintsCardDetails = {
     "st_augustine": {
         "name": "St. Augustine",
         "coreEssence": "Turns restlessness to peace",
+        "coreIntentions": "standing ground, defending position, courage tested, maintaining strength, protective stance",
         "meaning": "Restless heart who tried every cup before finding the one that satisfied. His wandering through philosophy's gardens and pleasure's beds led finally to truth's fountain. 'Late have I loved thee' became his cry, showing how all paths can lead home.",
         "number": 28,
         "title": "The Restless Seeker",
@@ -1074,6 +1103,7 @@ export const saintsCardDetails = {
     "st_alexis_of_rome": {
         "name": "St. Alexis of Rome",
         "coreEssence": "Serves without recognition",
+        "coreIntentions": "swift movement, rapid progress, quick communication, energy flowing, momentum building",
         "meaning": "Bridegroom who abandoned wealth and marriage to live as a beggar for God, unseen and unrecognized by his own family until death. His life embodies the renunciation of worldly comfort in pursuit of a higher calling.",
         "number": 29,
         "title": "The Hidden Pilgrim",
@@ -1095,6 +1125,7 @@ export const saintsCardDetails = {
     "st_philip_neri": {
         "name": "St. Philip Neri",
         "coreEssence": "Brings holy laughter",
+        "coreIntentions": "resilient persistence, final push, weathered strength, boundary setting, nearly there",
         "meaning": "Apostle of joy whose ecstasies made him float during Mass, heart expanded beyond ribs' capacity. His laughter was prayer, his jokes were sermons. In him, we see how spiritual fulfillment overflows into sacred playfulness, wishes fulfilled beyond imagination.",
         "number": 30,
         "title": "The Floating Heart",
@@ -1116,6 +1147,7 @@ export const saintsCardDetails = {
     "holy_family_in_nazareth": {
         "name": "Holy Family in Nazareth",
         "coreEssence": "Creates sacred home",
+        "coreIntentions": "heavy burden, responsibility accepted, completion near, maximum effort, temporary overwhelm",
         "meaning": "Jesus, Mary, and Joseph in their hidden years, divinity dwelling in ordinary domesticity. Their carpenter's home held heaven's King, their simple meals were feasts of grace. They show how family life, lived in love, becomes the tenth heaven.",
         "number": 31,
         "title": "Heaven's Household",
@@ -1158,6 +1190,7 @@ export const saintsCardDetails = {
     "st_bernadette_of_lourdes": {
         "name": "St. Bernadette of Lourdes",
         "coreEssence": "Sees what others miss",
+        "coreIntentions": "enthusiastic exploration, creative messages, adventurous spirit, youthful energy, passionate discovery",
         "meaning": "Peasant girl whose visions opened earth's healing spring. The Lady called her to dig in mud until miracles flowed. Her childlike trust received heaven's secrets, proving that pure hearts are heaven's favorite messengers.",
         "number": 32,
         "title": "The Visionary Child",
@@ -1201,6 +1234,7 @@ export const saintsCardDetails = {
     "st_martin_of_tours": {
         "name": "St. Martin of Tours",
         "coreEssence": "Shares your warmth freely",
+        "coreIntentions": "passionate pursuit, adventurous action, impulsive courage, fiery charm, bold movement",
         "meaning": "Soldier who saw Christ shivering in a beggar's rags, cutting his military cloak to share warmth. His sword became instrument of mercy, his warrior's heart turned toward love's battles. He rode forth as knight of compassion.",
         "number": 33,
         "title": "The Cloak Divider",
@@ -1245,6 +1279,7 @@ export const saintsCardDetails = {
     "st_elizabeth_of_hungary": {
         "name": "St. Elizabeth of Hungary",
         "coreEssence": "Turns wealth into service",
+        "coreIntentions": "confident leadership, warm authority, creative mastery, magnetic presence, generous spirit",
         "meaning": "Queen who turned roses into bread and bread into roses, feeding the poor from royal stores. Her crown became servant's cap, her palace a hospital. She ruled through giving, showing how love's overflow creates abundance.",
         "number": 34,
         "title": "The Rose Queen",
@@ -1289,6 +1324,7 @@ export const saintsCardDetails = {
     "st_nicholas_of_myra": {
         "name": "St. Nicholas of Myra",
         "coreEssence": "Gives in secret joy",
+        "coreIntentions": "visionary leadership, inspired authority, natural charisma, entrepreneurial spirit, motivating others",
         "meaning": "Bishop who threw gold through windows in the night, saving innocence through secret gifts. His generosity flowed like ocean tides, constant and mysterious. Master of emotional abundance, he shows how giving becomes receiving.",
         "number": 35,
         "title": "The Secret Giver",
@@ -1334,6 +1370,7 @@ export const saintsCardDetails = {
     "st_brigid_of_kildare": {
         "name": "St. Brigid of Kildare",
         "coreEssence": "Keeps your flame burning",
+        "coreIntentions": "emotional beginning, love flowing, heart opening, intuitive gifts, spiritual awakening",
         "meaning": "Keeper of the sacred flame that burned for a thousand years, abbess who turned water to ale and stones to salt. Her fire sparked Ireland's monastic flowering. She wove the first cross from rushes, showing how inspiration transforms common matter.",
         "number": 36,
         "title": "The Eternal Flame",
@@ -1374,6 +1411,7 @@ export const saintsCardDetails = {
     "sts_cyril_and_methodius": {
         "name": "Sts. Cyril and Methodius",
         "coreEssence": "Builds bridges between worlds",
+        "coreIntentions": "soul recognition, mutual attraction, emotional balance, partnership forming, love connection",
         "meaning": "Brother linguists who invented alphabets to carry the Word, planning their Slavic mission with sacred strategy. Their partnership shows how divine inspiration requires human planning, how heaven's fire needs earth's forge.",
         "number": 37,
         "title": "The Alphabet Makers",
@@ -1395,6 +1433,7 @@ export const saintsCardDetails = {
     "st_boniface": {
         "name": "St. Boniface",
         "coreEssence": "Plants seeds of change",
+        "coreIntentions": "friendship celebration, joyful gathering, community support, shared happiness, social harmony",
         "meaning": "Apostle to the Germans who felled Thor's oak and planted churches in its place. His axe cleared pagan groves for Christian flowering. Each monastery he founded became a beacon, his vision expanding across untamed lands.",
         "number": 38,
         "title": "The Sacred Woodsman",
@@ -1416,6 +1455,7 @@ export const saintsCardDetails = {
     "st_joseph_the_worker": {
         "name": "St. Joseph the Worker",
         "coreEssence": "Sanctifies daily labor",
+        "coreIntentions": "emotional withdrawal, contemplation needed, reevaluating options, temporary apathy, inner processing",
         "meaning": "Carpenter whose completed home sheltered divinity, whose workshop harmony taught God to plane wood. His finished projects were prayers in wood and stone. In his contentment, we see how simple work well done becomes celebration.",
         "number": 39,
         "title": "The Divine Carpenter",
@@ -1437,6 +1477,7 @@ export const saintsCardDetails = {
     "st_athanasius": {
         "name": "St. Athanasius",
         "coreEssence": "Stands firm against pressure",
+        "coreIntentions": "processing grief, accepting loss, emotional release, finding hope, partial healing",
         "meaning": "'Athanasius contra mundum'—alone against the world for truth's sake. Five times exiled, he never bent, his single voice preserving orthodoxy against empires. His conflicts forged doctrine's steel, showing how sacred combat purifies.",
         "number": 40,
         "title": "Against the World",
@@ -1458,6 +1499,7 @@ export const saintsCardDetails = {
     "st_joan_of_arc": {
         "name": "St. Joan of Arc",
         "coreEssence": "Follows inner voices",
+        "coreIntentions": "childhood healing, innocent joy, nostalgic comfort, karmic return, sweet memories",
         "meaning": "The peasant girl turned warrior rides in triumph, banner aloft, her faith unbroken despite fire and betrayal. Though condemned in her time, history crowns her with honor. Her victory is not only on the battlefield but in the hearts of those who recognize courage born of conviction. True triumph comes when spirit prevails over doubt.",
         "number": 41,
         "title": "The Triumphant Banner",
@@ -1479,6 +1521,7 @@ export const saintsCardDetails = {
     "st_edmund_campion": {
         "name": "St. Edmund Campion",
         "coreEssence": "Speaks truth to power",
+        "coreIntentions": "emotional choices, imagination active, wishful thinking, multiple options, clarity needed",
         "meaning": "Jesuit who defended faith in hostile England, his brilliant rhetoric a shield against persecution. Standing alone at trial, he wielded words like swords, his defense becoming his glory. Even facing death, he held his position with eloquent courage.",
         "number": 42,
         "title": "The Eloquent Defender",
@@ -1500,6 +1543,7 @@ export const saintsCardDetails = {
     "st_paul_the_apostle": {
         "name": "St. Paul the Apostle",
         "coreEssence": "Spreads fire quickly",
+        "coreIntentions": "moving forward, leaving behind, spiritual quest, emotional evolution, necessary departure",
         "meaning": "Apostle to the Gentiles whose missionary journeys crisscrossed the ancient world at lightning speed. His letters flew faster than his feet, spreading fire across the Mediterranean. In him, divine urgency found its perfect messenger.",
         "number": 43,
         "title": "The Racing Apostle",
@@ -1521,6 +1565,7 @@ export const saintsCardDetails = {
     "st_sebastian": {
         "name": "St. Sebastian",
         "coreEssence": "Survives what should destroy",
+        "coreIntentions": "emotional satisfaction, contentment found, wishes granted, personal happiness, grateful heart",
         "meaning": "Captain of the Praetorian Guard who, though pierced by arrows, refused to renounce his faith. Left for dead, he rose again to continue his witness, embodying resilience that suffering cannot silence. His scarred body became a banner of endurance.",
         "number": 44,
         "title": "The Arrowed Sentinel",
@@ -1542,6 +1587,7 @@ export const saintsCardDetails = {
     "st_charles_borromeo": {
         "name": "St. Charles Borromeo",
         "coreEssence": "Carries heavy burdens lightly",
+        "coreIntentions": "family harmony, emotional fulfillment, lasting happiness, perfect contentment, rainbow blessings",
         "meaning": "Cardinal who carried Milan through plague and reformation, shouldering church and city's weight. His burden broke his health but built renewal. He shows how some are called to bear the world's weight that others might live.",
         "number": 45,
         "title": "The Burden Bearer",
@@ -1563,6 +1609,7 @@ export const saintsCardDetails = {
     "st_dominic_savio": {
         "name": "St. Dominic Savio",
         "coreEssence": "Shows youth's wisdom",
+        "coreIntentions": "intuitive messages, emotional learning, creative beginning, sensitive awareness, gentle start",
         "meaning": "Boy saint who blazed bright and brief, his youthful passion for holiness inspiring millions. Death at fifteen couldn't dim his fire. He shows how youth carries tomorrow's flames, how beginners often burn brightest.",
         "number": 46,
         "title": "The Young Flame",
@@ -1602,6 +1649,7 @@ export const saintsCardDetails = {
     "st_francis_xavier": {
         "name": "St. Francis Xavier",
         "coreEssence": "Adventures into unknown",
+        "coreIntentions": "romantic pursuit, emotional quest, following heart, creative vision, idealistic journey",
         "meaning": "Ignatius's companion who carried sacred fire to the Indies and Japan, his missionary heart burning with impossible dreams. Each journey launched into the unknown, trusting only in providence and passion. His impetuousness for souls shows how divine love makes us beautifully reckless.",
         "number": 47,
         "title": "The Eastern Fire-Bearer",
@@ -1643,6 +1691,7 @@ export const saintsCardDetails = {
     "st_catherine_of_siena": {
         "name": "St. Catherine of Siena",
         "coreEssence": "Reforms through mystic fire",
+        "coreIntentions": "emotional mastery, intuitive wisdom, compassionate leadership, nurturing presence, deep feeling",
         "meaning": "Mystic who commanded popes and kingdoms through letters of fire. Her passion for church reform burned through corruption, her visions directing history. She ruled through inspiration, proving that spiritual fire moves mountains.",
         "number": 48,
         "title": "The Mystic Commander",
@@ -1687,6 +1736,7 @@ export const saintsCardDetails = {
     "st_patrick_of_ireland": {
         "name": "St. Patrick of Ireland",
         "coreEssence": "Drives out inner snakes",
+        "coreIntentions": "emotional maturity, balanced feelings, wise counsel, calm mastery, diplomatic strength",
         "meaning": "Slave-become-evangelist who kindled faith across the Emerald Isle. His crozier drove out serpents, his teaching fire converted kingdoms. Master of sacred flame, he transformed an entire culture through visionary leadership.",
         "number": 49,
         "title": "The Serpent Banisher",
@@ -1731,6 +1781,7 @@ export const saintsCardDetails = {
     "st_hildegard_of_bingen": {
         "name": "St. Hildegard of Bingen",
         "coreEssence": "Sees cosmic connections",
+        "coreIntentions": "mental clarity, breakthrough thinking, truth cutting, new understanding, clear communication",
         "meaning": "Visionary abbess whose illuminations revealed the cosmos as living light, whose music captured heaven's harmonies, whose medicines healed body and soul. Her penetrating visions cut through illusion to truth's core. In her, divine wisdom found a voice that sang creation's secrets in words, images, and melodies that still pierce hearts today.",
         "number": 50,
         "title": "The Illuminated Mind",
@@ -1769,6 +1820,7 @@ export const saintsCardDetails = {
     "st_thomas_the_apostle": {
         "name": "St. Thomas the Apostle",
         "coreEssence": "Doubts your way to faith",
+        "coreIntentions": "difficult choice, mental balance, blocked vision, indecision resolved, seeing clearly",
         "meaning": "The doubting twin frozen between belief and disbelief, demanding to see and touch the wounds before accepting resurrection. His paralysis of faith shows how we can become blind to truth when trapped between heart and mind. Yet his eventual declaration 'My Lord and my God' proves that honest doubt can lead to deepest faith.",
         "number": 51,
         "title": "The Doubting Twin",
@@ -1790,6 +1842,7 @@ export const saintsCardDetails = {
     "our_lady_of_sorrows": {
         "name": "Our Lady of Sorrows",
         "coreEssence": "Holds space for pain",
+        "coreIntentions": "heartbreak healing, necessary pain, emotional truth, sorrow releasing, wound cleansing",
         "meaning": "Mother pierced by seven swords of prophecy, each blade a different grief. Her heart became a scabbard for humanity's pain. She stands as queen of all who know that love's price is measured in sorrows willingly borne.",
         "number": 52,
         "title": "The Seven-Pierced Heart",
@@ -1827,6 +1880,7 @@ export const saintsCardDetails = {
     "st_john_chrysostom": {
         "name": "St. John Chrysostom",
         "coreEssence": "Speaks golden truth",
+        "coreIntentions": "mental rest, peaceful recovery, contemplation time, healing pause, quiet restoration",
         "meaning": "Golden-mouthed preacher exiled for speaking truth to power. In banishment's silence, his words echoed louder. His forced rest became the pause that let his teachings spread further than his voice ever could.",
         "number": 53,
         "title": "The Exiled Voice",
@@ -1848,6 +1902,7 @@ export const saintsCardDetails = {
     "st_olga_of_kiev": {
         "name": "St. Olga of Kiev",
         "coreEssence": "Transforms revenge to wisdom",
+        "coreIntentions": "conflict resolution, unfair situation, empty victory, choosing integrity, learning humility",
         "meaning": "Pre-conversion queen who orchestrated elaborate revenge for her husband's murder - burying negotiators alive, burning others in bathhouses, destroying an entire city with fire-carrying birds. Yet standing among the ashes of her enemies, she found only emptiness. Her brilliant vengeance brought no peace, no healing, only more death. She embodies how 'winning' through cruelty leaves the victor more destroyed than the vanquished.",
         "number": 54,
         "title": "The Ash Queen's Hollow Victory",
@@ -1869,6 +1924,7 @@ export const saintsCardDetails = {
     "st_brendan_the_navigator": {
         "name": "St. Brendan the Navigator",
         "coreEssence": "Sails beyond the map",
+        "coreIntentions": "mental transition, moving forward, leaving troubles, calmer waters, gradual improvement",
         "meaning": "Monk who sailed beyond maps seeking the Promised Land of Saints. His coracle carried him through mists to islands of wonder. Each voyage left old certainties behind, showing how some journeys require abandoning familiar shores.",
         "number": 55,
         "title": "The Sacred Navigator",
@@ -1890,6 +1946,7 @@ export const saintsCardDetails = {
     "judas_iscariot": {
         "name": "Judas Iscariot",
         "coreEssence": "Faces your self-betrayal",
+        "coreIntentions": "strategic thinking, independent action, clever solutions, calculated risk, mental agility",
         "meaning": "The betrayer who stole away in darkness with thirty silver pieces, his kiss the ultimate deception. He thought his clever plan would force the Messiah's hand, but his theft of trust became his own noose. In him we see how cunning schemes and secret betrayals ultimately betray the schemer most of all.",
         "number": 56,
         "title": "The Thief in Shadow",
@@ -1926,6 +1983,7 @@ export const saintsCardDetails = {
     "st_john_of_god": {
         "name": "St. John of God",
         "coreEssence": "Heals mental storms",
+        "coreIntentions": "mental freedom, limiting beliefs, perceived trap, victim mentality, breaking free",
         "meaning": "Soldier whose mind shattered into madness, confined in an asylum where his own thoughts became his prison. Lost in hallucinations and anguish, he couldn't see the door to freedom that prayer would eventually open. His mental chains were stronger than any physical bonds, yet his breakdown became breakthrough when he finally surrendered to healing grace.",
         "number": 57,
         "title": "The Mind's Prison",
@@ -1947,6 +2005,7 @@ export const saintsCardDetails = {
     "st_john_vianney": {
         "name": "St. John Vianney",
         "coreEssence": "Persists through inner battles",
+        "coreIntentions": "releasing anxiety, nightmare ending, mental anguish, worry dissolving, dawn approaching",
         "meaning": "The Curé of Ars who suffered nightly torments that shook his very bed, waking in cold terror from demonic nightmares. His room would fill with unexplained noises, his mind racing with anxieties about his unworthiness. Three times he tried to flee his calling, so intense was his mental anguish. Yet he persisted through decades of sleepless nights, showing that even saints know the 3 AM horror of a mind turned against itself.",
         "number": 58,
         "title": "The Nightmare Saint",
@@ -1968,7 +2027,8 @@ export const saintsCardDetails = {
     "st_stephen": {
         "name": "St. Stephen",
         "coreEssence": "Makes endings into beginnings",
-        "meaning": "The first martyr, stoned outside the city walls as the heavens opened to receive him. His fall seemed total—body broken, voice silenced—yet in that ending, the church found its unshakable courage. He embodies the Ten of Swords: a final collapse that clears the ground for faith’s new dawn.",
+        "coreIntentions": "rock bottom, painful ending, complete release, nowhere but up, transformation ready",
+        "meaning": "The first martyr, stoned outside the city walls as the heavens opened to receive him. His fall seemed total—body broken, voice silenced—yet in that ending, the church found its unshakable courage. He embodies the Ten of Swords: a final collapse that clears the ground for faith's new dawn.",
         "number": 59,
         "title": "The First Martyr",
         "coreMeaning": "Final Ending — Rock bottom, painful collapse, and release before renewal",
@@ -2004,6 +2064,7 @@ export const saintsCardDetails = {
     "st_aloysius_gonzaga": {
         "name": "St. Aloysius Gonzaga",
         "coreEssence": "Pursues learning passionately",
+        "coreIntentions": "curious mind, truth seeking, mental agility, clear communication, vigilant awareness",
         "meaning": "Young noble who traded inheritance for Jesuit vows, his brilliant mind seeking heaven's mysteries. Death claimed him at twenty-three while nursing plague victims. His brief light shows how youth can carry eternity's wisdom.",
         "number": 60,
         "title": "The Noble Student",
@@ -2046,6 +2107,7 @@ export const saintsCardDetails = {
     "st_longinus_the_centurion": {
         "name": "St. Longinus the Centurion",
         "coreEssence": "Sees clearly in one moment",
+        "coreIntentions": "swift action, direct communication, ambitious drive, quick thinking, determined pursuit",
         "meaning": "Roman soldier whose spear pierced the divine heart, blood and water opening his blind eyes. In one thrust, he moved from executioner to believer. His swift conversion shows how truth can strike like lightning.",
         "number": 61,
         "title": "The Spear of Revelation",
@@ -2091,6 +2153,7 @@ export const saintsCardDetails = {
     "st_scholastica": {
         "name": "St. Scholastica",
         "coreEssence": "Commands nature through prayer",
+        "coreIntentions": "clear boundaries, direct wisdom, independent thinking, experienced judgment, mental mastery",
         "meaning": "Benedict's twin whose prayers commanded storms, her wisdom matching her brother's rule. She founded women's monastic life through clear vision and sharp intellect. Her tears moved heaven when words failed.",
         "number": 62,
         "title": "The Storm Caller",
@@ -2136,6 +2199,7 @@ export const saintsCardDetails = {
     "st_constantine_the_great": {
         "name": "St. Constantine the Great",
         "coreEssence": "Aligns power with purpose",
+        "coreIntentions": "intellectual authority, objective truth, fair leadership, strategic thinking, wise command",
         "meaning": "Emperor whose vision of the Chi-Rho transformed an empire. Through strategic wisdom and divine signs, he legalized the faith. His sword served heaven's justice, showing how power can serve truth when wielded with discernment.",
         "number": 63,
         "title": "The Visionary Emperor",
@@ -2178,6 +2242,7 @@ export const saintsCardDetails = {
     "st_frances_of_rome": {
         "name": "St. Frances of Rome",
         "coreEssence": "Multiplies through giving",
+        "coreIntentions": "material opportunity, prosperity beginning, tangible manifestation, earthly blessings, golden seeds",
         "meaning": "Noble widow who gave all to the poor, her empty hands receiving heaven's abundance. The widow's mite multiplied in her care. She shows how material sacrifice plants seeds for spiritual harvest.",
         "number": 64,
         "title": "The Golden Seed",
@@ -2217,6 +2282,7 @@ export const saintsCardDetails = {
     "sts_cosmas_and_damian": {
         "name": "Sts. Cosmas and Damian",
         "coreEssence": "Heals without counting cost",
+        "coreIntentions": "juggling priorities, finding balance, flexible approach, resource management, dynamic flow",
         "meaning": "Twin physicians who healed without fee, balancing heaven's gift with earthly service. Their doubled talent served freely, showing how resources shared create true wealth. In their unity, skill became sacrament.",
         "number": 65,
         "title": "The Healing Twins",
@@ -2238,6 +2304,7 @@ export const saintsCardDetails = {
     "st_joseph_teaching_jesus": {
         "name": "St. Joseph Teaching Jesus",
         "coreEssence": "Passes wisdom forward",
+        "coreIntentions": "team collaboration, skill recognition, quality work, apprentice learning, creative partnership",
         "meaning": "Master craftsman passing sacred skills to divine apprentice, each lesson both earthly and eternal. In teaching God to work wood, he shows how patient mentoring builds more than furniture—it constructs souls.",
         "number": 66,
         "title": "The Divine Apprenticeship",
@@ -2259,6 +2326,7 @@ export const saintsCardDetails = {
     "st_matthew_the_apostle": {
         "name": "St. Matthew the Apostle",
         "coreEssence": "Leaves the counting table",
+        "coreIntentions": "financial security, material control, resource protection, stable foundation, conscious possession",
         "meaning": "Tax collector who sat in his booth amassing wealth through overcharging, clutching his money bags and ledgers as if they were life itself. His grip on gold was so tight he needed no guards - his whole identity wrapped around counting coins. Yet when Christ called 'Follow me,' he left it all in an instant, showing that what seems impossible to release becomes easy when touched by grace.",
         "number": 67,
         "title": "The Converted Counter",
@@ -2280,6 +2348,7 @@ export const saintsCardDetails = {
     "st_martin_de_porres": {
         "name": "St. Martin de Porres",
         "coreEssence": "Serves without distinction",
+        "coreIntentions": "overcoming hardship, seeking help, spiritual richness, material challenge, finding support",
         "meaning": "Barber-surgeon who served the poorest with herbs and prayers. His poverty was richer than gold, his simple cell a treasury of miracles. He shows how material lack can become spiritual abundance.",
         "number": 68,
         "title": "The Humble Healer",
@@ -2301,6 +2370,7 @@ export const saintsCardDetails = {
     "st_vincent_de_paul": {
         "name": "St. Vincent de Paul",
         "coreEssence": "Organizes love efficiently",
+        "coreIntentions": "generous sharing, fair exchange, balanced giving, charity flowing, reciprocal blessing",
         "meaning": "Priest who organized charity into a system of love, creating networks of care for the abandoned. His giving hand never emptied because it drew from infinite source. He proved that generosity creates its own abundance.",
         "number": 69,
         "title": "The Charity Architect",
@@ -2322,6 +2392,7 @@ export const saintsCardDetails = {
     "st_rose_of_lima": {
         "name": "St. Rose of Lima",
         "coreEssence": "Cultivates inner beauty",
+        "coreIntentions": "patient investment, long-term vision, evaluating progress, sustainable growth, harvest coming",
         "meaning": "Mystic who cultivated sanctity in her garden like precious flowers. Each plant grew through patient tending, her earthly labor producing heavenly blooms. She shows how slow growth yields lasting fruit.",
         "number": 70,
         "title": "The Sacred Gardener",
@@ -2343,6 +2414,7 @@ export const saintsCardDetails = {
     "st_eligius": {
         "name": "St. Eligius",
         "coreEssence": "Masters your craft devotedly",
+        "coreIntentions": "dedicated practice, skill mastery, quality focus, apprentice discipline, craftsman dedication",
         "meaning": "Master goldsmith who became bishop, his craftsman's precision serving both beauty and souls. Each piece he forged was prayer made metal. His workshop became cathedral, showing how dedicated craft becomes worship.",
         "number": 71,
         "title": "The Holy Goldsmith",
@@ -2364,6 +2436,7 @@ export const saintsCardDetails = {
     "st_clare": {
         "name": "St. Clare",
         "coreEssence": "Finds wealth in simplicity",
+        "coreIntentions": "earned luxury, self sufficiency, refined success, independent wealth, graceful abundance",
         "meaning": "Poor Clare who found richness in radical poverty, her garden providing all needs. Behind convent walls, she discovered freedom. Her self-sufficiency came through surrender, abundance through embracing nothing.",
         "number": 72,
         "title": "The Enclosed Garden",
@@ -2385,6 +2458,7 @@ export const saintsCardDetails = {
     "st_macrina_the_younger": {
         "name": "St. Macrina the Younger",
         "coreEssence": "Builds spiritual legacy",
+        "coreIntentions": "lasting legacy, generational wealth, family success, material mastery, permanent achievement",
         "meaning": "Cappadocian aristocrat who transformed her family estate into a flourishing monastic community, eldest sister to saints Basil and Gregory of Nyssa. Her household became a dynasty of sanctity, wealth converted to spiritual legacy. She built not just for one generation but created foundations that nurtured theologians, bishops, and saints, proving true inheritance is wisdom passed through loving hands.",
         "number": 73,
         "title": "The Dynasty Builder",
@@ -2425,6 +2499,7 @@ export const saintsCardDetails = {
     "st_pantaleon": {
         "name": "St. Pantaleon",
         "coreEssence": "Heals body and soul",
+        "coreIntentions": "practical learning, steady progress, grounded approach, new skills, material beginnings",
         "meaning": "Young physician learning healing arts from earthly and heavenly teachers. His studies merged medicine with miracle. Each cure he learned became prayer, showing how practical knowledge serves divine purpose.",
         "number": 74,
         "title": "The Physician Student",
@@ -2467,6 +2542,7 @@ export const saintsCardDetails = {
     "st_isidore_the_farmer": {
         "name": "St. Isidore the Farmer",
         "coreEssence": "Works with heaven's help",
+        "coreIntentions": "methodical progress, reliable effort, patient work, steady advancement, persistent dedication",
         "meaning": "Plowman whose angels finished his furrows while he prayed. His steady labor sanctified the soil, each harvest a miracle of ordinary grace. He proves that faithful work in humble fields yields heaven's abundance.",
         "number": 75,
         "title": "The Angelic Plowman",
@@ -2511,6 +2587,7 @@ export const saintsCardDetails = {
     "st_martha_of_bethany": {
         "name": "St. Martha of Bethany",
         "coreEssence": "Makes service sacred",
+        "coreIntentions": "practical nurturing, abundant provision, earthly wisdom, material comfort, grounded care",
         "meaning": "Hostess who served Christ with busy hands and worried heart until learning presence matters more than presents. Her kitchen became altar, her service a prayer. She mastered the art of sacred hospitality.",
         "number": 76,
         "title": "The Divine Hostess",
@@ -2555,6 +2632,7 @@ export const saintsCardDetails = {
     "st_homobonus": {
         "name": "St. Homobonus",
         "coreEssence": "Succeeds with integrity",
+        "coreIntentions": "material mastery, wealth consciousness, successful leadership, established prosperity, generous authority",
         "meaning": "Merchant whose honest scales weighed gold and souls equally. His business became ministry, profit serving providence. He died at Mass, showing how worldly success, rightly ordered, leads to heaven's treasury.",
         "number": 77,
         "title": "The Merchant Saint",

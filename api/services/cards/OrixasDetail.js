@@ -1,6 +1,7 @@
 export const orixasDetail = {
     "Exu": {
         "name": "Exu",
+        "coreIntentions": "new beginnings, trusting process, releasing fear, innocent joy, fresh start",
         "coreEssence": "Opens blocked paths",
         "displayName": "Orixá Exu",
         "meaning": "This sacred messenger dances at every crossroads, proving that communication is creation's first act. He opens pathways between worlds—teaching that movement itself is prayer, and every choice we make reshapes destiny's map.",
@@ -43,6 +44,7 @@ export const orixasDetail = {
     },
     "Ogum": {
         "name": "Ogum",
+        "coreIntentions": "manifesting desires, focused intention, personal power, creating reality, divine will",
         "coreEssence": "Breaks through barriers",
         "displayName": "Orixá Ogum",
         "meaning": "This forge master transforms raw will into tempered action, his hammer striking sparks of possibility from the iron of determination. He represents breakthrough power—teaching that obstacles exist to reveal our capacity to cut through any limitation.",
@@ -83,6 +85,7 @@ export const orixasDetail = {
     },
     "Oxóssi": {
         "name": "Oxóssi",
+        "coreIntentions": "inner wisdom, trusting intuition, hidden knowledge, sacred mysteries, quiet knowing",
         "coreEssence": "Helps you find what you're looking for",
         "displayName": "Orixá Oxóssi",
         "meaning": "This forest king's single arrow never misses because he aims from perfect stillness, teaching that abundance comes to those who know precisely what they seek. He represents focused intention—showing that the universe provides when we clarify our true target.",
@@ -122,6 +125,7 @@ export const orixasDetail = {
     },
     "Omolu": {
         "name": "Omolu",
+        "coreIntentions": "creative abundance, self nurturing, fertile ground, natural flow, motherly comfort",
         "coreEssence": "Transforms suffering into wisdom",
         "displayName": "Orixá Omolu",
         "meaning": "This medicine keeper wears raffia to veil his transformation of poison into cure, shadow into light. He represents healing wisdom—teaching that our deepest wounds become our most powerful medicines when embraced with courage.",
@@ -161,6 +165,7 @@ export const orixasDetail = {
     },
     "Oxumaré": {
         "name": "Oxumaré",
+        "coreIntentions": "stable foundation, healthy boundaries, taking charge, structured growth, protective strength",
         "coreEssence": "Rainbow blessings",
         "displayName": "Orixá Oxumaré",
         "meaning": "This rainbow serpent bridges earth and sky in eternal movement, proving that duality is dance, not division. They represent cyclical wisdom—teaching that apparent opposites are partners in creation's endless spiral.",
@@ -200,6 +205,7 @@ export const orixasDetail = {
     },
     "Xangô": {
         "name": "Xangô",
+        "coreIntentions": "spiritual guidance, seeking wisdom, traditional values, finding teachers, sacred learning",
         "coreEssence": "Brings justice and balance",
         "displayName": "Orixá Xangô",
         "meaning": "This thunder king's axe splits injustice with divine precision, his dance making the earth tremble with truth's power. He represents righteous authority—teaching that true leadership serves justice with both fierce love and joyful strength.",
@@ -239,6 +245,7 @@ export const orixasDetail = {
     },
     "Oxalá": {
         "name": "Oxalá",
+        "coreIntentions": "conscious choice, soul connection, harmonious union, relationship healing, authentic love",
         "coreEssence": "Brings peace and clarity",
         "displayName": "Orixá Oxalá",
         "meaning": "This ancient creator shapes consciousness like white cloth, each fold a universe of possibility wrapped in pristine peace. He represents original wisdom—teaching that true power whispers, and creation happens in the silence before the first breath.",
@@ -278,6 +285,7 @@ export const orixasDetail = {
     },
     "Oyá": {
         "name": "Oyá",
+        "coreIntentions": "inner victory, forward movement, overcoming obstacles, determined progress, self mastery",
         "coreEssence": "Clears away what no longer serves",
         "displayName": "Orixá Oyá",
         "meaning": "This wind mother commands nine winds of change, her storms clearing stagnant air for fresh possibilities. She represents transformation power—teaching that destruction and creation are lovers in the dance of becoming.",
@@ -317,6 +325,7 @@ export const orixasDetail = {
     },
     "Iemanjá": {
         "name": "Iemanjá",
+        "coreIntentions": "gentle strength, patient courage, inner power, taming fear, compassionate force",
         "coreEssence": "Nurtures and protects",
         "displayName": "Orixá Iemanjá",
         "meaning": "This ocean mother rocks all life in her vast embrace, her depths holding both treasures and mysteries. She represents nurturing wisdom—teaching that true mothering means knowing when to hold close and when to release to the tide.",
@@ -356,6 +365,7 @@ export const orixasDetail = {
     },
     "Nanã": {
         "name": "Nanã",
+        "coreIntentions": "soul searching, inner guidance, solitary wisdom, deep reflection, finding answers",
         "coreEssence": "Teaches patience and acceptance",
         "displayName": "Orixá Nanã",
         "meaning": "This ancient grandmother holds the primordial mud from which all life emerged and returns, her wisdom predating time itself. She represents ancestral knowledge—teaching that some truths are too old for words, living instead in our bones.",
@@ -395,6 +405,7 @@ export const orixasDetail = {
     },
     "Obá": {
         "name": "Obá",
+        "coreIntentions": "life cycles, turning point, divine timing, accepting change, karmic lessons",
         "coreEssence": "Stands firm in your truth",
         "displayName": "Orixá Obá",
         "meaning": "This warrior queen transforms sacrifice into strength, her story teaching that what seems like loss often reveals our hidden power. She represents fierce loyalty—showing that true love sometimes means fighting for your own worth.",
@@ -434,6 +445,7 @@ export const orixasDetail = {
     },
     "Oxum": {
         "name": "Oxum",
+        "coreIntentions": "fair outcome, balanced decision, truth revealed, karmic justice, clear judgment",
         "coreEssence": "Attracts love and abundance",
         "displayName": "Orixá Oxum",
         "meaning": "This river goddess flows with liquid gold, her mirror reflecting beauty in all beings while her honey sweetens life's bitter moments. She represents sensual wisdom—teaching that pleasure and prosperity are birthrights, not privileges.",
@@ -473,6 +485,7 @@ export const orixasDetail = {
     },
     "Logunedé": {
         "name": "Logunedé",
+        "coreIntentions": "sacred pause, new perspective, letting go, willing surrender, spiritual insight",
         "coreEssence": "Harmonizes opposites",
         "displayName": "Orixá Logunedé",
         "meaning": "This divine youth dances between river and forest, embodying the grace of inhabiting multiple worlds without choosing sides. They represent fluid identity—teaching that wholeness comes from honoring all aspects of self.",
@@ -512,6 +525,7 @@ export const orixasDetail = {
     },
     "Ibeji": {
         "name": "Ibeji",
+        "coreIntentions": "transformation time, necessary ending, phoenix rising, profound change, rebirth ready",
         "coreEssence": "Restores joy and innocence",
         "displayName": "Orixá Ibeji",
         "meaning": "These sacred twins remind us that joy doubles when shared and sorrow halves when witnessed. They represent playful wisdom—teaching that the divine laughs through children and miracles hide in everyday moments.",
@@ -551,6 +565,7 @@ export const orixasDetail = {
     },
     "Ossaim": {
         "name": "Ossaim",
+        "coreIntentions": "finding balance, patient healing, middle path, gentle blending, inner harmony",
         "coreEssence": "Heals through nature's wisdom",
         "displayName": "Orixá Ossaim",
         "meaning": "This one-legged forest sage guards nature's pharmacy, knowing which leaf cures and which teaches through challenge. He represents natural wisdom—showing that healing grows wild for those who learn nature's secret language.",
@@ -590,6 +605,7 @@ export const orixasDetail = {
     },
     "Orunmilá": {
         "name": "Orunmilá",
+        "coreIntentions": "breaking chains, releasing addiction, shadow work, seeing clearly, liberation calling",
         "coreEssence": "Divine wisdom",
         "displayName": "Orixá Orunmilá",
         "meaning": "This witness of creation holds the map of all possible destinies, teaching that fate and free will dance together. He represents divine wisdom—showing that knowing your path and walking it are different initiations.",
@@ -629,6 +645,7 @@ export const orixasDetail = {
     },
     "Iroko": {
         "name": "Iroko",
+        "coreIntentions": "sudden breakthrough, divine disruption, tower falling, truth explosion, forced awakening",
         "coreEssence": "Sacred time",
         "displayName": "Orixá Iroko",
         "meaning": "This sacred tree connects heaven and earth through roots and branches, teaching that true strength comes from being grounded while reaching high. He represents stability—showing that flexibility and firmness create unshakeable presence.",
@@ -668,6 +685,7 @@ export const orixasDetail = {
     },
     "Aganjú": {
         "name": "Aganjú",
+        "coreIntentions": "renewed hope, healing light, spiritual guidance, peaceful restoration, wish fulfillment",
         "coreEssence": "Volcanic power",
         "displayName": "Orixá Aganjú",
         "meaning": "This volcanic force demonstrates that sometimes creation requires eruption, that new land births from fire meeting water. He represents explosive potential—teaching that suppressed power eventually reshapes entire landscapes.",
@@ -707,6 +725,7 @@ export const orixasDetail = {
     },
     "Onilé": {
         "name": "Onilé",
+        "coreIntentions": "facing illusions, intuitive navigation, shadow integration, dream wisdom, psychic awakening",
         "coreEssence": "Earth mother",
         "displayName": "Orixá Onilé",
         "meaning": "This earth mother literally grounds all existence, reminding us that every journey returns home to her embrace. She represents foundation—teaching that true power comes from knowing where you stand.",
@@ -746,6 +765,7 @@ export const orixasDetail = {
     },
     "Ewá": {
         "name": "Ewá",
+        "coreIntentions": "radiant joy, success achieved, pure happiness, childlike wonder, vital energy",
         "coreEssence": "Pure waters",
         "displayName": "Orixá Ewá",
         "meaning": "This mysterious beauty veils profound truths in ethereal grace, her enchantments teaching that some wisdom comes through wonder, not analysis. She represents mystical insight—showing that beauty itself is a form of truth.",
@@ -785,6 +805,7 @@ export const orixasDetail = {
     },
     "Olokun": {
         "name": "Olokun",
+        "coreIntentions": "cycle completion, total fulfillment, world mastery, cosmic consciousness, infinite possibility",
         "coreEssence": "Deep mysteries",
         "displayName": "Orixá Olokun",
         "meaning": "This keeper of ocean depths guards treasures and sorrows alike, teaching that the deepest riches require the deepest dives. They represent hidden wealth—showing that our greatest resources often lie in unexplored depths.",
@@ -824,6 +845,7 @@ export const orixasDetail = {
     },
     "Ori": {
         "name": "Ori",
+        "coreIntentions": "creative spark, passionate beginning, new inspiration, spiritual fire, fresh energy",
         "coreEssence": "Personal destiny",
         "displayName": "Orixá Ori",
         "meaning": "This inner head chose your destiny before birth, making you the living prayer of your highest self. Ori represents personal divinity—teaching that your truest guardian lives within, and alignment with inner wisdom surpasses all external forces.",
@@ -859,6 +881,7 @@ export const orixasDetail = {
     },
     "Egungun": {
         "name": "Egungun",
+        "coreIntentions": "future planning, bold vision, personal power, strategic choice, confident direction",
         "coreEssence": "Ancestral wisdom",
         "displayName": "Orixá Egungun",
         "meaning": "These ancestral voices speak through blood memory, proving that death merely transforms love into a different frequency. They represent living legacy—teaching that we stand on invisible shoulders and our actions ripple through generations.",
@@ -868,6 +891,7 @@ export const orixasDetail = {
     },
     "Ajé": {
         "name": "Ajé",
+        "coreIntentions": "expanding horizons, leadership emerging, vision manifesting, opportunities growing, progress ahead",
         "coreEssence": "Prosperity flow",
         "displayName": "Orixá Ajé",
         "meaning": "This force of prosperity flows where value is recognized and exchanged with integrity. She represents wealth consciousness—teaching that abundance multiplies through circulation and that commerce can be sacred when it serves community.",
@@ -877,6 +901,7 @@ export const orixasDetail = {
     },
     "Oranyian": {
         "name": "Oranyian",
+        "coreIntentions": "joyful celebration, stable harmony, community blessing, achievement recognized, happy home",
         "coreEssence": "United strength",
         "displayName": "Orixá Oranyian",
         "meaning": "This warrior prince united two kingdoms through courage and wisdom, proving that true nobility serves the collective. He represents heroic leadership—teaching that greatness emerges when personal glory surrenders to communal good.",
@@ -886,6 +911,7 @@ export const orixasDetail = {
     },
     "Yewa": {
         "name": "Yewa",
+        "coreIntentions": "public victory, success recognized, confidence rising, leadership acknowledged, triumph achieved",
         "coreEssence": "Sacred silence",
         "displayName": "Orixá Yewa",
         "meaning": "This virgin crone guards the space between death and rebirth, her purity not innocence but fierce protection of transformation. She represents sacred boundaries—teaching that some transformations require absolute solitude and uncompromising standards.",
@@ -904,6 +930,7 @@ export const orixasDetail = {
     // },
     "Aroni": {
         "name": "Aroni",
+        "coreIntentions": "heavy burden, responsibility accepted, completion near, maximum effort, temporary overwhelm",
         "coreEssence": "Forest wisdom",
         "displayName": "Orixá Aroni",
         "meaning": "This forest guardian with one leg and one arm knows every secret the green world whispers. He represents hidden knowledge—teaching that nature's deepest medicines reveal themselves only to those who approach with humble patience.",
@@ -949,6 +976,7 @@ export const orixasDetail = {
 
     "Obaluayê": {
         "name": "Obaluayê",
+        "coreIntentions": "confident leadership, warm authority, creative mastery, magnetic presence, generous spirit",
         "coreEssence": "Master healer",
         "displayName": "Orixá Obaluayê",
         "meaning": "This young, unveiled healer strides through the world with transformative fire, turning decay into renewal. As the active aspect of Omolu, he represents confronting illness with fierce visibility, teaching that healing begins when we no longer hide our wounds.",
@@ -985,6 +1013,7 @@ export const orixasDetail = {
 
     "Egbe": {
         "name": "Egbe",
+        "coreIntentions": "visionary leadership, inspired authority, natural charisma, entrepreneurial spirit, motivating others",
         "coreEssence": "Spirit companion",
         "displayName": "Orixá Egbe",
         "meaning": "These celestial spirit companions remind us that we are never fully alone, even in solitude. Egbe represents the soul’s parallel existence in the heavenly realm—teaching that alignment with our higher self reunites us with our cosmic twin.",
@@ -1021,6 +1050,7 @@ export const orixasDetail = {
 
     "Ibú": {
         "name": "Ibú",
+        "coreIntentions": "emotional beginning, love flowing, heart opening, intuitive gifts, spiritual awakening",
         "coreEssence": "Many waters",
         "displayName": "Orixá Ibú",
         "meaning": "These feminine aspects of Iemanjá embody different tides, moods, and secrets of the ocean’s depths. Each avatar holds a unique flavor of maternal power—teaching that divine feminine expresses in infinite forms, not just one face.",
@@ -1057,6 +1087,7 @@ export const orixasDetail = {
 
     "Orisha Oko": {
         "name": "Orisha Oko",
+        "coreIntentions": "soul recognition, mutual attraction, emotional balance, partnership forming, love connection",
         "coreEssence": "Harvest abundance",
         "displayName": "Orixá Oko",
         "meaning": "This dignified farmer tills the spiritual soil, ensuring that justice and fertility go hand in hand. He represents grounded abundance—teaching that the harvest belongs to those who honor the land and labor with love.",
