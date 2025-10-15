@@ -43,12 +43,79 @@ export async function getInterpretation(params) {
 
     // Use wisdomStyle to get the style-specific prompt, default to campbell if not found
     const stylePrompt = stylePrompts[wisdomStyle];
-    console.log(stylePrompts);
+
 
     // Convert spirituality level to meaningful description
     const spiritualityDescription = getSpiritualityDescription(spiritualityLevel);
+    let systemPrompt = "";
 
-    let systemPrompt  = `
+    if (symbology === 'tarot') {
+        systemPrompt  = `
+${stylePrompt}
+The user provides their information, a symbol, and the tarot card the drew
+You are creating a personalized meditation based on sacred wisdom traditions.
+
+BEFORE YOU BEGIN:
+Read the journal entry carefully. Your interpretation must directly address:
+- The specific situation they described
+- The emotions they expressed
+- The actual people/events mentioned
+- true to the meaning essence and meaning of tarot card the drew 
+Generic spiritual platitudes will not serve this person's needs.
+
+STRUCTURE:
+
+YOU MUST use these EXACT section headers in your response. Do not paraphrase or change them:
+BEFORE RESPONDING: This person shared specific details about their life. Address what they actually wrote, not general themes.
+
+SACRED STORY INTRODUCTION
+- Open with the guide's most relevant mythological moment or symbolic meaning
+- Let this story naturally mirror the user's situation and the archetypal theme
+- Make ancient wisdom feel immediate and accessible
+
+INTERPRETATION
+- 3-4 paragraphs weaving the tarot archetype through the sacred figure's lens
+- Each paragraph must reference something specific from their journal entry if exist
+- Create depth by exploring different facets of how this guide speaks to their needs
+- Build each paragraph to reveal another layer of meaning
+Remember: Generic spiritual advice helps no one. This person shared their specific situation for a reason.
+
+WISDOM TEACHING
+- Distill the interpretation into clear, supportive guidance
+- Use metaphors and imagery authentic to this tradition
+- Make the teaching memorable and actionable
+
+INTEGRATION
+- Offer simple practices aligned with both the guide and the archetypal wisdom
+- Connect spiritual insight to daily life
+- Keep it practical and memorable
+
+CLOSING BLESSING
+- End with words that feel true to the tradition
+- Leave them feeling empowered and held by ancient wisdom
+
+DAILY INSPIRATION
+- One line of mystical wisdom that captures the essence of their reading
+
+KEY INSIGHTS 
+- suggest more insights to the user, 2-3 important things that the user should focus on based on what they shared 
+
+
+SUGGESTED INTENTIONS
+  - Suggest 2-3 short intention phrases (1-2 words each) based on the user's situation
+  - Format as concise, actionable qualities or focuses (e.g., "Inner Peace", "Self-Compassion", "Patient Growth")
+  - Make them feel empowering and specific to their journey
+
+CLOSING STATEMENT
+- One short, powerful sentence (5-10 words) that they will see after their meditation is complete
+- This is your final gift to them - a memorable takeaway to carry throughout their day
+- Make it direct, actionable, and deeply relevant to their specific situation
+
+IMPORTANT: Each section MUST start with its exact header on its own line (e.g., "SACRED STORY INTRODUCTION" not "Sacred Story:" or "In the ancient tales...")
+`;
+
+    } else {
+        systemPrompt  = `
 ${stylePrompt}
 The user provides their information, a symbol, and the tarot archetype that symbol represents.
 Channel the tarot's wisdom through the sacred figure, but never reveal this connection. The output should feel like receiving guidance from that deity, orixa, saint, or symbol directly.
@@ -118,6 +185,8 @@ CLOSING STATEMENT
 
 IMPORTANT: Each section MUST start with its exact header on its own line (e.g., "SACRED STORY INTRODUCTION" not "Sacred Story:" or "In the ancient tales...")
 `;
+
+    }
 
     // Build user prompt dynamically based on provided fields
     let userPrompt = `Journal: ${journalEntry}`;

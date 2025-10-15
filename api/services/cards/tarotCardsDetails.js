@@ -1,7 +1,7 @@
 export const tarotCardsDetail = {
     "The Fool": {
         "name": "The Fool",
-        "coreIntentions": "new beginnings, trusting process, releasing fear, innocent joy, fresh start",
+        "coreIntentions": "beginnings, trust, courage, innocence, adventure",
         "meaning": "The Fool dances at the edge of possibility, reminding us that every master was once a beginner. This card invites you to trust the wild wisdom of not knowing, for it is in the space of innocence that miracles are born.",
         "number": 0,
         "title": "Sacred Leap into Mystery",
@@ -43,7 +43,7 @@ export const tarotCardsDetail = {
     },
     "The Magician": {
         "name": "The Magician",
-        "coreIntentions": "manifesting desires, focused intention, personal power, creating reality, divine will",
+        "coreIntentions": "manifestation, will, focus, power, creation",
         "meaning": "The Magician stands as the bridge between heaven and earth, wielding the four elements with conscious intention. You hold the cosmic toolkit—now is the time to alchemize your dreams into reality through focused will.",
         "number": 1,
         "title": "Weaver of Worlds",
@@ -82,7 +82,7 @@ export const tarotCardsDetail = {
     },
     "The High Priestess": {
         "name": "The High Priestess",
-        "coreIntentions": "inner wisdom, trusting intuition, hidden knowledge, sacred mysteries, quiet knowing",
+        "coreIntentions": "intuition, wisdom, mystery, knowing, stillness",
         "meaning": "The High Priestess guards the threshold between worlds, keeper of mysteries that cannot be spoken, only known. She invites you to silence the noise and listen to the ancient wisdom that flows through your intuitive channels.",
         "number": 2,
         "title": "Guardian of the Veil",
@@ -121,7 +121,7 @@ export const tarotCardsDetail = {
     },
     "The Empress": {
         "name": "The Empress",
-        "coreIntentions": "creative abundance, self nurturing, fertile ground, natural flow, motherly comfort",
+        "coreIntentions": "abundance, nurturing, fertility, creativity, nature",
         "meaning": "The Empress embodies creation itself—lush, sensual, and endlessly abundant. She reminds you that you are nature, not separate from it, and your creative power flows as naturally as rivers to the sea.",
         "number": 3,
         "title": "Mother of Infinite Gardens",
@@ -160,7 +160,7 @@ export const tarotCardsDetail = {
     },
     "The Emperor": {
         "name": "The Emperor",
-        "coreIntentions": "stable foundation, healthy boundaries, taking charge, structured growth, protective strength",
+        "coreIntentions": "authority, structure, stability, leadership, boundaries",
         "meaning": "The Emperor transforms chaos into cosmos through the sacred architecture of order. He teaches that true authority comes not from dominance but from the wisdom to create structures that support life's flourishing.",
         "number": 4,
         "title": "Architect of Sacred Order",
@@ -197,7 +197,7 @@ export const tarotCardsDetail = {
     },
     "The Hierophant": {
         "name": "The Hierophant",
-        "coreIntentions": "spiritual guidance, seeking wisdom, traditional values, finding teachers, sacred learning",
+        "coreIntentions": "tradition, guidance, teaching, faith, wisdom",
         "meaning": "The Hierophant bridges the eternal and temporal, translating cosmic law into human understanding. This teacher appears when you're ready to understand the deeper patterns that govern both tradition and transformation.",
         "number": 5,
         "title": "Keeper of Sacred Keys",
@@ -235,7 +235,7 @@ export const tarotCardsDetail = {
     },
     "The Lovers": {
         "name": "The Lovers",
-        "coreIntentions": "conscious choice, soul connection, harmonious union, relationship healing, authentic love",
+        "coreIntentions": "choice, love, union, values, harmony",
         "meaning": "The Lovers reflect the divine union possible when we choose from the deepest truth of our being. This is the alchemy of conscious choice—where two become one while remaining beautifully, distinctly themselves.",
         "number": 6,
         "title": "Mirror of Sacred Choice",
@@ -272,7 +272,7 @@ export const tarotCardsDetail = {
     },
     "The Chariot": {
         "name": "The Chariot",
-        "coreIntentions": "inner victory, forward movement, overcoming obstacles, determined progress, self mastery",
+        "coreIntentions": "victory, will, control, determination, progress",
         "meaning": "The Chariot masters the art of aligned momentum, harnessing opposing forces into unified direction. Victory comes not from suppressing contradictions but from making them dance together toward your destination.",
         "number": 7,
         "title": "Master of Aligned Forces",
@@ -311,7 +311,7 @@ export const tarotCardsDetail = {
 
     "Strength": {
         "name": "Strength",
-        "coreIntentions": "gentle strength, patient courage, inner power, taming fear, compassionate force",
+        "coreIntentions": "courage, patience, compassion, confidence, resilience",
         "meaning": "Strength reveals the invincible power of gentleness, where the lion of our primal nature is tamed not by force but by infinite patience and love. Here, vulnerability becomes your greatest armor.",
         "number": 8,
         "title": "The Gentle Conquerer",
@@ -348,7 +348,7 @@ export const tarotCardsDetail = {
 
     "The Hermit": {
         "name": "The Hermit",
-        "coreIntentions": "soul searching, inner guidance, solitary wisdom, deep reflection, finding answers",
+        "coreIntentions": "solitude, wisdom, introspection, guidance, truth",
         "meaning": "The Hermit withdraws not from life but deeper into it, carrying a lantern lit by inner knowing. In sacred solitude, you discover that the teacher you've been seeking has been within you all along.",
         "number": 9,
         "title": "Keeper of Inner Light",
@@ -384,7 +384,7 @@ export const tarotCardsDetail = {
     },
     "Wheel of Fortune": {
         "name": "Wheel of Fortune",
-        "coreIntentions": "life cycles, turning point, divine timing, accepting change, karmic lessons",
+        "coreIntentions": "cycles, change, destiny, acceptance, flow",
         "meaning": "The Wheel of Fortune spins the cosmic web where fate and free will dance as partners. This turning point reminds you that while you cannot control the wheel's movement, you can choose how you ride its rhythms.",
         "number": 10,
         "title": "The Cosmic Spinner",
@@ -423,7 +423,7 @@ export const tarotCardsDetail = {
     },
     "Justice": {
         "name": "Justice",
-        "coreIntentions": "fair outcome, balanced decision, truth revealed, karmic justice, clear judgment",
+        "coreIntentions": "truth, fairness, balance, integrity, accountability",
         "meaning": "Justice wields the sword of truth and the scales of cosmic law, revealing that every action ripples through eternity. This is the profound balance where mercy and accountability create true harmony.",
         "number": 11,
         "title": "Keeper of Cosmic Balance",
@@ -461,7 +461,7 @@ export const tarotCardsDetail = {
     },
     "The Hanged Man": {
         "name": "The Hanged Man",
-        "coreIntentions": "sacred pause, new perspective, letting go, willing surrender, spiritual insight",
+        "coreIntentions": "surrender, patience, perspective, release, wisdom",
         "meaning": "The Hanged Man discovers enlightenment through sacred pause, finding wisdom in the space between breaths. By surrendering the need to move forward, you unlock perspectives invisible to those who rush.",
         "number": 12,
         "title": "Master of Sacred Suspension",
@@ -498,7 +498,7 @@ export const tarotCardsDetail = {
     },
     "Death": {
         "name": "Death",
-        "coreIntentions": "transformation time, necessary ending, phoenix rising, profound change, rebirth ready",
+        "coreIntentions": "transformation, endings, release, renewal, change",
         "meaning": "Death arrives not as ending but as sacred transformation, clearing space for what's waiting to be born. This is the ultimate liberation—releasing form to discover the immortal essence that you truly are.",
         "number": 13,
         "title": "The Sacred Transformer",
@@ -536,7 +536,7 @@ export const tarotCardsDetail = {
     },
     "Temperance": {
         "name": "Temperance",
-        "coreIntentions": "finding balance, patient healing, middle path, gentle blending, inner harmony",
+        "coreIntentions": "balance, patience, healing, moderation, harmony",
         "meaning": "Temperance pours the golden elixir of balance, blending opposites into a third, transcendent possibility. This is the art of sacred alchemy—finding the perfect measure that transforms lead into gold.",
         "number": 14,
         "title": "The Divine Alchemist",
@@ -574,7 +574,7 @@ export const tarotCardsDetail = {
     },
     "The Devil": {
         "name": "The Devil",
-        "coreIntentions": "breaking chains, releasing addiction, shadow work, seeing clearly, liberation calling",
+        "coreIntentions": "liberation, awareness, freedom, truth, release",
         "meaning": "The Devil illuminates the chains we forge from our own fears and desires, revealing that every prison has a door we've forgotten we can open. Liberation begins the moment you remember you hold the key.",
         "number": 15,
         "title": "Teacher of Hidden Freedom",
@@ -610,7 +610,7 @@ export const tarotCardsDetail = {
     },
     "The Tower": {
         "name": "The Tower",
-        "coreIntentions": "sudden breakthrough, divine disruption, tower falling, truth explosion, forced awakening",
+        "coreIntentions": "breakthrough, awakening, truth, liberation, change",
         "meaning": "The Tower brings lightning revelation that shatters false foundations, freeing you from prisons you didn't know you inhabited. This divine disruption clears the way for authentic reconstruction on solid ground.",
         "number": 16,
         "title": "Lightning of Liberation",
@@ -648,7 +648,7 @@ export const tarotCardsDetail = {
     },
     "The Star": {
         "name": "The Star",
-        "coreIntentions": "renewed hope, healing light, spiritual guidance, peaceful restoration, wish fulfillment",
+        "coreIntentions": "hope, healing, faith, renewal, inspiration",
         "meaning": "The Star pours healing waters from the cosmic well, reminding you that hope is not wishful thinking but a form of spiritual intelligence. After the storm, you become both the wounded and the healer.",
         "number": 17,
         "title": "Beacon of Cosmic Hope",
@@ -686,7 +686,7 @@ export const tarotCardsDetail = {
     },
     "The Moon": {
         "name": "The Moon",
-        "coreIntentions": "facing illusions, intuitive navigation, shadow integration, dream wisdom, psychic awakening",
+        "coreIntentions": "intuition, dreams, mystery, emotions, clarity",
         "meaning": "The Moon illuminates the winding path through illusion, where nothing is quite as it seems yet everything is exactly as it should be. Trust your inner compass when outer landmarks dissolve into shadow.",
         "number": 18,
         "title": "Guide Through Sacred Mystery",
@@ -723,7 +723,7 @@ export const tarotCardsDetail = {
     },
     "The Sun": {
         "name": "The Sun",
-        "coreIntentions": "radiant joy, success achieved, pure happiness, childlike wonder, vital energy",
+        "coreIntentions": "joy, success, vitality, confidence, radiance",
         "meaning": "The Sun radiates the joy of pure being, where every shadow is banished by the light of authentic self-expression. This is enlightenment with a child's heart—profound wisdom wrapped in simple delight.",
         "number": 19,
         "title": "Radiance of Pure Joy",
@@ -761,7 +761,7 @@ export const tarotCardsDetail = {
     },
     "Judgement": {
         "name": "Judgement",
-        "coreIntentions": "spiritual calling, life review, soul awakening, purpose revealed, higher calling",
+        "coreIntentions": "renewal, purpose, awakening, calling, forgiveness",
         "meaning": "Judgement sounds the cosmic call to awakening, where past, present, and future converge in a moment of profound reckoning. This is your spiritual alarm clock—time to rise and claim your highest calling.",
         "number": 20,
         "title": "The Great Awakening",
@@ -796,7 +796,7 @@ export const tarotCardsDetail = {
     },
     "The World": {
         "name": "The World",
-        "coreIntentions": "cycle completion, total fulfillment, world mastery, cosmic consciousness, infinite possibility",
+        "coreIntentions": "completion, fulfillment, wholeness, mastery, integration",
         "meaning": "The World celebrates the sacred completion where all elements dance in perfect harmony, yet hints at new spirals beginning. You have become whole by embracing every part of your journey as necessary and sacred.",
         "number": 21,
         "title": "The Cosmic Dancer",
@@ -831,7 +831,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Wands": {
         "name": "Ace of Wands",
-        "coreIntentions": "creative spark, passionate beginning, new inspiration, spiritual fire, fresh energy",
+        "coreIntentions": "inspiration, passion, creativity, energy, potential",
         "meaning": "The Ace of Wands erupts with primal creative force, a lightning bolt of pure potential seeking expression through you. This is the divine spark that sets souls ablaze with purpose and passion.",
         "number": 22,
         "title": "The Primal Spark",
@@ -866,7 +866,7 @@ export const tarotCardsDetail = {
     },
     "Two of Wands": {
         "name": "Two of Wands",
-        "coreIntentions": "future planning, bold vision, personal power, strategic choice, confident direction",
+        "coreIntentions": "planning, vision, power, choice, confidence",
         "meaning": "The Two of Wands stands at the threshold between dreaming and doing, holding the world in your hands while gazing at horizons yet unexplored. Power lies in the pause before the leap.",
         "number": 23,
         "title": "Visionary at the Threshold",
@@ -874,7 +874,7 @@ export const tarotCardsDetail = {
     },
     "Three of Wands": {
         "name": "Three of Wands",
-        "coreIntentions": "expanding horizons, leadership emerging, vision manifesting, opportunities growing, progress ahead",
+        "coreIntentions": "expansion, foresight, leadership, opportunity, progress",
         "meaning": "The Three of Wands watches ships set sail carrying your dreams toward distant shores. Your initial efforts have taken flight; now comes the art of patient expectation and expanded vision.",
         "number": 24,
         "title": "Watcher of Distant Fires",
@@ -882,7 +882,7 @@ export const tarotCardsDetail = {
     },
     "Four of Wands": {
         "name": "Four of Wands",
-        "coreIntentions": "joyful celebration, stable harmony, community blessing, achievement recognized, happy home",
+        "coreIntentions": "celebration, harmony, community, achievement, joy",
         "meaning": "The Four of Wands raises the sacred pillars of celebration, marking territory where joy has taken root and community flourishes. This is success made sweeter by sharing its fruits.",
         "number": 25,
         "title": "Guardian of Sacred Celebration",
@@ -890,7 +890,7 @@ export const tarotCardsDetail = {
     },
     "Five of Wands": {
         "name": "Five of Wands",
-        "coreIntentions": "creative conflict, healthy competition, dynamic tension, diverse perspectives, energetic challenge",
+        "coreIntentions": "competition, challenge, diversity, conflict, growth",
         "meaning": "The Five of Wands reveals creative friction where diverse energies clash and spark new possibilities. This chaos is not your enemy but the sacred fire that forges stronger solutions.",
         "number": 26,
         "title": "The Sacred Conflict",
@@ -898,7 +898,7 @@ export const tarotCardsDetail = {
     },
     "Six of Wands": {
         "name": "Six of Wands",
-        "coreIntentions": "public victory, success recognized, confidence rising, leadership acknowledged, triumph achieved",
+        "coreIntentions": "victory, recognition, confidence, success, leadership",
         "meaning": "The Six of Wands rides high on earned victory, where inner fire has manifested as outer recognition. This triumph belongs to you—wear your laurels while remembering the journey continues.",
         "number": 27,
         "title": "Bearer of Golden Victory",
@@ -906,7 +906,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Wands": {
         "name": "Seven of Wands",
-        "coreIntentions": "standing ground, defending position, courage tested, maintaining strength, protective stance",
+        "coreIntentions": "courage, defense, perseverance, strength, conviction",
         "meaning": "The Seven of Wands stands firm on the mountain you've climbed, defending your position against those who would claim your ground. Courage means standing for your truth when standing alone.",
         "number": 28,
         "title": "Defender of Sacred Ground",
@@ -914,7 +914,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Wands": {
         "name": "Eight of Wands",
-        "coreIntentions": "swift movement, rapid progress, quick communication, energy flowing, momentum building",
+        "coreIntentions": "movement, communication, momentum, action, flow",
         "meaning": "The Eight of Wands accelerates like arrows loosed from the bow of divine timing, carrying your intentions swiftly toward their target. Movement happens now—trust the momentum you've created.",
         "number": 29,
         "title": "Arrows of Swift Destiny",
@@ -922,7 +922,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Wands": {
         "name": "Nine of Wands",
-        "coreIntentions": "resilient persistence, final push, weathered strength, boundary setting, nearly there",
+        "coreIntentions": "resilience, persistence, boundaries, strength, endurance",
         "meaning": "The Nine of Wands embodies the warrior who still stands despite every battle scar, knowing one more test awaits. Your strength lies not in being unbroken but in continuing despite the breaks.",
         "number": 30,
         "title": "The Resilient Guardian",
@@ -930,7 +930,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Wands": {
         "name": "Ten of Wands",
-        "coreIntentions": "heavy burden, responsibility accepted, completion near, maximum effort, temporary overwhelm",
+        "coreIntentions": "responsibility, determination, effort, completion, perseverance",
         "meaning": "The Ten of Wands carries the weight of success, where achievement brings responsibility that can either burden or teach you the art of delegation. True mastery knows when to share the load.",
         "number": 31,
         "title": "Bearer of Sacred Burdens",
@@ -938,7 +938,7 @@ export const tarotCardsDetail = {
     },
     "Page of Wands": {
         "name": "Page of Wands",
-        "coreIntentions": "enthusiastic exploration, creative messages, adventurous spirit, youthful energy, passionate discovery",
+        "coreIntentions": "enthusiasm, exploration, discovery, adventure, creativity",
         "meaning": "The Page of Wands arrives as a dancing flame of possibility, bringing messages that ignite your creative spirit. This eager student of fire reminds you that enthusiasm is its own form of wisdom.",
         "number": 32,
         "title": "Messenger of Sacred Fire",
@@ -972,7 +972,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Wands": {
         "name": "Knight of Wands",
-        "coreIntentions": "passionate pursuit, adventurous action, impulsive courage, fiery charm, bold movement",
+        "coreIntentions": "passion, action, adventure, courage, confidence",
         "meaning": "The Knight of Wands charges forward on a steed of pure passion, transforming inspiration into action with fearless confidence. This warrior of fire knows that fortune favors the bold.",
         "number": 33,
         "title": "Warrior of Sacred Passion",
@@ -1006,7 +1006,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Wands": {
         "name": "Queen of Wands",
-        "coreIntentions": "confident leadership, warm authority, creative mastery, magnetic presence, generous spirit",
+        "coreIntentions": "confidence, warmth, determination, charisma, creativity",
         "meaning": "The Queen of Wands radiates magnetic confidence, ruling her realm with warmth that nurtures and fire that inspires. She shows you how to be both torch and hearth—illuminating and warming in equal measure.",
         "number": 34,
         "title": "Sovereign of Sacred Flame",
@@ -1040,7 +1040,7 @@ export const tarotCardsDetail = {
     },
     "King of Wands": {
         "name": "King of Wands",
-        "coreIntentions": "visionary leadership, inspired authority, natural charisma, entrepreneurial spirit, motivating others",
+        "coreIntentions": "vision, leadership, entrepreneurship, charisma, inspiration",
         "meaning": "The King of Wands transforms vision into empire through the marriage of inspiration and discipline. This master of fire demonstrates how to lead with passion while maintaining the wisdom to direct its flow.",
         "number": 35,
         "title": "Master of Sacred Vision",
@@ -1074,7 +1074,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Cups": {
         "name": "Ace of Cups",
-        "coreIntentions": "emotional beginning, love flowing, heart opening, intuitive gifts, spiritual awakening",
+        "coreIntentions": "love, emotion, intuition, spirituality, new feelings",
         "meaning": "The Ace of Cups overflows with the nectar of divine love, offering you a chalice filled with infinite emotional and spiritual possibility. Drink deeply—this is the water that transforms deserts into gardens.",
         "number": 36,
         "title": "The Divine Chalice",
@@ -1109,7 +1109,7 @@ export const tarotCardsDetail = {
     },
     "Two of Cups": {
         "name": "Two of Cups",
-        "coreIntentions": "soul recognition, mutual attraction, emotional balance, partnership forming, love connection",
+        "coreIntentions": "connection, partnership, unity, attraction, balance",
         "meaning": "The Two of Cups creates sacred space where two souls recognize themselves in each other's eyes. This divine mirror reflects not just romance but the profound meeting of any two hearts in truth.",
         "number": 37,
         "title": "The Sacred Meeting",
@@ -1143,7 +1143,7 @@ export const tarotCardsDetail = {
     },
     "Three of Cups": {
         "name": "Three of Cups",
-        "coreIntentions": "friendship celebration, joyful gathering, community support, shared happiness, social harmony",
+        "coreIntentions": "friendship, celebration, community, joy, creativity",
         "meaning": "The Three of Cups raises a toast to the divine trinity of friendship, where individual streams merge into a river of shared joy. Community becomes the chalice that holds more than any single cup.",
         "number": 38,
         "title": "Celebration of Sacred Bonds",
@@ -1151,7 +1151,7 @@ export const tarotCardsDetail = {
     },
     "Four of Cups": {
         "name": "Four of Cups",
-        "coreIntentions": "emotional withdrawal, contemplation needed, reevaluating options, temporary apathy, inner processing",
+        "coreIntentions": "contemplation, reevaluation, meditation, introspection, patience",
         "meaning": "The Four of Cups sits in contemplative withdrawal, where the soul reassesses its emotional landscape before accepting new offerings. Sometimes the greatest gift is the pause before receiving.",
         "number": 39,
         "title": "The Sacred Contemplation",
@@ -1159,7 +1159,7 @@ export const tarotCardsDetail = {
     },
     "Five of Cups": {
         "name": "Five of Cups",
-        "coreIntentions": "processing grief, accepting loss, emotional release, finding hope, partial healing",
+        "coreIntentions": "forgiveness, healing, acceptance, hope, release",
         "meaning": "The Five of Cups honors the sacred grief that waters future joy, teaching that loss and gain dance together in the human heart. What remains standing often holds more than what has fallen.",
         "number": 40,
         "title": "Teacher of Sacred Grief",
@@ -1167,7 +1167,7 @@ export const tarotCardsDetail = {
     },
     "Six of Cups": {
         "name": "Six of Cups",
-        "coreIntentions": "childhood healing, innocent joy, nostalgic comfort, karmic return, sweet memories",
+        "coreIntentions": "innocence, joy, sweetness, playfulness, kindness",
         "meaning": "The Six of Cups opens the treasure chest of memory where innocence is preserved in amber, offering its sweetness to heal present wounds. The inner child holds medicine the adult has forgotten.",
         "number": 41,
         "title": "Keeper of Sweet Memory",
@@ -1175,7 +1175,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Cups": {
         "name": "Seven of Cups",
-        "coreIntentions": "emotional choices, imagination active, wishful thinking, multiple options, clarity needed",
+        "coreIntentions": "choices, imagination, dreams, clarity, focus",
         "meaning": "The Seven of Cups presents a mystical array of possibilities, each chalice holding a different dream or illusion. Wisdom lies in discerning which cups hold nectar and which hold only mist.",
         "number": 42,
         "title": "Weaver of Sacred Dreams",
@@ -1183,7 +1183,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Cups": {
         "name": "Eight of Cups",
-        "coreIntentions": "moving forward, leaving behind, spiritual quest, emotional evolution, necessary departure",
+        "coreIntentions": "letting go, seeking, journey, courage, growth",
         "meaning": "The Eight of Cups turns away from what no longer nourishes, embarking on a pilgrimage toward deeper truth. This departure is not defeat but the courage to seek the ocean when pools no longer satisfy.",
         "number": 43,
         "title": "Pilgrim of Deeper Waters",
@@ -1191,7 +1191,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Cups": {
         "name": "Nine of Cups",
-        "coreIntentions": "emotional satisfaction, contentment found, wishes granted, personal happiness, grateful heart",
+        "coreIntentions": "contentment, satisfaction, gratitude, happiness, fulfillment",
         "meaning": "The Nine of Cups sits in the glow of wishes fulfilled, reminding you that contentment is both destination and journey. This is the smile of one who has learned the alchemy of gratitude.",
         "number": 44,
         "title": "Master of Heart's Desire",
@@ -1200,7 +1200,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Cups": {
         "name": "Ten of Cups",
-        "coreIntentions": "family harmony, emotional fulfillment, lasting happiness, perfect contentment, rainbow blessings",
+        "coreIntentions": "harmony, happiness, family, fulfillment, love",
         "meaning": "The Ten of Cups paints the rainbow bridge connecting hearts in perfect harmony, where love has created its own kingdom. This is happiness that ripples outward, blessing all it touches.",
         "number": 45,
         "title": "The Rainbow's Promise",
@@ -1234,7 +1234,7 @@ export const tarotCardsDetail = {
     },
     "Page of Cups": {
         "name": "Page of Cups",
-        "coreIntentions": "intuitive messages, emotional learning, creative beginning, sensitive awareness, gentle start",
+        "coreIntentions": "creativity, intuition, sensitivity, wonder, openness",
         "meaning": "The Page of Cups arrives bearing messages from the realm of feeling, where intuition speaks in symbols and synchronicities. This gentle messenger teaches that sensitivity is a superpower.",
         "number": 46,
         "title": "Messenger of Sacred Feeling",
@@ -1268,7 +1268,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Cups": {
         "name": "Knight of Cups",
-        "coreIntentions": "romantic pursuit, emotional quest, following heart, creative vision, idealistic journey",
+        "coreIntentions": "romance, charm, imagination, following heart, idealism",
         "meaning": "The Knight of Cups rides on waves of romantic idealism, bearing the grail of emotional truth with chivalrous devotion. This quester seeks not just love but the sacred in every connection.",
         "number": 47,
         "title": "Quester of Sacred Hearts",
@@ -1302,7 +1302,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Cups": {
         "name": "Queen of Cups",
-        "coreIntentions": "emotional mastery, intuitive wisdom, compassionate leadership, nurturing presence, deep feeling",
+        "coreIntentions": "compassion, intuition, emotional balance, nurturing, wisdom",
         "meaning": "The Queen of Cups reigns over the ocean of emotion with compassionate wisdom, holding space for all feelings without drowning in any. She shows how to be deeply empathic while maintaining your sacred center.",
         "number": 48,
         "title": "Oracle of Sacred Waters",
@@ -1337,7 +1337,7 @@ export const tarotCardsDetail = {
     },
     "King of Cups": {
         "name": "King of Cups",
-        "coreIntentions": "emotional maturity, balanced feelings, wise counsel, calm mastery, diplomatic strength",
+        "coreIntentions": "emotional balance, compassion, wisdom, diplomacy, calm",
         "meaning": "The King of Cups masters the art of emotional leadership, navigating stormy seas with calm authority. This sovereign shows how to rule the heart's realm with both depth and stability.",
         "number": 49,
         "title": "Navigator of Sacred Depths",
@@ -1371,7 +1371,7 @@ export const tarotCardsDetail = {
     },
     "Ace of Swords": {
         "name": "Ace of Swords",
-        "coreIntentions": "mental clarity, breakthrough thinking, truth cutting, new understanding, clear communication",
+        "coreIntentions": "clarity, truth, breakthrough, insight, focus",
         "meaning": "The Ace of Swords cuts through confusion with the blade of absolute clarity, offering you the power to separate truth from illusion with a single stroke. This is the mind's enlightenment moment.",
         "number": 50,
         "title": "Blade of Pure Truth",
@@ -1405,7 +1405,7 @@ export const tarotCardsDetail = {
     },
     "Two of Swords": {
         "name": "Two of Swords",
-        "coreIntentions": "difficult choice, mental balance, blocked vision, indecision resolved, seeing clearly",
+        "coreIntentions": "decision, balance, peace, clarity, wisdom",
         "meaning": "The Two of Swords balances on the knife's edge of decision, where the blindfold of impartiality allows inner wisdom to weigh options without prejudice. Peace exists in the pause before choice.",
         "number": 51,
         "title": "Guardian of Sacred Balance",
@@ -1413,7 +1413,7 @@ export const tarotCardsDetail = {
     },
     "Three of Swords": {
         "name": "Three of Swords",
-        "coreIntentions": "heartbreak healing, necessary pain, emotional truth, sorrow releasing, wound cleansing",
+        "coreIntentions": "healing, release, forgiveness, acceptance, understanding",
         "meaning": "The Three of Swords pierces the heart with truth that heals through hurting, revealing that some pain is the price of clarity. This sacred wound creates space for more authentic love.",
         "number": 52,
         "title": "The Sacred Piercing",
@@ -1447,7 +1447,7 @@ export const tarotCardsDetail = {
     },
     "Four of Swords": {
         "name": "Four of Swords",
-        "coreIntentions": "mental rest, peaceful recovery, contemplation time, healing pause, quiet restoration",
+        "coreIntentions": "rest, peace, recovery, contemplation, renewal",
         "meaning": "The Four of Swords creates sanctuary for the battle-weary mind, where rest becomes an act of wisdom rather than surrender. In stillness, the sword of consciousness resharpens itself.",
         "number": 53,
         "title": "Sanctuary of Sacred Rest",
@@ -1455,7 +1455,7 @@ export const tarotCardsDetail = {
     },
     "Five of Swords": {
         "name": "Five of Swords",
-        "coreIntentions": "conflict resolution, unfair situation, empty victory, choosing integrity, learning humility",
+        "coreIntentions": "integrity, wisdom, humility, acceptance, learning",
         "meaning": "The Five of Swords questions the price of victory when winning costs more than losing would have. This teacher arrives when you must choose between being right and being wise.",
         "number": 54,
         "title": "Teacher of Hollow Victory",
@@ -1463,7 +1463,7 @@ export const tarotCardsDetail = {
     },
     "Six of Swords": {
         "name": "Six of Swords",
-        "coreIntentions": "mental transition, moving forward, leaving troubles, calmer waters, gradual improvement",
+        "coreIntentions": "progress, hope, transition, peace, healing",
         "meaning": "The Six of Swords navigates the crossing from turbulent to calmer waters, carrying only the wisdom earned from storms. This journey requires leaving some baggage on the shore behind you.",
         "number": 55,
         "title": "Ferryman to Calmer Shores",
@@ -1471,7 +1471,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Swords": {
         "name": "Seven of Swords",
-        "coreIntentions": "strategic thinking, independent action, clever solutions, calculated risk, mental agility",
+        "coreIntentions": "strategy, independence, cleverness, wisdom, resourcefulness",
         "meaning": "The Seven of Swords masters the art of strategic thinking, knowing when to move in shadows and when to stand in light. This is not deception but the wisdom of choosing your revelations.",
         "number": 56,
         "title": "Master of Sacred Strategy",
@@ -1505,7 +1505,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Swords": {
         "name": "Eight of Swords",
-        "coreIntentions": "mental freedom, limiting beliefs, perceived trap, victim mentality, breaking free",
+        "coreIntentions": "freedom, clarity, empowerment, courage, release",
         "meaning": "The Eight of Swords reveals prisons built from thoughts, where the binding ropes are beliefs you've forgotten you can untie. Freedom begins the moment you realize the cage has no lock.",
         "number": 57,
         "title": "Liberator of Mental Chains",
@@ -1513,7 +1513,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Swords": {
         "name": "Nine of Swords",
-        "coreIntentions": "releasing anxiety, nightmare ending, mental anguish, worry dissolving, dawn approaching",
+        "coreIntentions": "peace, release, faith, calm, dawn",
         "meaning": "The Nine of Swords sits vigil with the anxious mind in its darkest hour, where fears multiply in the echo chamber of night. Dawn always comes for those who remember they survived every previous darkness.",
         "number": 58,
         "title": "Guardian Through Dark Night",
@@ -1521,7 +1521,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Swords": {
         "name": "Ten of Swords",
-        "coreIntentions": "rock bottom, painful ending, complete release, nowhere but up, transformation ready",
+        "coreIntentions": "acceptance, renewal, surrender, rebirth, hope",
         "meaning": "The Ten of Swords marks the death of a mental paradigm, where total defeat becomes the ground for total transformation. Rock bottom is solid foundation for rebuilding with wisdom.",
         "number": 59,
         "title": "Dawn After Darkest Night",
@@ -1555,7 +1555,7 @@ export const tarotCardsDetail = {
     },
     "Page of Swords": {
         "name": "Page of Swords",
-        "coreIntentions": "curious mind, truth seeking, mental agility, clear communication, vigilant awareness",
+        "coreIntentions": "curiosity, truth, communication, alertness, clarity",
         "meaning": "The Page of Swords wields curiosity like a blade, cutting through assumptions with questions that reveal hidden truths. This messenger brings news that challenges you to think in new ways.",
         "number": 60,
         "title": "Seeker of Sharp Truths",
@@ -1589,7 +1589,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Swords": {
         "name": "Knight of Swords",
-        "coreIntentions": "swift action, direct communication, ambitious drive, quick thinking, determined pursuit",
+        "coreIntentions": "action, directness, courage, focus, determination",
         "meaning": "The Knight of Swords charges into battle for truth with the speed of thought itself, cutting through deception with fierce intelligence. This warrior of the mind knows that sometimes swift action prevents greater harm.",
         "number": 61,
         "title": "Champion of Swift Justice",
@@ -1624,7 +1624,7 @@ export const tarotCardsDetail = {
     "Queen of Swords": {
 
         "name": "Queen of Swords",
-        "coreIntentions": "clear boundaries, direct wisdom, independent thinking, experienced judgment, mental mastery",
+        "coreIntentions": "boundaries, wisdom, independence, clarity, discernment",
         "meaning": "The Queen of Swords sees through veils with perceptive clarity, wielding truth with the precision of a surgeon and the grace of a diplomat. Her boundaries are not walls but sacred definitions.",
         "number": 62,
         "title": "Keeper of Crystal Clarity",
@@ -1659,7 +1659,7 @@ export const tarotCardsDetail = {
     "King of Swords": {
 
         "name": "King of Swords",
-        "coreIntentions": "intellectual authority, objective truth, fair leadership, strategic thinking, wise command",
+        "coreIntentions": "authority, truth, fairness, wisdom, leadership",
         "meaning": "The King of Swords rules the realm of mind with ethical authority, where justice and wisdom unite in service of truth. This sovereign shows how to wield intellectual power with moral clarity.",
         "number": 63,
         "title": "Sovereign of Sacred Justice",
@@ -1694,7 +1694,7 @@ export const tarotCardsDetail = {
     "Ace of Pentacles": {
 
         "name": "Ace of Pentacles",
-        "coreIntentions": "material opportunity, prosperity beginning, tangible manifestation, earthly blessings, golden seeds",
+        "coreIntentions": "opportunity, prosperity, manifestation, abundance, grounding",
         "meaning": "The Ace of Pentacles offers a golden seed pregnant with material and spiritual abundance. Plant it with intention, for this gift from earth's treasury will grow into whatever you nurture it to become.",
         "number": 64,
         "title": "The Golden Seed",
@@ -1730,7 +1730,7 @@ export const tarotCardsDetail = {
     "Two of Pentacles": {
 
         "name": "Two of Pentacles",
-        "coreIntentions": "juggling priorities, finding balance, flexible approach, resource management, dynamic flow",
+        "coreIntentions": "balance, flexibility, adaptation, ease, resourcefulness",
         "meaning": "The Two of Pentacles dances with change, juggling resources with the grace of one who knows that balance is not stillness but constant, conscious adjustment. Master the rhythm of give and take.",
         "number": 65,
         "title": "Dancer of Sacred Balance",
@@ -1739,7 +1739,7 @@ export const tarotCardsDetail = {
     "Three of Pentacles": {
 
         "name": "Three of Pentacles",
-        "coreIntentions": "team collaboration, skill recognition, quality work, apprentice learning, creative partnership",
+        "coreIntentions": "collaboration, skill, mastery, teamwork, quality",
         "meaning": "The Three of Pentacles builds cathedrals through collaboration, where individual mastery serves the collective vision. This is the sacred mathematics where one plus one plus one equals infinity.",
         "number": 66,
         "title": "Master of Sacred Craft",
@@ -1748,7 +1748,7 @@ export const tarotCardsDetail = {
     "Four of Pentacles": {
 
         "name": "Four of Pentacles",
-        "coreIntentions": "financial security, material control, resource protection, stable foundation, conscious possession",
+        "coreIntentions": "security, stability, conservation, grounding, boundaries",
         "meaning": "The Four of Pentacles grips tightly to accumulated treasure, teaching the delicate balance between saving and hoarding. Security becomes prison when fear of loss overshadows joy of having.",
         "number": 67,
         "title": "Guardian of the Treasure",
@@ -1756,7 +1756,7 @@ export const tarotCardsDetail = {
     },
     "Five of Pentacles": {
         "name": "Five of Pentacles",
-        "coreIntentions": "overcoming hardship, seeking help, spiritual richness, material challenge, finding support",
+        "coreIntentions": "resilience, faith, support, recovery, strength",
         "meaning": "The Five of Pentacles illuminates the sanctuary glowing just beyond the storm, reminding you that help exists for those willing to see it. In your darkest winter, warmth is closer than you think.",
         "number": 68,
         "title": "Light Beyond the Storm",
@@ -1764,7 +1764,7 @@ export const tarotCardsDetail = {
     },
     "Six of Pentacles": {
         "name": "Six of Pentacles",
-        "coreIntentions": "generous sharing, fair exchange, balanced giving, charity flowing, reciprocal blessing",
+        "coreIntentions": "generosity, sharing, balance, fairness, charity",
         "meaning": "The Six of Pentacles balances the scales of giving and receiving, understanding that generosity creates the current in which abundance flows. This is karma made visible through conscious exchange.",
         "number": 69,
         "title": "Keeper of Sacred Exchange",
@@ -1772,7 +1772,7 @@ export const tarotCardsDetail = {
     },
     "Seven of Pentacles": {
         "name": "Seven of Pentacles",
-        "coreIntentions": "patient investment, long-term vision, evaluating progress, sustainable growth, harvest coming",
+        "coreIntentions": "patience, investment, perseverance, trust, growth",
         "meaning": "The Seven of Pentacles pauses in the garden to assess growth, knowing that some harvests require patience beyond a single season. This is the wisdom of tending what takes time to ripen.",
         "number": 70,
         "title": "Gardener of Patient Wealth",
@@ -1780,7 +1780,7 @@ export const tarotCardsDetail = {
     },
     "Eight of Pentacles": {
         "name": "Eight of Pentacles",
-        "coreIntentions": "dedicated practice, skill mastery, quality focus, apprentice discipline, craftsman dedication",
+        "coreIntentions": "dedication, mastery, practice, focus, craft",
         "meaning": "The Eight of Pentacles transforms work into meditation, where repetition becomes refinement and practice becomes prayer. This is mastery earned one careful stroke at a time.",
         "number": 71,
         "title": "The Sacred Apprentice",
@@ -1788,7 +1788,7 @@ export const tarotCardsDetail = {
     },
     "Nine of Pentacles": {
         "name": "Nine of Pentacles",
-        "coreIntentions": "earned luxury, self sufficiency, refined success, independent wealth, graceful abundance",
+        "coreIntentions": "independence, abundance, self-reliance, grace, achievement",
         "meaning": "The Nine of Pentacles dwells in the garden of self-sufficiency, where disciplined effort has bloomed into graceful abundance. This is wealth that includes but transcends material possessions.",
         "number": 72,
         "title": "Sovereign of Self-Made Grace",
@@ -1796,7 +1796,7 @@ export const tarotCardsDetail = {
     },
     "Ten of Pentacles": {
         "name": "Ten of Pentacles",
-        "coreIntentions": "lasting legacy, generational wealth, family success, material mastery, permanent achievement",
+        "coreIntentions": "legacy, wealth, stability, tradition, success",
         "meaning": "The Ten of Pentacles builds legacy that transcends generations, where wealth becomes wisdom passed through bloodlines and chosen families. This is abundance that outlives its creators.",
         "number": 73,
         "title": "Architect of Living Legacy",
@@ -1830,7 +1830,7 @@ export const tarotCardsDetail = {
     },
     "Page of Pentacles": {
         "name": "Page of Pentacles",
-        "coreIntentions": "practical learning, steady progress, grounded approach, new skills, material beginnings",
+        "coreIntentions": "learning, practicality, dedication, growth, focus",
         "meaning": "The Page of Pentacles studies the book of earth with devoted attention, finding magic in the practical and sacred in the mundane. This student knows that mastery begins with beginner's mind.",
         "number": 74,
         "title": "Student of Earthly Magic",
@@ -1864,7 +1864,7 @@ export const tarotCardsDetail = {
     },
     "Knight of Pentacles": {
         "name": "Knight of Pentacles",
-        "coreIntentions": "methodical progress, reliable effort, patient work, steady advancement, persistent dedication",
+        "coreIntentions": "persistence, reliability, patience, determination, progress",
         "meaning": "The Knight of Pentacles advances with the patience of mountains and the persistence of rivers carving canyons. This steady warrior proves that slow and steady not only finishes but masters the race.",
         "number": 75,
         "title": "Guardian of Steady Progress",
@@ -1898,7 +1898,7 @@ export const tarotCardsDetail = {
     },
     "Queen of Pentacles": {
         "name": "Queen of Pentacles",
-        "coreIntentions": "practical nurturing, abundant provision, earthly wisdom, material comfort, grounded care",
+        "coreIntentions": "nurturing, abundance, practicality, generosity, comfort",
         "meaning": "The Queen of Pentacles creates abundance through nurturing, transforming resources into comfort and security for all in her realm. She shows that practical magic is the most powerful spell.",
         "number": 76,
         "title": "Mother of Abundant Earth",
@@ -1932,7 +1932,7 @@ export const tarotCardsDetail = {
     },
     "King of Pentacles": {
         "name": "King of Pentacles",
-        "coreIntentions": "material mastery, wealth consciousness, successful leadership, established prosperity, generous authority",
+        "coreIntentions": "mastery, prosperity, leadership, generosity, success",
         "meaning": "The King of Pentacles transforms vision into empire through patient cultivation and wise investment. This master of manifestation shows that true wealth serves rather than enslaves.",
         "number": 77,
         "title": "Master of Manifested Wealth",
