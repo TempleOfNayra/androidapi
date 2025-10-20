@@ -1,65 +1,58 @@
+import { tarotCardsDetail } from './cards/tarotCardsDetails.js';
+import { tarotCardsDetailEs } from './cards/tarotCardsDetails_es.js';
+import { tarotCardsDetailFr } from './cards/tarotCardsDetails_fr.js';
+import { tarotCardsDetailPt } from './cards/tarotCardsDetails_pt.js';
+import { tarotCardsDetailHi } from './cards/tarotCardsDetails_hi.js';
+import { tarotCardsDetailFa } from './cards/tarotCardsDetails_fa.js';
+import { animalCardsDetail } from './cards/animalCardsDetails.js';
+import { hinduDeitiesDetail } from './cards/HinduDeities.js';
+import { saintsCardDetails } from './cards/saintsCardsDetail.js';
+import { symbolCards } from './cards/symbolCardsDetails.js';
+import { orixasDetail } from "./cards/OrixasDetail.js";
 import {symbolTypes} from "../symbol_types.js";
 
-export const getCardsDetail = async (type, language, flow) => {
-    try {
-        if (language) {
-            language = language.toLowerCase();
-        }
+export const getCardsDetail = (type, language, flow) => {
+    if (language) {
+        language = language.toLowerCase();
+    }
 
-        if (type === symbolTypes.tarot || type === symbolTypes.rws) {
-            if (language === 'es') {
-                const module = await import('./cards/tarotCardsDetails_es.js');
-                return module.tarotCardsDetailEs;
-            }
-            if (language === 'pt') {
-                const module = await import('./cards/tarotCardsDetails_pt.js');
-                return module.tarotCardsDetailPt;
-            }
-            if (language === 'fa') {
-                const module = await import('./cards/tarotCardsDetails_fa.js');
-                return module.tarotCardsDetailFa;
-            }
-            if (language === 'hi') {
-                const module = await import('./cards/tarotCardsDetails_hi.js');
-                return module.tarotCardsDetailHi;
-            }
-            if (language === 'fr') {
-                const module = await import('./cards/tarotCardsDetails_fr.js');
-                return module.tarotCardsDetailFr;
-            }
-            const module = await import('./cards/tarotCardsDetails.js');
-            return module.tarotCardsDetail;
+    if (type === symbolTypes.tarot || type === symbolTypes.rws) {
+        if (language === 'es') {
+            return tarotCardsDetailEs;
         }
-
-        if (type === symbolTypes.animals) {
-            const module = await import('./cards/animalCardsDetails.js');
-            return module.animalCardsDetail;
+        if (language === 'pt') {
+            return tarotCardsDetailPt;
         }
-
-        if (type === symbolTypes.hindu) {
-            const module = await import('./cards/HinduDeities.js');
-            return module.hinduDeitiesDetail;
+        if (language === 'fa') {
+            return tarotCardsDetailFa;
         }
-
-        if (type === symbolTypes.symbols) {
-            const module = await import('./cards/symbolCardsDetails.js');
-            return module.symbolCards;
+        if (language === 'hi') {
+            return tarotCardsDetailHi;
         }
-
-        if (type === symbolTypes.orixas) {
-            const module = await import('./cards/OrixasDetail.js');
-            return module.orixasDetail;
+        if (language === 'fr') {
+            return tarotCardsDetailFr;
         }
+        return tarotCardsDetail;
+    }
 
-        if (type === symbolTypes.saints) {
-            const module = await import('./cards/saintsCardsDetail.js');
-            return module.saintsCardDetails;
-        }
+    if (type === symbolTypes.animals) {
+        return animalCardsDetail;
+    }
 
-        throw new Error(`Unknown symbology type: ${type}`);
-    } catch (error) {
-        console.error('Error loading cards:', error);
-        throw error;
+    if (type === symbolTypes.hindu) {
+        return hinduDeitiesDetail;
+    }
+
+    if (type === symbolTypes.symbols) {
+        return symbolCards;
+    }
+
+    if (type === symbolTypes.orixas) {
+        return orixasDetail;
+    }
+
+    if (type === symbolTypes.saints) {
+        return saintsCardDetails;
     }
 }
 

@@ -31,7 +31,7 @@ const completeMeaningForCard = async (language) => {
 
 export const getCardDetail = async (cardType, cardName, language, flow) => {
     try {
-        const allCards = await getCardsDetail(cardType, language);
+        const allCards = getCardsDetail(cardType, language);
         const card = allCards[cardName];
         const detail =  {
             name: cardName,
@@ -68,8 +68,8 @@ export const getCardDetail = async (cardType, cardName, language, flow) => {
     }
 }
 
-export const getAvailableCards = async (cardType, language='en') => {
-    const allCards = await getCardsDetail(cardType, language);
+export const getAvailableCards = (cardType, language='en') => {
+    const allCards = getCardsDetail(cardType, language);
     // console.log(allCards);
     if (cardType === symbolTypes.rws || cardType === symbolTypes.tarot) {
         return Object.entries(allCards)

@@ -29,15 +29,15 @@ export default async function handler(req, res) {
             const symbologyLower = symbology.toLowerCase();
 
             if (symbologyLower === symbolTypes.animals) {
-                const cards = await getAvailableCards(symbolTypes.animals, language);
+                const cards = getAvailableCards(symbolTypes.animals, language);
                 return res.status(200).json(cards);
             }
             if (symbologyLower === symbolTypes.tarot) {
-                const cards = await getAvailableCards(symbolTypes.tarot, language);
+                const cards = getAvailableCards(symbolTypes.tarot, language);
                 return res.status(200).json(cards.filter(card => !card.name.includes('Reversed')));
             }
 
-            const cards = await getAvailableCards(symbologyLower, language);
+            const cards = getAvailableCards(symbologyLower, language);
             return res.status(200).json(cards);
 
             // if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
