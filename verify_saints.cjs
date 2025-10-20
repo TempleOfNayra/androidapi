@@ -1,4 +1,6 @@
-{
+const fs = require('fs');
+
+const expectedSaints = {
   "St. Francis of Assisi": "peace, simplicity, joy, creation, detachment",
   "Prophet Moses": "liberation, leadership, divine law, deliverance",
   "St. Teresa of Ávila": "contemplation, soul depths, union, reform",
@@ -74,4 +76,37 @@
   "St. Isidore the Farmer": "work, patience, trust",
   "St. Martha of Bethany": "hospitality, service, peace, discernment",
   "St. Homobonus": "integrity, honesty, charity"
+};
+
+const fileContent = fs.readFileSync('./api/services/cards/saintsCardsDetail.js', 'utf8');
+const discrepancies = [];
+
+for (const [name, expectedIntention] of Object.entries(expectedSaints)) {
+  const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp('"name":\\s*"' + escapedName + '"[^}]*"coreIntentions":\\s*"([^"]*)"', 'i');
+  const match = fileContent.match(regex);
+  
+  if (!match) {
+    discrepancies.push({name, expected: expectedIntention, actual: 'NOT FOUND'});
+  } else {
+    const actualIntention = match[1];
+    if (actualIntention !== expectedIntention) {
+      discrepancies.push({name, expected: expectedIntention, actual: actualIntention});
+    }
+  }
+}
+
+console.log('Total saints to check:', Object.keys(expectedSaints).length);
+console.log('Discrepancies found:', discrepancies.length);
+
+if (discrepancies.length > 0) {
+  console.log('\nMismatches:\n');
+  discrepancies.forEach(d => {
+    console.log(d.name);
+    console.log('  Expected:', d.expected);
+    console.log('  Actual:  ', d.actual);
+    console.log('');
+  });
+} else {
+  console.log('\n✅ All saints match perfectly!');
 }

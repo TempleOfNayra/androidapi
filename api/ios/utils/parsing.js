@@ -28,7 +28,13 @@ export function parseInterpretationSections(text) {
     if (sacredMatch) sections.sacredStoryIntroduction = sacredMatch[1].trim();
     if (interpretationMatch) sections.interpretation = interpretationMatch[1].trim();
     if (wisdomMatch) sections.wisdomTeaching = wisdomMatch[1].trim();
-    if (integrationMatch) sections.integration = integrationMatch[1].trim();
+    if (integrationMatch) {
+        sections.integration = integrationMatch[1].trim();
+        // Remove surrounding quotes if present
+        if (sections.integration.startsWith('"') && sections.integration.endsWith('"')) {
+            sections.integration = sections.integration.slice(1, -1);
+        }
+    }
     if (blessingMatch) sections.closingBlessing = blessingMatch[1].trim();
     if (inspirationMatch) {
         // Remove surrounding quotes from daily inspiration if present

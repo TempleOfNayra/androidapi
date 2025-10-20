@@ -32,6 +32,7 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
             nayraQuote: card.nayraQuote,
             nextPrompt: card.nextPrompt,
             isMajor: card.suit === "MajorArcana",
+            tName: card.tarot,
             coreIntention: card.coreIntentions || card.coreMeaning
         }
         console.log('if flow', flow);

@@ -27,7 +27,7 @@ function getSpiritualityDescription(level) {
 
 import { llmRouter } from '../../handlers/llmRouter.js';
 
-export async function getInterpretation(params) {
+export async function               getInterpretation(params) {
     const {
         card,
         symbology,

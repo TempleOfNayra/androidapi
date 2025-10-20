@@ -64,8 +64,6 @@ export default async function handler(req, res) {
             journalEntryLength: journalEntry?.length || 0
         });
 
-
-
         // Use first card if multiple are provided
         const card = Array.isArray(cards) ? cards[0] : cards;
 
@@ -172,7 +170,7 @@ export default async function handler(req, res) {
                 practice: sections.integration || "",
 
                 blessingTitle: "",
-                closingBlessing: sections.closingBlessing || "",
+                // closingBlessing: sections.closingBlessing || "",
                 closingStatement: sections.closingStatement || ""
             }
         };
