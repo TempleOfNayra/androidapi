@@ -50,7 +50,8 @@ export default async function handler(req, res) {
                 symbology = symbolTypes.tarot;
             }
 
-            return res.status(200).json({...getCardDetail(symbology, name, language, flow), symbology});
+            const cardDetail = await getCardDetail(symbology, name, language, flow);
+            return res.status(200).json({...cardDetail, symbology});
         }
 
         if (what === 'voice') {

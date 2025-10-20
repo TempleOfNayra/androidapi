@@ -1,22 +1,35 @@
 import {getCardsDetail} from './cardsDetail.js';
 import {symbolTypes} from "../symbol_types.js";
-import {tarotCardsCompleteMeaningEn} from "./cards/tarotCardsMeaningComplete_en.js";
-import {tarotCardsCompleteMeaningEs} from "./cards/tarotCardsMeaningComplete_es.js";
-import {tarotCardsCompleteMeaningPt} from "./cards/tarotCardsMeaningComplete_pt.js";
-import {tarotCardsCompleteMeaningFa} from "./cards/tarotCardsMeaningComplete_fa.js";
-import {tarotCardsCompleteMeaningHi} from "./cards/tarotCardsMeaningComplete_hi.js";
-import {tarotCardsCompleteMeaningFr} from "./cards/tarotCardsMeaningComplete_fr.js";
 
-const completeMeaningForCard = (language) => {
-    if (language === "en") return tarotCardsCompleteMeaningEn;
-    if (language === "es") return tarotCardsCompleteMeaningEs;
-    if (language === "pt") return tarotCardsCompleteMeaningPt;
-    if (language === "fa") return tarotCardsCompleteMeaningFa;
-    if (language === "hi") return tarotCardsCompleteMeaningHi;
-    if (language === "fr") return tarotCardsCompleteMeaningFr;
+// Dynamic import function to load large card files only when needed
+const completeMeaningForCard = async (language) => {
+    if (language === "en") {
+        const module = await import("./cards/tarotCardsMeaningComplete_en.js");
+        return module.tarotCardsCompleteMeaningEn;
+    }
+    if (language === "es") {
+        const module = await import("./cards/tarotCardsMeaningComplete_es.js");
+        return module.tarotCardsCompleteMeaningEs;
+    }
+    if (language === "pt") {
+        const module = await import("./cards/tarotCardsMeaningComplete_pt.js");
+        return module.tarotCardsCompleteMeaningPt;
+    }
+    if (language === "fa") {
+        const module = await import("./cards/tarotCardsMeaningComplete_fa.js");
+        return module.tarotCardsCompleteMeaningFa;
+    }
+    if (language === "hi") {
+        const module = await import("./cards/tarotCardsMeaningComplete_hi.js");
+        return module.tarotCardsCompleteMeaningHi;
+    }
+    if (language === "fr") {
+        const module = await import("./cards/tarotCardsMeaningComplete_fr.js");
+        return module.tarotCardsCompleteMeaningFr;
+    }
 }
 
-export const getCardDetail = (cardType, cardName, language, flow) => {
+export const getCardDetail = async (cardType, cardName, language, flow) => {
     try {
         const card = getCardsDetail(cardType, language)[cardName];
         const detail =  {
@@ -39,7 +52,7 @@ export const getCardDetail = (cardType, cardName, language, flow) => {
         if (flow) {
             console.log('if flow - yes ');
             console.log('if flow - language: ', language);
-            const meanings = completeMeaningForCard(language);
+            const meanings = await completeMeaningForCard(language);
             const moreDetail = meanings[card.number + ''];
             console.log({...detail, [flow]: moreDetail[flow]});
             return {...detail, [flow]: moreDetail[flow]}

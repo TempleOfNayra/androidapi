@@ -13,3 +13,10 @@ README.md
 interpretation_results.txt
 test_interpretation.sh
 api/services/cards/saintsCardsDetail_original.js
+coverage/
+training/
+*.mp3
+*.wav
+*.cjs
+*_intentions.json
+verify_*.cjs
