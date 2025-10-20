@@ -1,0 +1,15 @@
+node_modules
+.env
+.env.*
+*.log
+.DS_Store
+.vscode
+.idea
+*.test.js
+test/
+api/test/
+*.md
+README.md
+interpretation_results.txt
+test_interpretation.sh
+api/services/cards/saintsCardsDetail_original.js

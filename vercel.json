@@ -1,8 +1,12 @@
 {
   "functions": {
     "api/nayra.js": {
-      "maxDuration": 80
+      "maxDuration": 80,
+      "memory": 1024
     }
   },
-  "regions": ["iad1"]
+  "regions": ["iad1"],
+  "github": {
+    "silent": true
+  }
 }
