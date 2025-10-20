@@ -1,17 +1,6 @@
-import { tarotCardsDetail } from './cards/tarotCardsDetails.js';
-import { tarotCardsDetailEs } from './cards/tarotCardsDetails_es.js';
-import { tarotCardsDetailFr } from './cards/tarotCardsDetails_fr.js';
-import { tarotCardsDetailPt } from './cards/tarotCardsDetails_pt.js';
-import { tarotCardsDetailHi } from './cards/tarotCardsDetails_hi.js';
-import { tarotCardsDetailFa } from './cards/tarotCardsDetails_fa.js';
-import { animalCardsDetail } from './cards/animalCardsDetails.js';
-import { hinduDeitiesDetail } from './cards/HinduDeities.js';
-import { saintsCardDetails } from './cards/saintsCardsDetail.js';
-import { symbolCards } from './cards/symbolCardsDetails.js';
-import { orixasDetail } from "./cards/OrixasDetail.js";
 import {symbolTypes} from "../symbol_types.js";
 
-export const getCardsDetail = (type, language, flow) => {
+export const getCardsDetail = async (type, language, flow) => {
     console.log('HERE ')
     if (language) {
         language = language.toLowerCase();
@@ -19,44 +8,52 @@ export const getCardsDetail = (type, language, flow) => {
 
     if (type === symbolTypes.tarot || type === symbolTypes.rws) {
         if (language === 'es') {
-            return tarotCardsDetailEs;
+            const module = await import('./cards/tarotCardsDetails_es.js');
+            return module.tarotCardsDetailEs;
         }
         if (language === 'pt') {
-            return tarotCardsDetailPt;
+            const module = await import('./cards/tarotCardsDetails_pt.js');
+            return module.tarotCardsDetailPt;
         }
-
         if (language === 'fa') {
-            return tarotCardsDetailFa;
+            const module = await import('./cards/tarotCardsDetails_fa.js');
+            return module.tarotCardsDetailFa;
         }
-
         if (language === 'hi') {
-            return tarotCardsDetailHi;
+            const module = await import('./cards/tarotCardsDetails_hi.js');
+            return module.tarotCardsDetailHi;
         }
-
         if (language === 'fr') {
-            return tarotCardsDetailFr;
+            const module = await import('./cards/tarotCardsDetails_fr.js');
+            return module.tarotCardsDetailFr;
         }
-        return tarotCardsDetail;
+        const module = await import('./cards/tarotCardsDetails.js');
+        return module.tarotCardsDetail;
     }
 
     if (type === symbolTypes.animals) {
-        return animalCardsDetail;
+        const module = await import('./cards/animalCardsDetails.js');
+        return module.animalCardsDetail;
     }
 
     if (type === symbolTypes.hindu) {
-        return hinduDeitiesDetail;
+        const module = await import('./cards/HinduDeities.js');
+        return module.hinduDeitiesDetail;
     }
 
     if (type === symbolTypes.symbols) {
-        return symbolCards;
+        const module = await import('./cards/symbolCardsDetails.js');
+        return module.symbolCards;
     }
 
     if (type === symbolTypes.orixas) {
-        return orixasDetail;
+        const module = await import('./cards/OrixasDetail.js');
+        return module.orixasDetail;
     }
 
     if (type === symbolTypes.saints) {
-        return saintsCardDetails;
+        const module = await import('./cards/saintsCardsDetail.js');
+        return module.saintsCardDetails;
     }
 }
 

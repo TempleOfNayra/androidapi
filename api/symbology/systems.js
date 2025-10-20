@@ -19,13 +19,15 @@ export default async function handler(req, res) {
         if (what === 'available') {
             const { symbology } = req.body;
             if (symbology && symbology.toLowerCase() === symbolTypes.animals) {
-                return res.status(200).json(getAvailableCards(symbolTypes.animals, language));
+                const cards = await getAvailableCards(symbolTypes.animals, language);
+                return res.status(200).json(cards);
             }
             if (symbology && symbology.toLowerCase() === symbolTypes.tarot) {
-                return res.status(200).json(getAvailableCards(symbolTypes.tarot, language)
-                    .filter(card => !card.name.includes('Reversed')));
+                const cards = await getAvailableCards(symbolTypes.tarot, language);
+                return res.status(200).json(cards.filter(card => !card.name.includes('Reversed')));
             }
-            return res.status(200).json(getAvailableCards(symbology, language));
+            const cards = await getAvailableCards(symbology, language);
+            return res.status(200).json(cards);
 
             // if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
             //     return res.status(200).json(getAvailableCards(symbolTypes.rws, language));
