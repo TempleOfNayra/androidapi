@@ -8,25 +8,36 @@ export default async function handler(req, res) {
         res.setHeader('Access-Control-Allow-Origin', 'https://www.nayra.io');
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
         res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
         // Handle preflight OPTIONS request
         if (req.method === 'OPTIONS') {
             res.status(200).end();
             return;
         }
-        const { what } = req.body;
-        const { language } = req.body;
+
+        if (!req.body) {
+            return res.status(400).json({ error: 'Request body is required' });
+        }
+
+        const { what, language, symbology } = req.body;
 
         if (what === 'available') {
-            const { symbology } = req.body;
-            if (symbology && symbology.toLowerCase() === symbolTypes.animals) {
+            if (!symbology) {
+                return res.status(400).json({ error: 'symbology is required' });
+            }
+
+            const symbologyLower = symbology.toLowerCase();
+
+            if (symbologyLower === symbolTypes.animals) {
                 const cards = await getAvailableCards(symbolTypes.animals, language);
                 return res.status(200).json(cards);
             }
-            if (symbology && symbology.toLowerCase() === symbolTypes.tarot) {
+            if (symbologyLower === symbolTypes.tarot) {
                 const cards = await getAvailableCards(symbolTypes.tarot, language);
                 return res.status(200).json(cards.filter(card => !card.name.includes('Reversed')));
             }
-            const cards = await getAvailableCards(symbology, language);
+
+            const cards = await getAvailableCards(symbologyLower, language);
             return res.status(200).json(cards);
 
             // if (symbology && symbology.toLowerCase() === symbolTypes.rws) {
@@ -62,7 +73,11 @@ export default async function handler(req, res) {
 
 
     } catch (error) {
-        return res.status(500).json({ error: error.message });
+        console.error('Symbology systems error:', error);
+        return res.status(500).json({
+            error: error.message,
+            stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
+        });
     }
 }
 
